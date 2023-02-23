@@ -12,3 +12,6 @@ cd /D C:
 start "C:\Program Files\odrive\odrive.exe"
 start "C:\Program Files (x86)\4dots Software\MaximizeAlways\MaximizeAlwaysLauncher.exe"
 timeout 20
+
+move "J:\odrive\Google-Drive\clean\*.*" "J:\odrive\Google-Drive\media"
+:: moving new media to cloud
