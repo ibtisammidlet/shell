@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-rclone mount ibtisam2: X: --vfs-cache-max-size 2048M  --retries 10 --cache-dir=E:\data\development\shell\rclone\cache
+rclone mount ibtisam2: X: --vfs-cache-max-size 2048M --retries 10 --vfs-cache-mode full -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty
+
 :: rclone  --vfs-cache-max-size 2048M  --retries 10 mount mega: M:
 
 :: --password-command echo newstlone
