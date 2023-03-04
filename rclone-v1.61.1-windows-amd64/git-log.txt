@@ -1,0 +1,127 @@
+commit 486e713337b3c57b871e5cf3fd880987fe2913c2
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Fri Dec 23 17:05:30 2022 +0000
+
+    Version v1.61.1
+
+commit 46e96918dc3dbe74911a0239658e7c6a72d9c093
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Fri Dec 23 16:53:43 2022 +0000
+
+    docs: fix unescaped HTML
+
+commit 639b61de95da39e081d8d84c79d1fbe0b399145d
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Thu Dec 22 16:52:43 2022 +0000
+
+    lib/http: shutdown all servers on exit to remove unix socket
+    
+    Before this change only serve http was Shutting down its server which
+    was causing other servers such as serve restic to leave behind their
+    unix sockets.
+    
+    This change moves the finalisation to lib/http so all servers have it
+    and removes it from serve http.
+    
+    Fixes #6648
+
+commit b03ee4e9e778165d7f192633836cc8ee0410398a
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Thu Dec 22 16:55:17 2022 +0000
+
+    serve webdav: fix running duplicate Serve call
+    
+    Before this change we were starting the server twice for webdav which
+    is inefficient and causes problems at exit.
+
+commit 176af2b217866099c125ea42609f04dd51579447
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Thu Dec 22 16:02:17 2022 +0000
+
+    serve restic: don't serve via http if serving via --stdio
+    
+    Before this change, we started the http listener even if --stdio was
+    supplied.
+    
+    This also moves the log message so the user won't see the serving via
+    HTTP message unless they are really using that.
+    
+    Fixes #6646
+
+commit 6be0644178ebaceab5baad1c293acccd8c8866b6
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Wed Dec 21 12:32:21 2022 +0000
+
+    serve restic: fix immediate exit when not using stdio
+    
+    In the lib/http refactor
+    
+        52443c2444e3d3c4 restic: refactor to use lib/http
+    
+    We forgot to serve the data and wait for the server to finish. This is
+    not tested in the unit tests as it is part of the command line
+    handler.
+    
+    Fixes #6644 Fixes #6647
+
+commit 0ce5e57c30c45322d49a37abfbabdb8587281029
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Thu Dec 22 15:42:47 2022 +0000
+
+    serve webdav: fix --baseurl handling after lib/http refactor
+    
+    The webdav library was confused by the Path manipulation done by
+    lib/http when stripping the prefix.
+    
+    This patch adds the prefix back before calling it.
+    
+    Fixes #6650
+
+commit bc214291d59ec958b9871f100d56b790cc073bd3
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Thu Dec 22 14:19:38 2022 +0000
+
+    azureblob: fix "409 Public access is not permitted on this storage account"
+    
+    This error was caused by rclone supplying an empty
+    `x-ms-blob-public-access:` header when creating a container for
+    private access, rather than omitting it completely.
+    
+    This is a valid way of specifying containers should be private, but if
+    the storage account has the flag "Blob public access" unset then it
+    gives "409 Public access is not permitted on this storage account".
+    
+    This patch fixes the problem by only supplying the header if the
+    access is set.
+    
+    Fixes #6645
+
+commit d3e09d86e08ef8864537ff341ce934c74d31ecca
+Author: Kaloyan Raev <kaloyan@storj.io>
+Date:   Thu Dec 22 15:44:10 2022 +0200
+
+    s3/storj: update endpoints
+    
+    Storj switched to a single global s3 endpoint backed by a BGP routing.
+    We want to stop advertizing the former regional endpoints and have the
+    global one as the only option.
+
+commit 5a9706ab614227544fc555fc427308c96bb594d0
+Author: Anagh Kumar Baranwal <6824881+darthShadow@users.noreply.github.com>
+Date:   Wed Dec 21 20:40:55 2022 +0530
+
+    rc: set url to the first value of rc-addr since it has been converted to an array of strings now -- fixes #6641
+    
+    Signed-off-by: Anagh Kumar Baranwal <6824881+darthShadow@users.noreply.github.com>
+
+commit cce4340d4849b0f48cecf206d928740ca5465294
+Author: albertony <12441419+albertony@users.noreply.github.com>
+Date:   Tue Dec 20 21:05:05 2022 +0100
+
+    docs: show only significant parts of version number in version introduced label
+
+commit 577693e501305f3357d4853776573e967e502edb
+Author: Nick Craig-Wood <nick@craig-wood.com>
+Date:   Fri Dec 23 12:31:46 2022 +0000
+
+    Start v1.61.1-DEV development
