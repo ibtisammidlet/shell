@@ -1,0 +1,82 @@
+- Device platform: arm64-v8a
+- Installing: 25.2 (25200)
+- Copying image to cache
+- Boot image is signed with AVB 1.0
+- Unpacking boot image
+Parsing boot image: [/data/user/0/com.topjohnwu.magisk/install/boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [7473284]
+RAMDISK_SZ      [1898027]
+SECOND_SZ       [0]
+EXTRA_SZ        [0]
+PAGESIZE        [2048]
+NAME            [1470819336]
+CMDLINE         [bootopt=64S3,32N2,64N2]
+CHECKSUM        [13979edc2763224022826188414b3eb182511097000000000000000000000000]
+KERNEL_DTB_SZ   [79446]
+KERNEL_FMT      [gzip]
+RAMDISK_FMT     [gzip]
+- Checking ramdisk status
+Loading cpio: [ramdisk.cpio]
+- Stock boot image detected
+- Patching ramdisk
+Loading cpio: [ramdisk.cpio]
+Add entry [init] (0750)
+Create directory [overlay.d] (0750)
+Create directory [overlay.d/sbin] (0750)
+Add entry [overlay.d/sbin/magisk32.xz] (0644)
+Add entry [overlay.d/sbin/magisk64.xz] (0644)
+Patch with flag KEEPVERITY=[false] KEEPFORCEENCRYPT=[true]
+Found fstab file [fstab.mt6735]
+Remove pattern [,verify]
+Remove [verity_key]
+Loading cpio: [ramdisk.cpio.orig]
+Backup mismatch entry: [fstab.mt6735] -> [.backup/fstab.mt6735]
+Backup mismatch entry: [init] -> [.backup/init]
+Record new entry: [overlay.d] -> [.backup/.rmlist]
+Record new entry: [overlay.d/sbin] -> [.backup/.rmlist]
+Record new entry: [overlay.d/sbin/magisk32.xz] -> [.backup/.rmlist]
+Record new entry: [overlay.d/sbin/magisk64.xz] -> [.backup/.rmlist]
+Backup missing entry: [verity_key] -> [.backup/verity_key]
+Create directory [.backup] (0000)
+Add entry [.backup/.magisk] (0000)
+Dump cpio: [ramdisk.cpio]
+Loading dtbs from [kernel_dtb]
+Patch @ 00EC8DFB [736B69705F696E697472616D667300] -> [77616E745F696E697472616D667300]
+- Repacking boot image
+Parsing boot image: [/data/user/0/com.topjohnwu.magisk/install/boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [7473284]
+RAMDISK_SZ      [1898027]
+SECOND_SZ       [0]
+EXTRA_SZ        [0]
+PAGESIZE        [2048]
+NAME            [1470819336]
+CMDLINE         [bootopt=64S3,32N2,64N2]
+CHECKSUM        [13979edc2763224022826188414b3eb182511097000000000000000000000000]
+KERNEL_DTB_SZ   [79446]
+KERNEL_FMT      [gzip]
+RAMDISK_FMT     [gzip]
+Repack to boot image: [new-boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [7477344]
+RAMDISK_SZ      [2330881]
+SECOND_SZ       [0]
+EXTRA_SZ        [0]
+PAGESIZE        [2048]
+NAME            [1470819336]
+CMDLINE         [bootopt=64S3,32N2,64N2]
+CHECKSUM        [6992154cc4abf5ad8fa23272b6ee2fc315bc32b4000000000000000000000000]
+- Signing boot image with verity keys
+
+****************************
+ Output file is written to 
+ /storage/emulated/0/Download/magisk_patched-25200_LcFRS.img 
+****************************
+cp: can't preserve ownership of 'busybox': Operation not permitted
+cp: can't preserve ownership of 'magisk32': Operation not permitted
+cp: can't preserve ownership of 'magisk64': Operation not permitted
+cp: can't preserve ownership of 'magiskboot': Operation not permitted
+cp: can't preserve ownership of 'magiskinit': Operation not permitted
+cp: can't preserve ownership of 'magiskpolicy': Operation not permitted
+- All done!
