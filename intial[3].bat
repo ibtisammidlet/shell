@@ -1,1 +1,13 @@
-:: try to make rclone auto opener here, next time you lunc windows
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\alertgene.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\betterdiscord.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\bio-tolerance.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\biotune.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\dailyinternetlife.com.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\midlet.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\sextine.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\shell.sublime-project"
+start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\youtube-watched-videos-hider.sublime-project"
+
+start cmd /k Call "E:\data\development\shell\rclone\start.bat"
+start cmd /k Call "E:\data\development\shell\rclone\elena.bat"
+start cmd /k Call "E:\data\development\shell\rclone\mega.bat"
