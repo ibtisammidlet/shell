@@ -1,13 +1,12 @@
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\alertgene.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\betterdiscord.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\bio-tolerance.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\biotune.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\dailyinternetlife.com.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\midlet.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\sextine.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\shell.sublime-project"
-start "" "E:\data\portable\standards\sublime_text_build_4126_x64\sublime_text.exe" "C:\Users\User\Documents\youtube-watched-videos-hider.sublime-project"
+:: list exes here
 
-start cmd /k Call "E:\data\development\shell\rclone\start.bat"
-start cmd /k Call "E:\data\development\shell\rclone\elena.bat"
-start cmd /k Call "E:\data\development\shell\rclone\mega.bat"
+:: C:
+cd /D C:
+start "" "C:\Program Files (x86)\4dots Software\MaximizeAlways\MaximizeAlways.exe"
+
+:: J:
+cd /D J:
+start "" "J:\browsers\GoogleChromePortable\GoogleChromePortable.exe"
+
+:: exe opening is none logging it will wait the app to close, i don't have other option edit 1: now fixed, don't change script structer
+
