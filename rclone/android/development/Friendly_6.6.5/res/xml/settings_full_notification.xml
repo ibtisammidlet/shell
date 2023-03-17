@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:key="checkbox_notification" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    <CheckBoxPreference android:key="checkbox_notification_message" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    <CheckBoxPreference android:key="vibration" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    <CheckBoxPreference android:key="led" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    <Preference android:key="sound_notification" />
+    <Preference android:key="interval_notification" />
+    <Preference android:key="quiet_hours" />
+</PreferenceScreen>

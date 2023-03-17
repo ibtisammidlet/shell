@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/grey_splash" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_size" android:title="" android:paddingStart="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:titleTextAppearance="@style/Toolbar.TitleText" app:titleTextColor="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start|center" android:id="@id/rocket_layout" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="12.0dip" android:layout_marginEnd="0.0dip">
+        <FrameLayout android:layout_gravity="center" android:id="@id/rocket_back" android:background="@drawable/background_round_white" android:layout_width="33.0dip" android:layout_height="33.0dip">
+            <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:shimmer_base_alpha="0.5" app:shimmer_duration="3000" app:shimmer_highlight_alpha="1.0" app:shimmer_intensity="0.7">
+                <ImageView android:layout_gravity="center" android:background="@color/transparent" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/rocket_white" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/toolbar_arc_background" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip">
+            <ImageView android:id="@id/social_icon" android:background="@color/transparent" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/round_apps_white_36" />
+        </FrameLayout>
+        <FrameLayout android:gravity="start|center" android:id="@id/media_scanner" android:background="@drawable/background_radius_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/toolbar_margin_title_start">
+            <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <com.hanks.htextview.scale.ScaleTextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="start|center" android:id="@id/home_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:text="@string/app_name" android:maxLines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="10.0dip" android:letterSpacing="0.05" />
+                <ImageView android:layout_gravity="start|center" android:id="@id/media_icon" android:background="@color/transparent" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="0.0dip" android:src="@drawable/round_cloud_download_white_18" android:layout_marginStart="0.0dip" android:layout_marginEnd="10.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="6.0dip">
+            <ImageView android:id="@id/refresh" android:background="?selectableItemBackgroundBorderless" android:padding="7.0dip" android:focusable="true" android:clickable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/round_refresh_white_24" />
+            <ImageView android:id="@id/settings" android:background="?android:selectableItemBackgroundBorderless" android:padding="7.5dip" android:focusable="true" android:clickable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/ic_settings_white_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

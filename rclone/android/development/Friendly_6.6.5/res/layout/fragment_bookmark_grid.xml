@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_size" android:layout_marginTop="@dimen/toolbar_size">
+        <include layout="@layout/header_bookmark_grid" />
+    </FrameLayout>
+    <GridView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bookmark_grid" android:background="@color/transparent" android:paddingTop="0.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:stretchMode="columnWidth" android:columnWidth="100.0dip" android:numColumns="auto_fit" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include layout="@layout/favorite_tip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="3.0dip" android:layout_width="@dimen/tedbottompicker_selected_image_height" android:layout_height="@dimen/tedbottompicker_selected_image_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/selected_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="right" android:id="@id/iv_close" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_margin="2.0dip" android:src="@drawable/baseline_delete_white_48" android:adjustViewBounds="true" />
+</FrameLayout>

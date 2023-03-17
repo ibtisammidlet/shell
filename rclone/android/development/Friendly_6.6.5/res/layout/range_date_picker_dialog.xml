@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/mdtp_date_picker_view_animator" android:layout_width="@dimen/mdtp_date_picker_component_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TabHost android:id="@id/tabHost" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/start_date_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include layout="@layout/mdtp_date_picker_selected_date" />
+                    <include layout="@layout/mdtp_date_picker_view_animator" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/end_date_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include layout="@layout/mdtp_date_picker_selected_date_end" />
+                    <include layout="@layout/mdtp_date_picker_view_animator_end" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+    <include layout="@layout/mdtp_done_button" />
+</LinearLayout>

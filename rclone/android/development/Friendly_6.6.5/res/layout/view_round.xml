@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.orangegangsters.lollipin.lib.views.SquareImageView android:id="@id/pin_code_round" android:layout_width="0.0dip" android:layout_height="@dimen/pin_code_round_size" android:layout_margin="@dimen/pin_code_round_margin" android:maxWidth="@dimen/pin_code_round_size" android:maxHeight="@dimen/pin_code_round_size" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

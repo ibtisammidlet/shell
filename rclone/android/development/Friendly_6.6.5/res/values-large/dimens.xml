@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="evp_button_size">56.0dip</dimen>
+    <dimen name="evp_button_size_big">66.0dip</dimen>
+    <dimen name="evp_button_size_small">48.0dip</dimen>
+    <dimen name="evp_content_inset">24.0dip</dimen>
+    <dimen name="evp_content_inset_half">12.0dip</dimen>
+    <dimen name="evp_content_inset_iconbuttons">6.0dip</dimen>
+    <dimen name="evp_content_inset_less">10.0dip</dimen>
+    <dimen name="evp_text_size_medium">17.0sp</dimen>
+    <dimen name="evp_text_size_small">14.0sp</dimen>
+</resources>

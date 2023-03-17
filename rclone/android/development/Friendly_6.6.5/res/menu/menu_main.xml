@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/round_search_white_24" android:id="@id/action_search" android:title="Search" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/menu_icon_account" android:enabled="true" android:id="@id/action_user" android:visible="true" android:title="User" android:checkable="true" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/menu_desktop_black" android:id="@id/action_desktop" android:orderInCategory="1" android:title="@string/desktop_version" app:showAsAction="never" />
+    <item android:icon="@drawable/menu_settings_black" android:id="@id/action_settings" android:orderInCategory="2" android:title="@string/action_settings" app:showAsAction="never" />
+</menu>

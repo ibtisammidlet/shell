@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:id="@id/left_account" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/left_account_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/account_circle" android:layout_marginStart="10.0dip" android:layout_marginEnd="4.0dip" />
+    <TextView android:textColor="@color/gray_status" android:layout_gravity="start|center" android:id="@id/left_account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:text="----" android:alpha="0.8" android:fontFamily="sans-serif-medium" android:paddingStart="4.0dip" android:paddingEnd="18.0dip" android:letterSpacing="0.05" />
+</LinearLayout>

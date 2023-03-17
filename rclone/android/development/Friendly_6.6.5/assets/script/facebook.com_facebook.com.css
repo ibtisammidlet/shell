@@ -1,0 +1,2458 @@
+/*
+master : m.facebook.com.css;
+*/
+/*
+placeholders:
+{baseColor}
+{baseOpacity8Color}
+{pymk}
+*/
+
+html[data-ow-url*="soft=composer"] body,
+html[data-ow-url="https://m.facebook.com/notifications/"] body,
+html[data-ow-url="https://m.facebook.com/messages/"] body,
+html[data-ow-url^="https://m.facebook.com/home.php"] body,
+html[data-ow-url^="https://m.facebook.com/login.php"] body,
+html[data-ow-url^="https://m.facebook.com/reg/"] body {
+    margin-top: 46px !important;
+}
+
+html[data-ow-url^="https://m.facebook.com/login.php?next="] body {
+
+}
+
+html[data-ow-url*="soft=composer"] body {
+    margin-top: 0px !important;
+}
+
+/*html[data-ow-url*="soft=composer"] body:before {
+    height: 46px !important;
+    display: block;
+    width: 100%;
+    content: "";
+    background: {baseColor} !important;
+}*/
+
+/* long press */
+a[owlongpress_href] {}
+p.ow_longPressCopy {
+	background-color:#f1f1f1!important;
+}
+
+/* hide header on android */
+#header:not([title]):not(.titled) {
+    display: none !important;
+}
+
+#mJewelNav a[role=button],
+#feed_jewel a[href^="/home.php"]{
+    display: none !important;
+}
+
+html.ow_sharer #header {
+    display: none !important;
+}
+
+/* image placeholder */
+.ow_image_placeholder {
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAADVJREFUWAnt0EENADAMA7Gu/PGFziaNRD4OgYt8ktwpbovtn3aAAAECBAgQIECAAAECBAgQeI6mA8Ff84uhAAAAAElFTkSuQmCC) !important;
+	background-position:50% !important;
+	background-color:#d6d6d6 !important;
+	background-size:cover !important;
+	-webkit-background-size:auto !important;
+}
+.ow_loadImageButton {
+	position: fixed;
+	bottom: 5px;
+	right: -10px;
+	padding: 0 20px 0 10px;
+	background-color: rgba(255, 255, 255, .9);
+	color: #555;
+	font-size: 14px;
+	line-height: 30px;
+	/* border: 1px solid #555; */
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	border-radius: 10px;
+}
+
+/* fix for top pixel line issue */
+#toggleHeader {
+	border : 0px !important;
+}
+
+/* remove messenger promo */
+div[data-sigil^="m-promo-jewel-header"] {
+	display: none!important;
+}
+
+.ow_zoomPhotoBtn {
+	position: absolute;
+	right: 5px;
+	margin-top: -35px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,.8);
+	padding-right: 0 5px;
+}
+
+.touch .storyStream .msg a,.touch .storyStream .msg a > span,.touch .storyStream .voiceTitle a {color:{baseColor} !important;}
+
+.touch a,.touch .btn.btnD, .touch .btn.btnC.bgb, .touch .btn.btnI,.tlUnit .tlName,.fcl {color:{baseColor}!important}
+
+/* cancel and other buttons in top bar */
+.touch a._419z, ._419z {
+    color:#fff!important;
+}
+
+/* links within posts */
+._5rgt a, .touch .storyStream ._5rgr ._5rgt a,._5aw4 {color:{baseColor}}
+/* comment button */
+.touch ._56bu::before, .touch.wp.x1-5 ._56bu::before, .touch.wp.x2 ._56bu::before {background-color:{baseColor}!important}
+
+.touch ._56bu.touched::before, .touch.wp.x1-5 ._56bu.touched::before, .touch.wp.x2 ._56bu.touched::before {background-color:{baseColor}!important}
+
+/* pixel line at top of page */
+body #page {
+    border-color:{baseColor} !important;
+}
+
+
+.touch._fzu .mHomeNewsfeed, .touch._fzu .structuredPublisher, .touch._fzu .groupChromeView.feedRevamp, .touch._fzu._2v9s, .touch._fzu ._2v9s, .touch._fzu .wallFilter.fullwidth, .touch._fzu div.fullwidthMore, .touch._fzu #mAjaxLoader, .touch._fzu #mErrorView {
+    background:#f1f1f1 !important;
+}
+.tlBody, #timelineBody,div.timeline, .timelineX, .timeline .feed, .timeline .tlPrelude, .timeline .tlFeedPlaceholder,.timeline .timelinePublisher,div[data-sigil="timeline-nav"] {background:#f1f1f1 !important;}
+
+.popoverOpen,.sideShowing #mJewelNav>div:last-child>div {
+    background:{baseColor} !important;
+}
+
+#messages_jewel .acy {
+    display:none;
+}
+
+#requests_jewel>a,#messages_jewel>a,#notifications_jewel>a,#feed_jewel>a,#search_jewel>a,#mJewelNav a[data-sigil="blocking-touchable menu-link"] {
+    opacity:0.5
+}
+
+#requests_jewel.popoverOpen>a,#messages_jewel.popoverOpen>a,#notifications_jewel.popoverOpen>a,#feed_jewel.popoverOpen>a,#search_jewel.popoverOpen>a {
+    opacity:1.0
+}
+
+#requests_jewel.hasCount>a,#messages_jewel.hasCount>a,#notifications_jewel.hasCount>a,#feed_jewel.hasCount>a {
+    opacity:1.0
+}
+
+.touch .btnI.bgb,.touch .btnI.bgb.touched {
+    border-color:{baseColor} {baseColor} {baseColor} !important;
+    background: -webkit-linear-gradient({baseColor}, {baseColor}) !important;
+    -webkit-box-shadow:inset 0 2px 1px -1px rgba(0, 0, 0, .15),inset 0 0 1px rgba(0, 0, 0, 0.5),0 1px 0 rgba(255, 255, 255, .17) !important;
+    color:white!important;
+}
+
+.ow_shareLink {
+	background-color: #f3f3f3;
+	color: #5e5e5e !important;
+}
+
+/* background of page from bookmarks
+#root {
+	background-color: #f1f1f1 !important;
+}*/
+
+/* rounded avatars in popovers and comments */
+div.flyout.popover_flyout .img.profpic,div.async_composer .img.profpic {
+	border-radius: 50%;
+}
+
+div.async_composer a._4prr::after {
+	border:0px !important;
+}
+
+/* iphone < 5 */
+@media screen and (device-aspect-ratio: 2/3) {
+	/* issue fix for comment as overlay */
+	div[data-sigil*="m-overlay-layer"] {
+		padding : 70px 0 100px !important;
+	}
+	div[data-sigil*="m-overlay-layer"] > div {
+		max-height: 400px !important;
+		max-width: 400px !important;
+		margin: auto;
+	}
+}
+
+@media screen and (device-aspect-ratio: 2/3) and (orientation:landscape) {
+	div[data-sigil*="m-overlay-layer"] {
+		padding : 30px 0 100px !important;
+	}
+	div[data-sigil*="m-overlay-layer"] > div {
+		height: 255px !important;
+	}
+}
+
+/* iPhone 5+ */
+@media screen and (device-aspect-ratio: 40/71) {
+	/* issue fix for comment as overlay */
+	div[data-sigil*="m-overlay-layer"] {
+		padding : 70px 0 100px !important;
+	}
+	div[data-sigil*="m-overlay-layer"] > div {
+		max-height: 400px !important;
+		max-width: 400px !important;
+		margin: auto;
+	}
+}
+@media screen and (device-aspect-ratio: 40/71) and (orientation:landscape) {
+	div[data-sigil*="m-overlay-layer"] {
+		padding : 30px 0 100px !important;
+	}
+	div[data-sigil*="m-overlay-layer"] > div {
+		height: 255px !important;
+	}
+}
+
+/* iPad */
+@media screen and (device-aspect-ratio: 3/4) {
+	/* issue fix for comment as overlay */
+	div[data-sigil*="m-overlay-layer"] {
+		padding : 70px 0 100px !important;
+	}
+	div[data-sigil*="m-overlay-layer"] > div {
+		max-height: 600px !important;
+		max-width: 450px !important;
+		margin: auto;
+	}
+}
+
+
+div[data-sigil*="m-overlay-modal"] {
+	height: 2000px !important;
+}
+
+/* bug fix for mobile retina sizing */
+div[data-sigil="shareAngoraAttachmentMedia"] img {
+    height:166px;
+}
+
+.storyAggregation {
+	/*{AdDisplayNone}*/
+	/*display:none;*/
+}
+
+/* ---- notification popup ---- */
+.aclb {background-color:#f1f1f1;border-color:#eeeeee;}
+.jewel .touchable-notification.touched,.touchable.touched,.home-notification .touchable.touched, .item a.primary.touched .primarywrap {
+    background-color:#f1f1f1 !important;
+    border: none !important;
+}
+
+.touchable-notification .touchable.touched{
+    background-color:#f1f1f1 !important;
+    border: none !important;
+    margin: 0px !important;
+}
+
+.home-notification .touchable.touched {
+    margin: 0px !important;
+}
+
+.touchable-notification {
+    color:black!important;
+}
+
+.actionSheet .flyout .inner {
+    -webkit-border-image:none!important;
+}
+.flyout.feedChooser > i {
+    display:none !important;
+}
+
+
+/* left menu skin */
+._3bg4 ._53_- {background:{baseColor}}
+._3bg4 ._52x6 {border-top-color:{baseColor}}
+.touch ._3bg4 ._53_- ._5lut,.touch ._3bg4 ._53_- ._53__ {color:rgba(255,255,255,0.9);}
+
+._3bg4 .mSideMenu ._52x1 {background:{baseColor}}
+._3bg4 ._52x2 {color:rgba(255,255,255,0.8);}
+
+._3bg4 ._53_-._4ut2 {background:rgba(0,0,0,0.2)}
+
+._3bg4 .mSideArea {background:{baseColor}}
+
+.touch ._3bg4 .mSideSearch {background:rgba(255,255,255,0.1)}
+
+._3bg4 ._5fm- { background-color:rgba(0,0,0,0.4)}
+
+._3bg4 ._29z_ {color:{baseColor}}
+
+/* facebook pages */
+._kdm {background-color:{baseColor};font-weight:bold;}
+
+/* manage pages */
+._56bu, ._56bv, a._56bu, a._56bv, a.touchable._56bu, a.touchable._56bv {
+    color:#fff!important;
+}
+
+/* announcement at top of the feed */
+#MMegaphone {
+    display:none;
+}
+
+/* invite to install messenger */
+div[data-sigil="m-promo-interstitial"] {
+	_display: none !important;
+}
+/* ---- Login dialog ---- */
+a[href*="http%3A%2F%2Fitunes.apple.com%2Fapp%2Ffacebook%2Fid284882215"] {
+    display:none!important;
+}
+
+/* hide the +N counter on multiple photos from pages not using photoviewer */
+._39pi > div._4g33._52we._1r5l {
+    display:none!important;
+}
+
+/* button in chat */
+.touch .btnC {
+    background:linear-gradient({baseColor},{baseColor}) !important;
+}
+
+/* div Get Facebook For Android -> hide */
+.touch ._4fmw .touchableArea, div[data-sigil=‘m_login_upsell’] {
+    display: none !important;
+}
+
+/* hiding Top Bar*/
+._129-, ._30jh+#page ._129_:empty+._129-,._52z5{
+    border: none !important;
+}
+
+/* Fix Green login button */
+.touch #signup-button.btnS, .touch #signup-button.btn{
+    background: none !important;
+    border: none !important;
+    opacity:0.8;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    color: {baseColor} !important;
+}
+
+/************ CSS VERSION 1.0.13 *************/
+
+/* add some padding for notifications page */
+#notifications_list .jewel .touchable-notification, .touchable-notification .touchable {
+    padding: 18px 12px 16px !important;
+}
+
+/* border radius for notification list */
+#notifications_list .touchable-notification .ib .l {
+    border-radius: 3px !important;
+    margin-right: 12px !important;
+}
+
+/* remove bottom indicator */
+#notifications_list ._55x2>*, ._55x2._55x2>* {
+    border: none !important;
+}
+
+/* radius for profil picture in message page */
+#threadlist_rows .profpic, #threadlist_rows ._52wc .img {
+    border-radius: 50% !important;
+    margin-right: 10px !important;
+    margin-left: 5px !important;
+}
+
+/* padding in message thread */
+#threadlist_rows ._4g33 {
+    padding: 12px !important;
+}
+
+#threadlist_rows .item .primary {
+    padding: 12px !important;
+    display: inline-flex;
+}
+
+#threadlist_rows .acw {
+    border: none !important;
+    background: white;
+    color: #333 !important;
+    padding: 3px;
+}
+
+#threadlist_rows .aclb {
+    border: none !important;
+    padding: 3px;
+}
+
+/* styling input for messages pages */
+#messages_search_box input._5whq{
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    padding: 8px 7px 5px !important;
+    border-color: white !important;
+    margin: 15px !important;
+    opacity: 0.8;
+}
+
+#messages_search_box .btn.btnD {
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding-top: 4px !important;
+    margin: 15px !important;
+    border-radius: 3px !important;
+    line-height: 28px !important;
+    color: #bbb !important;
+}
+
+/* styling padding + background for header message */
+._5c9u {
+    /*background: #f1f1f1 !important;*/
+    text-shadow: none !important;
+    line-height: 52px !important;
+    height: 44px !important;
+    position: relative;
+    bottom: 2px;
+}
+
+#messages_search_box {
+    background: #f1f1f1 !important;
+}
+
+/*._55ss._59f6 ._5c9u {
+    line-height: 32px !important;
+}*/
+
+._59f6 ._5c9u {
+    height: 60px !important;
+    line-height: 27px !important;
+    padding: 8px !important;
+}
+
+._5jjz .img {
+    margin-right: 10px !important;
+    position: relative !important;
+    bottom: 1px !important;
+}
+
+
+._ydx ._195r::before {
+    display: none !important;
+}
+
+/* padding option for message list */
+#u_0_0 div[data-sigil^="marea"].abt a{
+    padding: 3px !important;
+    display:block;
+}
+
+/* background when message touched */
+#threadlist_rows ._25mv.touched {
+    background: #f1f1f1 !important;
+}
+
+/* home feed to material design */
+#m_newsfeed_stream ._5gh8._5rgr, form#mbasic_inline_feed_composer {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    margin: 0 0 16px !important;
+}
+form#mbasic_inline_feed_composer {
+    margin-top: 3px !important;
+}
+
+#m_newsfeed_stream ._2ip_ ._2zh4::before, ._2ip_ ._15kk::before, ._2ip_ ._15kk+._4u3j::before{
+    display: none !important;
+}
+
+#m_newsfeed_stream ._5gh8::after, #m_newsfeed_stream ._15ks ._15kl::before{
+    display: none !important;
+}
+
+#m_newsfeed_stream ._3hwk._15kl ._5a-2 {
+    letter-spacing: .5px !important;
+}
+
+#mbasic_inline_feed_composer ._56bu::before, .wp.x1-5 ._56bu::before,.wp.x2 ._56bu::before {
+    background-image: none !important;
+    border: none !important;
+    text-shadow: none !important;
+}
+
+#mbasic_inline_feed_composer ._56bu, ._56bv, a._56bu, a._56bv {
+    text-shadow: none !important;
+    letter-spacing: .5px;
+}
+
+/* one page */
+#page ._15ks ._15kl::before {
+     border: none !important;
+}
+
+#page ._15ks ._15kl::before {
+     text-shadow: none !important;
+     letter-spacing: .5px;
+}
+
+#page ._55wo._gui {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    margin: 0 0 16px !important;
+}
+
+#page ._3hwk._15kl ._5a-2 {
+    letter-spacing: .5px !important;
+}
+
+/* hide div displaying Cookie Policy */
+#header-notices #u_0_7 {
+    display:none;
+}
+
+/* don't colorize like/share buttons */
+div[data-sigil^="ufi-inline-actions"] a {
+    color: #777 !important;
+}
+
+._15km ._15kl ._5a-2::before {
+    margin-right:6px !important;
+}
+
+/* padding for reaction/like div */
+#m_newsfeed_stream ._3myz._3myz {
+    padding-bottom: 5px !important;
+    margin-top: 2px !important;
+}
+
+._5rgu {
+    padding-bottom: 2px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#m_newsfeed_stream div[data-sigil^="ufi-inline-actions"],
+#m_newsfeed_stream ._5gh8 ._15ks:last-child,
+._5gh8 ._15ks+._4u3j {
+    border-top: solid 2px #f4f4f4;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+/* bottom links for message page */
+.apm a{
+    /*display: block;*/
+    padding-left: 13px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#threadlist_rows + div[data-sigil="marea"].apm a {
+   display: block;
+}
+
+.apm {
+    padding-top: 13px !important ;
+    padding-bottom: 10px !important;
+}
+
+#messages_search_box{
+    margin-top: -8px !important;
+}
+
+/* remove touched color on message/notification */
+.touched._592p, .touchable-notification .touchable.touched * {
+    color: #000000 !important;
+}
+
+/* top status margin and design */
+._3jce._26wa {
+    height: 40px;
+}
+
+._15ny::after, ._5j35::after {
+    display: none !important;
+}
+
+._15n_ {
+    border-top: 1px solid #ededed !important;
+}
+
+/* sharer */
+html.ow_sharer #header {
+	display: none !important;
+}
+.ow_sendButton {
+	z-index:10000;
+	position:fixed;bottom:0;left:0;right:0;height:50px;text-align:center;line-height:50px;font-size:20px;
+	background-color:{baseColor};
+	color:White;
+}
+
+/* header feed */
+#friendly_header,
+#friendly_message_header {
+    text-align: center;
+    color: #888;
+    font-size: 15px;
+    font-variant: small-caps;
+    -webkit-tap-highlight-color: {baseColor};
+    -webkit-transition: all .1s ease-in;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: -46px;
+}
+
+
+html[data-ow-url^="https://m.facebook.com/home.php?sk=h_chr"] #friendly_header,
+html[data-ow-url^="https://m.facebook.com/home.php?sk=h_nor"] #friendly_header {
+    margin-bottom: -44px;
+    margin-top: 50px;
+}
+
+html[data-ow-url="https://m.facebook.com/messages/"] #friendly_message_header {
+    margin-bottom: -42px;
+    margin-top: 50px;
+}
+
+#friendly_header .wrap,
+#friendly_message_header .wrap {
+    white-space: nowrap;
+    font-size: 0.95em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 0.95em !important;
+    padding: 0.42em 1.26em;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    -webkit-user-select: none !important;
+}
+
+#friendly_header span,
+#friendly_message_header span {
+    color:{baseColor};
+    opacity: 0.8;
+     -webkit-transition: all .1s ease-in;
+}
+
+#friendly_header svg,
+#friendly_message_header svg {
+    fill: {baseColor};
+    fill-opacity: 0.75;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    height: 20px;
+    -webkit-transition: all .1s ease-in;
+}
+
+#friendly_message_header svg {
+    height: 20px;
+    right: 7px;
+}
+
+#friendly_header .wrap:active,
+#friendly_message_header .wrap:active {
+    background: {baseColor} !important;
+    color: white !important;
+    opacity: 1;
+}
+
+#friendly_header .wrap:active span,
+#friendly_message_header .wrap:active span {
+    color: white !important;
+    opacity: 1;
+     fill: white !important;
+}
+
+#friendly_header .wrap:active svg,
+#friendly_message_header .wrap:active svg{
+    color: white !important;
+    fill: white !important;
+    opacity: 1;
+}
+
+/* button */
+.ow_BIGFONTS button.mfss {
+}
+
+.x2.touch .btn, .touch .btnC.bgb {
+    text-shadow: none !important;
+    letter-spacing: .5px;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: {baseColor} !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+/* header bug when status more is opened */
+._5dnp ._954 {
+    position: inherit !important;
+}
+
+/* remove border from login header */
+#login-notices .acy {
+    border: none !important;
+}
+
+/* circle message pic */
+#messageGroup .profpic {
+    border-radius: 50%;
+}
+
+input:focus, textarea:focus {
+    border-color: {baseColor} !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+}
+
+._5rgu {
+    border-radius: 3px;
+}
+
+/* remove background when long press on like button */
+#page ._3hwk._15kl ._5a-2.touched {
+    background: none !important;
+}
+
+/* make sure to never color LIKE button */
+._15ks ._2q8z._2q8z {
+    color: #5890ff !important;
+}
+
+/*
+.x2 ._4prr::after {
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+}*/
+
+/* button submit */
+.touch ._56bt {
+     background:  {baseColor} !important;
+     color: white !important;
+     text-shadow: none !important;
+}
+
+.touch.x1-5 ._56bs::after, .touch.x2 ._56bs::after {
+    border-image: none !important;
+    border: none !important;
+}
+
+.touch ._56bt[value="triangle-down"] {
+     background: none !important;
+     color: transparent !important;
+     border: none !important;
+     margin-bottom: -10px;
+     margin-left: 3px;
+     margin-top: 0px;
+     opacity: 0.8;
+}
+
+._4-vo ._3lmf._3lmf {
+    height: 43px !important;
+}
+
+/* search page */
+#search_div input._5whq{
+    padding-top: 8px !important;
+    padding-bottom: 7px !important;
+    border-radius: 2px !important;
+}
+
+/* new search page */
+#m-chrome-graph-search ._56bt,
+#BrowseResultsContainer ._56bt {
+    background: rgba(215,215,215, .3) !important;
+}
+
+#m-chrome-graph-search ._bjp{
+    margin-top: 0px !important;
+}
+
+._3lvo ._5xum._5xuk {
+    border-color:  {baseColor} !important;
+}
+
+/* cropping image in feed
+._50xr {
+    max-height: none !important;
+    max-width: none !important;
+}*/
+
+/* page */
+._4epr {
+    font-size: 9px !important;
+    line-height: 12px !important;
+}
+
+#threadlist_rows + .acw a {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+}
+
+#threadlist_rows + .acw {
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* header ads */
+._5rgs {
+    padding-top: 10px !important;
+    padding-bottom: 7px !important;
+}
+
+/* submit buttons */
+.touch .btnD.bgb[disabled],
+.touch .btnC[disabled],
+.touch .btnI.bgb[disabled] {
+    color: white !important;
+}
+
+/* upload photo/video */
+[data-sigil="video-file-input-block"]{
+    display:none !important;
+}
+/*
+Hack for forcing picture input
+.touch ._50uu, .touch ._50ux {
+    display:block !important;
+}*/
+.touch input._50ux {
+    position: absolute !important;
+}
+.touch ._50uu {
+    width: 150px !important;
+    margin-right: 10px !important;
+    margin-bottom: 8px !important;
+    position: static !important;
+    float:left !important;
+    background-position-x: 65px !important;
+    height: 65px !important;
+    border: 2px solid #4080ff !important;
+    border-radius: 3px !important;
+}
+form._29zn{
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+}
+.touch ._5odr {
+    border: 2px solid #4080ff;
+    border-radius: 3px;
+}
+.touch ._50m6 {
+    padding-top: 24px !important;
+    padding-bottom: 3px !important;
+}
+._17_s {
+    border: 2px solid #4080ff !important;
+    margin-left: 12px !important;
+    margin-top: 22px !important;
+    padding-top: 10px !important;
+}
+#root._953 {
+    background: #eceff5 !important;
+}
+
+/* fix latest css update */
+.touch a._17_v {
+    border: 2px solid #90949c;
+    margin-top: 22px !important;
+    padding: 9px !important;
+}
+
+[data-sigil="touchable deny-location"] {
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+/* location sharer */
+._3q6y ._1us5 {
+    margin-right: 8px;
+}
+
+#mbasic_inline_feed_composer ._56bu {
+    line-height: 29px !important;
+}
+
+/* weird border on low connection*/
+.touch ._56bs::after,
+.touch.wp.x1-5
+._56bs::after,
+.touch.wp.x2 ._56bs::after {
+    background: none !important;
+}
+
+#mbasic_inline_feed_composer ._56bu {
+    font-size: 13px;
+}
+
+/* suggested Page */
+.touch._fzu .storyStream>.carded {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    margin: 0 0 16px !important;
+}
+
+._5msj {
+    display: none !important;
+}
+
+/* fix loader */
+._50ch._2so {
+    overflow: inherit !important;
+}
+
+/* PYMK */
+._d2r {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    margin: 0 0 16px !important;
+}
+
+/* header shield */
+#friendly_header svg.shield {
+    position: absolute !important;
+    height: 22px !important;
+    fill: #bbb !important;
+    top: 56px;
+}
+
+#friendly_header svg.close {
+    height: 13px !important;
+    position: absolute !important;
+    top: 60px !important;
+    fill: #b5b5b5 !important;
+}
+
+#shield_toggle {
+    position: absolute;
+    top: 8px;
+    right: 7px;
+}
+
+/* little header for promoting messenger */
+div[data-sigil="m-promo marea"] {
+    display: none !important;
+}
+
+/* hide header displaying most recent / top stories */
+div._59e9._55wr._4g33._400s {
+    display:none !important;
+}
+
+/* page color update */
+._4q77, ._4q77 a, .touch ._4q77 a {
+    color: {baseColor} !important;
+}
+
+/* poll */
+.mQuestionsPollResultsBar .label {
+    top: 2px !important;
+}
+
+/* little header for promoting messenger/photo inside sharer */
+div[data-sigil="m-megaphone"] {
+    display: none !important;
+}
+
+._4prr::after {
+    border: none !important;
+}
+
+/*group button */
+.sp_3OgT3--1jFF_3x.sx_2a29bb {
+    margin-top: 8px !important;
+}
+
+.touch .structuredPublisher .btnBar.btnBarLinked .btn {
+    padding-top: 8px !important;
+}
+
+.touch ._59f6._55so::before {
+    height: 0px !important;
+}
+
+article._5gh8._5rgr {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    margin: 0 0 16px !important;
+}
+
+/* plus header composer */
+.mFuturePageHeader ._4g33 {
+    background: {baseColor} !important;
+}
+
+/* cookie policy */
+#cpn-pv-link {
+    color: #c4d2e7 !important;
+}
+
+/* body background */
+body.touch,
+body,
+.touch._fzu._2v9s,
+._4_xl,
+#root {
+    background: #f1f1f1 !important;
+}
+
+/* page body */
+.touch._fzu._2v9s,
+body._4_xl {
+    background: #f1f1f1 !important;
+}
+
+#root.acw {
+    background: #fff  !important;
+}
+
+/* like btn */
+._4b46._15km ._15ko::before{
+    bottom: 2px;
+}
+
+/* comment btn */
+._4b46._15km ._15kq::before{
+    bottom: 1px;
+}
+
+/* Share btn */
+._4b46._15km ._15ko::before,
+._4b46._15km ._15ko._2q8z::before,
+._4b46._15km ._15kr::before{
+    bottom: 2px;
+}
+
+/* header article shared
+header._5qc1 {
+    margin-top: 10px;
+}*/
+
+/* page btn */
+_u2d {
+    height: 30px;
+    padding-top: 2px;
+}
+
+/* abonnement button */
+.sp_1g3yinv0EnE_3x {
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* show more article */
+article ._3jqf {
+    position: relative;
+}
+
+/* event create */
+.sp_Bbkj0ecIJnF_3x {
+    -webkit-filter: brightness(0) invert(1) !important;
+}
+
+/* 3 dots button inside feed */
+div[data-sigil="story-popup-causal-init"] .img,
+div[data-sigil^="story-popup-causal"] .img,
+div[data-sigil*="flyout-causal"]._4q31 .img {
+    opacity: 0.4;
+}
+
+/* like/reaction counter */
+._1g06 {
+    position: relative;
+    top: 2px;
+}
+
+/* comment counter */
+._1j-c {
+   margin-top: 1px;
+}
+
+/* big page button */
+._u2d {
+   padding-top: 2px;
+   height: 30px;
+}
+
+/* event on page */
+._3-8_ {
+   margin-right: 30px;
+}
+
+
+/* discovering events date */
+.touch ._38no ._38nk {
+    line-height: 20px;
+}
+
+.touch ._lr0 ._5kqs::after {
+    margin-bottom: 1px;
+}
+
+/* local header event discovery */
+#mEventsDashboard ._5c9u {
+    height: 44px !important;
+    line-height: 48px !important;
+}
+
+/* counter old build upcoming event */
+.touch ._590n {
+    line-height: 22px;
+}
+
+/* sign up button */
+.touch button._4q74 {
+    line-height: 28px;
+}
+
+/* notification settings*/
+#notifications_list ._vqv {
+    background: #f1f1f1;
+    margin-bottom: -1px;
+    margin-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    font-weight: 400;
+    font-size: 15px !important;
+    font-variant: small-caps;
+    color: {baseColor};
+}
+
+#notifications_list ._vqv .title{
+    color: {baseColor};
+    opacity: 0.8;
+}
+
+#notifications_list ._vqv .title .notification{
+    width: 130px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 28px;
+    display: inline-block;
+}
+
+#notifications_list ._vqv svg {
+    fill: {baseColor};
+    fill-opacity: 0.75;
+    position: relative;
+    top: 4px;
+    right: 5px;
+    height: 20px;
+    -webkit-transition: all .1s ease-in;
+}
+
+a[href="/settings/notifications/"] {
+    display:none !important;
+}
+
+/* message page */
+#root.acw {
+    background: #f1f1f1;
+}
+
+._4g33._52we._5fjk._55so._5i-i._ydx {
+    background: #f1f1f1;
+}
+
+._4g33._52we._5fjk._55so._5i-i._ydx::before {
+    height: 5px;
+    background: #f1f1f1;
+    content: "";
+    display: block;
+    border: none !important;
+}
+
+/* notification header */
+#notifications_list {
+    background: #f1f1f1 !important;
+}
+
+/* sms activation */
+a[href="/sms/activation.php"] {
+    display:none !important;
+}
+
+/* CSS loader background */
+.jewel .flyout {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* hide search box inside messenger */
+form[action^="/messages/?refid="] {
+    display: none !important;
+}
+
+/* header message / actions
+#modalDialog {
+	padding-top: 50px;
+}
+#modalDialog #mDialogHeader {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	position:fixed;
+	top:0px;
+} */
+
+/* new message composer */
+.touch ._59tu {
+    border: none !important;
+}
+
+form[action^="/messages/send/"] ._5hu7 ._5hu8.input {
+    padding: 9px !important;
+}
+
+/* last row of composer */
+#MComposer ._4g33._15n_ {
+    display: none !important;
+}
+
+#MComposer textarea[data-sigil="expandable-textarea m-textarea-input composer-main-target-area"]  {
+    line-height: 29px;
+    padding: 0px !important;
+    resize: none;
+}
+
+#MComposer label._15nz{
+    padding-top: 2px;
+}
+
+/* End of Feed */
+.end-feed{
+    text-align: center;
+}
+
+.end-feed .end-ow.reload-feed {
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    padding: 8px;
+    padding-top: 7px;
+    padding-bottom: 1px;
+    margin: auto;
+    position: relative;
+    bottom: 28px;
+    margin-bottom: -6px;
+    margin-top:10px;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #555;
+    background: white;
+}
+
+.end-feed .end-ow.reload-feed svg {
+     fill: #666666;
+     margin-right: 3px;
+}
+
+.end-feed .end-ow.reload-feed span {
+     display: inline-block;
+     margin-right: 9px;
+     position: relative;
+     bottom: 7px;
+     margin-left: 2px;
+}
+
+.end-ow.reload-feed:active,
+.end-ow.reload-feed:focus,
+.end-ow.reload-feed:active svg,
+.end-ow.reload-feed:focus svg{
+     color: #000;
+     fill: #000;
+}
+
+.end-feed .end-refresh{
+    margin-left: 12px !important;
+}
+
+.end-feed .end-explore{
+    margin-left: 0px;
+}
+
+/* explore page */
+._623v {
+    display: none;
+}
+
+
+/* sponsored post */
+.touch._fzu .storyStream>.carded._29d0._122m a{
+    padding-left: 0px !important;
+}
+
+/* hide PYMK */
+article[data-top-of-feed-unit-type ^= "pymk_megaphone"] {
+    display: {pymk} !important;
+}
+
+/* download button / img btn */
+.x2.touch .btn i.img,
+.touch .btnC.bgb i.img{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* header buttons for message tab */
+.touch ._55st:first-child ._5c9u,
+.touch ._55st:last-child ._5c9u{
+    opacity: 0.6;
+}
+
+/* showcase settings */
+.assistant-settings{
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+}
+
+.assistant-settings{
+    padding-bottom: 6px;
+}
+
+.assistant-settings .img.profpic.assistant {
+    background: {baseColor} !important;
+    width: 40px;
+    height: 40px;
+    margin-left: 0px !important;
+}
+
+.assistant-settings .assistant svg{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 8px;
+}
+
+.assistant-settings svg.close {
+    opacity: 0.3;
+    fill: #000000;
+}
+
+.assistant-settings .tag-cloud-settings {
+    margin-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tag-cloud-settings ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tag-cloud-settings ul li {
+	margin: 0 .3em .6em 0;
+	max-width: 130px !important;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: {baseColor};
+    border-radius: 20px;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 14px;
+    font-size: 0.95em !important;
+    padding: 0.42em 1.26em;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    border: solid 1px {baseColor};
+    line-height: 18px;
+}
+
+.tag-cloud-settings ul li:active,
+.tag-cloud-settings ul li.active {
+	background-color: {baseColor};
+	color: #fff;
+}
+
+.tag-cloud-settings ul li span{
+    -webkit-user-select: none !important;
+}
+
+.tag-cloud-settings ul li svg{
+    fill: {baseColor};
+    position: relative;
+    right: 5px;
+    bottom: 1px;
+    height: 16px !important;
+    width: 16px !important;
+    vertical-align: middle;
+}
+
+.tag-cloud-settings ul li.active svg,
+.tag-cloud-settings ul li:active svg {
+    fill: #fff;
+    opacity: 0.8;
+}
+
+/* button header post */
+._56bs::before, .wp.x1-5 ._56bs::before, .wp.x2 ._56bs::before {
+    border-radius: 2px !important;
+}
+
+#mbasic_inline_feed_composer ._56bu, ._56bv, a._56bu, a._56bv {
+    line-height: 30px !important;
+}
+
+.x1-5 ._56bv::after, .x2 ._56bv::after, .x1-5 ._56bu::after, .x2 ._56bu::after,
+ .x1-5 ._56bs::after, .x2 ._56bs::after{
+    border-image: none !important;
+}
+
+._8l7 .img:first-child {
+    width: 26px !important;
+    height: 19px !important;
+    margin-left: 5px !important;
+}
+
+._8l7 .img{
+    margin-top: 2px !important;
+}
+
+/* like button */
+.touch a._2b0a {
+    color: inherit !important;
+}
+.touch a._2b0a[style="color: rgb(64, 128, 255);"] {
+    color: {baseColor} !important;
+}
+
+/* setting assistant in feed */
+.assistant-settings {
+    background: white !important;
+    margin: 0 0 16px !important;
+}
+
+/* event buttons */
+.touch ._31yd {
+    margin: 0px;
+}
+
+/* app promotion */
+div[data-top-of-feed-unit-type="nux_missions"] {
+    display: none !important;
+}
+
+/* group conversation thumbnail */
+._1_0l {
+    padding-right: 15px;
+}
+
+._33zg {
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+div[id*="threadlist_row_other_user"] i.img.profpic {
+    width: 58px !important;
+    height: 58px !important;
+}
+
+/* new article css */
+article a[target*="_blank"] {
+    -webkit-transition: all .1s ease-in;
+    background: rgba(0, 0, 0, 0);
+}
+
+article a[target*="_blank"]:active {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+/* tablet article white rectangle */
+article ._65wz {
+    background: transparent !important;
+}
+
+/* sharing post from other */
+.storyStream article[data-store*="EntInternalObjectAggregatedStory"],
+.storyStream article[data-store*="EntHashtagAggregatedStory"],
+.storyStream article[data-store*="EntExternalShareAggregatedStory"],
+.storyStream article[data-store*="EntSingleUserShareAggregatedStory"]{
+    padding-bottom: 2px;
+}
+
+/* page feed */
+._55wm {
+    background: #f1f1f1 !important;
+}
+
+._3to9 ._5gh8 {
+    border: none !important;
+    border-radius: 2px !important;
+}
+
+/* background notifications */
+#notifications_list .item.acw {
+    background: transparent !important;
+}
+
+/* header messages */
+.touch ._5c9u[rel*="dialog"] {
+    background: transparent !important;
+}
+
+
+/* feed loader */
+._50cg._2ss {
+    display: none !important;
+}
+
+._55yq[role="progressbar"],
+div[data-sigil^="m-loading-indicator-animate"],
+.centeredIndicator,
+.centeredIndicator:after {
+    text-align: center;
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+    background: none !important;
+}
+
+._55yq[role="progressbar"],
+div[data-sigil^="m-loading-indicator-animate"],
+.centeredIndicator {
+    margin: auto;
+    margin-bottom: 12px;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 3px solid rgba(20, 20, 20, 0.12) !important;
+    border-right: 3px solid rgba(20, 20, 20, 0.12) !important;
+    border-bottom: 3px solid rgba(20, 20, 20, 0.12) !important;
+    border-left: 3px solid {baseColor};
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1s infinite linear;
+    animation: load8 1s infinite linear;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* help page */
+.touch ._1uh1._2ix_,
+#cms-help-content-results ._11ub ._5p7j,
+#cms-help-content-results ._11ub {
+    background: {baseColor} !important;
+}
+
+html[data-ow-url^="https://m.facebook.com/help/"] .mFuturePageHeader {
+    display: none;
+}
+
+/* iframe at bottom */
+iframe[src="https://staticxx.facebook.com/common/referer_frame.php"]{
+    display: none;
+}
+
+/* remove keyboard promo */
+div[data-sigil^="m-promo m-megaphone"] {
+	display: none !important;
+}
+
+/* tablet inline share */
+div[data-sigil="ufi-inline-actions"] ._52jj._15kl._3hwk{
+    flex: 1;
+    min-width: 0;
+    width: 0;
+    white-space: nowrap;
+}
+
+/* login promote banner */
+a[href^="https://m.facebook.com/click.php?redir_url=market%3A%2F%2Fdetails%3Fid%3Dcom.facebook.katana"] {
+    display: none !important;
+}
+
+/* assistant link */
+#assistant_link a.link {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 8px;
+    padding-top: 2px;
+    word-wrap: break-word;
+    color: {baseColor} !important;
+    text-decoration: underline;
+    max-height: 54px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-transition: all .1s ease-in;
+    -webkit-user-select: none !important;
+}
+
+#assistant_link a.link:active {
+    color: #333333 !important;
+}
+
+/* assistant pro */
+/* CF new css */
+#social_apps .pro,
+#pro_version .pro{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    display: inline-block;
+    height: 28px;
+    line-height: 30px;
+    padding: 0 1em;
+    border: 1px solid {baseColor};
+    border-radius: 15px;
+    color: {baseColor};
+    font-size: 13px;
+    text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+	-webkit-user-select: none !important;
+	font-size: 14px;
+}
+
+#social_apps .pro:active,
+#social_apps .pro:focus,
+#pro_version .pro:active,
+#pro_version .pro:focus {
+	background-color: {baseColor};
+	border: 1px solid {baseColor};
+	color: white !important;
+}
+
+#pro_version .assistant svg {
+    top: 5px !important;
+    height: 30px !important;
+    width: 30px !important;
+    left: 1px;
+}
+
+#pro_version .assistant svg {
+    top: 5px !important;
+    height: 30px !important;
+    width: 30px !important;
+    left: 1px;
+}
+
+#social_apps .assistant svg {
+    top: 8px !important;
+    height: 24px !important;
+    width: 24px !important;
+    left: 0px;
+}
+
+#social_apps .pro:active svg,
+#social_apps .pro:focus svg{
+    fill: white;
+}
+
+#social_apps .pro svg {
+    position: relative;
+    top: 3px;
+    right: 4px;
+    fill-opacity: 0.8;
+    fill: {baseColor};
+}
+
+#social_apps .pro.twitter svg {
+    margin-right: 1px;
+}
+
+/* share picture + top page */
+._3wo2 ._129_ {
+    margin-top: 0px !important;
+}
+
+/* other sharing options */
+._3x1q ._94v {
+    padding-top: 10px;
+}
+
+html[data-ow-url^="https://m.facebook.com/composer/mbasic/"] #mcomposer_textarea + div{
+    padding-top: 4px;
+}
+
+/* composer icon account */
+html[data-ow-url^="https://m.facebook.com/composer/mbasic/"] ._8l7 .img:first-child {
+    width: 24px !important;
+    height: 24px !important;
+    margin-top: 0px !important;
+}
+
+/* composer textarea */
+html[data-ow-url^="https://m.facebook.com/composer/mbasic/"] #mcomposer_textarea {
+    padding-left: 11px;
+    padding-top: 11px;
+}
+
+/* composer actions */
+html[data-ow-url^="https://m.facebook.com/composer/mbasic/"] ._52z5._1uh1 {
+    padding-top: 11px;
+}
+
+/* composer right icon */
+html[data-ow-url^="https://m.facebook.com/composer/mbasic/"] ._3x1q ._94w {
+    margin-right: 9px;
+}
+
+/* new feed sharer */
+#MComposer ._3iyw ._2whz ._13-g {
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+
+#MComposer ._5s61._5i2i._52we .profpic{
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 2px !important;
+}
+
+#MComposer ._13-l {
+    border: none !important;
+}
+
+/* margin error for more sharer */
+#composer-main-view-id ._4wqq {
+    margin: 0 4px 0 8px !important;
+}
+
+#composer-main-view-id ._5s61 {
+    margin-right: 10px !important;
+}
+
+/* location list result */
+.async_composer #places_search .item {
+    padding: 8px !important;
+}
+
+/* composer frame */
+#MComposer ._3iyw ._37fb {
+    border: none !important;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    margin: 4px 0 16px !important;
+}
+
+/* composer other header */
+#MComposer ._3iyw ._37fb ._13-j {
+    padding-bottom: 6px !important;
+}
+
+#MComposer ._3gin {
+    border: none !important;
+}
+
+/* fix for page subscription */
+.touch ._3otq ._3otr ._5c9u {
+    height:182px !important;
+}
+
+/* composer */
+._6beo ._6ber {
+    padding-bottom: 7px !important;
+}
+
+html.level_message #MRoot{
+    border-top: solid 1px #e5e5e5;
+}
+
+/* stories */
+._6beq,
+._vi6 ._435z {
+	border: none !important;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 2px 6px 0 rgba(0,0,0,0.05) !important;
+    margin: 4px 0 16px !important;
+}
+
+/* good morning */
+._141f {
+    margin-bottom: 0px !important;
+}
+
+/* tag composer */
+._6dsj ._3gin ._3-99 {
+    position: relative;
+    top: 1px;
+}
+
+/* page radius */
+div.async_composer ._6sn- .profpic {
+    border-radius: 6px 0 0 6px !important;
+}
+
+/* hide home background color */
+html[data-ow-url="https://m.facebook.com/home.php?sk=h_chr"] ._52z5,
+html[data-ow-url="https://m.facebook.com/home.php?sk=h_nor"] ._52z5 {
+    background: transparent !important;
+}
+
+/* hide text for home composer */
+#MComposer ._6dsj ._3gin span._3-99 {
+    display: none !important;
+}
+
+#MComposer ._6dsj ._3gin {
+    padding: 0 15px !important;
+}
+
+/* new header icon positions */
+#friendly_message_header svg,
+#friendly_header svg {
+    height: 17px !important;
+    top: 4px !important;
+    margin-top: -4px;
+}
+
+#notifications_list ._vqv svg {
+    height: 17px !important;
+    top: 3px !important;
+}
+
+#notifications_list ._vqv .read svg {
+    height: 20px !important;
+    top: 5px !important;
+}
+
+#friendly_message_header svg {
+    height: 19px !important;
+    top: 4px !important;
+}
+
+/* margin under like button */
+._3hwk._15kl ._77li {
+    margin: -5px -7px -14px -7px !important;
+    padding-bottom: 0px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* latest post */
+._56be::before {
+    border-color: transparent !important;
+}
+
+/* translations */
+.story_body_container a i.img._1_if.img {
+    display: none !important;
+}
+
+.story_body_container a[href="#"] + span[aria-hidden="true"]{
+    display: none !important;
+}
+
+._1_ig {
+    color: {baseColor} !important;
+    opacity: 0.8;
+}
+
+/* padding preview post */
+div[data-sigil="comments-preview"] {
+    padding-bottom: 12px;
+}
+
+/* send a message inside feed */
+.touch ._26vk._56bt {
+    border: 1px solid {baseColor} !important;
+}
+
+div[data-sigil="feed-ufi-metadata"] .touch ._26vk._56bt {
+    margin-right: 8px;
+}
+
+/* message float button */
+html:not(.level_root) ._-jx {
+    display: none !important;
+}
+
+/* composer UI */
+#MComposer div._7cdi {
+    opacity: 0.4 !important;
+}
+
+#MComposer ._6beo ._6ber {
+    color: #a3a3a3;
+    border: 1px solid #ddd;
+    letter-spacing: .5px;
+}
+
+/* disable orange border focus */
+body, div, a, input, p, img{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    -webkit-appearance: none;
+}
+{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    -webkit-appearance: none;
+}
+:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* annoying stickers */
+div[data-sigil="m-conversation-guide"] ._7am_ ._7an0,
+div[data-sigil="m-conversation-guide"] ._7ava ._7ave {
+    display: none !important;
+}
+
+div[data-sigil="m-conversation-guide"] ._7an9 {
+    margin: 0px !important;
+}
+
+/* bottom button for scroll to up */
+._7eel.show {
+    display: none;
+}
+
+/* reload feed button */
+html[data-ow-url^="https://m.facebook.com/home.php"] ._7eel.show {
+    display: none;
+}
+
+/* hide new notification buttons */
+#notifications_list a[href^="/settings/notifications/"] {
+    display: none;
+}
+
+/* top bar */
+div[data-top-of-feed-unit-type^="most_recent_header"] {
+    display: none !important;
+}
+
+
+/* custom animations */
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#friendly_header_messenger,
+#friendly_header {
+    animation: slide-up 0.3s ease;
+    -webkit-animation: slide-up 0.3s ease;
+}
+
+footer div[data-sigil="mufi-inline"]{
+    letter-spacing: 0.5px;
+}
+
+/* login languages */
+html[data-ow-url^="https://m.facebook.com/login.php"] ._52jc {
+    margin: 12px;
+    display: block;
+}
+
+html[data-ow-url^="https://m.facebook.com/login.php"] ._3ztc {
+    margin: 12px;
+}
+
+/* cookie banner */
+#header-notices div[data-cookiebanner="banner"] {
+    display: none;
+}
+
+/* messages */
+html[data-ow-url^="https://m.facebook.com/messages/"] #modalDialog {
+    top: 45px;
+}
+
+/* letter spacing for post title */
+._5zgx,
+._5qc3._5qc3 a {
+    letter-spacing: 0.3px;
+}
+
+/* article's title */
+._16-5 {
+    letter-spacing: 0.3px;
+}
+
+/* subtitle from article */
+._2rbw {
+    letter-spacing: 0.2px;
+    font-size: 14px;
+}
+
+/* post subtitle / date */
+._52jc {
+    letter-spacing: 0.3px;
+}
+
+.assistant-settings .ow_close:active,
+.fr_nat_article .remove_ad:active,
+.ow_reported .remove_ad:active,
+div[data-sigil='ufi-inline-actions']>div>a:active,
+div[data-sigil="story-popup-context"]._yff:active,
+div[data-sigil^="story-popup-causal"]._yff:active{
+    opacity: 0.4 !important;
+}
+
+/* article's subtitle */
+._2xbh,
+._24e4 {
+    max-height: none !important;
+}
+
+/* multi picture sharer */
+#composer-container div[scroller*="object Object"] {
+    margin-bottom: 10px !important;
+}
+
+
+#composer-container div[scroller*="object Object"],
+#composer-container div[scroller*="object Object"] div[style] {
+    box-shadow: none !important;
+    height: inherit !important;
+}
+
+#composer-container div[scroller*="object Object"] div[style]  {
+    transform: none !important;
+    position: inherit !important;
+}
+
+#composer-container div[scroller*="object Object"] div[style] div:first-child {
+    white-space: initial;
+    white-space: unset !important;
+}
+
+#composer-container ._13-f {
+    transform: none !important;
+    white-space: initial;
+    white-space: unset !important;
+}
+
+#composer-container ._2k3a {
+    margin-left: 16px;
+}
+
+#composer-container ._2k39 {
+    margin-bottom: 8px;
+}
+
+/* new button css */
+.touch ._26vk._56bu,
+.touch.wp.x1-5 ._26vk._56bu,
+.touch.wp.x2 ._26vk._56bu,
+.touch ._26vk._56bv,
+.touch.wp.x1-5 ._26vk._56bv,
+.touch.wp.x2 ._26vk._56bv {
+    background: {baseColor} !important;
+    color: white !important;aad
+}
+
+/* stories */
+#m-stories-add-item .img.profpic{
+    border-radius: inherit;
+}
+
+/* Anonymous Story Viewer */
+.fas_storiesViewerButtons {
+    position: absolute;
+    bottom: -30px;
+    z-index: 11;
+    left:10px;
+}
+
+.fas_storiesViewerButtons.fas_WithAdditionalBottomOffset {
+    bottom: 15px;
+}
+
+.fas_storiesViewerButtons ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.fas_storiesViewerButtons ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 6px;
+    padding: 4px;
+    height: 34px;
+    width: 34px;
+	border: 2px solid white;
+	border-radius: 26px;
+	color: white;
+	-webkit-transition: .2s;
+    transition: .2s;
+    box-sizing: content-box;
+    background-color: rgba(0,0,0,0.35);
+    filter: drop-shadow(0px 0px 2px rgba(0,0,0,0.2));
+}
+
+.fas_storiesViewerButtons ul li svg {
+    fill: white;
+    margin: 4px;
+    text-align: center
+}
+
+li.fas_storiesBtn_anonFBStories {
+    opacity: 0.35;
+}
+
+.ow_ANONYMOUS_STORIES li.fas_storiesBtn_anonFBStories {
+    opacity: 1.0;
+}
+
+/* hide facebook lite link */
+article a[href^="/mobile/android/upsell_link/?upsell_id=lite_attribution"],
+article a[href^="/mobile/android/upsell_link/?upsell_id=lite_attribution"] + span[aria-hidden="true"] {
+    display: none !important;
+}
+
+/* notification */
+a[data-sigil="read_all"]{
+   margin-left: 34px;
+   position: unset !important;
+}
+
+/* anonymous button */
+#MStoriesTray ._vi6 ._435z{
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-bottom: 6px !important;
+}
+
+ul.owAnonymousFooter {
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    list-style: none;
+}
+
+ul.owAnonymousFooter li{
+    border: 1px solid {baseColor};
+    color: {baseColor};
+    border-radius: 20px;
+    margin-right: 0.5em;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 0.95em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    height: 30px;
+    line-height: 30px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+ul.owAnonymousFooter li span {
+	max-width: 155px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-user-select: none !important;
+}
+
+.owAnonymousFooter svg{
+    fill: {baseColor};
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: middle;
+    right: 7px;
+    bottom: 1px;
+    opacity: 0.88;
+    width: 16px;
+    height: 16px;
+}
+
+.owAnonymousFooter li.anonymous svg{
+    bottom: 0px !important;
+    width: 16px;
+    height: 16px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+ul.owAnonymousFooter li:active,
+ul.owAnonymousFooter li:focus,
+ul.owAnonymousFooter li.active {
+	background: {baseColor} !important;
+    color: white !important;
+}
+
+ul.owAnonymousFooter li:active svg,
+ul.owAnonymousFooter li:focus svg,
+ul.owAnonymousFooter li.active svg {
+    fill: white !important;
+    opacity: 1 !important;
+}
+
+/* story uploading */
+._69u9 {
+    z-index: 100 !important;
+    padding-bottom: 0px !important;
+    position: fixed !important;
+}
+
+/* story settings */
+html[data-ow-url^="https://m.facebook.com/stories/settings/"] body {
+    margin-top: 46px !important;
+}
+
+html[data-ow-url^="https://m.facebook.com/stories/settings/"] body ._52z5{
+    padding-top: 46px !important;
+    height: 90px !important;
+}
+
+/* profile share button */
+#timelineBody span._3-99 {
+    margin-left: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 84px;
+    margin-bottom: -6px;
+}
+
+/* display real size */
+#MPhotoUpperContent a[href^="https://scontent"] {
+    font-weight: bold;
+    border: 2px solid {baseColor};
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+
+/* profile button */
+._86nt,
+._86nt._8n4c {
+    background: {baseOpacity3Color} !important;
+}
+
+/* /media/set */
+html[data-ow-url*="/media/set/?set="] #thumbnail_area {
+    text-align: left !important;
+    margin-top: 13px;
+}
+
+html[data-ow-url*="/media/set/?set="] #thumbnail_area > a[href],
+html[data-ow-url*="/media/set/?set="] #thumbnail_area > div[href] {
+    margin: 0 0 20px 20px !important;
+    border-radius: 4px !important;
+    border: 0px!important;
+}
+
+html[data-ow-url*="/media/set/?set="] i.img[data-store] {
+    background-size: contain!important;
+    background-position: center;
+    background-color: black;
+    width: calc(50vw - 30px) !important;
+    height: calc(50vw - 30px) !important;
+}
+
+html[data-ow-url*="/media/set/?set="] #thumbnail_area > div[href] ._5fef {
+    display:none!important;
+}
+
+html[data-ow-url*="/media/set/?set="] #root {
+    background: white!important;
+    padding-top: 44px !important;
+}
+
+html[data-ow-url*="/media/set/?set="] #root div.acw.apm[data-sigil='marea'] {
+    color: black !important;
+    background: transparent !important;
+    font-size: 15px !important;
+    text-align: center !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 34px;
+    line-height: 34px;
+}
+
+@media only screen and (orientation: landscape) {
+    html[data-ow-url*="/media/set/?set="] i.img[data-store] {
+        background-size: contain !important;
+        background-position: center;
+        background-color: black;
+        width: calc(25vw - 15px) !important;
+        height: calc(25vw - 15px) !important;
+    }
+}
+
+/* divider page */
+._721v ._721w {
+    height: 0px !important;
+}
+
+/* new page color */
+._36bl ._2x1r,
+._36bl ._2thz {
+    border-color: {baseColor} !important;
+    background-color: {baseColor} !important;
+}
+
+._484w.selected ._6zf {
+    border-color: {baseColor} !important;
+    color: {baseColor} !important;
+}
+
+div#pages_msite_body_contents span[style*="color: #216FDB"]{
+    color: {baseColor} !important;
+}
+
+/* article */
+._2rec {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+/* notif */
+#notifications_list a.button[href^="/nt/screen/"] {
+    display: none;
+}
+
+/* multi photo in feed */
+._3qc7::before {
+    border: none !important;
+}
+
+#friendly_watch {
+    height: 60px;
+    background: white;
+}
+
+#mobile_video_feed_pagelet div[data-nt="FB:BORDER"] {
+    border: none !important;
+}
+
+/* cookie popup */
+.touch div._5m_x[style^="top:"] {
+    top: 43px !important;
+}
+
+.touch div._MCookieDialog__manageroot[style^="top:"] {
+    top: 0px !important;
+    position: fixed;
+}
+
+div._5m_x ._9fyu {
+    max-height: 105px;
+    overflow: hidden;
+    text-end: ellipsis;
+}
+
+/* banner on Android 5 */
+#header-notices ._du6  {
+    display: none !important;
+}
+
+/* group button */
+#m-chrome-graph-search ._56bt,
+#BrowseResultsContainer ._56bt {
+    background-color: {baseColor} !important;
+}
+
+/* fix image offset */
+._5gh8 ._7ab_,
+._5gh8 ._7ac0 {
+	margin: 0px !important
+}
+
+/* improve readability */
+.touch,
+.touch tr,
+.touch input,
+.touch textarea,
+.touch .mfsm {
+	line-height: 24px;
+	font-size: 15px;
+}
+
+._16-5,
+._2rbw,
+.touch ._2rbw ._41nw {
+    line-height: 20px;
+}
+
+._2b06 {
+	line-height: 22px;
+}
+
+.touch,
+.touch td,
+.touch input,
+.touch textarea .touch button,
+._16-5 {
+	font-size: 15px;
+}
+
+._5qc3._5qc3 {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* live stream remove app button */
+a[href^="/gaming/applink/"] {
+	display: none !important;
+}
+
+/* messenger remove app button */
+a[href^="#!/messenger-destination/cta/?page_id="],
+a[href^="/messenger-destination/cta/?page_id="] {
+	display: none !important;
+}
+
+/* groups */
+._7gxa._7gxa {
+    border-color: {baseColor} !important;
+}
+
+._7iah._7iah {
+    color: {baseColor} !important;
+}
+
+._7ymc {
+    background-color: {baseColor} !important;
+}
+
+/* marge player stream */
+article ._kw0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}

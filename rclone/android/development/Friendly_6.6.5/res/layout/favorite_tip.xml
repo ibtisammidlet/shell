@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/favorite_tip" android:visibility="gone" android:layout_width="260.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-30.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/ic_star_black_24dp" android:alpha="0.5" />
+    <View android:layout_gravity="center" android:background="#ffaaaaaa" android:layout_width="70.0dip" android:layout_height="2.0dip" android:layout_margin="12.0dip" android:alpha="0.4" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff444444" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/favorite_tip" android:alpha="0.7" android:textAlignment="center" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+</LinearLayout>

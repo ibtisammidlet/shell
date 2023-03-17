@@ -1,0 +1,37 @@
+.class public final synthetic Lio/friendly/adapter/d;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lio/friendly/adapter/ProAdapter;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lio/friendly/adapter/ProAdapter;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lio/friendly/adapter/d;->a:Lio/friendly/adapter/ProAdapter;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
+
+    const/4 v1, 0x4
+
+    iget-object v0, p0, Lio/friendly/adapter/d;->a:Lio/friendly/adapter/ProAdapter;
+
+    const/4 v1, 0x5
+
+    invoke-virtual {v0, p1}, Lio/friendly/adapter/ProAdapter;->h(Landroid/view/View;)V
+
+    return-void
+.end method

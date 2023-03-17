@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="intro_margin">70.0dip</dimen>
+    <dimen name="intro_message_text_size">13.0sp</dimen>
+    <dimen name="intro_tittle_text_size">18.0sp</dimen>
+    <dimen name="landscape_vertical_intro_margin">60.0dip</dimen>
+    <dimen name="landscape_vertical_intro_margin_left">20.0dip</dimen>
+    <dimen name="vertical_intro_image_margin">50.0dip</dimen>
+</resources>

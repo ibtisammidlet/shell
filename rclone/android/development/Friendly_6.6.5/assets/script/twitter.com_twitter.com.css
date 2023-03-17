@@ -1,0 +1,247 @@
+/* add ads footer */
+.ow_removeAd {
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+    background: {baseColor};
+    margin-top: 6px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    -webkit-user-select: none !important;
+    -webkit-transition: all .1s ease-in;
+}
+
+.ow_removeAd:active,
+.ow_removeAd:focus {
+    opacity:1;
+}
+
+.ow_removeAd svg{
+    fill: white;
+    height: 15px;
+    position: relative;
+    top: 3px;
+    right: 1px;
+    margin-top: -2px;
+}
+
+.ow_hidden {
+    display: none !important;
+}
+
+/* loader */
+circle[style*="stroke: rgb(29, 155, 240)"],
+circle[style*="stroke: rgb(29, 161, 242)"] {
+    stroke: {baseColor} !important;
+}
+
+/* background link */
+a[style*="background-color: rgb(29, 155, 240)"] {
+    background-color: {baseColor} !important;
+}
+
+/* bird loader */
+svg[style*="color: #1da1f2"],
+svg[style*="color:#1da1f2"] {
+   color: {baseColor} !important;
+}
+
+/* DL picture */
+.ow_download_manager,
+.ow_download_picture,
+.ow_download_video {
+    color: white;
+    position: fixed;
+    top: 6px;
+    right: 58px;
+}
+
+.ow_download_manager {
+    right: 102px;
+}
+
+.ow_download_manager > svg,
+.ow_download_picture > svg,
+.ow_download_video > svg {
+	margin: auto;
+    width: 32px;
+    height: 32px;
+}
+
+.ow_download_picture > svg {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: 3px;
+    top: 6px;
+}
+
+.ow_download_manager > svg {
+    height: 24px;
+    padding: 4px;
+}
+
+.ow_download_manager > svg:active,
+.ow_download_picture > svg:active,
+.ow_download_video > svg:active {
+	opacity: 0.6;
+}
+
+/* play video */
+.ow_video_download {
+    z-index: 2;
+    background-color: {baseColor};
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    width: 60px;
+    height: 60px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display:  inline-flex;
+
+    position: absolute !important;
+    display: inline-flex !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(calc(-50% + 40px), -50%) !important;
+}
+
+div[data-testid="playButton"] {
+     position: absolute !important;
+     display: inline-flex !important;
+     left: 50% !important;
+     top: 50% !important;
+     transform: translate(calc(-50% - 40px), -50%) !important;
+}
+
+.ow_ads div[data-testid="playButton"] {
+    position: relative !important;
+    display: inline-flex !important;
+    left: inherit !important;
+    top: inherit !important;
+    transform: inherit !important;
+}
+
+.ow_video_download > svg {
+    width: calc(50% + 7px);
+    height: calc(50% + 7px);
+    position: relative;
+    display: inline-block;
+}
+
+/* navigation */
+nav[role="navigation"] a{
+    margin-bottom: -1px;
+}
+
+/* hide tweet */
+.ow_HIDE_TWEET aside a[href="/compose/tweet"],
+.ow_HIDE_TWEET a[href="/compose/tweet"][data-testid="FloatingActionButtons_Tweet_Button"],
+.ow_HIDE_TWEET a[href="/compose/tweet"][aria-haspopup="false"] {
+    display: none !important;
+}
+
+/* download button */
+div.ow_downloadButton {
+    margin-left: 25px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    bottom: 1px;
+    left: 0px;
+}
+
+article[data-testid="tweetDetail"] div.ow_downloadButton {
+    margin-left: 0px;
+    width: 28px;
+    height: 28px;
+    top: 10px;
+}
+
+article[data-testid="tweetDetail"] div.ow_downloadButton > svg {
+    width: 25px;
+    height: 25px;
+}
+
+div.ow_downloadButton > svg {
+    width: 20px;
+    height: 22px;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    right: 1px;
+    top: -1px;
+	fill: {baseColor};
+}
+
+div.ow_downloadButton > svg:active {
+	fill: rgba(255, 255, 255, 0.5);
+}
+
+.ow_NIGHT div.ow_moreShare > svg,
+.ow_AMOLED div.ow_moreShare > svg {
+	fill: rgba(255, 255, 255, 0.6);
+}
+
+.ow_NIGHT div.ow_moreShare > svg:active,
+.ow_AMOLED div.ow_moreShare > svg:active {
+	fill: rgba(255, 255, 255, 1) !important;
+	opacity: 1;
+}
+
+/* navigation bar */
+nav[role="navigation"] {
+    height: 3.1rem !important;
+}
+
+div[aria-label^="Profile menu"][data-testid="loggedInUserLink"] {
+    margin-left: 7px !important;
+}
+
+header[role="banner"] div[data-testid="DashButton_ProfileIcon_Link"] {
+    margin-left: 7px;
+}
+
+header[role="banner"] div[style^="margin-right: calc("] {
+    margin-left: 7px;
+    position: relative;
+    right: 3px;
+}
+
+/* feed */
+div[data-testid="primaryColumn"] {
+    border: none !important;
+}
+
+header div[style*="height: calc(98px)"] {
+    height: calc(93px) !important;
+}
+
+/* header */
+header[role="banner"] div.r-1xcajam{
+    position: absolute !important;
+    overflow: hidden !important;
+}

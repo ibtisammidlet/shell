@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>ad_native_step</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>ad_native_cap</key>
+        <value>12</value>
+    </entry>
+    <entry>
+        <key>pub_native_token</key>
+        <value>7f308fca3f3f94aa4510cd91ccadbde70311fcf75ff89d47a2307fda2e1d3a69</value>
+    </entry>
+    <entry>
+        <key>mobfox_token</key>
+        <value>b227478bea13f3bc976a0b646b23d3c4</value>
+    </entry>
+    <entry>
+        <key>inmobi_token</key>
+        <value>1491980476525</value>
+    </entry>
+    <entry>
+        <key>pub_native_weight</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>mobfox_weight</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>inmobi_weight</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>version_code_patch</key>
+        <value>-1</value>
+    </entry>
+    <entry>
+        <key>patch_number</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>alternative_apps</key>
+        <value>com.happening.studios.swipeforfacebookpro;com.happening.studios.swipeforfacebookfree;com.creativetrends.simple.app;com.nam.fbwrapper;com.nam.fbwrapper.pro;com.nbapstudio.fblite;app.fast.push.com;</value>
+    </entry>
+    <entry>
+        <key>default_ua</key>
+        <value>Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304</value>
+    </entry>
+    <entry>
+        <key>default_tablet_ua</key>
+        <value>Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25</value>
+    </entry>
+    <entry>
+        <key>messenger_ua</key>
+        <value>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36</value>
+    </entry>
+    <entry>
+        <key>messenger_tablet_ua</key>
+        <value>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36</value>
+    </entry>
+    <entry>
+        <key>banner_cube_id</key>
+        <value>d3703c7e7c9f4f1c97b1</value>
+    </entry>
+    <entry>
+        <key>pacer_day_limit</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>enable_ads_detection_in_bg</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>facebook_login_flag</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>ads_transparency</key>
+        <value>https://eo1h91zl70.execute-api.us-east-1.amazonaws.com/v1/sponsored-post</value>
+    </entry>
+    <entry>
+        <key>ads_transparency_2</key>
+        <value>https://sqdq0ku5tg.execute-api.us-east-1.amazonaws.com/v1/sponsored-post</value>
+    </entry>
+    <entry>
+        <key>ads_transparency_3 </key>
+        <value>https://99psohj867.execute-api.us-east-1.amazonaws.com/v1/sponsored-post</value>
+    </entry>
+    <entry>
+        <key>instagram_stop_api</key>
+        <value>0</value>
+    </entry>
+</defaultsMap>

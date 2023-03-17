@@ -1,0 +1,106 @@
+/* base css */
+.ow_POWER #friendly_header{
+   border-bottom: solid 1px #dfdfdf !important;
+   background: white !important;
+   padding-bottom: 9px !important;
+   padding-top: 9px !important;
+   color: #888 !important;
+}
+
+.ow_POWER #friendly_header span,
+.ow_POWER #friendly_header svg{
+    color: #888 !important;
+    fill: #888 !important;
+}
+
+.ow_POWER #m_newsfeed_stream ._5gh8._5rgr,
+.ow_POWER form#mbasic_inline_feed_composer,
+.ow_POWER article._5gh8._5rgr,
+.ow_POWER #page ._55wo._gui ,
+.ow_POWER ._d2r,
+.ow_POWER .assistant-settings,
+.ow_POWER .touch._fzu .storyStream>.carded,
+.ow_POWER form._29zn{
+    box-shadow: none !important;
+    margin: 0 0 12px !important;
+    border-top: solid 1px #dfdfdf !important;
+    border-bottom: solid 1px #d8d8d8 !important;
+}
+.ow_POWER form._29zn{
+    border-top: none !important;
+}
+
+.ow_POWER .assistant-settings{
+    box-shadow: none !important;
+}
+
+/* night mode */
+.ow_NIGHT.ow_POWER #friendly_header,
+.ow_AMOLED.ow_POWER #friendly_header{
+   border-bottom: solid 1px transparent !important;
+   background: #202020 !important;
+   color: #888 !important;
+}
+
+.ow_NIGHT.ow_POWER #friendly_header span,
+.ow_NIGHT.ow_POWER #friendly_header svg,
+.ow_AMOLED.ow_POWER #friendly_header span,
+.ow_AMOLED.ow_POWER #friendly_header svg{
+    color: #888 !important;
+    fill: #888 !important;
+}
+
+.ow_NIGHT.ow_POWER #m_newsfeed_stream ._5gh8._5rgr,
+.ow_NIGHT.ow_POWER form#mbasic_inline_feed_composer,
+.ow_NIGHT.ow_POWER article._5gh8._5rgr,
+.ow_NIGHT.ow_POWER #page ._55wo._gui ,
+.ow_NIGHT.ow_POWER ._d2r,
+.ow_NIGHT.ow_POWER .assistant-settings,
+.ow_NIGHT.ow_POWER .touch._fzu .storyStream>.carded,
+.ow_NIGHT.ow_POWER form._29zn,
+.ow_AMOLED.ow_POWER #m_newsfeed_stream ._5gh8._5rgr,
+.ow_AMOLED.ow_POWER form#mbasic_inline_feed_composer,
+.ow_AMOLED.ow_POWER article._5gh8._5rgr,
+.ow_AMOLED.ow_POWER #page ._55wo._gui ,
+.ow_AMOLED.ow_POWER ._d2r,
+.ow_AMOLED.ow_POWER .assistant-settings,
+.ow_AMOLED.ow_POWER .touch._fzu .storyStream>.carded,
+.ow_AMOLED.ow_POWER form._29zn{
+    box-shadow: none !important;
+    border-top: solid 1px transparent !important;
+    border-bottom: solid 1px transparent !important;
+}
+
+/* composer */
+.ow_POWER #MComposer ._3iyw ._37fb,
+.ow_POWER ._6beq{
+    box-shadow: none !important;
+    margin: 1px 0 12px !important;
+    border-top: solid 1px #dfdfdf !important;
+    border-bottom: solid 1px #d8d8d8 !important;
+}
+
+.ow_POWER ._6beq {
+    margin-top: 12px !important;
+}
+
+.ow_NIGHT.ow_POWER #MComposer ._3iyw ._37fb,
+.ow_NIGHT.ow_POWER ._6beq {
+    border: none !important;
+}
+
+.ow_AMOLED.ow_POWER #MComposer ._3iyw ._37fb,
+.ow_AMOLED.ow_POWER ._6beq {
+    border: none !important;
+}
+
+/* night / amoled */
+.ow_NIGHT.ow_POWER #friendly_header,
+.ow_AMOLED.ow_POWER #friendly_header{
+    border: none !important;
+    background: none !important;
+}
+
+.ow_AMOLED.ow_POWER #friendly_header {
+
+}

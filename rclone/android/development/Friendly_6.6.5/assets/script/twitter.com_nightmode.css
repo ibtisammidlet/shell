@@ -1,0 +1,46 @@
+/* meta: nodelay */
+/* night mode */
+
+.ow_NIGHT body,
+.ow_NIGHT header,
+.ow_NIGHT main,
+.ow_NIGHT header nav,
+.ow_NIGHT main > div,
+.ow_NIGHT main > div > div,
+.ow_NIGHT main > div > div > div,
+.ow_NIGHT ._1d_6kzhv,
+.ow_NIGHT ._24u5-vsm,
+.ow_NIGHT ._3cKAE7hX,
+.ow_NIGHT .qb_4uBPl,
+.ow_NIGHT ._2EmxsDVG,
+.ow_NIGHT .rn-44z8sh
+{
+	background: #171717 !important;
+}
+
+.ow_NIGHT body,
+.ow_NIGHT header,
+.ow_NIGHT main,
+.ow_NIGHT ._1HXcreMa,
+.ow_NIGHT ._3ZSf8YGw,
+.ow_NIGHT ._3f2NsD-H,
+.ow_NIGHT ._3jSuHAjn,
+.ow_NIGHT .rn-q9ob72
+{
+	color:#aaa !important;
+}
+
+/* posts separator */
+.ow_NIGHT ._1_KafmK5,
+.ow_NIGHT ._3QPrjhX2,
+.ow_NIGHT ._3Ko_vUO1,
+.ow_NIGHT ._1Yv_hemU,
+.ow_NIGHT ._2Axq_bxo {
+	border-color : transparent !important;
+}
+
+/* post highlights */
+.ow_NIGHT ._1fsL8NFb:active {
+    background-color: #272727!important;
+}
+

@@ -1,0 +1,299 @@
+/* base css */
+.ow_DARK .touch._fzu._2v9s,
+.ow_DARK body._4_xl,
+.ow_DARK .touch._fzu._2v9s,
+.ow_DARK ._4_xl,
+.ow_DARK ._4g33._52we._5fjk._55so._5i-i._ydx::before,
+.ow_DARK ._4g33._52we._5fjk._55so._5i-i._ydx,
+.ow_DARK ._5c9u{
+   background: transparent !important;
+}
+
+.ow_DARK .assistant-settings {
+   background: white !important;
+}
+
+/* hide header */
+.ow_DARK.level_root #header:not([title]):not(.titled) {
+    display: block !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.ow_DARK #mJewelNav a[role=button],
+.ow_DARK #feed_jewel a[href^="/home.php"]{
+    display: block !important;
+}
+
+.ow_DARK html.ow_sharer #header {
+    display: block !important;
+}
+
+.ow_DARK html[data-ow-url*="soft=composer"] body,
+.ow_DARK html[data-ow-url="https://m.facebook.com/notifications/"] body,
+.ow_DARK html[data-ow-url^="https://m.facebook.com/home.php"] body,
+.ow_DARK html[data-ow-url^="https://m.facebook.com/login.php"] body,
+.ow_DARK html[data-ow-url^="https://m.facebook.com/reg/"] body {
+    margin-top: 44px !important;
+}
+
+.ow_DARK html[data-ow-url="https://m.facebook.com/messages/"] body {
+    margin-top: 18px !important;
+}
+
+.ow_DARK html[data-ow-url*="soft=composer"] body {
+    margin-top: 0px !important;
+}
+
+.ow_DARK html[data-ow-url*="soft=composer"] body:before {
+    height: 0px !important;
+    display: none;
+}
+
+.ow_DARK #friendly_header {
+    margin-top: -20px;
+}
+
+/* hide messenger icon */
+.ow_DARK #mJewelNav ._4g34:nth-child(3){
+    display: none;
+}
+
+.ow_DARK .popoverOpen,
+.ow_DARK .sideShowing #mJewelNav>div:last-child>div {
+    background: rgba(200,200,200,0.4) !important;
+}
+
+/* new composer */
+/* last row of composer */
+.ow_DARK #MComposer ._4g33._15n_ {
+    display: inherit !important;
+}
+
+.ow_DARK #MComposer textarea[data-sigil="expandable-textarea m-textarea-input composer-main-target-area"]  {
+    line-height: inherit;
+    padding: inherit !important;
+    resize: inherit;
+}
+
+.ow_DARK #MComposer label._15nz{
+    padding-top: inherit;
+}
+
+.ow_DARK #m_newsfeed_stream ._5gh8._5rgr,
+.ow_DARK form#mbasic_inline_feed_composer,
+.ow_DARK article._5gh8._5rgr,
+.ow_DARK #page ._55wo._gui ,
+.ow_DARK ._d2r,
+.ow_DARK .assistant-settings,
+.ow_DARK .touch._fzu .storyStream>.carded,
+.ow_DARK form._29zn{
+    box-shadow: none !important;
+    margin: 0 0 12px !important;
+}
+
+.ow_DARK form._29zn{
+    border-top: none !important;
+}
+
+.ow_DARK #friendly_message_header {
+    display: none;
+}
+
+.ow_DARK #notifications_list ._vqv .title{
+    font-size: 14px;
+    font-variant: normal;
+    background: transparent;
+    font-weight: 500;
+    padding-top: 7px;
+    opacity: 0.9 !important;
+    color: #dedede !important;
+}
+
+.ow_DARK .assistant-settings{
+    box-shadow: none !important;
+}
+
+.ow_NIGHT.ow_DARK #m_newsfeed_stream ._5gh8._5rgr,
+.ow_NIGHT.ow_DARK form#mbasic_inline_feed_composer,
+.ow_NIGHT.ow_DARK article._5gh8._5rgr,
+.ow_NIGHT.ow_DARK #page ._55wo._gui ,
+.ow_NIGHT.ow_DARK .assistant-settings,
+.ow_NIGHT.ow_DARK ._d2r,
+.ow_NIGHT.ow_DARK .touch._fzu .storyStream>.carded,
+.ow_NIGHT.ow_DARK form._29zn{
+    box-shadow: none !important;
+}
+
+.ow_NIGHT.ow_DARK .touch._fzu._2v9s,
+.ow_NIGHT.ow_DARK body._4_xl,
+.ow_NIGHT.ow_DARK body.touch,
+.ow_NIGHT.ow_DARK body,
+.ow_NIGHT.ow_DARK .touch._fzu._2v9s,
+.ow_NIGHT.ow_DARK ._4_xl,
+.ow_NIGHT.ow_DARK #root,
+.ow_NIGHT.ow_DARK .assistant-settings,
+.ow_NIGHT.ow_DARK ._4g33._52we._5fjk._55so._5i-i._ydx::before,
+.ow_NIGHT.ow_DARK ._4g33._52we._5fjk._55so._5i-i._ydx,
+.ow_NIGHT.ow_DARK ._5c9u{
+   background: #202020 !important;
+}
+
+.ow_NIGHT.ow_DARK #friendly_message_header {
+     background: #202020 !important;
+}
+
+.ow_NIGHT.ow_DARK #notifications_list ._vqv{
+     background: #202020 !important;
+}
+
+/* header buttons for message tab */
+.ow_NIGHT.ow_DARK .touch ._55st:first-child ._5c9u,
+.ow_NIGHT.ow_DARK .touch ._55st:last-child ._5c9u,
+.ow_AMOLED.ow_DARK .touch ._55st:first-child ._5c9u,
+.ow_AMOLED.ow_DARK .touch ._55st:last-child ._5c9u{
+    opacity: 1;
+}
+
+/* header */
+.ow_DARK #friendly_header {
+    display: none !important;
+}
+
+.ow_DARK.ow_AMOLED  .assistant-settings {
+    background: none !important;
+}
+
+.ow_DARK.ow_AMOLED #m_newsfeed_stream ._5gh8._5rgr,
+.ow_DARK.ow_AMOLED form#mbasic_inline_feed_composer {
+    box-shadow: none !important;
+    margin-right: 1px !important;
+}
+
+.ow_DARK.ow_AMOLED .assistant-settings {
+    margin-right: 1px !important;
+}
+
+/* page switcher */
+.ow_DARK #MComposer ._52ja._52jh {
+    display: none;
+}
+
+.ow_DARK #MComposer button[name="voice_switcher"] {
+    margin: auto;
+    display: inline-block;
+}
+
+.ow_DARK #MComposer ._4g34 {
+    text-align: center;
+}
+
+.ow_DARK #MComposer ._4g34 div:first-of-type{
+    display: inline;
+}
+
+/* dark mode border */
+.ow_DARK.ow_AMOLED article._55wo {
+    border: none !important;
+}
+
+.ow_DARK.ow_AMOLED ._55wo {
+     border: none !important;
+}
+
+.ow_DARK.ow_AMOLED #MComposer ._55wo {
+    border: none !important;
+}
+
+.ow_DARK.ow_AMOLED .assistant-settings {
+    border:  none !important;
+}
+
+.ow_DARK.ow_AMOLED div.fr_nat_article {
+    border:  none !important;
+}
+
+.ow_DARK.ow_AMOLED #m_newsfeed_stream ._5gh8._5rgr,
+.ow_DARK.ow_AMOLED form#mbasic_inline_feed_composer,
+.ow_DARK.ow_AMOLED article._5gh8._5rgr,
+.ow_DARK.ow_AMOLED #page ._55wo._gui,
+.ow_DARK.ow_AMOLED ._d2r,
+.ow_DARK.ow_AMOLED .assistant-settings,
+.ow_DARK.ow_AMOLED .touch._fzu .storyStream>.carded,
+.ow_DARK.ow_AMOLED form._29zn {
+    margin: 0 0 26px !important;
+}
+
+.ow_DARK.ow_AMOLED form#mbasic_inline_feed_composer {
+    padding-top: 10px !important;
+}
+
+.ow_DARK.ow_AMOLED ._4prr::after {
+    border: none !important;
+}
+
+.ow_DARK.ow_AMOLED ._4o58::after {
+    box-shadow: none !important;
+}
+
+.ow_DARK.ow_AMOLED ._4_xl {
+    background: #000 !important;
+}
+
+
+/* assistant tablet */
+.ow_DARK .tablet .assistant-settings {
+    border-color: rgba(0, 0, 0, .18);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* composer */
+.ow_DARK #MComposer {
+    margin-top: 20px;
+}
+
+.ow_DARK #MComposer ._6beo ._6ber {
+    border: none;
+    color: #999;
+    letter-spacing: .5px;
+}
+
+/* stories */
+.ow_DARK ._vi6 ._435z {
+    box-shadow: none !important;
+    margin-bottom: 12px !important;
+}
+
+/* navigation */
+.ow_DARK #header._52z5 {
+    position: fixed;
+    top: 0px;
+}
+
+html[data-ow-url*="soft=bookmarks"].ow_DARK #header._52z5 {
+    position: inherit;
+    top: inherit;
+}
+
+html[data-ow-url*="soft=bookmarks"] body {
+    margin-top: 0px !important;
+}
+
+/* message */
+.ow_DARK .acw a[data-store*="messages"] {
+    margin-bottom: 12px;
+}
+
+/* logo header */
+.ow_DARK div[data-sigil="mChromeHeaderCenter"] a[href^="/login/"] i.img{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+/* buttons */
+.ow_DARK .touch ._56bu::before,
+.ow_DARK .touch.wp.x1-5 ._56bu::before,
+.ow_DARK .touch.wp.x2 ._56bu::before {
+    background-color: #627aad !important;
+}

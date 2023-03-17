@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/toolbarLayout" android:layout_width="fill_parent" android:layout_height="@dimen/toolbarHeight" android:minHeight="@dimen/toolbarHeight" android:layout_marginEnd="36.0dip">
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/close" android:background="@drawable/selector_light_theme" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/close" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/back" android:background="@drawable/selector_light_theme" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/back" android:layout_toStartOf="@id/centerLayout" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/centerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/defaultTitleSize" android:textColor="@color/finestBlack" android:ellipsize="end" android:gravity="left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.5dip" android:layout_marginBottom="1.5dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="true" android:layout_marginStart="46.0dip" android:layout_marginEnd="44.0dip" android:letterSpacing="0.05" />
+                <TextView android:textSize="@dimen/defaultUrlSize" android:textColor="@color/finestSilver" android:ellipsize="end" android:gravity="left" android:id="@id/url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.5dip" android:layout_marginBottom="1.5dip" android:maxLines="1" android:singleLine="true" android:layout_marginStart="46.0dip" android:layout_marginEnd="44.0dip" android:letterSpacing="0.05" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/forward" android:background="@drawable/selector_light_theme" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/forward" android:layout_toEndOf="@id/centerLayout" />
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/favorite" android:background="@drawable/selector_light_theme" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_star_border_white_24dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/more" android:background="@drawable/selector_light_theme" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/more" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/finestSilver" android:layout_width="fill_parent" android:layout_height="@dimen/defaultDividerHeight" />
+</LinearLayout>

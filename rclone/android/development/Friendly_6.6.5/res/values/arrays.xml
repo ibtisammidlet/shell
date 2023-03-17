@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="browsers">
+        <item>App Browser</item>
+        <item>Chrome Custom Tabs</item>
+        <item>Default Browser</item>
+    </string-array>
+    <array name="default_dark">
+        <item>@color/colorPrimary</item>
+        <item>@android:color/white</item>
+        <item>@android:color/black</item>
+        <item>@android:color/white</item>
+        <item>#ffda6c6c</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@android:color/black</item>
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+        <item>@color/chevronBgColor</item>
+        <item>#ffda6c6c</item>
+        <item>#ffda6c6c</item>
+        <item>#ffda6c6c</item>
+        <item>#ffda6c6c</item>
+    </array>
+    <array name="default_light">
+        <item>@color/colorPrimary</item>
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+        <item>@android:color/black</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorPrimary</item>
+        <item>@android:color/white</item>
+        <item>@android:color/black</item>
+        <item>@android:color/white</item>
+        <item>@color/chevronBgColor</item>
+        <item>#ffda6c6c</item>
+        <item>#ffda6c6c</item>
+        <item>#ffda6c6c</item>
+        <item>@color/colorPrimary</item>
+    </array>
+    <string-array name="entries_interval">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+    </string-array>
+    <string-array name="entries_interval_lock">
+        <item>Immediately</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+    <string-array name="labels">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+    <string-array name="quiet_hours_values">
+        <item>12 am</item>
+        <item>1 am</item>
+        <item>2 am</item>
+        <item>3 am</item>
+        <item>4 am</item>
+        <item>5 am</item>
+        <item>6 am</item>
+        <item>7 am</item>
+        <item>8 am</item>
+        <item>9 am</item>
+        <item>10 am</item>
+        <item>11 am</item>
+        <item>12 pm</item>
+        <item>1 pm</item>
+        <item>2 pm</item>
+        <item>3 pm</item>
+        <item>4 pm</item>
+        <item>5 pm</item>
+        <item>6 pm</item>
+        <item>7 pm</item>
+        <item>8 pm</item>
+        <item>9 pm</item>
+        <item>10 pm</item>
+        <item>11 pm</item>
+    </string-array>
+    <string-array name="speed_array">
+        <item>0.2x</item>
+        <item>0.5x</item>
+        <item>0.8x</item>
+        <item>1x</item>
+        <item>1.2x</item>
+        <item>1.5x</item>
+        <item>1.8x</item>
+        <item>2x</item>
+        <item>3x</item>
+    </string-array>
+    <array name="theme_colors">
+        <item>@color/facebook</item>
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/blue</item>
+        <item>@color/green</item>
+        <item>@color/green_light</item>
+        <item>@color/yellow</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/downy</item>
+        <item>@color/concrete</item>
+        <item>@color/obscure</item>
+    </array>
+    <integer-array name="values_interval">
+        <item>200</item>
+        <item>300</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>21600</item>
+        <item>43200</item>
+        <item>86400</item>
+    </integer-array>
+    <integer-array name="values_interval_lock">
+        <item>500</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </integer-array>
+</resources>

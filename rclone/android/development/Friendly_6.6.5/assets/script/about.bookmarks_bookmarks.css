@@ -1,0 +1,149 @@
+
+body {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    background: #f4f4f4;
+}
+
+.section {
+    margin-bottom:10px;
+}
+
+.section header {
+    font-size: 14px;
+    font-variant: small-caps;
+    color: #777;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border-top: none !important;
+    padding-top: 10px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.section .entry:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+.section .entry img:nth-of-type(1) {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.section .entry img {
+    width:36px;
+    height:36px;
+    float:left;
+    margin-right:15px;
+}
+.section .entry:active {
+    background-color:#f1f1f1;
+}
+
+.section .entry {
+    font-size : 16px;
+    height:36px;
+    line-height:37px;
+    padding-left: 10px;
+    padding-right:10px;
+    position:relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #777;
+    margin-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.section .entry .badge {
+    background: rgba(234, 84, 68, 0.6);
+    color: white;
+    height: 20px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 30px;
+    float: right;
+    display: inherit;
+    margin-top: 9px;
+    margin-right: 3px;
+    padding: 0px;
+    min-width: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.section .entry .badge.regular {
+    background: rgba(180, 180, 180, 0.4);
+}
+
+.section .entry.friend-request svg {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 19px;
+    fill: #EEE;
+    padding: 0px;
+    margin-left: 4px;
+    background: #888;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+.section img[src^="https://graph.facebook.com/facebook/picture"]{
+    width: 28px;
+    height: 28px;
+    margin-left: 5px;
+    margin-top: 4px;
+    margin-right: 18px;
+}
+
+.ow_BIGFONTS .section .entry {
+    font-size:20px;
+}
+
+.ow_BIGFONTS  .section header {
+    font-size:16px;
+}
+
+/* night bookmark css */
+.ow_NIGHT .section header {
+    color: #ccc !important;
+    border-top: none !important;
+}
+
+.ow_NIGHT .section .entry {
+    color: #aaa !important;
+}
+
+.ow_NIGHT body{
+    background: #101010 !important;
+}
+
+.ow_NIGHT .section .entry:active {
+    background-color: rgba(234,234,234, 0.1) !important;
+}
+
+/* amoled bookmark */
+.ow_AMOLED .section header {
+    color: #ccc !important;
+    border-top: none !important;
+}
+
+.ow_AMOLED .section .entry {
+    color: #aaa !important;
+}
+
+.ow_AMOLED body{
+    background: #000000 !important;
+}
+
+.ow_AMOLED .section .entry:active {
+    background-color: rgba(234,234,234, 0.1) !important;
+}

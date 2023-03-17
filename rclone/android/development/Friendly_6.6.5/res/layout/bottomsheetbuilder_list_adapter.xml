@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/bottomsheet_horizontal_margin" android:paddingRight="@dimen/bottomsheet_horizontal_margin" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/bottomsheet_list_item_height" android:paddingStart="@dimen/bottomsheet_horizontal_margin" android:paddingEnd="@dimen/bottomsheet_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bottomsheet_horizontal_margin" android:layout_marginEnd="@dimen/bottomsheet_horizontal_margin" />
+    <TextView android:textSize="@dimen/bottomsheet_item_textsize" android:textColor="@color/colorSheetText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bottomsheet_horizontal_margin" android:maxLines="1" android:layout_marginStart="@dimen/bottomsheet_horizontal_margin" />
+</LinearLayout>

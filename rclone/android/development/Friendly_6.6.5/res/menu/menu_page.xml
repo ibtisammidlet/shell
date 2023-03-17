@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/menu_person_black" android:id="@id/action_share" android:orderInCategory="1" android:title="@string/share_facebook" app:showAsAction="never" />
+    <item android:icon="@drawable/menu_copy_black" android:id="@id/action_copy" android:orderInCategory="2" android:title="@string/copy_link" app:showAsAction="never" />
+    <item android:icon="@drawable/menu_share_black" android:id="@id/action_share_via" android:orderInCategory="3" android:title="@string/share_via" app:showAsAction="never" />
+    <item android:icon="@drawable/menu_star_black" android:id="@id/action_favorite" android:orderInCategory="4" android:title="@string/favorite_menu" app:showAsAction="never" />
+    <item android:icon="@drawable/menu_browser_black" android:id="@id/action_browser" android:orderInCategory="5" android:title="@string/open_in_browser" app:showAsAction="never" />
+    <item android:icon="@drawable/menu_desktop_black" android:id="@id/action_desktop" android:orderInCategory="6" android:title="@string/desktop_version" app:showAsAction="never" />
+</menu>

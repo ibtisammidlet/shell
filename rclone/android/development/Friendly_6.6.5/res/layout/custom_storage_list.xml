@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/secondary_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/custom_path_header" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/path_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:layout_centerInParent="true">
+                <RelativeLayout android:id="@id/back_button_holder" android:background="@color/chevronBgColor" android:layout_width="50.0dip" android:layout_height="fill_parent">
+                    <ImageButton android:id="@id/back_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_left_white_24dp" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/new_folder_button_holder" android:background="@color/chevronBgColor" android:layout_width="50.0dip" android:layout_height="fill_parent">
+                    <include layout="@layout/layout_new_folder_iv" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/path_chosen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="blahblahblah" android:fontFamily="sans-serif-condensed" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <Button android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:id="@id/select_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        <ListView android:id="@id/storage_list_view" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/ripple" android:divider="@null" android:layout_above="@id/select_button" android:layout_below="@id/custom_path_header" />
+        <ProgressBar android:id="@id/files_loader" android:visibility="invisible" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleHorizontal" />
+        <RelativeLayout android:id="@id/new_folder_view" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_above="@id/select_button">
+            <EditText android:textSize="16.0sp" android:textColor="@android:color/white" android:textColorHint="@color/chevronBgColor" android:id="@id/et_folder_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:maxLines="1" android:singleLine="true" android:maxLength="50" android:layout_centerVertical="true" android:layout_toStartOf="@id/create_folder_button" android:layout_alignParentStart="true" android:backgroundTint="@color/pathLayoutBgColor" />
+            <Button android:textColor="@android:color/white" android:id="@id/create_folder_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/inactive_gradient" android:background="@color/inactiveGradientColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/new_folder_view" android:layout_below="@id/custom_path_header" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/multiple_selection_done_fab" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:fabSize="normal" app:srcCompat="@drawable/ic_check_white_24dp" />
+    </RelativeLayout>
+</FrameLayout>

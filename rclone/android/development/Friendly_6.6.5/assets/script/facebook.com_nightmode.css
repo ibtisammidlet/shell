@@ -1,0 +1,2522 @@
+/* night mode */
+html.ow_NIGHT body,
+html.ow_NIGHT .touch._fzu .mHomeNewsfeed,
+html.ow_NIGHT .touch._fzu .structuredPublisher,
+html.ow_NIGHT .touch._fzu .groupChromeView.feedRevamp,
+html.ow_NIGHT .touch._fzu._2v9s,
+html.ow_NIGHT .touch._fzu ._2v9s,
+html.ow_NIGHT .touch._fzu .wallFilter.fullwidth,
+html.ow_NIGHT .touch._fzu div.fullwidthMore,
+html.ow_NIGHT .touch._fzu #mAjaxLoader,
+html.ow_NIGHT .touch._fzu #mErrorView,
+html.ow_NIGHT ._4_xl,
+html.ow_NIGHT ._5oxw,
+html.ow_NIGHT ._bjn,
+html.ow_NIGHT  .tlBody,
+html.ow_NIGHT #timelineBody,
+html.ow_NIGHT div.timeline,
+html.ow_NIGHT .timelineX,
+html.ow_NIGHT .tlBody,
+html.ow_NIGHT #timelineBody,
+html.ow_NIGHT div.timeline,
+html.ow_NIGHT .timelineX,
+html.ow_NIGHT .timeline .feed,
+html.ow_NIGHT .timeline .tlPrelude,
+html.ow_NIGHT .timeline .tlFeedPlaceholder,
+html.ow_NIGHT .timeline .timelinePublisher,
+html.ow_NIGHT div[data-sigil="timeline-nav"],
+html.ow_NIGHT ._59e9,
+html.ow_NIGHT body.acw{
+    background: #000000 !important;
+}
+
+html.ow_NIGHT #friendly_header span,
+html.ow_NIGHT #friendly_message_header span{
+    opacity: 0.9 !important;
+    color: #dedede !important;
+}
+
+html.ow_NIGHT #friendly_header svg,
+html.ow_NIGHT #friendly_message_header svg,
+html.ow_NIGHT ._vqv._2mlb svg{
+    fill: #dedede !important;
+}
+
+html.ow_NIGHT ._4g33 {
+   background: #000 !important
+}
+
+html.ow_NIGHT ._1_oe {
+    color: #eee !important;
+}
+
+html.ow_NIGHT ._2c_g ._1_oa {
+    border: none;
+}
+
+html.ow_NIGHT ._2p41 {
+    display: none;
+}
+
+html.ow_NIGHT ._55wo,
+html.ow_NIGHT ._15n_,
+html.ow_NIGHT ._2zh4,
+html.ow_NIGHT ._15ks,
+html.ow_NIGHT .acw,
+html.ow_NIGHT #threadlist_rows .acw,
+html.ow_NIGHT ._1p70,
+html.ow_NIGHT ._51v6,
+html.ow_NIGHT ._1ih_,
+html.ow_NIGHT ._484w,
+html.ow_NIGHT ._kr5,
+html.ow_NIGHT ._3ils,
+html.ow_NIGHT ._2c_g ._bmx,
+html.ow_NIGHT ._bjg,
+html.ow_NIGHT ._1ha,
+html.ow_NIGHT ._10c_ ._2jl2,
+html.ow_NIGHT ._3f50,
+html.ow_NIGHT ._4e8n,
+html.ow_NIGHT ._f6s,
+html.ow_NIGHT ._29zn ._2l5v{
+    background: #000000 !important;
+    color: #ccc !important;
+    border: none !important;
+}
+
+html.ow_NIGHT .acw,
+html.ow_NIGHT #threadlist_rows .acw {
+    background: #000000 !important;
+}
+
+html.ow_NIGHT ._1ih_,
+html.ow_NIGHT ._484w{
+    border: none !important;
+}
+
+html.ow_NIGHT .blueName {
+    color: #aaa !important;
+}
+
+html.ow_NIGHT ._26vk._56bu._54k8,
+html.ow_NIGHT ._56bt,
+html.ow_NIGHT ._56bt ._58gn,
+html.ow_NIGHT a._56bt {
+    background: #000000 !important;
+    color: #ccc !important;
+}
+
+html.ow_NIGHT ._26vk._56bu._54k8 {
+    border: 1px solid {baseColor} !important;
+}
+
+html.ow_NIGHT ._1j-f {
+    color: #ccc !important;
+}
+
+html.ow_NIGHT .touch ._4_xl div._51v6::before,
+html.ow_NIGHT .touch ._2s21>*::after {
+    background: none;
+    border: none !important;
+}
+
+html.ow_NIGHT ._4q7a {
+    color: #ccc !important;
+}
+
+html.ow_NIGHT .aclb {
+    background: #222 !important;
+    border: none;
+}
+
+html.ow_NIGHT ._vqv {
+    background: #000000;
+    color: #aaa !important;
+}
+
+html.ow_NIGHT .acg {
+    background: none !important;
+    opacity: 0.8;
+}
+
+html.ow_NIGHT ._3z10 {
+    color: #aaa !important;
+}
+
+html.ow_NIGHT .abt {
+    border-top: none !important;
+}
+
+html.ow_NIGHT ._5c9u {
+    background: none !important;
+}
+
+html.ow_NIGHT form#mbasic_inline_feed_composer,
+html.ow_NIGHT ._15n_,
+html.ow_NIGHT #m_newsfeed_stream ._5gh8 ._15ks:last-child,
+html.ow_NIGHT ._5gh8 ._15ks+._4u3j {
+    border-top: none;
+}
+
+html.ow_NIGHT ._8l7 {
+    opacity: 0.4 !important;
+}
+
+html.ow_NIGHT ._1g05 {
+    background-color: transparent !important;
+}
+
+html.ow_NIGHT ._24u0,
+html.ow_NIGHT ._391s,
+html.ow_NIGHT ._5j35,
+html.ow_NIGHT .touch a, .touch .btn.btnD,
+html.ow_NIGHT .touch .btn.btnC.bgb,
+html.ow_NIGHT .touch .btn.btnI, .tlUnit .tlName,
+html.ow_NIGHT .fcl {
+    color: {baseAccentColor} !important;
+    opacity: 1 !important;
+}
+
+html.ow_NIGHT ._24u1 {
+    color: #999 !important;
+}
+
+html.ow_NIGHT ._52jb {
+    color: #bbb !important;
+}
+
+html.ow_NIGHT ._d4i {
+   background: transparent !important;
+   border: none !important;
+}
+
+html.ow_NIGHT body {
+    color: #c0c0c0 !important;
+}
+
+html.ow_NIGHT ._1n8h ._1oby,
+html.ow_NIGHT ._5f99{
+    border: none;
+}
+
+html.ow_NIGHT ._1hc {
+    color: #ccc;
+    text-shadow: none;
+}
+
+html.ow_NIGHT ._1hb:before {
+    display: none;
+}
+
+html.ow_NIGHT ._2t39 {
+    display: none;
+}
+
+html.ow_NIGHT ._5187._5187 {
+    margin-top: 0px;
+}
+
+html.ow_NIGHT ._15ks:last-child, ._15ks+._4u3j {
+    border-radius: 0px;
+}
+
+html.ow_NIGHT ._5c4t ._1g06 {
+    color: #dedede;
+    position: relative;
+    top: 2px;
+    left:1px;
+}
+
+html.ow_NIGHT .touched {
+    color: #eee !important;
+    background: #666 !important;
+}
+
+html.ow_NIGHT ._4prr::after {
+    border: none !important;
+}
+
+html.ow_NIGHT ._4o58::after {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+}
+
+html.ow_NIGHT ._56bt {
+    text-shadow: none;
+}
+
+html.ow_NIGHT ._t21{
+    background: none !important;
+    border: none !important;
+}
+
+html.ow_NIGHT ._5ecn {
+    background: #000000;
+    border: none;
+}
+
+html.ow_NIGHT ._uww {
+    border-radius: 2px;
+}
+
+html.ow_NIGHT a._55i1{
+    color: #999 !important;
+}
+
+html.ow_NIGHT ._15n_ {
+   padding: 7px !important;
+}
+
+html.ow_NIGHT ._5c0f .touch a {
+    color: #999;
+}
+
+html.ow_NIGHT ._4nwe,
+ html.ow_NIGHT ._3_8a{
+    color: #dedede !important;
+}
+
+html.ow_NIGHT ._ir5, html.ow_NIGHT ._4nw6, html.ow_NIGHT ._4nwh, html.ow_NIGHT ._27ve,
+ html.ow_NIGHT ._3to6,
+ html.ow_NIGHT ._4nw8{
+    border: none !important;
+}
+
+html.ow_NIGHT ._44qk {
+    border: none !important;
+}
+
+/* messaging + textarea */
+
+html.ow_NIGHT ._uww{
+    background: #000 !important;
+    border-radius: 2px;
+    border: none;
+    padding: 0px;
+}
+
+html.ow_NIGHT .mentions {
+    background: transparent !important;
+    padding: 0px !important;
+    border-radius: 2px !important;
+    overflow: hidden;
+}
+
+html.ow_NIGHT .mentions-input {
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+    padding: 4px !important;
+}
+
+html.ow_NIGHT .mentions-shadow,
+ html.ow_NIGHT .mentions-measurer{
+    display: none !important;
+}
+
+html.ow_NIGHT ._uww .mentions-placeholder {
+    color: #eee !important;
+    background: #000;
+    box-shadow: none;
+    border: none;
+    padding: 5px !important;
+}
+
+html.ow_NIGHT textarea {
+    background: #000000 !important;
+    border-radius: 2px;
+    padding: 4px !important;
+    color: #eee;
+}
+
+html.ow_NIGHT textarea:focus {
+    border: solid 1px {baseColor} !important;
+}
+
+html.ow_NIGHT ._52t1 {
+   color: #eee;
+   border: none !important;
+}
+
+html.ow_NIGHT ._52t1:focus {
+   border: solid 1px {baseColor} !important;
+}
+
+/* article card */
+html.ow_NIGHT ._4o58 {
+    background: #000 !important;
+}
+
+/* Facebook help and param */
+html.ow_NIGHT ._3bg5 ._53_-,
+html.ow_NIGHT ._3bg5 ._52x1{
+    background: #000000;
+    border: none !important;
+    color: #eee !important;
+}
+
+html.ow_NIGHT ._3bg5 ._52x6 {
+    border: none !important;
+}
+
+/* discover group */
+html.ow_NIGHT ._2ol- {
+    background: #000000 !important;
+    border: none;
+}
+
+html.ow_NIGHT ._2om3 {
+    background-color: #000000;
+    border: none !important;
+}
+
+html.ow_NIGHT ._2om4 {
+    border: none !important;
+    color: #eee !important;
+}
+
+html.ow_NIGHT ._55wm {
+    background: #000000;
+}
+
+html.ow_NIGHT ._5c5b,
+html.ow_NIGHT ._5c58._5c5f ._5c5b {
+    background: #000000;
+    border: none !important;
+    color: #eee !important;
+}
+
+html.ow_NIGHT ._4o58 {
+    background: #000000 !important;
+}
+
+/* friends page */
+html.ow_NIGHT ._4_d0 {
+    background-color: #000000;
+}
+
+html.ow_NIGHT ._4_d0 ._4_d1 {
+    text-shadow: none;
+     border: none !important;
+}
+
+html.ow_NIGHT .al {
+    border: none;
+    text-shadow: none;
+    background: #000000 !important;
+    margin-top: 10px;
+}
+
+html.ow_NIGHT ._58x8 input {
+    padding: 5px;
+    font-size: 16px;
+    padding-left: 26px;
+    border-radius: 2px 0px 0px 2px;
+}
+
+html.ow_NIGHT ._5kgn ._52lz,
+html.ow_NIGHT ._52ly ._52lz {
+    color: #eee !important;
+}
+
+html.ow_NIGHT .touch.x2 ._4_d0 ._4_d1 {
+    box-shadow: none;
+}
+
+html.ow_NIGHT .touch.x2 ._4_d0 ._4_d1:last-child {
+    box-shadow: none;
+}
+
+html.ow_NIGHT .touch.x2 ._4_d0 ._4_d1:first-child {
+    box-shadow: none;
+}
+
+
+/* filter post + highlight */
+html.ow_NIGHT .highlight-post.hidden {
+    color: #bbb !important;
+    margin-bottom: 10px;
+    background: transparent !important;
+    border: none !important;
+}
+
+html.ow_NIGHT #m_newsfeed_stream .ow_highlighted_found ._5rgt{
+    color: #dedede !important;
+}
+
+html.ow_NIGHT #m_newsfeed_stream ._5gh8._5rgr.ow_highlighted_found {
+    border: 3px solid  {baseColor} !important;
+}
+
+html.ow_NIGHT .highlight-post {
+    color: {baseColor};
+}
+
+html.ow_NIGHT .highlight-post svg {
+    fill: {baseColor};
+}
+
+/* comments on post */
+html.ow_NIGHT #m_newsfeed_stream div[data-sigil^="ufi-inline-actions"] {
+    border: none !important;
+}
+
+html.ow_NIGHT ._4u3j {
+    background: #000 !important;
+    color: #dedede !important;
+}
+
+html.ow_NIGHT #m_newsfeed_stream ._5gh8 ._15ks:last-child,
+html.ow_NIGHT ._5gh8 ._15ks+._4u3j {
+    border-top: solid 0px #555;
+}
+
+html.ow_NIGHT ._5wbp, html.ow_NIGHT ._2tbu {
+    color: #aaa !important;
+}
+
+/* background Send Message for FB page */
+html.ow_NIGHT ._u2c {
+    background-color: #000000;
+}
+
+html.ow_NIGHT .fcb {
+    color: #dedede;
+}
+
+/* filtered words */
+html.ow_NIGHT mark.ow_highlighted, html.ow_NIGHT mark.ow_filtered  {
+    color: {baseColor} !important;
+}
+
+/* recommandations background */
+html.ow_NIGHT ._35au {
+    background: none !important;
+}
+
+/* profile background */
+html.ow_NIGHT ._1n8h ._1oby {
+    background: #000 !important;
+}
+
+/*profile sharing*/
+html.ow_NIGHT .composerLinkText {
+    color: #eee !important;
+}
+
+html.ow_NIGHT ._37fd .inlineComposerButton {
+    border: none !important;
+}
+
+html.ow_NIGHT ._37fd {
+    border-bottom: 1px solid #444 !important;
+}
+
+html.ow_NIGHT ._37fd .redesignStatusButton::before, html.ow_NIGHT ._37fd .redesignStatusButton::after {
+    display: none !important;
+}
+
+html.ow_NIGHT ._3hwk._15kl ._5a-2 {
+    padding: 8px 8px 8px 8px;
+}
+
+/* people who likes a post */
+html.ow_NIGHT ._1aj4, html.ow_NIGHT ._5p-6 {
+    border: none !important;
+}
+html.ow_NIGHT ._4mo {
+    color: #dedede !important;
+}
+
+/* page */
+html.ow_NIGHT .touch ._5m5s {
+    border: none !important;
+}
+html.ow_NIGHT #root._953 {
+    background: #000 !important;
+}
+
+/* POST AMOLED UI */
+html.ow_NIGHT ._55wo {
+    background: #000 !important;
+    border: none !important;
+    border-radius: 2px !important;
+    margin-left: 0px !important;
+    margin-right: 1px !important;
+}
+html.ow_NIGHT ._15n_, html.ow_NIGHT ._15ks {
+    background: #000 !important;
+}
+html.ow_NIGHT ._41ft {
+    background: #000;
+}
+html.ow_NIGHT ._41ft::after, ._41fz::after {
+    border: none;
+}
+
+/* native ads */
+html.ow_NIGHT div.fr_nat_article {
+    background: #000 !important;
+    border: none !important;
+    margin-left: 0px;
+    margin-right: 2px;
+    border-radius: 2px;
+}
+html.ow_NIGHT .fr_nat_banner > img {
+    border: none !important;
+}
+html.ow_NIGHT .fr_nat_title {
+    color: #bbbbbb;
+}
+html.ow_NIGHT .fr_nat_bodywrapper {
+    border: 1px solid #252525;
+}
+html.ow_NIGHT #m_newsfeed_stream ._5gh8._5rgr,
+html.ow_NIGHT form#mbasic_inline_feed_composer {
+    box-shadow: none !important;
+    margin-right: 1px !important;
+}
+html.ow_NIGHT ._3zl8:not(._3zl9),
+html.ow_NIGHT ._3zla {
+    color: #bbbbbb
+}
+html.ow_NIGHT .fr_nat_cta{
+    background: #555555;
+    border: #777777;
+    color: #aaaaaa;
+    text-shadow: none;
+    padding-top: 1px;
+}
+
+/* suggested events */
+html.ow_NIGHT ._31nf{
+    box-shadow: none;
+    border: 1px solid #252525;
+    border-radius: 2px;
+}
+html.ow_NIGHT ._31nf::after{
+    border: none !important;
+}
+
+/* post */
+html.ow_NIGHT ._4g33{
+    background: #000 !important;
+}
+html.ow_NIGHT ._94v{
+    box-shadow: none !important;
+}
+
+/* header*/
+html.ow_NIGHT ._9drh,
+html.ow_NIGHT div[data-sigil="MTopBlueBarHeader"],
+html.ow_NIGHT .chromeBar.acb,
+html.ow_NIGHT div[data-sigil="composer-header"],
+html.ow_NIGHT div[data-sigil="place-header"],
+html.ow_NIGHT #mDialogHeader,
+html.ow_NIGHT ._451a._52z5,
+html.ow_NIGHT #page>#header,
+html.ow_NIGHT ._52z5 {
+    background: #000 !important;
+}
+
+html.ow_NIGHT ._9drh {
+    border-bottom: 1px solid #444 !important;
+    border-top: 1px solid #444 !important;
+}
+
+html.ow_NIGHT ._9dr8._9dr8 {
+	color: #bbb;
+}
+
+html.ow_NIGHT .touch ._2-xr ._1e3a{
+    color: #bbb;
+}
+
+html.ow_NIGHT article._55wo {
+    border: none !important;
+}
+
+html.ow_NIGHT #MComposer ._55wo {
+    border: none !important;
+}
+
+/* upload picture */
+html.ow_NIGHT ._5cqb {
+    background: #000 !important;
+}
+
+/* page color update */
+html.ow_NIGHT ._4q77,
+html.ow_NIGHT ._4q77 a,
+html.ow_NIGHT .touch ._4q77 a,
+html.ow_NIGHT ._3oyg{
+    color: #eee !important;
+}
+
+/* header composer */
+html.ow_NIGHT ._52ja{
+    color: #bbb !important;
+}
+
+html.ow_NIGHT textarea::-webkit-input-placeholder {
+    color: #eee !important;
+}
+
+/* FB bookmarks */
+html.ow_NIGHT ._41ft {
+    background: #000 !important;
+    box-shadow: none !important;
+}
+
+html.ow_NIGHT .touch ._2boi ._2boj {
+    color: #ccc !important
+}
+
+/* one page */
+html.ow_NIGHT ._2--0 {
+    color: #888;
+}
+
+html.ow_NIGHT ._2--1 {
+    border: none !important;
+}
+
+html.ow_NIGHT ._4unb ._46pa {
+    color: #aaa;
+}
+
+html.ow_NIGHT .touch ._vee {
+    background: #000 !important;
+}
+
+html.ow_NIGHT .touch ._4gj3 {
+    background:#000 !important;
+    border-bottom: 1px solid transparent;
+}
+
+html.ow_NIGHT .touch ._1f9d,
+html.ow_NIGHT .touch ._3tap {
+     background:#000000 !important;
+     border-bottom: 1px solid transparent;
+}
+
+html.ow_NIGHT ._5xuj, ._1sv1 {
+    background: #000 !important;
+    border-bottom: 1px solid #555 !important;
+}
+
+html.ow_NIGHT .touch ._45fu ._5w3g,
+html.ow_NIGHT .touch ._45fu ._18qg ._1_ac{
+    background: #000 !important;
+}
+
+html.ow_NIGHT .img.profpic{
+    background-color: #000 !important;
+}
+
+html.ow_NIGHT .touch ._45fu ._18qg ._1_ac {
+    background-color: #000 !important;
+}
+
+html.ow_NIGHT .touch ._1kmv:after {
+    background-color: #555;
+}
+
+html.ow_NIGHT ._5w3i {
+   color: #bbb !important;
+}
+
+html.ow_NIGHT .touch ._45fu ._18qg ._1_ac:before {
+    background-color: #444;
+}
+
+/* page */
+html.ow_NIGHT .touch ._5i-y {
+    margin: 0px;
+}
+
+html.ow_NIGHT .touch ._4gj2 div._5y57::before {
+    background: #000000;
+}
+
+html.ow_NIGHT .touch ._59f6._55so::before {
+    background: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+html.ow_NIGHT .mQuestionsPollResultsBar {
+    border-color: #666;
+    background-color: #444;
+}
+
+html.ow_NIGHT .mQuestionsPollResultsBar .shaded {
+     background-color: #777;
+     border: solid 1px #bbb;
+}
+
+/* iOS Build 06/07/2017 - icon */
+html.ow_NIGHT .sp_RCDqVp9uRgZ_2x,
+html.ow_NIGHT .sp_RCDqVp9uRgZ_3x,
+html.ow_NIGHT .sp_GsKE78BnToM_3x,
+html.ow_NIGHT .sp_FbewGDOva-v_3x{
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+html.ow_NIGHT .sp_bQxh2FZYb19_3x,
+html.ow_NIGHT .sp_bQxh2FZYb19_3x.sx_b3fe36 {
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/*
+html.ow_NIGHT div[data-sigil^="m-add-friend-flyout"]  {
+    display: none;
+}*/
+
+/* like btn */
+html.ow_NIGHT ._4b46._15km ._15ko::before{
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+/* comment btn */
+html.ow_NIGHT ._4b46._15km ._15kq::before{
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+/* Share btn */
+html.ow_NIGHT ._4b46._15km ._15ko::before,
+html.ow_NIGHT ._4b46._15km ._15ko._2q8z::before,
+html.ow_NIGHT ._4b46._15km ._15kr::before{
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+html.ow_NIGHT ._5aqx {
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.6;
+}
+
+/* page / message */
+html.ow_NIGHT #MRoot {
+    background: #000;
+}
+
+html.ow_NIGHT #messageGroup,
+html.ow_NIGHT #messageGroup ._4g33{
+    background: #000 !important;
+}
+
+html.ow_NIGHT .acr {
+    background-color: #666;
+    color: #f3ccc1;
+    border: none;
+}
+
+/* search input */
+html.ow_NIGHT #messages_search_box input._5whq {
+    background: #333 !important;
+    color: white !important;
+    border-color: #555 !important;
+}
+html.ow_NIGHT #messages_search_box .btn.btnD {
+    color: #666 !important;
+    background: none !important;
+}
+
+/* composer */
+html.ow_NIGHT ._8l7 .img {
+    -webkit-filter: brightness(0) invert(1);
+    opacity:0.9;
+}
+
+/* shield */
+html.ow_NIGHT #friendly_header svg.shield,
+html.ow_NIGHT #friendly_header svg.close{
+    fill: #555 !important;
+}
+
+html.ow_NIGHT ._50ch ._2sr {
+     -webkit-filter: brightness(0) invert(1);
+     opacity:0.9;
+}
+
+/* seach page */
+html.ow_NIGHT #root.acw {
+    background: #000 !important;
+}
+
+html.ow_NIGHT .acg.apm.abb {
+    border: none !important;
+}
+
+html.ow_NIGHT #search_div input._5whq {
+    background: #222 !important;
+    color: white !important;
+    border-color: #555 !important;
+}
+
+html.ow_NIGHT ._60n7:not(:first-child) ._u2d {
+    background: #000000 !important;
+    border-color: #000000 !important;
+}
+
+/* ads */
+html.ow_NIGHT div.fr_nat_article > header {
+    border: none !important;
+}
+
+/* header post */
+html.ow_NIGHT ._5rgs {
+    border-bottom: none;
+}
+
+/* new bottom div for article */
+html.ow_NIGHT ._32l5 {
+    background: #000 !important;
+    color: white !important;
+}
+
+html.ow_NIGHT ._2rbw,
+html.ow_NIGHT .touch ._2rbw ._41nw {
+    color: #ccc !important;
+}
+
+html.ow_NIGHT ._5zgx {
+     color: #aaa !important;
+}
+
+html.ow_NIGHT ._2eo-._4b44 {
+    color: #999 !important;
+}
+
+/* 3 dots button */
+html.ow_NIGHT div[data-sigil="story-popup-causal-init"] .img,
+html.ow_NIGHT div[data-sigil^="story-popup-causal"] .img,
+html.ow_NIGHT div[data-sigil*="flyout-causal"]._4q31 .img {
+    opacity: 0.5;
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* local event discovering page */
+html.ow_NIGHT .touch ._1440 {
+    color: #ddd;
+}
+
+html.ow_NIGHT .touch ._1442 {
+    color: #999;
+}
+
+html.ow_NIGHT ._pfn ._pfo::before {
+    border-left: 1px solid #555;
+}
+
+html.ow_NIGHT .touch ._2s1_:before,
+html.ow_NIGHT .touch ._143z::before,
+html.ow_NIGHT .touch ._143z::after {
+    border-top: 1px solid #555;
+}
+
+html.ow_NIGHT ._2s20 {
+    border-bottom: 1px solid #555 !important;
+    border-top: 1px solid #555 !important;
+    display: block;
+    margin: 0 0 15px;
+}
+
+html.ow_NIGHT .touch ._lr0 ._5kqs ._55sr {
+    color: #fff;
+}
+
+html.ow_NIGHT .touch ._lr0 ._5kqs::after {
+    border-bottom: 2px solid #ffffff;
+}
+
+html.ow_NIGHT .touch ._38nq {
+    background: transparent;
+}
+
+html.ow_NIGHT #mEventsDashboard {
+    background: #000 !important;
+}
+
+html.ow_NIGHT #mEventsDashboard ._55wo {
+    background: #000 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+/* new CSS on event page */
+html.ow_NIGHT #mEventsDashboard ._cwy,
+html.ow_NIGHT #mEventsDashboard ._5_z0,
+html.ow_NIGHT #mEventsDashboard ._5_z1,
+html.ow_NIGHT #mEventsDashboard ._5_z2,
+html.ow_NIGHT #mEventsDashboard ._1rfn ._1rfk ._4vc-,
+html.ow_NIGHT #mEventsDashboard ._5_z3{
+    background: #000000;
+}
+
+html.ow_NIGHT ._31nf {
+    background: #000000;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+html.ow_NIGHT ._31nf::after {
+    border: 1px solid rgba(0, 0, 0, .8);
+    border-color: #888;
+    border-radius: 4px;
+}
+
+html.ow_NIGHT #mEventsDashboard .touch a._5_z5 {
+    color: #fff !important;
+}
+
+html.ow_NIGHT .touch ._2k4b {
+    border-left: 1px solid #666;
+}
+
+html.ow_NIGHT #mEventsDashboard h3._52jb {
+    color: #ddd !important;
+}
+
+/* new CSS for description page event */
+html.ow_NIGHT .touch ._51-g {
+    background: #000000 !important;
+}
+
+html.ow_NIGHT .touch ._31y8 {
+    color: #fff !important;
+}
+
+html.ow_NIGHT .touch ._5ro_ {
+    color: #fff !important;
+}
+
+html.ow_NIGHT #mEventsDashboard .touched {
+    color: #eee !important;
+    background: #555 !important;
+}
+
+/* old build upcoming event */
+html.ow_NIGHT .touch ._5d19 {
+    color: #888;
+}
+
+html.ow_NIGHT ._5fjv>:first-child,
+html.ow_NIGHT ._5fjw>:first-child,
+html.ow_NIGHT ._5fjw>div {
+    border-bottom: 1px solid #666;
+}
+
+html.ow_NIGHT .touch ._590n {
+    background: #555;
+}
+
+/* publication photo new build */
+html.ow_NIGHT .mFuturePageHeader ._4g33 {
+    background: none !important;
+}
+
+html.ow_NIGHT .touch ._195r {
+    position: relative;
+    background: #000000;
+}
+
+/* sponsored ads know more */
+html.ow_NIGHT ._17pf._4x8w,
+html.ow_NIGHT .touch ._17pf._4x8w {
+    border: 1px solid #999;
+    color: #999;
+}
+
+/* search input for friends of friends */
+html.ow_NIGHT .touch .textInputArea .input.inputWrapper .input {
+    color: #ddd;
+}
+
+/* see more contact */
+html.ow_NIGHT footer._1mx0 {
+    border: none;
+    background: #000000 !important;
+}
+
+html.ow_NIGHT ._4g33._52we._5fjk._55so._5i-i._ydx {
+    background: #000000;
+}
+
+html.ow_NIGHT  ._4g33._52we._5fjk._55so._5i-i._ydx::before {
+    background: #000000;
+}
+
+/* styling input for messages pages */
+html.ow_NIGHT #messages_search_box{
+    background: #000000 !important;
+}
+
+/* div conversation */
+html.ow_NIGHT div[data-sigil^="m-messaging-composer"] ._4g33 {
+    background: #000000 !important;
+}
+
+/* notification header */
+html.ow_NIGHT #notifications_list {
+    background: #000000 !important;
+}
+
+/* conversation smiley picker */
+html.ow_NIGHT button._5ecn._1n29._2fv6 .img{
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.6;
+}
+
+html.ow_NIGHT #root {
+    background: #000 !important;
+}
+
+/* new message button/form */
+html.ow_NIGHT .touch ._59tu {
+    background: transparent !important;
+}
+
+html.ow_NIGHT .touch .input._59tw {
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+    background: #444;
+    color: white;
+    padding-left:3px;
+}
+
+html.ow_NIGHT ._59tt {
+    background: #444;
+    border: none;
+    padding-top: 2px;
+}
+
+html.ow_NIGHT ._5hu6 {
+    border: none;
+}
+
+html.ow_NIGHT ._5jby .img {
+    opacity: 0.8;
+}
+
+html.ow_NIGHT form[action^="/messages/send/"] ._5hua {
+    background: #444;
+    background-color: #333;
+    border:none;
+}
+
+/* search box */
+html.ow_NIGHT ._13e_ {
+    background: transparent;
+}
+
+html.ow_NIGHT ._5-lx {
+    background: #555;
+    color: #fff;
+}
+
+html.ow_NIGHT ._1t4h {
+    background: transparent;
+    border-bottom: none;
+    height: 44px;
+}
+
+html.ow_NIGHT .touch ._uoq {
+    background: transparent;
+}
+
+html.ow_NIGHT .touch ._3o0d:after {
+    display: none;
+}
+
+html.ow_NIGHT .touch ._45fu ._18qg ._1_ac:after {
+    display: none;
+}
+
+html.ow_NIGHT ._3g9- {
+    background-color: transparent;
+    border: none;
+    color: #eee;
+}
+
+/* notification touched */
+html.ow_NIGHT .touchable-notification .touchable.touched {
+    background-color: #555
+}
+
+/* page showcase */
+html.ow_NIGHT ._3sos,
+html.ow_NIGHT ._1_3f,
+html.ow_NIGHT ._4p54{
+    border: none !important;
+}
+
+
+/* border for external link/share */
+html.ow_NIGHT ._3q6s {
+    border-left: 2px solid #777777 !important;
+}
+
+/* sharing album from feed */
+html.ow_NIGHT ._1gkq {
+    background: #333 !important;
+    border: none !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    color: #eee !important;
+}
+
+html.ow_NIGHT ._1gkr {
+    color: #eee !important;
+}
+
+/* comments - more button */
+html.ow_NIGHT ._3uqf {
+    border: 1px solid #444;
+    border-radius: 3px;
+}
+
+/* interested button for feed event */
+html.ow_NIGHT .story_body_container ._4kcb {
+    color: #ddd !important;
+    border-color: #ddd !important;
+}
+
+/* share friendship */
+html.ow_NIGHT ._2lut,
+html.ow_NIGHT ._8he{
+    border-color: #555;
+}
+
+/* message button page */
+html.ow_NIGHT ._60n8:not(:first-child) ._u2d {
+    background-color: #555;
+    border: 1px solid #555;
+}
+
+/* page/profile picture */
+html.ow_NIGHT ._1p78 i {
+    border: 2px solid #555;
+    border-radius: 3px;
+}
+
+/* message touched */
+html.ow_NIGHT #threadlist_rows ._25mv.touched {
+    background: #202020 !important;
+}
+
+/* share article for home feed */
+html.ow_NIGHT ._ib- {
+    background-color: #202020;
+    color: #7f7f7f;
+}
+
+html.ow_NIGHT .sharerAttachment {
+    background: transparent;
+    border: 1px solid #444;
+}
+
+html.ow_NIGHT .sharerBottomWrapper {
+    background-color: transparent;
+}
+
+html.ow_NIGHT .sharerAttachmentEmpty {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+html.ow_NIGHT .sharerPrivacyBar i.img {
+     -webkit-filter: brightness(0) invert(1);
+     opacity: 0.8;
+}
+
+/* profile composer */
+html.ow_NIGHT .touch ._37fd ._2jgw {
+    border: none !important;
+}
+
+html.ow_NIGHT .touch ._37fc ._25nt.largeStatusBox .placeHolder {
+    color: #999;
+}
+
+html.ow_NIGHT .inlineComposer ._37fd {
+    border: none !important;
+}
+
+/* End of the Feed */
+html.ow_NIGHT .end-ow.reload-feed {
+    background: #000000;
+    color: #999;
+    box-shadow: none !important;
+    border: 1px solid #555;
+}
+
+html.ow_NIGHT .end-ow.reload-feed svg {
+    fill: #aaaaaa
+}
+
+/* photo from profile page */
+html.ow_NIGHT .touch .designUpdate .timeline.albums .item .title,
+html.ow_NIGHT .touch .designUpdate .timeline.albums .item .mCount,
+html.ow_NIGHT .touch .designUpdate .labelContainer .al.letterpress {
+    color: #eeeeee !important;
+}
+
+html.ow_NIGHT ._2tsf {
+    background: rgba(25, 25, 25, .7);
+}
+
+/* quick return on page for watching video */
+html.ow_NIGHT  ._fls,
+html.ow_NIGHT  ._flt {
+    background-color: #000000;
+    border-top: solid 1px #444;
+}
+
+/* popup background */
+html.ow_NIGHT ._5c0e {
+    background: #333333;
+}
+
+html.ow_NIGHT  div[data-sigil*="storyFlyout"] ._52jb {
+    color: #bbb !important;
+}
+
+html.ow_NIGHT ._5bo1 ._5bn_ {
+    filter: invert(79%);
+}
+
+html.ow_NIGHT .x2 ._58a0~._58a0:before {
+    border-bottom: 1px solid #777;
+    background: none !important;
+}
+
+/* sponsored post */
+html.ow_NIGHT .touch._fzu .storyStream>.carded._29d0._122m {
+    background: #000000 !important;
+}
+
+html.ow_NIGHT .touch._fzu .storyStream>.carded._29d0._122m .img{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+html.ow_NIGHT .touch ._5qfc {
+    border-top: none;
+}
+
+html.ow_NIGHT .touch ._5qfc ._5qfl {
+    background-color: #000000;
+    border: solid 1px #202020;
+    border-radius: 2px;
+}
+
+html.ow_NIGHT .touch ._5qfc ._5sci {
+    border-right: none;
+}
+
+/* search page */
+html.ow_NIGHT ._13e_ {
+    border: none !important;
+}
+
+html.ow_NIGHT div[data-nt*="FB:BORDER"],
+html.ow_NIGHT div[data-nt*="NT:BOX"] {
+    background: transparent !important;
+}
+
+/* search page color title */
+html.ow_NIGHT div[data-nt*="FB:TEXT4"] {
+   color: #bbb !important;
+}
+
+/* sponsored products shown */
+html.ow_NIGHT ._3oy9 {
+    border: none
+}
+
+html.ow_NIGHT ._3oyh {
+    color: #666;
+}
+
+/* new build -> comment section on page */
+html.ow_NIGHT .async_composer._2a_g ._10pt:first-child+._5ru3 {
+    border: none !important;
+}
+
+html.ow_NIGHT ._333v,
+html.ow_NIGHT ._2b03 {
+    background: none !important;
+}
+
+html.ow_NIGHT ._45kb>div {
+    border: none !important;
+    background: none !important;
+}
+
+html.ow_NIGHT ._2b06 {
+    background-color: #000;
+    border: 2px solid #444;
+}
+
+html.ow_NIGHT ._14v5 ._14v8,
+html.ow_NIGHT ._14v5._14v5 ._14v8 {
+    background: #444;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0 #000;
+}
+
+html.ow_NIGHT ._65wz {
+    background: transparent;
+}
+
+/* reactions on comment section */
+html.ow_NIGHT ._4edl {
+    background: none !important;
+}
+
+/* events page */
+html.ow_NIGHT ._15q7 {
+    border: 1px solid #444;
+    background: #000 !important;
+}
+
+html.ow_NIGHT ._cw4,
+html.ow_NIGHT ._5_y-,
+html.ow_NIGHT ._5_y_ {
+    background: #000;
+}
+
+html.ow_NIGHT ._1rfk,
+html.ow_NIGHT ._1rfk ._2v9s {
+    background: #101010;
+}
+
+/* floating create event button */
+html.ow_NIGHT .touch ._v89 ._54k8._1fl1 {
+    background: #444 !important;
+}
+
+/* event titles */
+html.ow_NIGHT ._5_z0,
+html.ow_NIGHT ._5_z2 {
+    color: #fff;
+}
+
+/* event calendar tab */
+html.ow_NIGHT ._2066 {
+    background: #000 !important;
+    border: none;
+}
+
+html.ow_NIGHT ._2mtc {
+    background: #000 !important;
+    color: #aaa;
+}
+
+html.ow_NIGHT ._2066 {
+    color: #aaa;
+}
+
+html.ow_NIGHT ._mEventsDashboardCalendarable__birthdayCake {
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.9;
+}
+
+html.ow_NIGHT ._1bhl {
+    background: #000 !important;
+}
+
+/* hosting event tab */
+html.ow_NIGHT ._cv_ {
+    background-color: transparent !important;
+    color: #aaa;
+}
+
+html.ow_NIGHT ._1hiz {
+    background: #000;
+    color: #fff;
+}
+
+/* page discovering */
+html.ow_NIGHT ._27vp {
+    color: #eee;
+}
+
+/* friends tab */
+html.ow_NIGHT ._58x8 input {
+    background: #000;
+    color: #bbb;
+}
+
+/* search friend box */
+html.ow_NIGHT #friends_center_search_box i.img{
+    -webkit-filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+html.ow_NIGHT .touch ._50pc ._5v5f {
+    background-color: transparent;
+    border-top: 2px solid #444;
+}
+
+/* browse groups */
+html.ow_NIGHT ._59e9._55wr {
+    background: none !important;
+}
+
+/* browse groups discover */
+html.ow_NIGHT #group-discover-lading-column ._2om3 {
+    background-color: #000 !important;
+}
+
+html.ow_NIGHT ._2om5 {
+    border: none !important;
+    padding-bottom: 20px;
+}
+
+/* comment page -> edit buttons */
+html.ow_NIGHT .x2 ._55i0 ._58a0~._58a0:before {
+    border: none !important;
+}
+
+/* comment page -> related topics */
+html.ow_NIGHT ._2bdb {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+html.ow_NIGHT ._2bdc {
+    color: #bbb;
+}
+
+html.ow_NIGHT ._3ci9 {
+    background-color: transparent;
+    border: none !important;
+}
+
+html.ow_NIGHT i[data-sigil="story-popup-context-init"].img {
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* comment page -> related posts */
+html.ow_NIGHT div[data-sigil="m-feed-story-attachments-element"] header,
+html.ow_NIGHT div[data-sigil="m-feed-story-attachments-element"] header ._4g33._52wc,
+html.ow_NIGHT div[data-sigil="m-feed-story-attachments-element"] ._15ks{
+    background: transparent !important;
+}
+
+/* comment page -> links */
+html.ow_NIGHT ._2b1y,
+html.ow_NIGHT ._sv2 {
+    border: 1px solid #666;
+}
+
+/* post written from profile */
+html.ow_NIGHT .touch ._6-l ._2us7 {
+    background-color: transparent;
+}
+
+html.ow_NIGHT .touch ._6-l ._6-p {
+    background-color: transparent;
+}
+
+html.ow_NIGHT ._94v {
+    box-shadow: none !important;
+}
+
+/* log as when links are shared */
+html.ow_NIGHT ._52e- {
+    background: transparent;
+    font-size: 14px !important;
+    color: #eee;
+    padding: 8px 0;
+}
+
+/* shared input text */
+html.ow_NIGHT .touch ._5hfh {
+    background-color: transparent;
+}
+
+/* create event for a group */
+html.ow_NIGHT input[data-sigil^="event_name"]  {
+    background-color: transparent;
+    color: #eee;
+}
+
+html.ow_NIGHT input[data-sigil^="event_name"]::-webkit-input-placeholder  {
+    color: #ddd;
+}
+
+html.ow_NIGHT ._2840 {
+    color: #eee;
+}
+
+html.ow_NIGHT ._skt,
+html.ow_NIGHT ._5f28 {
+    background-color: #202020;
+}
+
+html.ow_NIGHT input[data-sigil^="quicksearch-input"]  {
+    background-color: transparent;
+    color: #eee;
+}
+
+html.ow_NIGHT input[data-sigil^="quicksearch-input"]::-webkit-input-placeholder  {
+    color: #ddd;
+}
+
+html.ow_NIGHT ._hwy {
+    background-color: transparent;
+}
+
+/* owner's event page */
+html.ow_NIGHT ._4zol,
+html.ow_NIGHT ._4z84{
+    box-shadow: none !important;
+}
+
+html.ow_NIGHT ._3jcq {
+    border-right: 1px solid #555;
+}
+
+/* notification header */
+html.ow_NIGHT #notifications_list ._vqv {
+    background: transparent !important;
+}
+
+html.ow_NIGHT #notifications_list ._vqv svg {
+    fill: #dedede !important;
+}
+
+/* showcase header */
+html.ow_NIGHT .assistant-settings {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 2px !important;
+    margin: 0 0 16px !important;
+    margin-right: 1px !important;
+}
+
+/* delete post */
+html.ow_NIGHT .touch ._5vq5 {
+    background: transparent;
+}
+
+html.ow_NIGHT .tag-cloud-settings ul li {
+    color: #fff;
+}
+
+html.ow_NIGHT .tag-cloud-settings ul li svg{
+    fill: #fff;
+}
+
+html.ow_NIGHT .assistant-settings svg.close {
+    opacity: 0.5;
+    fill: #ffffff;
+}
+
+/* settings assistant */
+html.ow_NIGHT .assistant-settings {
+    background-color: #000000 !important;
+    margin-right: 1px !important;
+}
+
+
+/* comment page */
+html.ow_NIGHT ._3tl8 {
+    background: transparent;
+}
+
+/* comment button */
+html.ow_NIGHT .touch ._26vk._56bt[disabled],
+html.ow_NIGHT .touch ._26vk._56bt {
+    border: none;
+}
+
+/* search results */
+html.ow_NIGHT div[style*="color: #1D2129"],
+html.ow_NIGHT div[style*="color:#1D2129"],
+html.ow_NIGHT .touch ._3jc1{
+    color: #ddd !important;
+}
+
+html.ow_NIGHT ._1tcc {
+    color: #999;
+}
+
+/* event */
+html.ow_NIGHT .touch ._31yd {
+    border: none;
+    margin: 0px;
+}
+
+html.ow_NIGHT .touch ._31y5 {
+    border-bottom: 1px solid #555 !important
+}
+
+/* event header */
+html.ow_NIGHT ._5_z7 {
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+}
+
+/* login account */
+html.ow_NIGHT ._2zs_ {
+    border: none !important;
+}
+
+/* page feed */
+html.ow_NIGHT ._55wm {
+    background: #000000 !important;
+}
+
+/* interested button */
+html.ow_NIGHT .touch ._4kcb {
+    border: solid 1px #ccc;
+    color: #ccc;
+}
+
+/* header friends */
+html.ow_NIGHT header._5lm6 {
+    color: #eee !important;
+}
+
+
+/* your photos */
+html.ow_NIGHT .timeline .subpage,
+html.ow_NIGHT .tlSubpage {
+    background: #000000 !important;
+}
+
+html.ow_NIGHT .labelContainer .al.letterpress {
+    text-shadow: none !important;
+}
+
+/* activity log */
+html.ow_NIGHT .touch ._56cz._56c_ {
+    color: #aaa;
+}
+
+html.ow_NIGHT .touch ._56cw ._56cy ._56d8 {
+    border: none !important;
+}
+
+html.ow_NIGHT .android .timeline .sectionContent {
+    border: none !important;
+}
+
+html.ow_NIGHT .labelContainer.sectionHeaderLabel .letterpress .mfsl {
+    text-shadow: none !important;
+}
+
+/* search results */
+html.ow_NIGHT ._a-5 {
+    background: transparent !important;
+}
+
+/* page admin */
+html.ow_NIGHT ._rm7 {
+    background: transparent !important;
+}
+
+/* loader */
+html.ow_NIGHT ._55yq[role="progressbar"],
+html.ow_NIGHT div[data-sigil^="m-loading-indicator-animate"],
+html.ow_NIGHT .centeredIndicator {
+    border-top: 3px solid rgba(255, 255, 255, 0.2) !important;
+    border-right: 3px solid rgba(255, 255, 255, 0.2) !important;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2) !important;
+    border-left: 3px solid #ffffff !important;
+}
+
+/* help page */
+html.ow_NIGHT ._1evf,
+html.ow_NIGHT .touch ._1kb {
+    color: #dedede !important;
+}
+
+html.ow_NIGHT .touch ._1kb:not(:last-child) ._1kc,
+html.ow_NIGHT ._577z:not(:last-child) ._ygd {
+    border-bottom: 1px solid #444;
+}
+
+html.ow_NIGHT ._2u4w {
+    background: transparent;
+    height: 0px;
+    border-bottom: 1px solid #444;
+    border-top: 1px solid #444;
+}
+
+html.ow_NIGHT .touch ._5kr4 {
+    border-bottom: none;
+}
+
+html.ow_NIGHT ._4atg:not(:last-child) {
+    border-bottom: 1px solid #444;
+}
+
+html.ow_NIGHT ._1evf{
+    border: none;
+}
+
+
+/* privacy */
+html.ow_NIGHT ._55x2+._55x2 {
+    border: none;
+}
+
+html.ow_NIGHT div[data-sigil*="button-privacy"] i.img.img._2sxw {
+    border-radius: 3px;
+}
+
+/* languages */
+html.ow_NIGHT ._w34 {
+    background: transparent;
+}
+
+html.ow_NIGHT ._d01 {
+    background-color: transparent;
+    border-top: 1px solid #333;
+    color: #eee;
+}
+
+html.ow_NIGHT ._d00 {
+    background: #000;
+    border-top: 1px solid #333;
+    color: #eee;
+}
+
+html.ow_NIGHT ._w35 {
+    background: #444;
+    color: #eee;
+}
+
+/* new feed preference */
+html.ow_NIGHT ._3u9p,
+html.ow_NIGHT ._3u9t {
+    background-color: transparent;
+    border-color: #444;
+}
+
+html.ow_NIGHT ._3u9u {
+    border-color: #444;
+}
+
+html.ow_NIGHT ._3u9u ._3u9_ {
+    color: #ddd;
+}
+
+html.ow_NIGHT ._238m ._2hu1,
+html.ow_NIGHT ._2hu0 ._2hu1 {
+    border: 2px solid #777;
+}
+
+/* help header */
+html.ow_NIGHT .touch ._1uh1._2ix_,
+html.ow_NIGHT #cms-help-content-results ._11ub ._5p7j,
+html.ow_NIGHT #cms-help-content-results ._11ub {
+    background: #000 !important;
+}
+
+html.ow_NIGHT #cms-help-content-results ._55wo {
+    border: none !important;
+    margin: 0px !important;
+}
+
+html.ow_NIGHT ._577z ._5781 {
+    color: #eee;
+}
+
+html.ow_NIGHT #assistant_link a.link {
+    color: #C0C0C0 !important;
+}
+
+html.ow_NIGHT #assistant_link a.link:active {
+    color: #fff !important;
+}
+
+/* hide post */
+html.ow_NIGHT .touch ._3qdh {
+    background-color: transparent !important;
+}
+
+html.ow_NIGHT .touch ._3qdk ._48_q {
+    color: #999;
+}
+
+/* article border */
+html.ow_NIGHT ._24e1 {
+    background: transparent !important;
+}
+
+/* page team */
+html.ow_NIGHT div[style*="background-color: #FFFFFF"]{
+    background-color: #000 !important;
+}
+
+/* pro version */
+html.ow_NIGHT #pro_version .pro {
+    border: 1px solid #999;
+}
+
+/* custom link sharer */
+html.ow_NIGHT .sharer_link_wrapper,
+html[data-ow-url^="https://m.facebook.com/composer/mbasic/"].ow_NIGHT ._94v {
+    background: #000 !important;
+}
+
+html.ow_NIGHT #friendly_link_sharer svg{
+    fill: #999;
+}
+
+html.ow_NIGHT #friendly_link_sharer input{
+    color: #ccc;
+}
+
+html[data-ow-url^="https://m.facebook.com/composer/mbasic/"].ow_NIGHT ._94v {
+    background: #000 !important;
+}
+
+html.ow_NIGHT ._3x1q ._94v {
+    border-top: 1px solid #555;
+}
+
+html.ow_NIGHT #friendly_link_sharer .button,
+html.ow_NIGHT #friendly_link_sharer input::placeholder,
+html.ow_NIGHT #friendly_link_sharer {
+    color: #999;
+    border-color: #999 !important;
+}
+
+html.ow_NIGHT #friendly_link_sharer .button:focus,
+html.ow_NIGHT #friendly_link_sharer .button:active {
+    color: #fff;
+}
+
+/* new composer */
+html.ow_NIGHT ._3iyw ._37fb {
+    background-color: #202020 !important;
+}
+
+html.ow_NIGHT ._3iyw ._3iyx {
+    background-color: transparent !important;
+}
+
+html.ow_NIGHT ._21db:first-child ._21dc{
+    border-top: 1px solid #444;
+    background: transparent !important;
+}
+
+html.ow_NIGHT ._21dc{
+    border-bottom: 1px solid #444;
+    background: transparent !important;
+}
+
+/* sharer page */
+html.ow_NIGHT ._1z_- {
+    background: transparent !important;
+}
+
+/* composer border */
+html.ow_NIGHT.level_message #MRoot{
+    border: none !important;
+}
+
+html.ow_NIGHT ._6beq {
+    border: none !important;
+    background: none !important;
+    border: none !important;
+    margin-right: 1px !important;
+}
+
+html.ow_NIGHT ._6beo ._6ber {
+    border: 1px solid #999;
+    color: #999;
+}
+
+/* stories */
+html.ow_NIGHT ._vi6 {
+    background: #000;
+}
+
+html.ow_NIGHT ._mxb {
+    color: #aaa;
+}
+
+html.ow_NIGHT ._vi6 ._435z {
+   border: none !important;
+   margin-right: 1px !important;
+}
+
+/* header composer */
+html.ow_NIGHT #composer-main-view-id ._52z5 ._4g33 {
+    background: #000 !important;
+}
+
+html.ow_NIGHT ._36e0,
+html.ow_NIGHT ._21dc {
+    color: #bbb;
+}
+
+html.ow_NIGHT ._36dc {
+    border: none;
+}
+
+/* tag composer */
+html.ow_NIGHT ._6dsj {
+    background: #000000;
+}
+
+html.ow_NIGHT ._6dsj ._3gin {
+    background: #444;
+    color: white !important;
+}
+
+/* message page */
+html.ow_NIGHT ._4tjq:last-child ._2x1r {
+    background-color: #333;
+}
+
+/* ad page */
+html.ow_NIGHT ._3m7k {
+    background-color: #000;
+    color: #ddd;
+}
+
+html.ow_NIGHT ._3cwn {
+    color: #ccc;
+}
+
+html.ow_NIGHT ._3fpl {
+    background-color: #000;
+}
+
+html.ow_NIGHT ._3fpm {
+    color: #ccc;
+}
+
+/* page link */
+html.ow_NIGHT div[style*="border-color:#DDDFE2"],
+html.ow_NIGHT div[style*="border-color: #DDDFE2"] {
+    border-color: #444 !important;
+}
+
+/* border event */
+html.ow_NIGHT .touch ._2pbp,
+html.ow_NIGHT .touch ._5rou:first-child,
+html.ow_NIGHT .touch ._egf:first-child {
+    border: none !important;
+}
+
+/* page sign up */
+html.ow_NIGHT ._-j8,
+html.ow_NIGHT ._-j9,
+html.ow_NIGHT ._6o5v {
+    background: transparent !important;
+}
+
+html.ow_NIGHT ._6o5v:last-child ._14bx,
+html.ow_NIGHT ._-j9:last-child ._14bx {
+    background-color: transparent;
+}
+
+html.ow_NIGHT ._1_-1::before {
+    background: #555;
+}
+
+/* picture sharer */
+html.ow_NIGHT .touch ._21db {
+    background: transparent !important;
+}
+
+html.ow_NIGHT ._1ss6 {
+    border-left: 2px solid #999;
+}
+
+html.ow_NIGHT ._bgx,
+html.ow_NIGHT ._xy{
+    box-shadow: none;
+    background: transparent;
+}
+
+/* composer */
+html.ow_NIGHT ._6be5,
+html.ow_NIGHT ._6itw,
+html.ow_NIGHT ._6bes {
+    background: transparent;
+}
+
+/* feed memory */
+html.ow_NIGHT ._idb,
+html.ow_NIGHT ._5q_r,
+html.ow_NIGHT ._5yt8{
+    background-color: transparent;
+    border: none;
+    color: #aaa;
+}
+
+/* latest post */
+html.ow_NIGHT ._6sns {
+    background: transparent !important;
+}
+
+html.ow_NIGHT #m_newsfeed_stream ._5gh8._5rgr {
+    border: none !important;
+}
+
+html.ow_NIGHT ._6sn- {
+    background-color: transparent;
+    border: 1px solid #444;
+}
+
+html.ow_NIGHT ._5yxu {
+    border-top: 1px solid rgba(140, 140, 140, .1);
+}
+
+/* assistant */
+html.ow_NIGHT .assistant-settings {
+    border: none !important;
+}
+
+/* new composer 02/2019 */
+html.ow_NIGHT #MComposer ._7cdi i.img{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+html.ow_NIGHT ._7cdj {
+    color: #eee;
+}
+
+html.ow_NIGHT #MComposer ._6beo ._6ber {
+    color: #aaa;
+    border: 1px solid #888 !important;
+    letter-spacing: .5px;
+}
+
+/* account settings */
+html.ow_NIGHT ._ue6,
+html.ow_NIGHT ._2-4s,
+html.ow_NIGHT ._1glm {
+    background: transparent;
+}
+
+html.ow_NIGHT ._3xs9,
+html.ow_NIGHT ._31zk {
+    color: #eee;
+}
+
+html.ow_NIGHT ._3xsa,
+html.ow_NIGHT ._31zl {
+    color: #aaa;
+}
+
+/* log in */
+html.ow_NIGHT .acy {
+    background-color: rgba(200,200,200,0.3);
+    color: #eee;
+}
+
+html.ow_NIGHT .acy {
+    border-color: transparent;
+}
+
+/* watch video */
+html.ow_NIGHT ._-j7 {
+    background: transparent;
+}
+
+/* create post */
+html.ow_NIGHT ._36dc {
+    background: transparent;
+}
+
+/* place older for post */
+html.ow_NIGHT ._6pk5 {
+    background: #000 !important;
+}
+
+html.ow_NIGHT ._6pk6 {
+    background: #303030 !important;
+}
+
+/* */
+html.ow_NIGHT ._6--d{
+    background: transparent;
+    border: none !important;
+}
+
+html.ow_NIGHT ._77p7 {
+    background-color: transparent !important;
+    color: #eee !important;
+}
+
+html.ow_NIGHT ._6_w5 {
+    background-color: transparent;
+}
+
+html.ow_NIGHT ._6vzw {
+    background: transparent;
+}
+
+html.ow_NIGHT ._6xqt {
+    color: #ddd;
+}
+
+html.ow_NIGHT ._77xj,
+html.ow_NIGHT ._6vzz {
+    background-color: transparent;
+}
+
+/* reaction / like */
+html.ow_NIGHT ._1-kc,
+html.ow_NIGHT ._403n {
+    background: #444
+}
+
+/* composer */
+html.ow_NIGHT #MComposer div._7cdi {
+    opacity: 0.6 !important;
+}
+
+/* rate translation */
+html.ow_NIGHT ._1_ig {
+    color: #e0e0e0 !important;
+}
+
+/* about page */
+html.ow_NIGHT div[style*="color: #1C1E21"]{
+    color: inherit !important;
+}
+
+html.ow_NIGHT ._6x2x {
+    color: #999;
+}
+
+html.ow_NIGHT #pages_msite_body_contents img[style*="max-height: 16px"]{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* event in feed */
+html.ow_NIGHT ._6rny {
+    background: transparent !important;
+}
+
+/* new message */
+html.ow_NIGHT a[data-store='{"dialogURI":"\/messages\/compose\/dialog\/?mode=group"}'] i{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+html.ow_NIGHT ._67i4 ._5hu6 ._59tt {
+    background: transparent !important;
+}
+
+html.ow_NIGHT .touch._67i4 .touchableArea._51lh,
+html.ow_NIGHT .touch._67i4 ._51li {
+    background-color: #333;
+}
+
+/* location */
+html.ow_NIGHT .acy,
+html.ow_NIGHT .acy {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* share inline */
+html.ow_NIGHT  ._544l .img._56br {
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* profile page */
+html.ow_NIGHT ._7cui {
+    background-color: #444;
+    color: #fff !important;
+}
+
+html.ow_NIGHT ._6xqv {
+    background: transparent;
+}
+
+html.ow_NIGHT ._3gin {
+    border-right: none;
+}
+
+/* event */
+html.ow_NIGHT ._5gh8::after,
+html.ow_NIGHT ._56bf._58k5::before,
+html.ow_NIGHT ._56bf._58k5::after {
+    border: none;
+}
+
+/* group page */
+html.ow_NIGHT ._7hfd {
+    background-color: #333;
+    border-color: #333;
+    border-radius: 8px;
+}
+
+html.ow_NIGHT ._7hhe,
+html.ow_NIGHT ._7hfk {
+    background-color: #666;
+    border-color: #666;
+    color: #fff;
+}
+
+html.ow_NIGHT ._7hkf {
+    background: transparent;
+}
+
+html.ow_NIGHT ._7k1c,
+html.ow_NIGHT ._7gxb {
+    border-color: #333 !important;
+}
+
+/* new messages */
+html.ow_NIGHT ._34ee {
+    background-color: #252525;
+    color: #fff;
+}
+
+/* header icon */
+html.ow_NIGHT #header ._2ftp ._2ftq{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* header icon badge*/
+html.ow_NIGHT #header ._2ftp ._2ftq ._59tg{
+    background: none !important;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* search */
+html.ow_NIGHT ._13fn {
+    background: #202020;
+}
+
+html.ow_NIGHT ._13fn ._7mt-{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+html.ow_NIGHT  ._z-w {
+    background: #202020 !important;
+    border-bottom: none !important;
+}
+
+html.ow_NIGHT ._5-lw {
+    background: #202020 !important;
+    border: none !important;
+}
+
+html.ow_NIGHT ._1e8h,
+html.ow_NIGHT ._io2{
+    border: none !important;
+}
+
+html.ow_NIGHT ._z-z,
+html.ow_NIGHT .touchable._z-v {
+    color: #aaa;
+}
+
+html.ow_NIGHT #BrowseResultsContainer div[style*="#CCD0D5"]{
+    border-color: #666 !important;
+}
+
+/* messenger */
+html.ow_NIGHT.level_message a[href="#"] i.img{
+   -webkit-filter: brightness(0) invert(1);
+   opacity: 0.8;
+}
+
+/* bookmark */
+html.ow_NIGHT ._3bg5 ._52x2 {
+    color: #DDD;
+}
+
+html.ow_NIGHT ._721v,
+html.ow_NIGHT ._721v ._721w {
+    background: transparent !important;
+}
+
+/* page */
+html.ow_NIGHT  ._6z-0 ._14bx {
+    background: transparent !important;
+}
+
+/* stories */
+html.ow_NIGHT ._vi6 ._435z {
+    border: none !important;
+}
+
+/* join group */
+html.ow_NIGHT ._2q7u {
+    background: transparent;
+}
+
+html.ow_NIGHT ._2q7v {
+    background: #333;
+    border: 1px solid #333;
+}
+
+html.ow_NIGHT ._2q7w {
+    border: 1px solid #333;
+}
+
+html.ow_NIGHT ._5ag6 {
+    border-bottom: 1px solid #333;
+}
+
+/* sponsored post */
+html.ow_NIGHT .touch._fzu .storyStream>.carded {
+    border: none !important;
+}
+
+/* create event */
+html.ow_NIGHT  ._52z7._52z7 .btn.btnI.bgb,
+html.ow_NIGHT  ._52z8._52z8 .btn.btnI.bgb {
+    color: white !important;
+}
+
+/* profile */
+html.ow_NIGHT  ._7g4m {
+    background: transparent !important;
+}
+
+/* friends */
+html.ow_NIGHT  .touch ._8-8b._8xxc {
+    border: none !important;
+}
+
+/* story archive */
+html.ow_NIGHT a[data-sigil="m-stories-tray-archive-link"] i {
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* profile */
+html.ow_NIGHT  #timelineBody ._7cdi i.img{
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* profile picture */
+html.ow_NIGHT ._1pph {
+    background: transparent !important;
+}
+
+html.ow_NIGHT ._rmg {
+    border: none !important;
+}
+
+/* 404 */
+html.ow_NIGHT ._7nya {
+    background: transparent !important;
+}
+
+/* create page */
+html.ow_NIGHT div[data-nt^="NT:BUTTON_2"]  span[style*="background-color: #E7F3FF"]{
+    background-color: transparent !important;
+}
+
+/* media set */
+html[data-ow-url*="/media/set/?set="].ow_NIGHT #root {
+    background: black !important;
+}
+
+html[data-ow-url*="/media/set/?set="].ow_NIGHT #root div.acw.apm[data-sigil='marea'] {
+    color:white !important;
+}
+
+/* optimization */
+html.ow_NIGHT ._2a_g._2a_g,
+html.ow_NIGHT ._333v,
+html.ow_NIGHT ._2b03,
+html.ow_NIGHT ._14v5._14v5 ._14v8,
+html.ow_NIGHT ._4edl,
+html.ow_NIGHT ._5a1,
+html.ow_NIGHT ._10c_,
+html.ow_NIGHT ._77xj,
+html.ow_NIGHT ._844y,
+html.ow_NIGHT ._844y ._844d,
+html.ow_NIGHT .jewel .flyout,
+html.ow_NIGHT .touch ._69aj,
+html.ow_NIGHT ._55wo,
+html.ow_NIGHT ._-j7,
+html.ow_NIGHT .touch ._1oby ._5c9u,
+html.ow_NIGHT ._3bc8,
+html.ow_NIGHT ._3iyw ._3iyx,
+html.ow_NIGHT ._4edl,
+html.ow_NIGHT ._4edl {
+    background-color: transparent !important;
+}
+
+/* page header */
+html.ow_NIGHT #msite-pages-header-contents img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/Uw3VgA1t8cd.png"],
+html.ow_NIGHT #msite-pages-header-contents img[src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/SEjVearROlc.png"] {
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/* pinned post */
+html.ow_NIGHT ._3drp img._4q4l {
+    filter: invert(100%) !important;
+}
+
+/* mention */
+html.ow_NIGHT .mentions-suggest {
+    background: #222;
+    border: solid 1px #333;
+    box-shadow: none !important;
+}
+
+html.ow_NIGHT .mentions-suggest-item {
+border: solid 1px #333;
+}
+
+/* notification header */
+html.ow_NIGHT #notifications_list ._vqv .title,
+html.ow_NIGHT #notifications_list ._vqv .title a{
+	color: #dedede !important;
+}
+
+html.ow_NIGHT  .touchable-notification .touchable.touched {
+ background: #444 !important;
+}
+
+/* group */
+html.ow_NIGHT .pbevjfx6a {
+	color: #fff !important;
+}
+
+/* watch page */
+html.ow_NIGHT #friendly_watch {
+	background: #000 !important;
+}
+
+/* notification popup */
+html.ow_NIGHT ._602e {
+	background: transparent !important;
+}
+
+html.ow_NIGHT ._602d {
+	color: white !important;
+}
+
+html.ow_NIGHT ._2069 ._602g,
+html.ow_NIGHT ._2068 ._602g {
+	-webkit-filter: brightness(0) invert(1);
+}
+
+/* event calendar */
+html.ow_NIGHT ._1_yd {
+    color: #ddd;
+}
+
+html.ow_NIGHT .touch ._533c {
+    background: transparent;
+}
+html.ow_NIGHT input._56bg {
+    background: #222;
+    color: white;
+}

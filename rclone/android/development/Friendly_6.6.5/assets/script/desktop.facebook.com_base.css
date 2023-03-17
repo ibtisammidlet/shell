@@ -1,0 +1,265 @@
+form {
+	width:100%;
+	overflow-x:hidden;
+}
+button[name="__CONFIRM__"] {
+	background-color: {baseColor}!important;
+	border-color:{baseColor}!important;
+}
+
+textarea[name="xhpc_message_text"] {
+	height:100px;
+}
+
+div.uiScaledImageContainer {
+	height:120px!important;
+	width:100%;
+}
+
+/*
+header
+*/
+div._zpj {
+	background-color:{baseColor}!important;
+	display:none;
+}
+/*
+link attachment block
+*/
+div._5e9y {
+	width:auto!important;
+}
+.uiOverlayFooterMessage > div:first-child {
+	display: none;
+}
+.uiOverlayFooterMessage > div:last-child {
+	float:left!important;
+	margin:0px!important;
+}
+.uiOverlayFooterButtons {
+	text-align: right;
+}
+
+.uiMentionsInput .highlighter b {
+	background:#f1f1f1!important;
+	padding-left:1px;
+	padding-right:1px;
+	box-shadow: 0 0 0 1px {baseColor} !important;
+}
+
+/* right col indicator conv */
+.i224opu6 {
+    background-color: {baseOpacity2Color} !important;
+}
+
+/* header marge */
+.be9z9djy {
+    top: 46px !important;
+}
+
+/* sharer width */
+._5e9y {
+    width: auto !important;
+}
+
+/* header media */
+div[role="navigation"].bp9cbjyn {
+	display: none !important;
+}
+
+a[aria-label="Facebook"] {
+	display: none !important;
+}
+
+div[role="button"].taijpn5t.qypqp5cg {
+    margin-top: 100px;
+}
+
+/* header messages/t/
+div[role="navigation"] {
+	width: 44px !important;
+}
+*/
+div[data-pagelet="root"] div[role="banner"],
+div[data-pagelet="page"] div[role="banner"] {
+	display: none !important;
+}
+
+/* messages/t/
+.rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.hpfvmrgz.n5hh3s10.t63ysoy8 {
+	display: none !important;
+}
+
+.g0mhvs5p.g0mhvs5p {
+    width: 60px !important;
+}
+
+div[data-visualcompletion="ignore-dynamic"] {
+	padding: 0px !important;
+}*/
+/*
+.be9z9djy {
+	top: 46px !important;
+}
+
+.jgljxmt5 {
+    min-height: calc(100vh - 46px) !important;
+}
+
+.bafdgad4 {
+	box-shadow: none !important;
+	border-bottom: 1px solid #EEE;
+}
+
+.gitj76qy {
+	max-height: calc(100vh - var(--46px)) !important;
+}
+
+/* CTA install app */
+.rq0escxv.l9j0dhe7.du4w35lb.j83agx80.g5gj957u.rj1gh0hx.buofh1pr.hpfvmrgz.i1fnvgqd.bp9cbjyn.owycx6da.btwxx1t3.dflh9lhu.scb9dxdr.sj5x9vvc.cxgpxx05.sn0e7ne5.f6rbj1fe.l3ldwz01 {
+	display: none !important;
+}
+
+div[role="navigation"].l9j0dhe7 div[role="row"] div[role="gridcell"] {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* avatar size
+a[href^="/messages/t/"] g image,
+a[href^="/messages/t/"] mask image,
+a[href^="/messages/t/"] svg.pzggbiyp {
+	height: 44px !important;
+	width: 44px !important;
+}
+
+a[href^="/messages/t/"] mask circle,
+a[href^="/messages/t/"] g circle{
+	cx: 22 !important;
+    cy: 22 !important;
+   	r: 22 !important;
+}
+*/
+html[data-ow-url^="https://www.facebook.com/messages"] div[role="navigation"] .rvhaf1lv.ozuftl9m.n851cfcs.tvfksri0.n1l5q3vz.ajc3tglg.l82x9zwi.uo3d90p7.pw54ja7n.ue3kfks5 {
+	display: none !important;
+}
+
+.oajrlxb2.g5ia77u1.qu0x051f.esr5mh6w.e9989ue4.r7d6kgcz.rq0escxv.nhd2j8a9.j83agx80.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.jb3vyjys.rz4wbd8a.qt6c0cv9.a8nywdso.i1ao9s8h.esuyzwwr.f1sip0of.lzcic4wl.l9j0dhe7.abiwlrkh.p8dawk7l.bp9cbjyn.s45kfl79.emlxlaya.bkmhp75w.spb7xbtv.rt8b4zig.n8ej3o3l.agehan2d.sk4xxmp2.taijpn5t.tv7at329.thwo4zme {
+ 	margin-top: 100px !important;
+}
+
+html[data-ow-url^="https://www.facebook.com/messages"] div.ow_newMessage {
+    display: none;
+}
+html[data-ow-url^="https://www.facebook.com/messages"] div.ow_newMessage {
+    display: block;
+    margin-top: 2px;
+}
+
+html[data-ow-url^="https://www.facebook.com/messages"] div.ow_newMessage svg {
+    width: 28px;
+    height: 28px;
+    fill: #202020;
+}
+html[data-ow-url^="https://www.facebook.com/messages"].__fb-dark-mode div.ow_inboxinfoxClose svg,
+html[data-ow-url^="https://www.facebook.com/messages"].__fb-dark-mode div.ow_newMessage svg {
+   fill: #eee !important;
+}
+
+html[data-ow-url^="https://www.facebook.com/messages"] .rq0escxv.mkhogb32.pedkr2u6.jb3vyjys.ph5uu5jm.qt6c0cv9.b3onmgus.hzruof5a.pmk7jnqg.kwrap0ej.kr520xx4.enuw37q7.z1801hqc.art1omkt.nw2je8n7.hhz5lgdu.{
+	display: none !important;
+}
+
+/*( new message button */
+div.ow_newMessage {
+    display: none;
+}
+
+html[data-ow-url^="https://www.facebook.com/messages"] div.ow_newMessage {
+    display: block;
+}
+
+/* infos button */
+div.ow_inboxinfos {
+    display: flex;flex-basis: 100%;flex-direction: column;
+}
+
+div.ow_inboxinfoxClose {
+    position: absolute;
+    top:0px;
+    right: 0px;
+    height: 50px;
+    width: 46px;
+}
+
+div.ow_inboxinfoxClose svg{
+    margin-left: 9px;
+    margin-top: 9px;
+    height: 32px;
+    width: 32px;
+    fill: #303030 !important;
+}
+
+/* messenger contact thumb
+.oeao4gh3 {
+	margin-left: -3px !important;
+	width: 38px !important;
+	height: 38px !important;
+}
+.bafdgad4 {
+    border-bottom: 1px solid rgba(0,0,0, 0.08) !important;
+    box-shadow: none !important;
+}
+
+div[role="row"] div[role="gridcell"] .scb9dxdr {
+    padding-left: 14px;
+}
+
+div[role="row"] div[role="gridcell"] .oeao4gh3 {
+    width: 40px;
+}
+
+._6s5d {
+	background: white !important;
+}
+*/
+/* night mode */
+html.__fb-dark-mode ._6s5d {
+	background: #242526 !important;
+}
+
+
+/* check message unread */
+.ow_list_item.ow_unread  .ow_badge_unread {
+	height: 16px;
+    width: 4px;
+    background: {baseColor};
+    border-radius: 4px;
+    position: relative;
+    left: 6px;
+    bottom: 48px;
+    margin-bottom: -8px;
+}
+
+/* banner to remove */
+html[data-ow-url^="https://www.facebook.com/messages/"] div[role="banner"] {
+    display: none;
+}
+
+svg img[style^="height: 56px; width: 56px"] {
+}
+
+/* message background*/
+div[style*="background-color: rgb(0, 132, 255)"] {
+    background: {baseColor} !important;
+}
+
+/* message buttons */
+circle[fill="#0084FF"],
+path[fill="#0084FF"] {
+    fill: {baseColor} !important;
+}
+
+path[stroke="#0084FF"] {
+    stroke: {baseColor} !important;
+}

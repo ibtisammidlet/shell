@@ -1,0 +1,40 @@
+/* download button */
+div.fas_inline_videoDownloadButton {
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 50%;
+    background: transparent;
+    opacity: 1.0;
+    margin-left: 25px;
+    width: 34px;
+    height: 34px;
+    position: relative;
+    bottom: 5px;
+    left: 0px;
+    margin-right: 2px;
+}
+
+article[data-testid="tweetDetail"] div.fas_inline_videoDownloadButton {
+    margin-top: 11px;
+}
+div.fas_inline_videoDownloadButton > svg {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    left: 6px;
+    top: 1px;
+}
+
+div.fas_inline_videoDownloadButton > svg {
+	fill:{baseColor};
+}
+
+div.fas_inline_videoDownloadButton > svg:active {
+	fill:{baseColor};
+}
+
+html[fas_adblock='1'] article[fas_sponsored_tweet='1'] {
+    display: none !important;
+}

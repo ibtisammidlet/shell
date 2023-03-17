@@ -1,0 +1,68 @@
+/* meta: nodelay */
+.ow_videoPlayerButton {
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right:0;
+	_background-color: rgba(255,0,0,.5);
+	z-index: 1000;
+}
+
+.ow_videoPlayerButtonBis {
+	z-index: 1000;
+}
+
+[data-sigil*="m-video-play-button"] {
+	z-index: 999;
+}
+
+/* meta: nodelay */
+.ow_videoDownloadButton {
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right:0;
+	_background-color: rgba(255,0,0,.5);
+	z-index: 1000;
+}
+
+.new-video-controls {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-video-controls div{
+    margin: 6px;
+    padding: 6px;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: drop-shadow(0px 0px 2px rgba(0,0,0, 0.3));
+    border: solid 3px white;
+    border-radius: 200px;
+    margin-top: 10px;
+    background: rgba(0,0,0,0.3);
+    -webkit-transition: all .1s ease-in;
+}
+
+.new-video-controls div:active,
+.new-video-controls divdiv.ow_downloadButton:focus{
+	border-color: {baseColor};
+}
+
+.new-video-controls svg{
+    fill: #FFFFFF;
+}
+

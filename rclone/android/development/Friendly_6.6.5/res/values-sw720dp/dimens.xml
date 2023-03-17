@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_icon_bottom">1.0dip</dimen>
+    <dimen name="margin_icon_side">0.0dip</dimen>
+    <dimen name="margin_icon_top">0.0dip</dimen>
+    <dimen name="search_toolbar_margin_big_left_right">32.0dip</dimen>
+    <dimen name="search_toolbar_margin_small_left_right">32.0dip</dimen>
+    <dimen name="smart_tabs_height">60.0dip</dimen>
+</resources>

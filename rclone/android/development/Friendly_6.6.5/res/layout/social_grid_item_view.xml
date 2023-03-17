@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:focusable="true" android:clickable="true" android:layout_width="100.0dip" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/row" android:background="@color/transparent" android:paddingTop="3.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/card_favorite" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="3.0dip" card_view:cardBackgroundColor="#ff808080" card_view:cardCornerRadius="3.0dip" card_view:cardElevation="3.0dip" card_view:cardUseCompatPadding="true">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/click_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SelectableGridBookmarkBackground">
+                <ImageView android:layout_gravity="center" android:id="@id/thumb" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_star_white_36dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="@string/favorite_shortcut" android:maxLines="2" android:singleLine="false" android:fontFamily="sans-serif-medium" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/check" android:background="@drawable/background_radius_green" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/round_check_white_24" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:layout_gravity="end|center|top" android:id="@id/badge_text" android:background="@drawable/icon_badge_grid" android:paddingLeft="4.0dip" android:paddingTop="0.0dip" android:paddingRight="4.0dip" android:paddingBottom="0.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:textAlignment="center" android:layout_marginEnd="13.0dip" />
+</FrameLayout>

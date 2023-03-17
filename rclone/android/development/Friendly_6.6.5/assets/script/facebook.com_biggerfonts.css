@@ -1,0 +1,215 @@
+/* BIGGER Fonts */
+
+/* user names, and other bold things */
+.ow_BIGFONTS ._5qc3._5qc3 {
+    font-size:18px;
+    line-height:18px;
+}
+/* post desc */
+.ow_BIGFONTS .touch,.ow_BIGFONTS .touch tr,.ow_BIGFONTS .touch input,.ow_BIGFONTS .touch textarea,.ow_BIGFONTS .touch .mfsm {
+    font-size:18px;
+    line-height:28px;
+}
+/* Add Photo/Video buttons */
+.ow_BIGFONTS ._5j35 {
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 10px !important;
+}
+/* Top Stories */
+.ow_BIGFONTS ._52jc {
+    font-size: 16px;
+    line-height: 20px;
+}
+/* posted links title */
+.ow_BIGFONTS ._52jd {
+    font-size: 18px;
+}
+/* suggested apps */
+.ow_BIGFONTS ._5rgs {
+    font-size: 17px;
+    line-height: 21px;
+}
+/* like, comment buttons */
+.ow_BIGFONTS ._2zh4,.ow_BIGFONTS ._15ks {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 320px) {
+    .ow_BIGFONTS ._2zh4,.ow_BIGFONTS ._15ks {
+        font-size: 14px;
+    }
+}
+
+/* posted articles title */
+.ow_BIGFONTS ._52jd {
+    font-size: 18px;
+}
+.ow_BIGFONTS ._4o51._4o51 {
+    line-height:22px;
+}
+.ow_BIGFONTS ._4o59 {
+    line-height:20px;
+}
+.ow_BIGFONTS ._4o5k ._4o57,
+.ow_BIGFONTS ._4o5j ._4o51,
+.ow_BIGFONTS ._2ylx ._4o59,
+.ow_BIGFONTS ._44h._4o5j ._4o59,
+.ow_BIGFONTS ._4o4_ ._4o57,
+.ow_BIGFONTS ._39d3 ._4o57,
+.ow_BIGFONTS ._5xp3 {
+    max-height:80px;
+}
+
+/* like comments shares */
+.ow_BIGFONTS ._3hxn {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* comments */
+.ow_BIGFONTS ._2tbu,.ow_BIGFONTS ._1c5c,.ow_BIGFONTS ._1c5d {
+    font-size: 18px;
+    line-height: 22px;
+}
+/* POST button */
+.ow_BIGFONTS ._56bs {
+    font-size:16px;
+}
+/* mutual friends */
+.ow_BIGFONTS .mfss {
+    font-size:16px;
+    line-height:22px;
+}
+/* mutual friends */
+.ow_BIGFONTS button.mfss {
+    font-size:16px;
+    line-height:31px !important;
+}
+/* BIGFONTS for Profiles */
+/* buttons on top */
+.ow_BIGFONTS .touch ._55ss ._5c9u {
+    font-size:15px;
+}
+/* composer buttons */
+.ow_BIGFONTS .touch ._37fd .inlineComposerButton .composerLinkText {
+    font-size:16px;
+}
+/* composer */
+.ow_BIGFONTS .touch ._37fc .statusBox .placeHolder,
+.ow_BIGFONTS .touch ._37fc .largeStatusBox .placeHolder {
+    font-size:18px;
+}
+
+/* fr custom */
+.ow_BIGFONTS div.fr_nat_article > header,
+.ow_BIGFONTS header.fr_nat_header{
+    font-size: 17px;
+    line-height: 21px;
+}
+.ow_BIGFONTS .fr_nat_title {
+    font-size:18px;
+    line-height:21px;
+    max-height:21px;
+}
+.ow_BIGFONTS .fr_nat_subtitle {
+    font-size:16px;
+    line-height:20px;
+}
+.ow_BIGFONTS .fr_nat_desc {
+    font-size:18px;
+    line-height:22px;
+    max-height:44px;
+}
+.ow_BIGFONTS .fr_nat_cta > span {
+    font-size:16px;
+}
+/* facebook suggested */
+.ow_BIGFONTS ._45fe,
+.ow_BIGFONTS ._4q3y {
+    font-size: 17px;
+    line-height: 21px;
+    -webkit-line-clamp: 2;
+}
+.ow_BIGFONTS ._4mc0 ._4o57 {
+    height:44px;
+}
+/* Notifications title */
+.ow_BIGFONTS ._52je {
+    font-size:20px;
+    line-height:24px;
+}
+/* messages */
+.ow_BIGFONTS .jewel .flyout .messages-flyout-item .thread-title {
+    font-size:18px;
+}
+.ow_BIGFONTS .item .content {
+    height:45px;
+}
+.ow_BIGFONTS ._3z11 {
+    max-height:44px;
+}
+
+/* showcase header */
+.ow_BIGFONTS ul.owAnonymousFooter li,
+.ow_BIGFONTS .tag-cloud-settings ul li {
+    border-radius: 30px;
+}
+
+.ow_BIGFONTS .tag-cloud-settings ul li svg{
+    margin-left: -9px;
+    margin-right: 5px;
+    margin-top: -4px;
+    position: inherit !important;
+}
+
+.ow_BIGFONTS .tag-cloud-settings ul li.more svg{
+    margin-top: 0px;
+    height: 19px !important;
+    width: 19px !important;
+}
+
+.ow_BIGFONTS #pro_version .pro{
+    font-size: 16px;
+}
+
+/* article */
+.ow_BIGFONTS ._2xbh,
+.ow_BIGFONTS ._24e4 {
+    max-height: none;
+}
+
+.ow_BIGFONTS article h3._16-5 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.ow_BIGFONTS ._2rbw {
+    font-size: 16px !important;
+}
+
+/* assistant */
+.ow_BIGFONTS .tag-cloud-settings ul li.night svg{
+    top: 2px !important;
+}
+
+.ow_BIGFONTS .tag-cloud-settings ul li.ad-blocker svg{
+    top: 2px !important;
+}
+
+.ow_BIGFONTS .tag-cloud-settings ul li.large-text svg{
+    top: 2px !important;
+}
+
+/* notification */
+.ow_BIGFONTS .touchable-notification img{
+    position: relative;
+    top: 2px;
+}
+
+/* comments */
+.ow_BIGFONTS ._2b06{
+    line-height: 24px !important;
+}

@@ -1,0 +1,8 @@
+{
+  "css" : {
+    "head" : ["about.bookmarks_bookmarks"]
+  },
+  "js" : {
+    "interactive" : ["about.bookmarks_bookmarks"]
+  }
+}

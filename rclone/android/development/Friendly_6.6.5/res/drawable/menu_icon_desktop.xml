@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/ic_desktop_mac_white_24dp" android:insetLeft="@dimen/margin_icon_side" android:insetRight="@dimen/margin_icon_side" android:insetTop="@dimen/margin_icon_top" android:insetBottom="@dimen/margin_icon_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/category_pro">
+        <Preference android:key="custom_color" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_privacy">
+        <CheckBoxPreference android:key="security_code" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="interval_lock" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/browser">
+        <Preference android:key="browser" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_style">
+        <Preference android:key="ui_theme" />
+        <CheckBoxPreference android:key="ui_rocket" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_about">
+        <CheckBoxPreference android:key="assistant" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="translate" />
+        <Preference android:key="about_version" />
+        <Preference android:key="about_intro" />
+        <CheckBoxPreference android:key="fake_pro" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+</PreferenceScreen>

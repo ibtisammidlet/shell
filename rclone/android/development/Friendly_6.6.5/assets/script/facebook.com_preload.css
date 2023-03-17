@@ -1,0 +1,13 @@
+/* transparent -> blink header navigation blue -> Color replacement has some delay / 4267b2 / 3b5998 */
+._52z5._1uh1,
+._52z5{
+    background: transparent !important;
+}
+
+._6u8c{
+    background-color: transparent !important;
+}
+
+body{
+    background: #000000 !important;
+}

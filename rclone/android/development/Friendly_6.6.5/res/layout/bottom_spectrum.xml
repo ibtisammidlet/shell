@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fancy="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/bottom_layout" android:background="#ffee0099" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:elevation="15.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/spectrum_stub" android:layout="@layout/spectrum_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.rilixtech.materialfancybutton.MaterialFancyButton android:layout_gravity="center" android:id="@id/custom_selector" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="8.0dip" android:paddingRight="15.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="35.0dip" android:alpha="0.6" android:letterSpacing="0.05" fancy:mfb_borderColor="@color/gray_status_border" fancy:mfb_borderWidth="2.0dip" fancy:mfb_defaultColor="@color/transparent" fancy:mfb_focusColor="@color/gray_status" fancy:mfb_radius="30.0dip" fancy:mfb_text="@string/color_name_custom" fancy:mfb_textColor="@color/gray_status" fancy:mfb_textSize="14.0sp" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

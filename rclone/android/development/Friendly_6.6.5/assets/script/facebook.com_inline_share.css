@@ -1,0 +1,85 @@
+/* more button */
+div.ow_moreShare > a > span.more {
+     display: inline-block;
+     color: {baseColor};
+}
+
+/* tablet inline share */
+div[data-sigil="ufi-inline-actions"] ._52jj._15kl._3hwk.ow_moreShare,
+div[data-sigil="ufi-inline-actions"] ._52jj._15kl._3hwk.ow_moreShare a{
+    padding-left: 2px;
+}
+
+div[data-sigil="ufi-inline-actions"] ._52jj._15kl._3hwk.ow_moreShare{
+   margin-left: -4px;
+   margin-right: -4px;
+}
+
+div[data-sigil='ufi-inline-actions'] > div.ow_moreShare > a:not([data-sigil*="unlike"]),
+div[data-sigil='ufi-inline-actions'] > div.ow_moreShare > a:not([data-sigil*="unlike"]) {
+     color: {baseColor} !important;
+}
+.ow_DARK div.ow_moreShare > a > span.more,
+.ow_POWER div.ow_moreShare > a > span.more,
+.ow_ALT div.ow_moreShare > a > span.more,
+.ow_FOLIO div.ow_moreShare > a > span.more {
+     display: none;
+}
+
+.ow_DARK div.ow_moreShare,
+.ow_POWER div.ow_moreShare,
+.ow_ALT div.ow_moreShare,
+.ow_FOLIO div.ow_moreShare {
+    max-width: 22px;
+}
+
+.ow_DARK div.ow_moreShare > a > svg,
+.ow_POWER div.ow_moreShare > a > svg,
+.ow_ALT div.ow_moreShare > a > svg,
+.ow_FOLIO div.ow_moreShare > a > svg  {
+    width: 22px;
+    height: 22px;
+    top: 7px;
+    right: 0px;
+}
+
+div.ow_moreShare > a > svg {
+	margin: auto;
+    width: 22px;
+    height: 22px;
+    margin-left: -3px;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    top: 6px;
+    right: 1px;
+    opacity: 0.8;
+	fill: {baseColor};
+}
+
+div[data-sigil='ufi-inline-actions'] > div > a:not([data-sigil*="unlike"]) {
+	color: #555 !important;
+}
+
+/* old icon */
+div.ow_moreShare ._77li::before {
+    display: none !important;
+}
+
+/* night / AMOLED modes */
+.ow_NIGHT div[data-sigil='ufi-inline-actions'] > div.ow_moreShare > a:not([data-sigil*="unlike"]),
+.ow_AMOLED div[data-sigil='ufi-inline-actions'] > div.ow_moreShare > a:not([data-sigil*="unlike"]) {
+     color: {baseAccentColor} !important;
+}
+
+.ow_NIGHT div[data-sigil='ufi-inline-actions'] > div > a:not([data-sigil*="unlike"]),
+.ow_AMOLED div[data-sigil='ufi-inline-actions'] > div > a:not([data-sigil*="unlike"]) {
+	color: #888 !important;
+}
+
+.ow_NIGHT div.ow_moreShare > a > svg,
+.ow_AMOLED div.ow_moreShare > a > svg {
+	opacity: 0.9;
+	color: {baseAccentColor};
+	fill: {baseAccentColor};
+}

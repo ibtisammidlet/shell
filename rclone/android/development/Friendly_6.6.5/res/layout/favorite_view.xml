@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/backFavorite" android:background="#ee252525" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/favoriteList" android:paddingTop="@dimen/toolbarHeight" android:paddingBottom="0.0dip" android:visibility="gone" android:longClickable="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:divider="@null" android:dividerHeight="0.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/favoriteTip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-30.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/ic_star_white_36dp" android:alpha="0.7" />
+            <View android:layout_gravity="center" android:background="#60e5e5e5" android:layout_width="70.0dip" android:layout_height="1.0dip" android:layout_margin="12.0dip" android:alpha="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/favorite_tip" android:alpha="0.7" android:textAlignment="center" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+        </LinearLayout>
+        <View android:background="#20dddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="-50.0dip" />
+        <FrameLayout android:id="@id/manageFavorite" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:transitionName="@string/add_favorite_external">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#55000000" android:paddingTop="2.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_settings_applications_white_24dp" android:alpha="0.8" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/manage_favorite" android:maxLines="1" android:alpha="0.8" android:paddingEnd="14.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

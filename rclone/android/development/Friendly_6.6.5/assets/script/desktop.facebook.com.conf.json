@@ -1,0 +1,8 @@
+{
+	"css" : {
+		"head" : ["desktop.facebook.com_base"]
+	},
+	"js" : {
+		"interactive" : ["desktop.facebook.com_base"]
+	}
+}

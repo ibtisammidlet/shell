@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gw.swipeback.SwipeBackLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:directionMode="left" app:isSwipeFromEdge="true" app:maskAlpha="0" app:swipeBackFactor="0.5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_size" app:popupTheme="@style/PopupMenu" app:titleTextAppearance="@style/Toolbar.TitleText" app:titleTextColor="@color/white">
+            <FrameLayout android:layout_gravity="end|center" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="7.0dip" android:paddingEnd="5.0dip">
+                <FrameLayout android:layout_gravity="center" android:id="@id/message_badge_layout" android:background="@drawable/round_selector_toolbar" android:layout_width="45.0dip" android:layout_height="40.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/toolbar_tab_icon_message" android:background="@android:color/transparent" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/ic_chat_white_36dp" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip" />
+                    <TextView android:textSize="8.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/toolbar_tab_badge_message" android:background="@drawable/icon_badge_toolbar" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="5" android:layout_marginStart="6.0dip" android:layout_marginEnd="3.0dip" android:elevation="3.0dip" />
+                </FrameLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="end|center" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="7.0dip" android:paddingEnd="1.0dip">
+                <FrameLayout android:layout_gravity="center" android:id="@id/notification_badge_layout" android:background="@drawable/round_selector_toolbar" android:layout_width="45.0dip" android:layout_height="40.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/toolbar_tab_icon" android:background="@android:color/transparent" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/ic_public_white_36dp" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip" />
+                    <TextView android:textSize="8.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/toolbar_tab_badge" android:background="@drawable/icon_badge_toolbar" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="3.0dip" android:elevation="3.0dip" />
+                </FrameLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="end|center" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="7.0dip" android:paddingEnd="1.0dip">
+                <FrameLayout android:layout_gravity="center" android:id="@id/feed_badge_layout" android:background="@drawable/round_selector_toolbar" android:layout_width="40.0dip" android:layout_height="40.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/feed_tab_icon" android:background="@android:color/transparent" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/ic_home_white_36dp" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip" />
+                    <TextView android:textSize="8.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/feed_tab_badge" android:background="@drawable/icon_badge_toolbar" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+                </FrameLayout>
+            </FrameLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/main_gradient" />
+        </FrameLayout>
+        <include layout="@layout/no_network" />
+    </LinearLayout>
+</com.gw.swipeback.SwipeBackLayout>

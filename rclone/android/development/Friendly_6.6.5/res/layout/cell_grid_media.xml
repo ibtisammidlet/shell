@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.friendly.ui.customview.ted.TedSquareFrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/root" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="wrap_content" app:matchHeightToWidth="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <io.friendly.ui.customview.ted.TedSquareImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/video" android:background="@drawable/shadow_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/full" android:background="?selectableItemBackgroundBorderless" android:padding="5.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="5.0dip" android:src="@drawable/round_fullscreen_white_48" />
+        <ImageView android:layout_gravity="center" android:id="@id/play" android:background="?selectableItemBackgroundBorderless" android:padding="7.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="5.0dip" android:src="@drawable/round_play_circle_outline_white_48" />
+        <ImageView android:layout_gravity="center" android:id="@id/download" android:background="?selectableItemBackgroundBorderless" android:padding="8.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="5.0dip" android:src="@drawable/round_save_alt_white_48" />
+    </LinearLayout>
+</io.friendly.ui.customview.ted.TedSquareFrameLayout>

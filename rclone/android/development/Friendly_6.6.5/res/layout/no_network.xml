@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_network" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layout_network_click" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="140.0dip" android:layout_height="wrap_content" android:src="@drawable/logo_404_500" android:alpha="0.7" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white_gray_2" android:id="@id/no_network_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/no_network" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white_gray_2" android:id="@id/no_network_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/tap_retry" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

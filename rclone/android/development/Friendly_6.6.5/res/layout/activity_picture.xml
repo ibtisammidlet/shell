@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gw.swipeback.SwipeBackLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:directionMode="left" app:isSwipeFromEdge="true" app:maskAlpha="0" app:swipeBackFactor="0.5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/picture_main_content" android:background="@color/pictureBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/picture_pager" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.material.appbar.AppBarLayout android:background="@android:color/transparent" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:paddingStart="0.0dip" android:paddingEnd="3.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:singleLine="true" android:letterSpacing="0.05" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.michaldrabik.tapbarmenulib.TapBarMenu android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tap_button" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginBottom="26.0dip">
+            <ImageView android:id="@id/picture_comment" android:background="?selectableItemBackgroundBorderless" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_message_white_36dp" android:layout_weight="1.0" />
+            <ImageView android:id="@id/picture_share" android:background="?selectableItemBackgroundBorderless" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_share_white_36dp" android:layout_weight="1.0" />
+            <Space android:layout_width="60.0dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/picture_copy" android:background="?selectableItemBackgroundBorderless" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_content_copy_white_36dp" android:layout_weight="1.0" />
+            <ImageView android:id="@id/picture_download" android:background="?selectableItemBackgroundBorderless" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_file_download_white_36dp" android:layout_weight="1.0" />
+        </com.michaldrabik.tapbarmenulib.TapBarMenu>
+    </FrameLayout>
+</com.gw.swipeback.SwipeBackLayout>

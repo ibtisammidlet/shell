@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:background="@drawable/background_radius_drag" android:layout_width="30.0dip" android:layout_height="5.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:alpha="0.8" />
+    <LinearLayout android:orientation="vertical" android:id="@id/feed_settings_layout" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <io.friendly.ui.dialog.RowLayout android:id="@id/copy_post_link" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/copy_post_link" />
+        <io.friendly.ui.dialog.RowLayout android:id="@id/copy_ext_link" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/copy_article_link" />
+        <io.friendly.ui.dialog.RowLayout android:id="@id/copy_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/copy_text" />
+        <io.friendly.ui.dialog.RowLayout android:id="@id/download_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/download_video" />
+        <io.friendly.ui.dialog.RowLayout android:id="@id/download_photo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/download_photo" />
+        <io.friendly.ui.dialog.RowLayout android:id="@id/fb_share" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/fb_share" />
+        <io.friendly.ui.dialog.RowLayout android:id="@id/app_share" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/apps_share" />
+    </LinearLayout>
+</LinearLayout>

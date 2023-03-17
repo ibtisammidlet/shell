@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:icon="@drawable/logo_white_padding" android:key="picture" />
+    <PreferenceCategory android:title="@string/category_pro">
+        <Preference android:key="custom_color" />
+        <CheckBoxPreference android:key="hd_download" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="hide_hint" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_notification">
+        <CheckBoxPreference android:key="checkbox_notification" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="checkbox_notification_message" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="vibration" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="led" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="sound_notification" />
+        <Preference android:key="interval_notification" />
+        <Preference android:key="quiet_hours" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_privacy">
+        <CheckBoxPreference android:key="security_code" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="interval_lock" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/browser">
+        <Preference android:key="browser" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_style">
+        <Preference android:key="bottom_ui" />
+        <CheckBoxPreference android:key="ui_amoled" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="ui_night_mode" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="night_hours" />
+        <CheckBoxPreference android:key="ui_big_font" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="ui_theme" />
+        <CheckBoxPreference android:key="ui_rocket" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/color_name_facebook">
+        <CheckBoxPreference android:key="anonymous_story" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="story" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="similar_post" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="swipe" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="messenger_client" />
+        <Preference android:key="facebook_order" />
+        <Preference android:key="facebook_highlight" />
+        <Preference android:key="facebook_hide" />
+        <CheckBoxPreference android:key="facebook_pymk" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="clipboard_link" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <CheckBoxPreference android:key="select_text" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="facebook_logout" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_about">
+        <CheckBoxPreference android:key="assistant" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        <Preference android:key="translate" />
+        <Preference android:key="about_version" />
+        <Preference android:key="about_intro" />
+        <CheckBoxPreference android:key="fake_pro" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    </PreferenceCategory>
+</PreferenceScreen>

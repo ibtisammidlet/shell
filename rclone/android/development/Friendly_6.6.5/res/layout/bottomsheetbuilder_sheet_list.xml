@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/fakeShadow" android:background="@drawable/bottom_sheet_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottomsheet_title_vertical_margin" layout="@layout/bottomsheetbuilder_list_header" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingTop="@dimen/bottomsheet_vertical_margin" android:paddingBottom="@dimen/bottomsheet_vertical_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

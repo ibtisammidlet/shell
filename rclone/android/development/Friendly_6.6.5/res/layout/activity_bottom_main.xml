@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/main_content_stub" android:layout="@layout/main_content_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/main_gradient" />
+    <include layout="@layout/left_toolbar" />
+    <ViewStub android:id="@id/search_stub" android:layout="@layout/search_view_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

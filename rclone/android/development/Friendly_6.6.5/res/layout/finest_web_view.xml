@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_content" android:background="@color/finestWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <androidx.appcompat.widget.Toolbar android:gravity="center_vertical" android:id="@id/toolbar" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:layout_scrollFlags="enterAlways|scroll|snap">
+                <include layout="@layout/finest_toolbar_content" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="@dimen/defaultProgressBarHeight" android:layout_marginTop="@dimen/toolbarHeight" android:indeterminate="false" android:progressDrawable="@drawable/progress_drawable" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <io.friendly.ui.CustomSwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <io.friendly.webview.NestedWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </io.friendly.ui.CustomSwipeRefreshLayout>
+        <View android:layout_gravity="top" android:id="@id/gradient" android:background="@color/finestBlack10" android:layout_width="fill_parent" android:layout_height="@dimen/defaultDividerHeight" />
+        <include layout="@layout/menus" />
+    </FrameLayout>
+</LinearLayout>

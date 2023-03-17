@@ -1,0 +1,257 @@
+/* base css */
+.ow_ALT .touch._fzu._2v9s,
+.ow_ALT body._4_xl,
+.ow_ALT .touch._fzu._2v9s,
+.ow_ALT ._4_xl,
+.ow_ALT ._4g33._52we._5fjk._55so._5i-i._ydx::before,
+.ow_ALT ._4g33._52we._5fjk._55so._5i-i._ydx,
+.ow_ALT ._5c9u{
+   background: transparent !important;
+}
+
+.ow_ALT .assistant-settings {
+   background: white !important;
+}
+
+.ow_ALT #friendly_header {
+    margin-top: -20px;
+}
+
+.ow_ALT #m_newsfeed_stream ._5gh8._5rgr,
+.ow_ALT form#mbasic_inline_feed_composer,
+.ow_ALT article._5gh8._5rgr,
+.ow_ALT #page ._55wo._gui ,
+.ow_ALT ._d2r,
+.ow_ALT .assistant-settings,
+.ow_ALT .touch._fzu .storyStream>.carded,
+.ow_ALT form._29zn{
+    box-shadow: none !important;
+    margin: 0 0 12px !important;
+}
+
+.ow_ALT form._29zn{
+    border-top: none !important;
+}
+
+.ow_ALT #friendly_message_header {
+    font-size: 14px;
+    font-variant: normal;
+    background: white;
+    position: relative;
+    bottom: 50px;
+    padding-top: 65px;
+    margin-bottom: -50px;
+    font-weight: 500;
+}
+
+.ow_ALT #notifications_list ._vqv{
+    font-size: 14px;
+    font-variant: normal;
+    background: transparent;
+    font-weight: 500;
+    padding-top: 7px;
+}
+
+.ow_ALT .assistant-settings{
+    box-shadow: none !important;
+}
+
+.ow_NIGHT.ow_ALT #m_newsfeed_stream ._5gh8._5rgr,
+.ow_NIGHT.ow_ALT form#mbasic_inline_feed_composer,
+.ow_NIGHT.ow_ALT article._5gh8._5rgr,
+.ow_NIGHT.ow_ALT #page ._55wo._gui ,
+.ow_NIGHT.ow_ALT .assistant-settings,
+.ow_NIGHT.ow_ALT ._d2r,
+.ow_NIGHT.ow_ALT .touch._fzu .storyStream>.carded,
+.ow_NIGHT.ow_ALT form._29zn{
+    box-shadow: none !important;
+}
+
+.ow_NIGHT.ow_ALT .touch._fzu._2v9s,
+.ow_NIGHT.ow_ALT body._4_xl,
+.ow_NIGHT.ow_ALT body.touch,
+.ow_NIGHT.ow_ALT body,
+.ow_NIGHT.ow_ALT .touch._fzu._2v9s,
+.ow_NIGHT.ow_ALT ._4_xl,
+.ow_NIGHT.ow_ALT #root,
+.ow_NIGHT.ow_ALT .assistant-settings,
+.ow_NIGHT.ow_ALT ._4g33._52we._5fjk._55so._5i-i._ydx::before,
+.ow_NIGHT.ow_ALT ._4g33._52we._5fjk._55so._5i-i._ydx,
+.ow_NIGHT.ow_ALT ._5c9u{
+   background: #202020 !important;
+}
+
+.ow_NIGHT.ow_ALT #friendly_message_header {
+     background: #202020 !important;
+}
+
+.ow_NIGHT.ow_ALT #notifications_list ._vqv{
+     background: #202020 !important;
+}
+
+/* header buttons for message tab */
+.ow_NIGHT.ow_ALT .touch ._55st:first-child ._5c9u,
+.ow_NIGHT.ow_ALT .touch ._55st:last-child ._5c9u,
+.ow_AMOLED.ow_ALT .touch ._55st:first-child ._5c9u,
+.ow_AMOLED.ow_ALT .touch ._55st:last-child ._5c9u{
+    opacity: 1;
+}
+
+/* profil pic */
+.ow_ALT #MComposer i.img.profpic {
+    display: none !important;
+}
+
+.ow_ALT #MComposer ._55wo{
+    padding-top: 6px;
+}
+
+.ow_ALT #MComposer textarea[data-sigil="expandable-textarea m-textarea-input composer-main-target-area"] {
+    height: 25px !important;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
+.ow_ALT #friendly_header {
+    display: none !important;
+}
+
+/* inline share */
+.ow_ALT div.ow_moreShare > a > svg {
+    margin: auto;
+    width: 32px;
+    height: 23px;
+    display: block;
+    padding: 4px;
+    position: relative;
+    top: 0px;
+    left: 8px;
+}
+
+.ow_ALT div.ow_moreShare > a > svg {
+	opacity: 0.9;
+}
+
+.ow_ALT.ow_AMOLED  .assistant-settings {
+    background: none !important;
+}
+
+.ow_ALT.ow_AMOLED #m_newsfeed_stream ._5gh8._5rgr,
+.ow_ALT.ow_AMOLED form#mbasic_inline_feed_composer {
+    box-shadow: none !important;
+    margin-right: 1px !important;
+}
+
+.ow_ALT.ow_AMOLED .assistant-settings {
+    margin-right: 1px !important;
+}
+
+/* page switcher */
+.ow_ALT #MComposer ._52ja._52jh {
+    display: none;
+}
+
+.ow_ALT #MComposer button[name="voice_switcher"] {
+    margin: auto;
+    display: inline-block;
+}
+
+.ow_ALT #MComposer ._4g34 {
+    text-align: center;
+}
+
+.ow_ALT #MComposer ._4g34 div:first-of-type{
+    display: inline;
+}
+
+/* dark mode border */
+.ow_ALT.ow_AMOLED article._55wo {
+    border: none !important;
+}
+
+.ow_ALT.ow_AMOLED ._55wo {
+     border: none !important;
+}
+
+.ow_ALT.ow_AMOLED #MComposer ._55wo {
+    border: none !important;
+}
+
+.ow_ALT.ow_AMOLED .assistant-settings {
+    border:  none !important;
+}
+
+.ow_ALT.ow_AMOLED div.fr_nat_article {
+    border:  none !important;
+}
+
+.ow_ALT.ow_AMOLED #m_newsfeed_stream ._5gh8._5rgr,
+.ow_ALT.ow_AMOLED form#mbasic_inline_feed_composer,
+.ow_ALT.ow_AMOLED article._5gh8._5rgr,
+.ow_ALT.ow_AMOLED #page ._55wo._gui,
+.ow_ALT.ow_AMOLED ._d2r,
+.ow_ALT.ow_AMOLED .assistant-settings,
+.ow_ALT.ow_AMOLED .touch._fzu .storyStream>.carded,
+.ow_ALT.ow_AMOLED form._29zn {
+    margin: 0 0 26px !important;
+}
+
+.ow_ALT.ow_AMOLED form#mbasic_inline_feed_composer {
+    padding-top: 10px !important;
+}
+
+.ow_ALT.ow_AMOLED ._4prr::after {
+    border: none !important;
+}
+
+.ow_ALT.ow_AMOLED ._4o58::after {
+    box-shadow: none !important;
+}
+
+.ow_ALT.ow_AMOLED ._4_xl {
+    background: #000 !important;
+}
+
+
+/* assistant tablet */
+.ow_ALT .tablet .assistant-settings {
+    border-color: rgba(0, 0, 0, .18);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* composer */
+.ow_ALT #MComposer ._3iyw ._37fb {
+    margin: 0px 0 16px !important;
+    padding-top: 5px;
+}
+
+.ow_ALT #MComposer ._6beq {
+    border: none !important;
+    margin-top: 0px !important;
+    margin-bottom: 12px !important;
+    box-shadow: none !important;
+}
+
+.ow_ALT #MComposer ._6beo ._6ber {
+    border: none;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    color: #999;
+    letter-spacing: .5px;
+}
+
+/* stories */
+.ow_ALT ._vi6 ._435z {
+    box-shadow: none !important;
+    margin-bottom: 12px !important;
+}
+
+/* composer photo button */
+.ow_ALT #MComposer div._7cdi {
+    display: none !important;
+}

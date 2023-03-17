@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+    .no-select {
+        user-select: none;
+    }
+
+    #retry:hover {
+        opacity: 0.5;
+    }
+    </style>
+</head>
+
+<body>
+<div style="width:90%; margin:0 auto; position:absolute; top:42%; left:50%; transform:translate(-50%, -42%); ">
+    <h1 style="text-align:center; font-size:23px;  letter-spacing: 1px; color:#343434; margin-top:45px; margin-bottom:45px;">Something wrong happened...</h1>
+    <ul style="margin:25px auto; width:75%; color:#47597f;  border-radius:5px;  font-size:14px; background-color:#e5eaf5; padding:15px 25px; line-height:150%; list-style:none; border:1px solid #cfd8ec;">
+        <li style="text-align:center;"><span  id="error-guide"></span></li>
+    </ul>
+    <p id="retry" class="no-select" style="background-color:#2357ac; padding:10px; border-radius:5px; margin:0 auto; width:200px; text-align:center;">
+        <a style="font-size:16px; color:#FFF; text-decoration:none; letter-spacing: 1px;">Please retry</a>
+    </p>
+</div>
+</body>
+
+<script>
+    var urlParams = new URLSearchParams(window.location.search);
+
+    var errorCode = urlParams.get('errorCode');
+    var errorDescription = urlParams.get('errorDescription');
+    var baseUrl = urlParams.get('baseUrl');
+    var themeColor = urlParams.get('themeColor');
+
+    document.getElementById("retry").style.backgroundColor = "#" +  themeColor;
+    document.getElementById("retry").addEventListener("click", function(){
+        window.location = baseUrl;
+    });
+
+    switch(errorCode) {
+        case '-1':
+            document.getElementById('error-guide').innerHTML = 'Generic error';
+        break;
+
+        case '-2':
+            document.getElementById('error-guide').innerHTML = 'Check Wi-Fi and Network connection';
+        break;
+
+        case '-3':
+            document.getElementById('error-guide').innerHTML = 'Unsupported authentication scheme (not basic or digest)';
+        break;
+
+        case '-4':
+            document.getElementById('error-guide').innerHTML = 'User authentication failed on server';
+        break;
+
+        case '-5':
+            document.getElementById('error-guide').innerHTML = 'User authentication failed on proxy';
+        break;
+
+        case '-6':
+            document.getElementById('error-guide').innerHTML = 'Failed to connect to the server';
+        break;
+
+        case '-7':
+            document.getElementById('error-guide').innerHTML = 'Failed to read or write to the server';
+        break;
+
+        case '-8':
+            document.getElementById('error-guide').innerHTML = 'Connection timed out';
+        break;
+
+        case '-9':
+            document.getElementById('error-guide').innerHTML = 'Too many redirects';
+        break;
+
+        case '-10':
+            document.getElementById('error-guide').innerHTML = 'Unsupported URI scheme';
+        break;
+
+        case '-11':
+            document.getElementById('error-guide').innerHTML = 'Failed to perform SSL handshake';
+        break;
+
+        case '-12':
+            document.getElementById('error-guide').innerHTML = 'Malformed URL';
+        break;
+
+        case '-13':
+            document.getElementById('error-guide').innerHTML = 'Generic file error';
+        break;
+
+        case '-14':
+            document.getElementById('error-guide').innerHTML = 'File not found';
+        break;
+
+        case '-15':
+            document.getElementById('error-guide').innerHTML = 'Too many requests during this load';
+        break;
+
+        case '-16':
+            document.getElementById('error-guide').innerHTML = 'Resource load was canceled by Safe Browsing';
+        break;
+    }
+</script>
+
+</html>

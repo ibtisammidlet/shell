@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/header_background" android:background="#ff444444" android:clickable="true" android:layout_width="fill_parent" android:layout_height="90.0dip" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/wrapper_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/image_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:layout_gravity="bottom" android:background="@drawable/shadow_3" android:layout_width="fill_parent" android:layout_height="70.0dip" />
+    </FrameLayout>
+    <FrameLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:background="@android:color/transparent" android:paddingLeft="?listPreferredItemPaddingLeft" android:paddingRight="?listPreferredItemPaddingRight" android:focusable="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:baselineAligned="false" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/icon_frame" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="-4.0dip">
+                <rikka.materialpreference.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textAppearance="@style/Preference_TextAppearanceMaterialSubhead" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" />
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip">
+                    <TextView android:textColor="#ffffffff" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:maxLines="1" android:alpha="0.7" />
+                    <ImageView android:padding="0.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/ic_arrow_drop_down_white_36dp" android:alpha="0.8" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

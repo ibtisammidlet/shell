@@ -1,0 +1,35 @@
+
+
+/* select text */
+._5rgr,
+._4_xl{
+    -webkit-user-select: none !important;
+}
+
+html.ow_SELECT_TEXT ._5rgr,
+html.ow_SELECT_TEXT ._4_xl {
+    -webkit-user-select: text !important;
+}
+
+html.ow_STORY_ENABLE #MStoriesTray{
+    display: none !important;
+}
+
+html.ow_SIMILAR_POST article[data-store*="originated_from_recommendation"] {
+    display: none !important;
+}
+
+/* pymk fallback */
+html.ow_PYMK_ENABLE article._d2r:first-of-type{
+    display: none !important;
+}
+
+html.ow_PYMK_ENABLE a[href^="/friends/center/suggestions/"],
+html.ow_PYMK_ENABLE a[href^="/friends/center/suggestions/"] + div._52jj,
+html.ow_PYMK_ENABLE a[href^="/friends/center/suggestions/"] + div._52jj + div._7om2 {
+    display: none !important;
+}
+
+html.ow_PYMK_ENABLE #timelineProfileTiles ._6xqv {
+    display: none !important;
+}

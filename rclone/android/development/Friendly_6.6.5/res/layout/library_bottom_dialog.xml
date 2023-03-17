@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/shadow" android:background="@drawable/shadow_bottomview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottomDialog_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/bottomDialog_icon" android:visibility="gone" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginEnd="20.0dip" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="start" android:id="@id/bottomDialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:alpha="0.6" />
+        </LinearLayout>
+        <org.sufficientlysecure.htmltextview.HtmlTextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="start" android:id="@id/bottomDialog_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:lineSpacingExtra="6.0dip" android:alpha="0.7" />
+        <FrameLayout android:id="@id/bottomDialog_custom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/bottomDialog_buttons" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="0.0dip">
+            <com.google.android.material.button.MaterialButton android:id="@id/bottomDialog_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="15.0dip" android:text="@android:string/cancel" android:layout_marginEnd="10.0dip" android:letterSpacing="0.05" style="?materialButtonOutlinedStyle" />
+            <com.google.android.material.button.MaterialButton android:textStyle="bold" android:id="@id/bottomDialog_ok_bis" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="15.0dip" android:text="@android:string/ok" android:drawablePadding="5.0dip" android:layout_marginEnd="10.0dip" android:letterSpacing="0.05" />
+            <com.google.android.material.button.MaterialButton android:textStyle="bold" android:id="@id/bottomDialog_ok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="15.0dip" android:text="@android:string/ok" android:layout_marginEnd="10.0dip" android:letterSpacing="0.05" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

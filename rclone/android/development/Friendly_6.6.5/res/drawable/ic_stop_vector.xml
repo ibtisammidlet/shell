@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0" app:vc_viewportHeight="24.0" app:vc_viewportWidth="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:name="rotationGroup" android:pivotX="12.0" android:pivotY="12.0" android:rotation="90.0">
+        <path android:name="v" android:fillColor="#ff000000" android:pathData="@string/path_stop" app:vc_fillColor="#ff000000" app:vc_pathData="@string/path_stop" />
+    </group>
+</vector>

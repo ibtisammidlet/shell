@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/view_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:textColor="@color/tedbottompicker_button" android:id="@id/btn_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?borderlessButtonStyle" />
+        <TextView android:textSize="16.0sp" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/tedbottompicker_title" android:layout_toLeftOf="@id/btn_done" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/selected_photos_container_frame" android:layout_width="fill_parent" android:layout_height="@dimen/tedbottompicker_selected_image_height" android:layout_alignParentBottom="true">
+        <HorizontalScrollView android:background="@color/tedbottompicker_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="false" android:foregroundGravity="left">
+            <LinearLayout android:gravity="left" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/selected_photos_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:animateLayoutChanges="false" />
+        </HorizontalScrollView>
+        <TextView android:textSize="14.0sp" android:textColor="@color/tedbottompicker_text" android:layout_gravity="center" android:id="@id/selected_photos_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_image" android:letterSpacing="0.05" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rc_gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

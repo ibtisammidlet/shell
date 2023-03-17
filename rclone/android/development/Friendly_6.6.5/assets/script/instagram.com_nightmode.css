@@ -1,0 +1,797 @@
+/* meta: nodelay */
+/* night mode */
+.ow_NIGHT body,
+.ow_NIGHT main,
+.ow_NIGHT #react-root,
+.ow_NIGHT .HpHcz,
+.ow_NIGHT ._lz6s,
+.ow_NIGHT .v9z_I,
+.ow_NIGHT ._o14tj ._bfc7q,
+.ow_NIGHT ._l1b8m,
+.ow_NIGHT ._4j13h,
+.ow_NIGHT ._p3zuo {
+    background: #000 !important;
+}
+
+.ow_NIGHT body,
+.ow_NIGHT ._3sst1,
+.ow_NIGHT ._lx2l2,
+.ow_NIGHT ._lx2l2:visited,
+.ow_NIGHT ._oajsw,
+.ow_NIGHT ._tkl3w,
+.ow_NIGHT ._3yvxd,
+.ow_NIGHT ._1l53n,
+.ow_NIGHT ._bkw5z,
+.ow_NIGHT ._de9bg,
+.ow_NIGHT ._nt9ow{
+	color:#aaa !important;
+}
+
+/* post elipsis button */
+.ow_NIGHT .coreSpriteOptionsEllipsis {
+	filter:invert() brightness(0.8);
+}
+
+/* settings */
+.ow_NIGHT .coreSpriteMobileNavSettings,
+.ow_NIGHT .glyphsSpriteSettings__outline__24__grey_9 {
+	filter:invert(100%) !important;
+}
+
+.ow_NIGHT .akBCF {
+    background-color: transparent;
+}
+
+/* image backgrounds */
+.ow_NIGHT ._22yr2 {
+	background-color: #000 !important;
+}
+
+/* follow buttons on profile */
+.ow_NIGHT ._6y2ah {
+	color:#aaa !important;
+}
+
+.ow_NIGHT .coreSpriteDropdownArrowGrey9 {
+	filter:invert();
+}
+
+/* follow suggestions bottom border */
+.ow_NIGHT ._cag6k {
+	border-bottom: #000 !important;
+}
+/* add comment... field top border */
+.ow_NIGHT ._saf51 {
+	border-top: #000 !important;
+}
+/* image border */
+.ow_NIGHT ._p1uf5 {
+	border-color: #000 !important;
+}
+
+
+.ow_NIGHT .coreSpriteMobileNavHomeActive,
+.ow_NIGHT .coreSpriteMobileNavSearchActive,
+.ow_NIGHT .coreSpriteCameraActive,
+.ow_NIGHT .coreSpriteMobileNavActivityActive,
+.ow_NIGHT .coreSpriteMobileNavProfileActive,
+.ow_NIGHT .coreSpriteHeartOpen,
+.ow_NIGHT .coreSpriteSaveOpen,
+.ow_NIGHT .coreSpriteLikeHeartOpen,
+.ow_NIGHT .coreSpriteComment,
+.ow_NIGHT .coreSpriteSaveFull {
+	filter: brightness(4);
+}
+.ow_NIGHT .coreSpriteMobileNavHomeInactive,
+.ow_NIGHT .coreSpriteMobileNavSearchInactive,
+.ow_NIGHT .coreSpriteCameraInactive,
+.ow_NIGHT .coreSpriteMobileNavActivityInactive,
+.ow_NIGHT .coreSpriteMobileNavProfileInactive {
+	filter:brightness(3);
+}
+
+.ow_NIGHT .coreSpriteMobileNavAddPeopleInactive {
+	filter:invert() brightness(0.8);
+}
+.ow_NIGHT .coreSpriteMobileNavAddPeopleActive {
+	filter:invert();
+}
+.ow_NIGHT .coreSpriteMobileNavTypeLogo {
+	filter:invert() brightness(0.99);
+}
+
+.ow_NIGHT .coreSpriteStoryCreation, .ow_NIGHT .coreSpriteStoryCreationAlt {
+    filter:invert() brightness(0.8);
+}
+
+.ow_NIGHT .coreSpriteMobileNavDiscoverPeople {
+    filter:invert() brightness(0.8);
+}
+
+.ow_NIGHT .coreSpriteFeedCreation {
+    filter:invert() brightness(0.99);
+}
+
+
+/* stories */
+.ow_NIGHT .mAUDl {
+    background: transparent !important;
+}
+
+.ow_NIGHT .XdXBI,
+.ow_NIGHT ._0G-TY {
+    color: #eee !important;
+}
+
+/* post */
+.ow_NIGHT .nJAzx,
+.ow_NIGHT .nJAzx:visited,
+.ow_NIGHT .cqXBL,
+.ow_NIGHT .cqXBL:visited,
+.ow_NIGHT .y9v3U,
+.ow_NIGHT .TlrDj,
+.ow_NIGHT .TlrDj:visited{
+    color: {baseColor} !important;
+}
+
+.ow_NIGHT a,
+.ow_NIGHT a:visited {
+    color: #fff !important;
+}
+
+/*  header */
+.ow_NIGHT ._9ezyW {
+    background-color: black !important;
+}
+
+.ow_NIGHT .glyphsSpriteLink__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteMail__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteApp_twitter__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteApp_whatsapp__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteApp_messenger__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteFacebook_circle__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteFriend_Follow,
+.ow_NIGHT .glyphsSpriteLocation__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteSave__filled__24__grey_9,
+.ow_NIGHT .glyphsSpritePhoto__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteDirect__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteCamera__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteMobile_nav_type_logo,
+.ow_NIGHT .glyphsSpriteUser_follow__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteComment__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteSave__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteHome__filled__24__grey_9,
+.ow_NIGHT .glyphsSpriteSearch__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteHeart__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteNew_post__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteShare__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteMore_horizontal__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteHashtag__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteCircle_add__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteUser__outline__24__grey_9 {
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%) !important;
+}
+
+.ow_NIGHT .glyphsSpriteMobile_nav_type_logo {
+    opacity: 0.6;
+}
+
+
+/* blue icons */
+.ow_NIGHT .glyphsSpritePhoto_grid__outline__24__blue_5 {
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%) !important;
+}
+
+/* core icons */
+.ow_NIGHT .coreSpriteDropdownArrowGrey9 {
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%) !important;
+}
+
+/* bottom nav */
+.ow_NIGHT .KGiwt {
+    background-color: #000 !important;
+}
+
+.ow_NIGHT .glyphsSpriteUser__filled__24__grey_9,
+.ow_NIGHT .glyphsSpriteHome__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteSearch__filled__24__grey_9,
+.ow_NIGHT .coreSpriteProfileCamera,
+.ow_NIGHT .glyphsSpriteHeart__filled__24__grey_9 {
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%) !important;
+}
+
+.ow_NIGHT .coreSpriteClose,
+.ow_NIGHT .coreSpriteCloseLight {
+     filter: invert(100%) !important;
+     -webkit-filter: invert(100%) !important;
+}
+
+/* suggestion */
+.ow_NIGHT .D_6tu {
+    background: #101010 !important;
+}
+
+.ow_NIGHT .bq3Mi,
+.ow_NIGHT .vboSt {
+    border: 1px solid #222 !important;
+}
+
+.ow_NIGHT .YQf7h {
+    background: #303030 !important;
+    border: 1px solid #303030 !important;
+}
+
+/* post picture */
+.ow_NIGHT .eLAPa {
+    background-color: #000 !important;
+}
+
+.ow_NIGHT .UE9AK {
+    border: none !important;
+}
+
+/* profile */
+.ow_NIGHT .K3Sf1 {
+    color: #eee !important;
+}
+
+.ow_NIGHT ._32eiM,
+.ow_NIGHT ._32eiM:visited {
+    color: white !important;
+    font-weight: 500;
+}
+
+.ow_NIGHT .zwlfE {
+    color: #eee !important;
+}
+
+.ow_NIGHT .y2E5d {
+    border-bottom: none;
+}
+
+.ow_NIGHT ._7XkEo {
+    background: black;
+}
+
+.ow_NIGHT .abaSk {
+    background: #000;
+    border-top: 1px solid #303030;
+}
+
+.ow_NIGHT ._06yVv,
+.ow_NIGHT .neTWR {
+    color: #999;
+}
+
+/* follow profile button */
+.ow_NIGHT .-fzfL {
+    background: 0 0;
+    border-color: #eee;
+    color: #eee !important;
+}
+
+.ow_NIGHT ._3dEHb {
+    border-top: 1px solid #303030 !important;
+}
+
+.ow_NIGHT .Nd_Rl,
+.ow_NIGHT .fx7hk {
+    border-top: 1px solid #303030 !important;
+}
+
+.ow_NIGHT .g47SY,
+.ow_NIGHT ._32eiM,
+.ow_NIGHT ._32eiM:visited{
+    color: #eee !important;
+}
+
+.ow_NIGHT ._2z6nI {
+    border-top: 1px solid #303030 !important;
+}
+
+/* stories */
+.ow_NIGHT .zGtbP {
+    border: none !important;
+    background: transparent !important;
+}
+
+.ow_NIGHT .KV-D4 {
+    color: #bbb !important;
+}
+
+.ow_NIGHT .yWX7d._8A5w5,
+.ow_NIGHT a.yWX7d._8A5w5,
+.ow_NIGHT a.yWX7d._8A5w5:visited {
+    color: #fff !important;
+}
+
+/* back arrow*/
+.ow_NIGHT .glyphsSpriteChevron_left__outline__24__grey_9{
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%) !important;
+}
+
+/* header */
+.ow_NIGHT .glyphsSpriteDirect__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteCamera__outline__24__grey_9,
+.ow_NIGHT .glyphsSpriteUser_follow__outline__24__grey_9 {
+    opacity: 0.8;
+}
+.ow_NIGHT .glyphsSpriteMobile_nav_type_logo {
+    opacity: 0.6;
+}
+
+.ow_NIGHT article .glyphsSpriteDirect__outline__24__grey_9 {
+    opacity: 1;
+}
+
+/* assistant */
+.ow_NIGHT #assistant_link header {
+    opacity: 0.8;
+}
+
+.ow_NIGHT #assistant_link input[type="text"]:focus,
+.ow_NIGHT #assistant_link input[type="text"] {
+    background: transparent;
+    border: solid 2px #bbb !important;
+    color: #bbb;
+}
+
+.ow_NIGHT #assistant_link svg.linkSvg {
+    fill: #888;
+}
+
+.ow_NIGHT #assistant_link div.ow_downloadButton,
+.ow_NIGHT #assistant_link div.ow_playButton,
+.ow_NIGHT #assistant_link div.ow_shareButton {
+    background: #bbb !important;
+}
+
+.ow_NIGHT #assistant_link img.logo {
+    opacity: 0.5;
+}
+
+/* default end loader */
+.ow_NIGHT .By4nA rect{
+    -webkit-filter: invert(100%);
+}
+
+/* login page */
+.ow_NIGHT .coreSpriteLoggedOutWordmark {
+    -webkit-filter: invert(100%);
+    opacity: 0.6;
+}
+
+.ow_NIGHT .PdTAI {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* bottom tabs */
+.ow_NIGHT .KGiwt {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* search */
+.ow_NIGHT .RO68f,
+.ow_NIGHT .iwQA6 {
+    background-color: #222;
+}
+
+.ow_NIGHT .j_2Hd {
+    border: 1px solid #222;
+}
+
+.ow_NIGHT .BSqtQ,
+.ow_NIGHT ._09ncq,
+.ow_NIGHT .uzKWK {
+    background: #000 !important;
+}
+
+.ow_NIGHT .j_2Hd {
+    color: white !important;
+}
+.ow_NIGHT .VR6_Q,
+.ow_NIGHT .gJlPN {
+    background: transparent !important;
+}
+
+/* suggestion */
+.ow_NIGHT .DPiy6 {
+    background: #000 !important;
+}
+
+.ow_NIGHT .BcJ68-A,
+.ow_NIGHT .YFq-A {
+    color: #bbb;
+}
+
+.ow_NIGHT .PUHRj::after {
+    border: none !important;
+}
+
+.ow_NIGHT ._41KYi {
+    background: #000;
+    border: 1px solid #333;
+}
+
+/* instagram svg logo */
+.ow_NIGHT path[d="M25 1c-6.52 0-7.34.03-9.9.14-2.55.12-4.3.53-5.82 1.12a11.76 11.76 0 0 0-4.25 2.77 11.76 11.76 0 0 0-2.77 4.25c-.6 1.52-1 3.27-1.12 5.82C1.03 17.66 1 18.48 1 25c0 6.5.03 7.33.14 9.88.12 2.56.53 4.3 1.12 5.83a11.76 11.76 0 0 0 2.77 4.25 11.76 11.76 0 0 0 4.25 2.77c1.52.59 3.27 1 5.82 1.11 2.56.12 3.38.14 9.9.14 6.5 0 7.33-.02 9.88-.14 2.56-.12 4.3-.52 5.83-1.11a11.76 11.76 0 0 0 4.25-2.77 11.76 11.76 0 0 0 2.77-4.25c.59-1.53 1-3.27 1.11-5.83.12-2.55.14-3.37.14-9.89 0-6.51-.02-7.33-.14-9.89-.12-2.55-.52-4.3-1.11-5.82a11.76 11.76 0 0 0-2.77-4.25 11.76 11.76 0 0 0-4.25-2.77c-1.53-.6-3.27-1-5.83-1.12A170.2 170.2 0 0 0 25 1zm0 4.32c6.4 0 7.16.03 9.69.14 2.34.11 3.6.5 4.45.83 1.12.43 1.92.95 2.76 1.8a7.43 7.43 0 0 1 1.8 2.75c.32.85.72 2.12.82 4.46.12 2.53.14 3.29.14 9.7 0 6.4-.02 7.16-.14 9.69-.1 2.34-.5 3.6-.82 4.45a7.43 7.43 0 0 1-1.8 2.76 7.43 7.43 0 0 1-2.76 1.8c-.84.32-2.11.72-4.45.82-2.53.12-3.3.14-9.7.14-6.4 0-7.16-.02-9.7-.14-2.33-.1-3.6-.5-4.45-.82a7.43 7.43 0 0 1-2.76-1.8 7.43 7.43 0 0 1-1.8-2.76c-.32-.84-.71-2.11-.82-4.45a166.5 166.5 0 0 1-.14-9.7c0-6.4.03-7.16.14-9.7.11-2.33.5-3.6.83-4.45a7.43 7.43 0 0 1 1.8-2.76 7.43 7.43 0 0 1 2.75-1.8c.85-.32 2.12-.71 4.46-.82 2.53-.11 3.29-.14 9.7-.14zm0 7.35a12.32 12.32 0 1 0 0 24.64 12.32 12.32 0 0 0 0-24.64zM25 33a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm15.68-20.8a2.88 2.88 0 1 0-5.76 0 2.88 2.88 0 0 0 5.76 0z"] {
+    fill: {baseColor} !important;
+    opacity: 0.8;
+}
+
+/* assistant */
+.ow_NIGHT .tag-cloud-settings ul li {
+	background: rgba(255,255,255, 0.1);
+}
+
+.ow_NIGHT .tag-cloud-settings ul li:active {
+	background: rgba(255,255,255, 0.2);
+}
+
+.ow_NIGHT .assistant-settings svg.close {
+    fill: #eee;
+    opacity: 0.25;
+}
+
+/* login */
+.ow_NIGHT ._3G4x7,
+.ow_NIGHT .bTref {
+    color: #bbb;
+}
+
+/* edit profil */
+.ow_NIGHT ._8A5w5,
+.ow_NIGHT a._8A5w5,
+.ow_NIGHT a._8A5w5:visited {
+    color: #ccc;
+}
+
+/* new like counter */
+.ow_NIGHT ._9Ytll {
+     color: #ccc !important;
+}
+
+/* DM */
+.ow_NIGHT .N9abW {
+    background: transparent !important;
+}
+
+.ow_NIGHT ._6FEQj {
+    background: transparent;
+}
+
+.ow_NIGHT .CMoMH {
+    border: none !important;
+    background: #252525 !important;
+}
+
+.ow_NIGHT .X3a-9 {
+    border: none !important;
+    background: #252525 !important;
+}
+
+.ow_NIGHT-9 textarea {
+    color: white;
+}
+
+/* search page */
+.ow_NIGHT .fN6Mb {
+    background: transparent !important;
+}
+
+@media (max-width: 735px) {
+    .ow_NIGHT .fN6Mb {
+        background: transparent !important;
+    }
+}
+
+/* comment page */
+.ow_NIGHT .n1LTb .RxpZH {
+    border: none !important;
+    background: none !important;
+}
+
+.ow_NIGHT .n1LTb .X7cDz {
+    background-color: #222;
+    border: none;
+}
+
+.ow_NIGHT ._1LqHP {
+    padding-bottom: 3px !important;
+    border-bottom: 1px solid #333;
+}
+
+.ow_NIGHT .Ypffh {
+    color: white !important;
+}
+
+.ow_NIGHT .X3a-9 textarea {
+    color: white !important;
+}
+
+.ow_NIGHT .glyphsSpriteInfo__outline__24__grey_9{
+	filter:invert(100%) !important;
+}
+
+/* static header */
+.ow_NIGHT  img[srcset^="/static/images/web/"]{
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%) !important;
+}
+
+.ow_NIGHT svg path[d="M38.5 46h-29c-5 0-9-4-9-9V17c0-5 4-9 9-9h1.1c1.1 0 2.2-.6 2.7-1.7l.5-1c1-2 3.1-3.3 5.4-3.3h9.6c2.3 0 4.4 1.3 5.4 3.3l.5 1c.5 1 1.5 1.7 2.7 1.7h1.1c5 0 9 4 9 9v20c0 5-4 9-9 9zm6-29c0-3.3-2.7-6-6-6h-1.1C35.1 11 33 9.7 32 7.7l-.5-1C31 5.6 29.9 5 28.8 5h-9.6c-1.1 0-2.2.6-2.7 1.7l-.5 1c-1 2-3.1 3.3-5.4 3.3H9.5c-3.3 0-6 2.7-6 6v20c0 3.3 2.7 6 6 6h29c3.3 0 6-2.7 6-6V17zM24 38c-6.4 0-11.5-5.1-11.5-11.5S17.6 15 24 15s11.5 5.1 11.5 11.5S30.4 38 24 38zm0-20c-4.7 0-8.5 3.8-8.5 8.5S19.3 35 24 35s8.5-3.8 8.5-8.5S28.7 18 24 18z"],
+.ow_NIGHT svg path[d="M46.5 3.5h-45C.6 3.5.2 4.6.8 5.2l16 15.8 5.5 22.8c.2.9 1.4 1 1.8.3L47.4 5c.4-.7-.1-1.5-.9-1.5zm-40.1 3h33.5L19.1 18c-.4.2-.9.1-1.2-.2L6.4 6.5zm17.7 31.8l-4-16.6c-.1-.4.1-.9.5-1.1L41.5 9 24.1 38.3z"] {
+    fill: #e3e3e3 !important;
+}
+
+/* instagram header */
+.ow_NIGHT header .rDZ30 img.s4Iyt {
+    opacity: 0.8 !important;
+}
+
+/* follow back */
+.ow_NIGHT .BcJ68 {
+    color: #eee;
+}
+
+/* login from settings */
+.ow_NIGHT .BvMHM {
+    background: transparent !important;
+    border: none !important;
+}
+
+.ow_NIGHT .sxIVS,
+.ow_NIGHT .tiXqb {
+    color: #eee;
+}
+
+.ow_NIGHT svg path[d="M40 33.5c-.4 0-.8-.1-1.1-.4L24 18.1l-14.9 15c-.6.6-1.5.6-2.1 0s-.6-1.5 0-2.1l16-16c.6-.6 1.5-.6 2.1 0l16 16c.6.6.6 1.5 0 2.1-.3.3-.7.4-1.1.4z"] {
+    fill: white;
+}
+
+/* login activity */
+.ow_NIGHT .-qQT3:hover {
+    background-color: #252525;
+}
+
+.ow_NIGHT .eiUFA {
+    border: none !important;
+}
+
+.ow_NIGHT .pV7Qt {
+    border-color: #252525;
+    background-color: #252525;
+}
+
+.ow_NIGHT .JLJ-B,
+.ow_NIGHT .p7vTm {
+    color: #ccc;
+}
+
+.ow_NIGHT .PLphk {
+    color: #aaa;
+}
+
+/* new menu pictures */
+/* comment */
+.ow_NIGHT button svg path[d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"] {
+    fill: white !important;
+}
+
+/* like */
+.ow_NIGHT button svg path[d="M34.3 3.5C27.2 3.5 24 8.8 24 8.8s-3.2-5.3-10.3-5.3C6.4 3.5.5 9.9.5 17.8s6.1 12.4 12.2 17.8c9.2 8.2 9.8 8.9 11.3 8.9s2.1-.7 11.3-8.9c6.2-5.5 12.2-10 12.2-17.8 0-7.9-5.9-14.3-13.2-14.3zm-1 29.8c-5.4 4.8-8.3 7.5-9.3 8.1-1-.7-4.6-3.9-9.3-8.1-5.5-4.9-11.2-9-11.2-15.6 0-6.2 4.6-11.3 10.2-11.3 4.1 0 6.3 2 7.9 4.2 3.6 5.1 1.2 5.1 4.8 0 1.6-2.2 3.8-4.2 7.9-4.2 5.6 0 10.2 5.1 10.2 11.3 0 6.7-5.7 10.8-11.2 15.6z"] {
+    fill: white !important;
+}
+
+/* fav */
+.ow_NIGHT button svg path[d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"] {
+    fill: white !important;
+}
+
+/* overflow menu */
+.ow_NIGHT button svg circle[clip-rule="evenodd"]{
+    fill: white !important;
+}
+
+/* account settings menu */
+.ow_NIGHT button svg path[d="M46.7 20.6l-2.1-1.1c-.4-.2-.7-.5-.8-1-.5-1.6-1.1-3.2-1.9-4.7-.2-.4-.3-.8-.1-1.2l.8-2.3c.2-.5 0-1.1-.4-1.5l-2.9-2.9c-.4-.4-1-.5-1.5-.4l-2.3.8c-.4.1-.8.1-1.2-.1-1.4-.8-3-1.5-4.6-1.9-.4-.1-.8-.4-1-.8l-1.1-2.2c-.3-.5-.8-.8-1.3-.8h-4.1c-.6 0-1.1.3-1.3.8l-1.1 2.2c-.2.4-.5.7-1 .8-1.6.5-3.2 1.1-4.6 1.9-.4.2-.8.3-1.2.1l-2.3-.8c-.5-.2-1.1 0-1.5.4L5.9 8.8c-.4.4-.5 1-.4 1.5l.8 2.3c.1.4.1.8-.1 1.2-.8 1.5-1.5 3-1.9 4.7-.1.4-.4.8-.8 1l-2.1 1.1c-.5.3-.8.8-.8 1.3V26c0 .6.3 1.1.8 1.3l2.1 1.1c.4.2.7.5.8 1 .5 1.6 1.1 3.2 1.9 4.7.2.4.3.8.1 1.2l-.8 2.3c-.2.5 0 1.1.4 1.5L8.8 42c.4.4 1 .5 1.5.4l2.3-.8c.4-.1.8-.1 1.2.1 1.4.8 3 1.5 4.6 1.9.4.1.8.4 1 .8l1.1 2.2c.3.5.8.8 1.3.8h4.1c.6 0 1.1-.3 1.3-.8l1.1-2.2c.2-.4.5-.7 1-.8 1.6-.5 3.2-1.1 4.6-1.9.4-.2.8-.3 1.2-.1l2.3.8c.5.2 1.1 0 1.5-.4l2.9-2.9c.4-.4.5-1 .4-1.5l-.8-2.3c-.1-.4-.1-.8.1-1.2.8-1.5 1.5-3 1.9-4.7.1-.4.4-.8.8-1l2.1-1.1c.5-.3.8-.8.8-1.3v-4.1c.4-.5.1-1.1-.4-1.3zM24 41.5c-9.7 0-17.5-7.8-17.5-17.5S14.3 6.5 24 6.5 41.5 14.3 41.5 24 33.7 41.5 24 41.5z"] {
+    fill: white !important;
+}
+
+/* account friend menu */
+.ow_NIGHT button svg path[d="M32 25.5c5.2 0 9.5-4.3 9.5-9.5S37.2 6.5 32 6.5s-9.5 4.3-9.5 9.5 4.3 9.5 9.5 9.5zm0-16c3.6 0 6.5 2.9 6.5 6.5s-2.9 6.5-6.5 6.5-6.5-2.9-6.5-6.5 2.9-6.5 6.5-6.5zm5.5 19h-11c-5.5 0-10 4.5-10 10V40c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-1.5c0-3.9 3.1-7 7-7h11c3.9 0 7 3.1 7 7V40c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-1.5c0-5.5-4.5-10-10-10zm-20-4.5c0-.8-.7-1.5-1.5-1.5h-5.5V17c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5v5.5H2c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h5.5V31c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-5.5H16c.8 0 1.5-.7 1.5-1.5z"] {
+    fill: white !important;
+}
+
+/* account tab selector */
+.ow_NIGHT .hP7ps {
+    border-color: {baseColor} !important;
+}
+
+/* home */
+.ow_NIGHT svg path[d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z"] {
+    fill: white !important;
+}
+
+/* search */
+.ow_NIGHT svg path[d="M20 40C9 40 0 31 0 20S9 0 20 0s20 9 20 20-9 20-20 20zm0-37C10.6 3 3 10.6 3 20s7.6 17 17 17 17-7.6 17-17S29.4 3 20 3z"],
+.ow_NIGHT svg path[d="M46.6 48.1c-.4 0-.8-.1-1.1-.4L32 34.2c-.6-.6-.6-1.5 0-2.1s1.5-.6 2.1 0l13.5 13.5c.6.6.6 1.5 0 2.1-.2.3-.6.4-1 .4z"] {
+    fill: white !important;
+}
+
+/* upload */
+.ow_NIGHT svg path[d="M31.8 48H16.2c-6.6 0-9.6-1.6-12.1-4C1.6 41.4 0 38.4 0 31.8V16.2C0 9.6 1.6 6.6 4 4.1 6.6 1.6 9.6 0 16.2 0h15.6c6.6 0 9.6 1.6 12.1 4C46.4 6.6 48 9.6 48 16.2v15.6c0 6.6-1.6 9.6-4 12.1-2.6 2.5-5.6 4.1-12.2 4.1zM16.2 3C10 3 7.8 4.6 6.1 6.2 4.6 7.8 3 10 3 16.2v15.6c0 6.2 1.6 8.4 3.2 10.1 1.6 1.6 3.8 3.1 10 3.1h15.6c6.2 0 8.4-1.6 10.1-3.2 1.6-1.6 3.1-3.8 3.1-10V16.2c0-6.2-1.6-8.4-3.2-10.1C40.2 4.6 38 3 31.8 3H16.2z"],
+.ow_NIGHT svg path[d="M36.3 25.5H11.7c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5h24.6c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5z"],
+.ow_NIGHT svg path[d="M34.6 3.1c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5s1.1-.2 1.6-.5c1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"],
+.ow_NIGHT svg path[d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"],
+.ow_NIGHT svg path[d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"],
+.ow_NIGHT svg path[d="M24 37.8c-.8 0-1.5-.7-1.5-1.5V11.7c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v24.6c0 .8-.7 1.5-1.5 1.5z"] {
+    fill: white !important;
+}
+
+/* activity */
+.ow_NIGHT svg path[d="M34.3 3.5C27.2 3.5 24 8.8 24 8.8s-3.2-5.3-10.3-5.3C6.4 3.5.5 9.9.5 17.8s6.1 12.4 12.2 17.8c9.2 8.2 9.8 8.9 11.3 8.9s2.1-.7 11.3-8.9c6.2-5.5 12.2-10 12.2-17.8 0-7.9-5.9-14.3-13.2-14.3zm-1 29.8c-5.4 4.8-8.3 7.5-9.3 8.1-1-.7-4.6-3.9-9.3-8.1-5.5-4.9-11.2-9-11.2-15.6 0-6.2 4.6-11.3 10.2-11.3 4.1 0 6.3 2 7.9 4.2 3.6 5.1 1.2 5.1 4.8 0 1.6-2.2 3.8-4.2 7.9-4.2 5.6 0 10.2 5.1 10.2 11.3 0 6.7-5.7 10.8-11.2 15.6z"] {
+    fill: white !important;
+}
+
+/* profile */
+.ow_NIGHT nav svg path[d="M24 27c-7.1 0-12.9-5.8-12.9-12.9s5.8-13 12.9-13c7.1 0 12.9 5.8 12.9 12.9S31.1 27 24 27zm0-22.9c-5.5 0-9.9 4.5-9.9 9.9s4.4 10 9.9 10 9.9-4.5 9.9-9.9-4.4-10-9.9-10zm20 42.8c-.8 0-1.5-.7-1.5-1.5V42c0-5-4-9-9-9h-19c-5 0-9 4-9 9v3.4c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5V42c0-6.6 5.4-12 12-12h19c6.6 0 12 5.4 12 12v3.4c0 .8-.7 1.5-1.5 1.5z"] {
+    fill: white !important;
+}
+
+/* overflow menu */
+.ow_NIGHT button svg circle[clip-rule="evenodd"] {
+    fill: white !important;
+}
+
+/* active icon */
+.ow_NIGHT svg path[d="M45.3 48H30c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2-4.6-4.6-4.6s-4.6 2-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.5-.6 2.1 0l21.5 21.5c.4.4.6 1.1.3 1.6 0 .1-.1.1-.1.2v22.8c.1.8-.6 1.5-1.4 1.5zm-13.8-3h12.3V23.4L24 3.6l-20 20V45h12.3V34.2c0-4.3 3.3-7.6 7.6-7.6s7.6 3.3 7.6 7.6V45z"],
+.ow_NIGHT svg path[d="M24 27c-7.1 0-12.9-5.8-12.9-12.9s5.8-13 12.9-13c7.1 0 12.9 5.8 12.9 12.9S31.1 27 24 27zm20 19.9H4c-.8 0-1.5-.7-1.5-1.5V42c0-6.6 5.4-12 12-12h19c6.6 0 12 5.4 12 12v3.4c0 .8-.7 1.5-1.5 1.5z"],
+.ow_NIGHT svg path[d="M47.6 44L35.8 32.2C38.4 28.9 40 24.6 40 20 40 9 31 0 20 0S0 9 0 20s9 20 20 20c4.6 0 8.9-1.6 12.2-4.2L44 47.6c.6.6 1.5.6 2.1 0l1.4-1.4c.6-.6.6-1.6.1-2.2zM20 35c-8.3 0-15-6.7-15-15S11.7 5 20 5s15 6.7 15 15-6.7 15-15 15z"],
+.ow_NIGHT svg path[d="M35.3 35.6c-9.2 8.2-9.8 8.9-11.3 8.9s-2.1-.7-11.3-8.9C6.5 30.1.5 25.6.5 17.8.5 9.9 6.4 3.5 13.7 3.5 20.8 3.5 24 8.8 24 8.8s3.2-5.3 10.3-5.3c7.3 0 13.2 6.4 13.2 14.3 0 7.8-6.1 12.3-12.2 17.8z"] {
+    fill: white !important;
+}
+
+/* DM */
+.ow_NIGHT svg path[d="M33.7 44.12H8.5a8.41 8.41 0 01-8.5-8.5v-25.2a8.41 8.41 0 018.5-8.5H23a1.5 1.5 0 010 3H8.5a5.45 5.45 0 00-5.5 5.5v25.2a5.45 5.45 0 005.5 5.5h25.2a5.45 5.45 0 005.5-5.5v-14.5a1.5 1.5 0 013 0v14.5a8.41 8.41 0 01-8.5 8.5z"] {
+    fill: white !important;
+}
+
+/* account settings menu */
+.ow_NIGHT button svg path[d="M46.7 20.6l-2.1-1.1c-.4-.2-.7-.5-.8-1-.5-1.6-1.1-3.2-1.9-4.7-.2-.4-.3-.8-.1-1.2l.8-2.3c.2-.5 0-1.1-.4-1.5l-2.9-2.9c-.4-.4-1-.5-1.5-.4l-2.3.8c-.4.1-.8.1-1.2-.1-1.4-.8-3-1.5-4.6-1.9-.4-.1-.8-.4-1-.8l-1.1-2.2c-.3-.5-.8-.8-1.3-.8h-4.1c-.6 0-1.1.3-1.3.8l-1.1 2.2c-.2.4-.5.7-1 .8-1.6.5-3.2 1.1-4.6 1.9-.4.2-.8.3-1.2.1l-2.3-.8c-.5-.2-1.1 0-1.5.4L5.9 8.8c-.4.4-.5 1-.4 1.5l.8 2.3c.1.4.1.8-.1 1.2-.8 1.5-1.5 3-1.9 4.7-.1.4-.4.8-.8 1l-2.1 1.1c-.5.3-.8.8-.8 1.3V26c0 .6.3 1.1.8 1.3l2.1 1.1c.4.2.7.5.8 1 .5 1.6 1.1 3.2 1.9 4.7.2.4.3.8.1 1.2l-.8 2.3c-.2.5 0 1.1.4 1.5L8.8 42c.4.4 1 .5 1.5.4l2.3-.8c.4-.1.8-.1 1.2.1 1.4.8 3 1.5 4.6 1.9.4.1.8.4 1 .8l1.1 2.2c.3.5.8.8 1.3.8h4.1c.6 0 1.1-.3 1.3-.8l1.1-2.2c.2-.4.5-.7 1-.8 1.6-.5 3.2-1.1 4.6-1.9.4-.2.8-.3 1.2-.1l2.3.8c.5.2 1.1 0 1.5-.4l2.9-2.9c.4-.4.5-1 .4-1.5l-.8-2.3c-.1-.4-.1-.8.1-1.2.8-1.5 1.5-3 1.9-4.7.1-.4.4-.8.8-1l2.1-1.1c.5-.3.8-.8.8-1.3v-4.1c.4-.5.1-1.1-.4-1.3zM24 41.5c-9.7 0-17.5-7.8-17.5-17.5S14.3 6.5 24 6.5 41.5 14.3 41.5 24 33.7 41.5 24 41.5z"] {
+    fill: white !important;
+}
+
+/* account friend menu */
+.ow_NIGHT button svg path[d="M32 25.5c5.2 0 9.5-4.3 9.5-9.5S37.2 6.5 32 6.5s-9.5 4.3-9.5 9.5 4.3 9.5 9.5 9.5zm0-16c3.6 0 6.5 2.9 6.5 6.5s-2.9 6.5-6.5 6.5-6.5-2.9-6.5-6.5 2.9-6.5 6.5-6.5zm5.5 19h-11c-5.5 0-10 4.5-10 10V40c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-1.5c0-3.9 3.1-7 7-7h11c3.9 0 7 3.1 7 7V40c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-1.5c0-5.5-4.5-10-10-10zm-20-4.5c0-.8-.7-1.5-1.5-1.5h-5.5V17c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5v5.5H2c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h5.5V31c0 .8.7 1.5 1.5 1.5s1.5-.7 1.5-1.5v-5.5H16c.8 0 1.5-.7 1.5-1.5z"] {
+    fill: white !important;
+}
+
+/* close like */
+.ow_NIGHT button svg path[d="M41.1 9.1l-15 15L41 39c.6.6.6 1.5 0 2.1s-1.5.6-2.1 0L24 26.1l-14.9 15c-.6.6-1.5.6-2.1 0-.6-.6-.6-1.5 0-2.1l14.9-15-15-15c-.6-.6-.6-1.5 0-2.1s1.5-.6 2.1 0l15 15 15-15c.6-.6 1.5-.6 2.1 0 .6.6.6 1.6 0 2.2z"] {
+    fill: white !important;
+}
+
+/* account tab selector */
+.ow_NIGHT .hP7ps {
+    border-color: {baseColor} !important;
+}
+
+/*  announcement */
+.ow_NIGHT .bR_3v {
+    border: none !important;
+    background: #000 !important;
+}
+
+/* search */
+.ow_NIGHT .mJ2Qv {
+    background: transparent !important;
+}
+
+.ow_NIGHT .NcCcD .iwQA6 {
+    background: transparent !important;
+}
+
+/* story name */
+.ow_NIGHT .eebAO {
+    color: #eee !important;
+}
+
+/* account */
+.ow_NIGHT .PPjIp {
+    color: #bbb !important;
+}
+
+.ow_NIGHT main a:visited {
+    opacity: 0.7 !important;
+}
+
+.ow_NIGHT .sqdOP[disabled]:not(.A086a) {
+    opacity: 0.7 !important;
+}
+
+/* header */
+.ow_NIGHT img[src^="/static/images/web/mobile_nav_type_logo"] {
+    opacity: 0.6 !important;
+}
+
+html[data-ow-url="https://www.instagram.com/"].ow_NIGHT body svg path[d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"] {
+    opacity: 1 !important;
+}
+
+/* report */
+.ow_NIGHT ._1XyCr {
+    background: #444 !important;
+}
+
+/* suggested */
+.ow_NIGHT .PyUka,
+.ow_NIGHT .PyUka::before {
+    background: none !important;
+}
+
+.ow_NIGHT .NP414,
+.ow_NIGHT .NP414::before {
+    border: none !important;
+}
+
+/* pop up */
+.ow_NIGHT .xkuux {
+   background-color: #333 !important;
+}
+
+
+/* feed */
+.ow_NIGHT .tHaIX {
+   background-color: transparent !important;
+}
+
+.ow_NIGHT .cv3IO,
+.ow_NIGHT .NvNrm,
+.ow_NIGHT ._2eEhX,
+.ow_NIGHT .UE9AK {
+   border: none !important;
+   background: transparent !important;
+}
+
+@media (max-width: 735px) {
+  .ow_NIGHT ._2eEhX,
+  .ow_NIGHT .UE9AK {
+     border: none !important;
+  }
+}
+
+.ow_NIGHT ._8-yf5 {
+    fill: white !important;
+    color: white !important;
+}
+
+.ow_NIGHT .ufStW {
+    color: white !important;
+}
+
+.ow_NIGHT ._4lIW3 {
+    color: #ccc !important;
+}
+
+.ow_NIGHT .mOBkM::before {
+    border-color: transparent !important;
+}
+
+.ow_NIGHT ._9ezyW::before {
+    background-color: transparent !important;
+}
+
+.ow_NIGHT .KGiwt::before {
+    background-color: #555 !important;
+}
+
+.ow_NIGHT  ._97aPb {
+    background: transparent !important;
+}

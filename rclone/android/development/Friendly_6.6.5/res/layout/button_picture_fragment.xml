@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.allattentionhere.fabulousfilter.AAH_FilterView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/picture_buttons" android:padding="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:animateLayoutChanges="true">
+        <FrameLayout android:background="@drawable/circle_picture_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+            <ImageView android:id="@id/post_button" android:background="?selectableItemBackgroundBorderless" android:padding="10.5dip" android:focusable="true" android:clickable="true" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/ic_message_white_36dp" />
+        </FrameLayout>
+        <FrameLayout android:background="@drawable/circle_picture_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+            <ImageView android:id="@id/button_share" android:background="?selectableItemBackgroundBorderless" android:padding="10.5dip" android:focusable="true" android:clickable="true" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/ic_share_white_36dp" />
+        </FrameLayout>
+        <FrameLayout android:background="@drawable/circle_picture_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+            <ImageView android:id="@id/button_download" android:background="?selectableItemBackgroundBorderless" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/ic_file_download_white_36dp" />
+        </FrameLayout>
+    </LinearLayout>
+</com.allattentionhere.fabulousfilter.AAH_FilterView>

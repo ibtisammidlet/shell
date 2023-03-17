@@ -1,0 +1,10 @@
+{
+	"css" : {
+		"head" : ["instagram.com_nightmode", "instagram.com_instagram.com", "instagram.com_prefs"]
+	},
+	"js" : {
+		"beforeLoad": ["instagram.com_prefs", "instagram.com_overrider", "instagram.com_preload"],
+		"interactive" : ["instagram.com_instagram.com"],
+		"head" : ["instagram.com_prefs"]
+	}
+}

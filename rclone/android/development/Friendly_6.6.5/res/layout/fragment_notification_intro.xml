@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center|left" android:orientation="vertical" android:background="@android:color/transparent" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <io.friendly.ui.materialintroscreen.parallax.ParallaxLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip">
+        <FrameLayout android:id="@id/child_container" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_parallaxFactor="0.9" />
+        <TextView android:textSize="21.0sp" android:textColor="#ff555555" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intro_notification" android:textAlignment="center" app:layout_parallaxFactor="0.6" />
+        <TextView android:textSize="19.0sp" android:textColor="#ff888888" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/intro_notification_2" android:textAlignment="center" app:layout_parallaxFactor="0.3" />
+    </io.friendly.ui.materialintroscreen.parallax.ParallaxLinearLayout>
+</FrameLayout>

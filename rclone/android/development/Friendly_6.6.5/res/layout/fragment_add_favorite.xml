@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:chipcloud="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/main_content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/recycler_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/header" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="20.0dip" chipcloud:srcCompat="@drawable/google_icon" />
+                        <Button android:textSize="16.0sp" android:textColor="?colorAccent" android:id="@id/open_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_favorite_google" style="?borderlessButtonStyle" />
+                    </LinearLayout>
+                    <View android:background="@color/favoriteDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginBottom="0.0dip" />
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center|top" android:id="@id/rv_item" android:paddingBottom="10.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center" android:id="@id/chip_layout" android:paddingLeft="10.0dip" android:paddingTop="36.0dip" android:paddingRight="10.0dip" android:paddingBottom="30.0dip" android:fitsSystemWindows="false" android:clipToPadding="true" android:layout_width="360.0dip" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip">
+                    <com.adroitandroid.chipcloud.ChipCloud android:layout_gravity="center|top" android:id="@id/chip_cloud_fb" android:layout_width="fill_parent" android:layout_height="wrap_content" chipcloud:allCaps="true" chipcloud:deselectTransitionMS="500" chipcloud:minHorizontalSpacing="32.0dip" chipcloud:selectMode="none" chipcloud:selectTransitionMS="750" chipcloud:textSize="16.0sp" chipcloud:verticalSpacing="16.0dip" />
+                    <View android:background="#ffffffff" android:layout_width="120.0dip" android:layout_height="2.0dip" android:layout_margin="25.0dip" android:alpha="0.56" />
+                    <com.adroitandroid.chipcloud.ChipCloud android:layout_gravity="center|top" android:id="@id/chip_cloud_ext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" chipcloud:allCaps="true" chipcloud:deselectTransitionMS="500" chipcloud:minHorizontalSpacing="32.0dip" chipcloud:selectMode="none" chipcloud:selectTransitionMS="750" chipcloud:textSize="16.0sp" chipcloud:verticalSpacing="16.0dip" />
+                    <View android:background="@color/favoriteDivider" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="2.0dip" android:layout_margin="25.0dip" />
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="20.0dip" chipcloud:srcCompat="@drawable/google_icon" />
+                        <Button android:textSize="16.0sp" android:textColor="?colorAccent" android:id="@id/open_search_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_favorite_google" style="?borderlessButtonStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

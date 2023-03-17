@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/bottom_tabs" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/shadow_1" android:background="@color/shadow_bottom" android:layout_width="fill_parent" android:layout_height="1.0dip" android:alpha="0.4" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" app:tabContentStart="0.0dip" app:tabIndicatorHeight="0.0dip" app:tabMinWidth="@dimen/smart_tabs_height" app:tabMode="fixed" app:tabPaddingBottom="0.0dip" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" app:tabPaddingTop="0.0dip" />
+</LinearLayout>

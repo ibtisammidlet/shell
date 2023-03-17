@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/path_folder_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_folder_icon" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="16.0sp" android:id="@id/storage_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="6.0dip" android:layout_toRightOf="@id/path_folder_icon" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/path_folder_icon" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="facebook_order" />
+    <CheckBoxPreference android:key="security_code" android:summaryOn="On" android:summaryOff="Off" />
+    <CheckBoxPreference android:key="ui_big_font" android:summaryOn="On" android:summaryOff="Off" />
+    <Preference android:key="ui_theme" />
+</PreferenceScreen>

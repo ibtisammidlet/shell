@@ -1,0 +1,10 @@
+{
+	"css" : {
+		"head" : ["twitter.com_nightmode","twitter.com_twitter.com","twitter.com_tweets.com"]
+	},
+	"js" : {
+		"beforeLoad" : ["twitter.com_prototypes", "twitter.com_preload", "twitter.com_prefs"],
+		"interactive" : ["twitter.com_tweets.com", "twitter.com_account.lib", "twitter.com_twitter.com"]
+	}
+}
+

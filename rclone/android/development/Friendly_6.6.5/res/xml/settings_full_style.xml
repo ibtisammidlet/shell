@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="ui_theme" />
+    <Preference android:key="bottom_ui" />
+    <CheckBoxPreference android:key="ui_amoled" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    <CheckBoxPreference android:key="ui_night_mode" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    <Preference android:key="night_hours" />
+    <CheckBoxPreference android:key="ui_big_font" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+    <CheckBoxPreference android:key="swipe" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+</PreferenceScreen>

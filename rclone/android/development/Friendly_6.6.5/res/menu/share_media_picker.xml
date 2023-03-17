@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_photo_library_black_48dp" android:id="@id/share_picture" android:title="@string/picture_picker" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_video_library_black_48dp" android:id="@id/share_video" android:title="@string/video_picker" app:showAsAction="ifRoom" />
+</menu>
