@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty
+   rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 24h --attr-timeout 1h --fast-list
+
+:: rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty
 
 :: rclone  --vfs-cache-max-size 2048M  --retries 10 mount mega: M:
 
