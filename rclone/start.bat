@@ -1,8 +1,3 @@
-@echo off
-
-   rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full --vfs-cache-max-age 8640h -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 8640h --attr-timeout 8640h --drive-chunk-size 32M --vfs-read-chunk-size 32M --vfs-read-ahead 32M --transfers 16 --checkers 16
-   
-   
 :: rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full --vfs-cache-max-age 720h -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 720h --attr-timeout 720h --fast-list --drive-chunk-size 32M --vfs-read-chunk-size 32M --vfs-read-ahead 32M --transfers 16 --checkers 16
 
 :: rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 24h --attr-timeout 1h --fast-list
@@ -24,3 +19,27 @@
 :: set /p password=<password.txt
 
 ::    rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full --vfs-cache-max-age 8640h -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 8640h --attr-timeout 8640h --drive-chunk-size 32M --vfs-read-chunk-size 32M --vfs-read-ahead 32M --transfers 16 --checkers 16 --password-command "echo %password%"
+
+:: ----------------------------------------------------------------------
+::   @echo off
+
+::   rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full --vfs-cache-max-age 8640h -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 8640h --attr-timeout 8640h --drive-chunk-size 32M --vfs-read-chunk-size 32M --vfs-read-ahead 32M --transfers 16 --checkers 16
+:: ----------------------------------------------------------------------
+
+@echo off
+
+set password=start
+
+start cmd /c "rclone mount ibtisam2: X: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full --vfs-cache-max-age 8640h -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 8640h --attr-timeout 8640h --drive-chunk-size 32M --vfs-read-chunk-size 32M --vfs-read-ahead 32M --transfers 16 --checkers 16  --password-command  "cmd /c echo %password%"" 
+
+timeout /t 5
+
+:: start cmd /c "rclone mount elena: N: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full --vfs-cache-max-age 8640h -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 8640h --attr-timeout 8640h --drive-chunk-size 32M --vfs-read-chunk-size 32M --vfs-read-ahead 32M --transfers 16 --checkers 16  --password-command  "cmd /c echo %password%"" 
+
+:: timeout /t 5
+
+:: start cmd /c "rclone mount mega: M: --vfs-cache-max-size 20480M --retries 10 --vfs-cache-mode full --vfs-cache-max-age 8640h -vv --cache-dir E:\data\development\shell\rclone\cache --allow-other --allow-non-empty --buffer-size 32M --dir-cache-time 8640h --attr-timeout 8640h --drive-chunk-size 32M --vfs-read-chunk-size 32M --vfs-read-ahead 32M --transfers 16 --checkers 16  --password-command  "cmd /c echo %password%"" 
+
+pause 
+ 
+:: https://you.com/search?q=thanks%21+worked+totally+fine&cid=c1_f8cef574-1c5c-42ff-a576-73cdaf8b991c&tbm=youchat

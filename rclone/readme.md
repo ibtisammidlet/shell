@@ -5,3 +5,6 @@
 ## to know:
 -start.bat need to run in none adminstartor mode
 -you might need to install rclone as service by nssm.
+
+## change log:
+2023-11-19: baked everything in one file start.cmd elena.cmd mega.cmd ==> start.cmd
