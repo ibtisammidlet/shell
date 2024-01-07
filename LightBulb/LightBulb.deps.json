@@ -1,0 +1,284 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LightBulb/2.4.7": {
+        "dependencies": {
+          "CSharpier.MsBuild": "0.26.1",
+          "Cogwheel": "2.0.4",
+          "Deorcify": "1.0.2",
+          "DotnetRuntimeBootstrapper": "2.5.1",
+          "Hardcodet.NotifyIcon.Wpf": "1.1.0",
+          "LightBulb.Core": "2.4.7",
+          "LightBulb.WindowsApi": "2.4.7",
+          "MaterialDesignColors": "2.1.4",
+          "MaterialDesignThemes": "4.9.0",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
+          "Onova": "2.6.10",
+          "PropertyChanged.Fody": "4.1.0",
+          "Stylet": "1.3.6",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "LightBulb.dll": {}
+        }
+      },
+      "Cogwheel/2.0.4": {
+        "runtime": {
+          "lib/net5.0/Cogwheel.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "CSharpier.MsBuild/0.26.1": {},
+      "Deorcify/1.0.2": {},
+      "DotnetRuntimeBootstrapper/2.5.1": {},
+      "Fody/6.6.4": {},
+      "Hardcodet.NotifyIcon.Wpf/1.1.0": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Hardcodet.NotifyIcon.Wpf.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.17"
+          }
+        }
+      },
+      "JsonExtensions/1.2.0": {
+        "runtime": {
+          "lib/net5.0/JsonExtensions.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "MaterialDesignColors/2.1.4": {
+        "runtime": {
+          "lib/net7.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.9.0": {
+        "dependencies": {
+          "MaterialDesignColors": "2.1.4",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "runtime": {
+          "lib/net7.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {},
+      "Microsoft.Win32.SystemEvents/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.77.27830"
+          }
+        }
+      },
+      "Onova/2.6.10": {
+        "runtime": {
+          "lib/netcoreapp3.0/Onova.dll": {
+            "assemblyVersion": "2.6.10.0",
+            "fileVersion": "2.6.10.0"
+          }
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "dependencies": {
+          "Fody": "6.6.4"
+        }
+      },
+      "Stylet/1.3.6": {
+        "dependencies": {
+          "System.Drawing.Common": "4.6.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Stylet.dll": {
+            "assemblyVersion": "1.3.6.0",
+            "fileVersion": "1.3.6.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.SystemEvents": "4.6.0"
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
+      "LightBulb.Core/2.4.7": {
+        "dependencies": {
+          "JsonExtensions": "1.2.0"
+        },
+        "runtime": {
+          "LightBulb.Core.dll": {}
+        }
+      },
+      "LightBulb.WindowsApi/2.4.7": {
+        "dependencies": {
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "LightBulb.WindowsApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LightBulb/2.4.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cogwheel/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+WtYsa00KNdV0syMV7sAZoeAYm8Y03ztMxneTfk4M5obG248iZFDxvUSz+ovG2vhiMEthuPduA0mMNMKCCQRdA==",
+      "path": "cogwheel/2.0.4",
+      "hashPath": "cogwheel.2.0.4.nupkg.sha512"
+    },
+    "CSharpier.MsBuild/0.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mwCkqpLp7IKINDgUlCeMhodJwOV3GTtAeO9OwQv/HZwjyWPB5VH7EkRtBgWnVF6/nKPNv1fS2208Yszyw0hxDA==",
+      "path": "csharpier.msbuild/0.26.1",
+      "hashPath": "csharpier.msbuild.0.26.1.nupkg.sha512"
+    },
+    "Deorcify/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-khu8MahgfbXc8eQxfZgRX38Jgu1ZLg+6aK906XtIkUpzMovhaPs4ZOWcUiDLtPz0a9m7TcQwtGtoeRgghO8mVw==",
+      "path": "deorcify/1.0.2",
+      "hashPath": "deorcify.1.0.2.nupkg.sha512"
+    },
+    "DotnetRuntimeBootstrapper/2.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ufbf8Qe9hwY/KojfimWX4Kqka3QFH4IoGiQj8LPRlyk68/ApHxsG+p6GeTwukY0sIgxA1VXUAFkbvnn9rbZyaw==",
+      "path": "dotnetruntimebootstrapper/2.5.1",
+      "hashPath": "dotnetruntimebootstrapper.2.5.1.nupkg.sha512"
+    },
+    "Fody/6.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
+      "path": "fody/6.6.4",
+      "hashPath": "fody.6.6.4.nupkg.sha512"
+    },
+    "Hardcodet.NotifyIcon.Wpf/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FFEkdRSidMrbMfQVwhCzq6KtSyR1qQojqtiUrkCyjnOOuMf7W3TNQkzFnBBxYxFe7uLk5mz7M38wFh1qdWyfvg==",
+      "path": "hardcodet.notifyicon.wpf/1.1.0",
+      "hashPath": "hardcodet.notifyicon.wpf.1.1.0.nupkg.sha512"
+    },
+    "JsonExtensions/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ujtrK6m5BQVQLEteLfl54upN7Z59c1ZqEKmU3OlYriqnV74dIgIlNM2vkcgn2AuZEItQDNORD/2H1biI/asOdg==",
+      "path": "jsonextensions/1.2.0",
+      "hashPath": "jsonextensions.1.2.0.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C4Oy+qkjMoMPoZKyqYdCnIYtK8c0OSIHmNP73Vgc69NjiUG093xTkE7W/Ks54cTDS7fmWOtUHfwISTVTtb/YKg==",
+      "path": "materialdesigncolors/2.1.4",
+      "hashPath": "materialdesigncolors.2.1.4.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bp9Auw70j+9V7WsUMT4pc8ulVzfL0Eav/tyGgICDirxxhKJwhqtC/6PRkTUm+R1t9611xiDuk5pSUNdDV6vfOQ==",
+      "path": "materialdesignthemes/4.9.0",
+      "hashPath": "materialdesignthemes.4.9.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "hashPath": "microsoft.netcore.platforms.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Edg+pFW5C8WJb680Za2kTV8TqUi6Ahl/WldRVoOVJ23UQLpDHFspa+umgFjkWZw24ETsU99Cg+ErZz683M4chg==",
+      "path": "microsoft.win32.systemevents/4.6.0",
+      "hashPath": "microsoft.win32.systemevents.4.6.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MCu674ZETgU18EbxfwIlRpUPJ02YbZenLsMCXTkpeA7KUBpXfFaOUDlEO+7UWu5AFnUoydg+aQENJkuaZPheMQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.77",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+    },
+    "Onova/2.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Duu7DulZ0os8kDY+qX/VlGBE/XPlgXOMc4+if1+cmH1eUpu57iwrTUrz7VX7tioxRl2NAXb75ldytBTRDZ7C2g==",
+      "path": "onova/2.6.10",
+      "hashPath": "onova.2.6.10.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6v+f9cI8YjnZH2WBHuOqWEAo8DFFNGFIdU8xD3AsL6fhV6Y8oAmVWd7XKk49t8DpeUBwhR/X+97+6Epvek0Y3A==",
+      "path": "propertychanged.fody/4.1.0",
+      "hashPath": "propertychanged.fody.4.1.0.nupkg.sha512"
+    },
+    "Stylet/1.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SISR+DsPrgBww3AI5FtHx1tD9VkEfJWZYu+ykq5EFM2o7Se9zxNR6FAa2g5QadQa90NKMYxn/VZEQRDo7/pdkw==",
+      "path": "stylet/1.3.6",
+      "hashPath": "stylet.1.3.6.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2A3spjjoPZnvpVh/sDTzd+0H8ZqTdr+hH/6obB8MMfG81EJ85PmxCKDBxhBVQiA25PliKAZ1sKogDcq9mSnFEA==",
+      "path": "system.drawing.common/4.6.0",
+      "hashPath": "system.drawing.common.4.6.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
+    },
+    "LightBulb.Core/2.4.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LightBulb.WindowsApi/2.4.7": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,2 @@
+https://you.com/search?q=give+me+Library+to+automate+command-line+processes+lunch+%2C+like+every+30minutes+or+in+startup+of+windows%2C+prefer+a+tool+that+lightwight%2C+GUI+and+from+github&tbm=youchat&cfr=chat&cid=c0_a4241d3e-435a-4d38-b2da-07bc59dec7c8
+https://www.autoitscript.com/site/autoit/downloads/

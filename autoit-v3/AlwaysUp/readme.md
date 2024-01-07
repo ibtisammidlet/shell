@@ -1,0 +1,2 @@
+https://you.com/search?q=how+to+use+autoit+%2Fau3+to+make+sure+certain+app+ke&tbm=youchat&cfr=chat&cid=c0_621e638f-6496-4da2-95b8-f83e0f095d1e
+https://you.com/search?q=how+to+add+bat+file+as+an+agremunt+for+cmd&tbm=youchat&cfr=chat&cid=c0_f5f4885e-146c-464d-8d9f-846fd257549d
