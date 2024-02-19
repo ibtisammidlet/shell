@@ -1,0 +1,1 @@
+https://github.com/kiwibrowser/src.next/releases/tag/1070733492
