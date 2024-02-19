@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="false" android:color="@color/hairline_stroke_color" />
+    <item android:color="@color/default_bg_color" />
+</selector>
