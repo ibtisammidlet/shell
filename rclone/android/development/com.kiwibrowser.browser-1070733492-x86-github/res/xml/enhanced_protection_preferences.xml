@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/safe_browsing_enhanced_protection_subtitle" android:key="subtitle" app:allowDividerBelow="false" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/ic_security_grey" android:key="bullet_one" android:summary="@string/safe_browsing_enhanced_protection_bullet_one" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color_tint_list" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/ic_logo_googleg_24dp" android:key="bullet_two" android:summary="@string/safe_browsing_enhanced_protection_bullet_two" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color_tint_list" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/ic_globe_24dp" android:key="bullet_three" android:summary="@string/safe_browsing_enhanced_protection_bullet_three" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color_tint_list" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/ic_vpn_key_grey" android:key="bullet_four" android:summary="@string/safe_browsing_enhanced_protection_bullet_four" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color_tint_list" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/ic_data_viz_grey" android:key="bullet_five" android:summary="@string/safe_browsing_enhanced_protection_bullet_five" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color_tint_list" />
+</PreferenceScreen>

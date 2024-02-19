@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">Strni skupino zavihkov s/z %1$d zavihki.</item>
+        <item quantity="one">Strni %1$d zavihek.</item>
+        <item quantity="two">Strni skupino zavihkov s/z %1$d zavihkoma.</item>
+        <item quantity="few">Strni skupino zavihkov s/z %1$d zavihki.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">Strni skupino zavihkov %1$s s/z %2$d zavihki.</item>
+        <item quantity="one">Strni %1$d zavihek.</item>
+        <item quantity="two">Strni skupino zavihkov %1$s s/z %2$d zavihkoma.</item>
+        <item quantity="few">Strni skupino zavihkov %1$s s/z %2$d zavihki.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d zvočnih datotek</item>
+        <item quantity="one">%d zvočna datoteka</item>
+        <item quantity="two">%d zvočni datoteki</item>
+        <item quantity="few">%d zvočne datoteke</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d datotek</item>
+        <item quantity="one">%d datoteka</item>
+        <item quantity="two">%d datoteki</item>
+        <item quantity="few">%d datoteke</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d slik</item>
+        <item quantity="one">%d slika</item>
+        <item quantity="two">%d sliki</item>
+        <item quantity="few">%d slike</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d strani</item>
+        <item quantity="one">%d stran</item>
+        <item quantity="two">%d strani</item>
+        <item quantity="few">%d strani</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d videoposnetkov</item>
+        <item quantity="one">%d videoposnetek</item>
+        <item quantity="two">%d videoposnetka</item>
+        <item quantity="few">%d videoposnetki</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">Ocena %1$s/%2$s, %3$d mnenj</item>
+        <item quantity="one">" Ocena %1$s/%2$s, %3$d mnenje"</item>
+        <item quantity="two">Ocena %1$s/%2$s, %3$d mnenji</item>
+        <item quantity="few">Ocena %1$s/%2$s, %3$d mnenja</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Odstranitev %d izbranih elementov</item>
+        <item quantity="one">Odstranitev 1 izbranega elementa</item>
+        <item quantity="two">Odstranitev %d izbranih elementov</item>
+        <item quantity="few">Odstranitev %d izbranih elementov</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">Delitev %d izbranih elementov z drugimi</item>
+        <item quantity="one">Delitev 1 izbranega elementa z drugimi</item>
+        <item quantity="two">Delitev %d izbranih elementov z drugimi</item>
+        <item quantity="few">Delitev %d izbranih elementov z drugimi</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Odstrani %1$d izbranih zavihkov iz skupine.</item>
+        <item quantity="one">Odstrani %1$d izbran zavihek iz skupine.</item>
+        <item quantity="two">Odstrani %1$d izbrana zavihka iz skupine.</item>
+        <item quantity="few">Odstrani %1$d izbrane zavihke iz skupine.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Uvrsti %1$d izbranih zavihkov v skupino</item>
+        <item quantity="one">Uvrsti %1$d izbrani zavihek v skupino</item>
+        <item quantity="two">Uvrsti %1$d izbrana zavihka v skupino</item>
+        <item quantity="few">Uvrsti %1$d izbrane zavihke v skupino</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Zapiranje %1$d izbranih zavihkov</item>
+        <item quantity="one">Zapiranje %1$d izbranega zavihka</item>
+        <item quantity="two">Zapiranje %1$d izbranih zavihkov</item>
+        <item quantity="few">Zapiranje %1$d izbranih zavihkov</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d odprtih zavihkov, dotaknite se, če želite preklopiti med zavihki</item>
+        <item quantity="one">%1$d odprt zavihek, dotaknite se, če želite preklopiti med zavihki</item>
+        <item quantity="two">%1$d odprta zavihka, dotaknite se, če želite preklopiti med zavihki</item>
+        <item quantity="few">%1$d odprti zavihki, dotaknite se, če želite preklopiti med zavihki</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d zaznamkov</item>
+        <item quantity="one">%1$d zaznamek</item>
+        <item quantity="two">%1$d zaznamka</item>
+        <item quantity="few">%1$d zaznamki</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d zavihkov</item>
+        <item quantity="one">%1$d zavihek</item>
+        <item quantity="two">%1$d zavihka</item>
+        <item quantity="few">%1$d zavihki</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(in še %d)</item>
+        <item quantity="one">(in še 1)</item>
+        <item quantity="two">(in še %d)</item>
+        <item quantity="few">(in še %d)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">Blokiranih je %d piškotkov</item>
+        <item quantity="one">Blokiran je en piškotek</item>
+        <item quantity="two">Blokirana sta %d piškotka</item>
+        <item quantity="few">Blokirani so %d piškotki</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">Prenos %d datotek.</item>
+        <item quantity="one">Prenos datoteke.</item>
+        <item quantity="two">Prenos %d datotek.</item>
+        <item quantity="few">Prenos %d datotek.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="two">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d prenesenih datotek</item>
+        <item quantity="one">%1$d prenesena datoteka</item>
+        <item quantity="two">%1$d preneseni datoteki</item>
+        <item quantity="few">%1$d prenesene datoteke</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s mnenj)</item>
+        <item quantity="one">(%1$s mnenje)</item>
+        <item quantity="two">(%1$s mnenji)</item>
+        <item quantity="few">(%1$s mnenja)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d prenosov je končanih.</item>
+        <item quantity="one">1 prenos je končan.</item>
+        <item quantity="two">%d prenosa sta končana.</item>
+        <item quantity="few">%d prenosi so končani.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d prenosov ni uspelo.</item>
+        <item quantity="one">1 prenos ni uspel.</item>
+        <item quantity="two">%d prenosa nista uspela.</item>
+        <item quantity="few">%d prenosi niso uspeli.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d prenosov na čakanju</item>
+        <item quantity="one">1 prenos na čakanju</item>
+        <item quantity="two">%d prenosa na čakanju</item>
+        <item quantity="few">%d prenosi na čakanju</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">Načrtovanih je %d prenosov.</item>
+        <item quantity="one">Načrtovan je 1 prenos.</item>
+        <item quantity="two">Načrtovana sta %d prenosa.</item>
+        <item quantity="few">Načrtovani so %d prenosi.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">Pred %d dnevi</item>
+        <item quantity="one">Pred %d dnevom</item>
+        <item quantity="two">Pred %d dnevoma</item>
+        <item quantity="few">Pred %d dnevi</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">Pred %d urami</item>
+        <item quantity="one">Pred %d uro</item>
+        <item quantity="two">Pred %d urama</item>
+        <item quantity="few">Pred %d urami</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">Pred %d minutami</item>
+        <item quantity="one">Pred %d minuto</item>
+        <item quantity="two">Pred %d minutama</item>
+        <item quantity="few">Pred %d minutami</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">Kiwi Browser bo naložil strani, ko bo pripravljen</item>
+        <item quantity="one">Kiwi Browser bo naložil stran, ko bo pripravljen</item>
+        <item quantity="two">Kiwi Browser bo naložil strani, ko bo pripravljen</item>
+        <item quantity="few">Kiwi Browser bo naložil strani, ko bo pripravljen</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%d piškotkov v uporabi</item>
+        <item quantity="one">1 piškotek v uporabi</item>
+        <item quantity="two">%d piškotka v uporabi</item>
+        <item quantity="few">%d piškotki v uporabi</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">Dovoljeno: %1$s, %2$s in še %3$s</item>
+        <item quantity="one">Dovoljeno: %1$s, %2$s in še %3$s</item>
+        <item quantity="two">Dovoljeno: %1$s, %2$s in še %3$s</item>
+        <item quantity="few">Dovoljeno: %1$s, %2$s in še %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">Blokirano: %1$s, %2$s in še %3$s</item>
+        <item quantity="one">Blokirano: %1$s, %2$s in še %3$s</item>
+        <item quantity="two">Blokirano: %1$s, %2$s in še %3$s</item>
+        <item quantity="few">Blokirano: %1$s, %2$s in še %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s in še %3$s</item>
+        <item quantity="one">%1$s, %2$s in še %3$s</item>
+        <item quantity="two">%1$s, %2$s in še %3$s</item>
+        <item quantity="few">%1$s, %2$s in še %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d ogroženih gesel</item>
+        <item quantity="one">%d ogroženo geslo</item>
+        <item quantity="two">%d ogroženi gesli</item>
+        <item quantity="few">%d ogrožena gesla</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s … in še %2$s</item>
+        <item quantity="one">%1$s … in še %2$s</item>
+        <item quantity="two">%1$s … in še %2$s</item>
+        <item quantity="few">%1$s … in še %2$s</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s … in še %2$s</item>
+        <item quantity="one">%1$s … in še %2$s</item>
+        <item quantity="two">%1$s … in še %2$s</item>
+        <item quantity="few">%1$s … in še %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s … in še %2$s</item>
+        <item quantity="one">%1$s … in še %2$s</item>
+        <item quantity="two">%1$s … in še %2$s</item>
+        <item quantity="few">%1$s … in še %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s … in še %2$s</item>
+        <item quantity="one">%1$s … in še %2$s</item>
+        <item quantity="two">%1$s … in še %2$s</item>
+        <item quantity="few">%1$s … in še %2$s</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">Imate %1$d neprebranih strani.</item>
+        <item quantity="one">Imate %1$d neprebrano stran.</item>
+        <item quantity="two">Imate %1$d neprebrani strani.</item>
+        <item quantity="few">Imate %1$d neprebrane strani.</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d neprebranih strani</item>
+        <item quantity="one">%1$d neprebrana stran</item>
+        <item quantity="two">%1$d neprebrani strani</item>
+        <item quantity="few">%1$d neprebrane strani</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d ogroženih gesel</item>
+        <item quantity="one">1 ogroženo geslo</item>
+        <item quantity="two">%d ogroženi gesli</item>
+        <item quantity="few">%d ogrožena gesla</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">Preverjeno pred %d dnevi</item>
+        <item quantity="one">Preverjeno pred 1 dnevom</item>
+        <item quantity="two">Preverjeno pred %d dnevoma</item>
+        <item quantity="few">Preverjeno pred %d dnevi</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">Preverjeno pred %d urami</item>
+        <item quantity="one">Preverjeno pred 1 uro</item>
+        <item quantity="two">Preverjeno pred %d urama</item>
+        <item quantity="few">Preverjeno pred %d urami</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">Preverjeno pred %d minutami</item>
+        <item quantity="one">Preverjeno pred 1 minuto</item>
+        <item quantity="two">Preverjeno pred %d minutama</item>
+        <item quantity="few">Preverjeno pred %d minutami</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d izbranih</item>
+        <item quantity="one">1 izbran</item>
+        <item quantity="two">%d izbrana</item>
+        <item quantity="few">%d izbrani</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Moč signala: %d črtic</item>
+        <item quantity="one">Moč signala: %d črtica</item>
+        <item quantity="two">Moč signala: %d črtici</item>
+        <item quantity="few">Moč signala: %d črtice</item>
+    </plurals>
+</resources>

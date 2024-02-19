@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/custom_tabs_handle_view_stub" android:visibility="gone" android:layout="@layout/custom_tabs_handle_view" android:inflatedId="@id/custom_tabs_handle_view" android:layout_width="fill_parent" android:layout_height="@dimen/custom_tabs_top_corner_round_radius" />
+    <org.chromium.components.browser_ui.widget.CoordinatorLayoutForPointer android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <include layout="@layout/compositor_view_holder" />
+        <FrameLayout android:id="@id/ar_view_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/capture_overlay" android:background="@drawable/capture_overlay_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/overview_list_layout_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <org.chromium.chrome.browser.ui.BottomContainer android:layout_gravity="start|bottom|center" android:id="@id/bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/keyboard_accessory_stub" android:inflatedId="@id/keyboard_accessory" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_accessory_height_with_shadow" />
+        <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/keyboard_accessory_sheet_stub" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_accessory_sheet_height" />
+        <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/bottombar_stub" android:layout="@layout/custom_tabs_bottombar" android:inflatedId="@id/bottombar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" />
+        <ViewStub android:id="@id/tab_modal_dialog_container_stub" android:inflatedId="@id/tab_modal_dialog_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/tab_modal_dialog_container_sibling_view" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <ViewStub android:id="@id/omnibox_results_container_stub" android:layout="@layout/omnibox_results_container" android:inflatedId="@id/omnibox_results_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_anchor="@id/control_container" />
+        <View android:id="@id/action_bar_black_background" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow" />
+        <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/bottom_controls_stub" android:layout="@layout/bottom_control_container" android:inflatedId="@id/bottom_controls" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/control_container_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/continuous_search_container_stub" android:visibility="gone" android:layout="@layout/continuous_search_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <org.chromium.components.messages.MessageContainer android:layout_gravity="start|center|top" android:id="@id/message_container" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/status_indicator_stub" android:layout="@layout/status_indicator_container" android:inflatedId="@id/status_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/empty_container_stub" android:layout="@layout/empty_background_view_tablet" android:inflatedId="@id/empty_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/sheet_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/survey_container" android:visibility="gone" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </org.chromium.components.browser_ui.widget.CoordinatorLayoutForPointer>
+    <View android:layout_gravity="start|bottom|center" android:id="@id/menu_anchor_stub" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <View android:layout_gravity="bottom" android:id="@id/navigation_popup_anchor_stub" android:layout_width="fill_parent" android:layout_height="0.0px" />
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.LargeMessageCardView android:id="@id/large_message_card_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/large_message_card_view" android:background="@drawable/message_card_background_with_inset" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/large_message_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <org.chromium.chrome.browser.tasks.tab_management.PriceCardView android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/price_info_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+            <org.chromium.ui.widget.ChromeImageView android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/icon" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="19.0dip" android:layout_marginBottom="14.0dip" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+            <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            <org.chromium.ui.widget.ButtonCompat android:layout_gravity="center" android:id="@id/action_button" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/FilledButton.Flat" />
+        </LinearLayout>
+        <org.chromium.ui.widget.ChromeImageView android:layout_gravity="end" android:id="@id/close_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:tint="@color/default_icon_color" android:contentDescription="@string/close" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+</org.chromium.chrome.browser.tasks.tab_management.LargeMessageCardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/normal_menu_group">
+        <item android:icon="@drawable/btn_info" android:id="@id/info_menu_id" android:visible="false" android:title="@string/show_info" app:showAsAction="ifRoom" />
+        <item android:icon="@drawable/ic_search" android:id="@id/search_menu_id" android:visible="false" android:title="@string/search" app:iconTint="@color/default_icon_color_tint_list" app:showAsAction="ifRoom" />
+        <item android:icon="@drawable/btn_close" android:id="@id/close_menu_id" android:title="@string/close" app:iconTint="@color/default_icon_color_tint_list" app:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@id/selection_mode_menu_group" android:visible="false">
+        <item android:icon="@drawable/ic_delete_white_24dp" android:id="@id/selection_mode_delete_menu_id" android:title="@string/remove" app:iconTint="@color/default_icon_color_inverse" app:showAsAction="ifRoom" />
+        <item android:id="@id/selection_mode_open_in_new_tab" android:title="@string/contextmenu_open_in_new_tab" app:showAsAction="never" />
+        <item android:id="@id/selection_mode_open_in_incognito" android:title="@string/contextmenu_open_in_incognito_tab" app:showAsAction="never" />
+        <item android:id="@id/selection_mode_copy_link" android:title="@string/copy_link" app:showAsAction="never" />
+    </group>
+</menu>

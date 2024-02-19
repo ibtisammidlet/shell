@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.firstrun.TosAndUmaFragmentView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/fre_bottom_group">
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/fre_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="@dimen/fre_tos_image_height" android:layout_marginLeft="@dimen/fre_vertical_spacing" android:layout_marginRight="@dimen/fre_vertical_spacing" android:layout_marginBottom="@dimen/fre_image_bottom_margin" android:src="@drawable/fre_product_logo" android:importantForAccessibility="no" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fre_title_and_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/title" android:text="@string/fre_welcome" style="@style/FreWelcomePageTitle" />
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/loading_view_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/sync_loading">
+                    <org.chromium.ui.widget.LoadingView android:id="@id/progress_spinner_large" android:visibility="gone" android:layout_width="@dimen/fre_loading_spinner_size" android:layout_height="@dimen/fre_loading_spinner_size" style="@style/Widget.AppCompat.ProgressBar" />
+                </FrameLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/fre_content_wrapper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginEnd="@dimen/fre_content_margin">
+                    <org.chromium.ui.widget.TextViewWithClickableSpans android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:id="@id/tos_and_privacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fre_vertical_spacing" android:layout_marginBottom="@dimen/fre_tos_bottom_margin" android:lineSpacingMultiplier="1.4" />
+                    <CheckBox android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:id="@id/send_report_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fre_send_report_check" android:lineSpacingMultiplier="1.4" android:paddingStart="@dimen/fre_tos_checkbox_padding" />
+                </LinearLayout>
+                <include android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fre_policy_privacy_disclaimer_top_margin" android:layout_marginBottom="@dimen/fre_vertical_spacing" android:layout_marginEnd="@dimen/fre_content_margin" layout="@layout/fre_tos_privacy_disclaimer" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/fre_bottom_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fre_content_margin" android:layout_marginTop="@dimen/fre_button_vertical_margin" android:layout_marginRight="@dimen/fre_content_margin" android:layout_marginBottom="@dimen/fre_button_vertical_margin" android:layout_alignParentBottom="true">
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="center" android:id="@id/terms_accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fre_accept_continue" android:animateLayoutChanges="true" style="@style/FreAcceptTosButton" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_spinner" android:layout_width="@dimen/fre_bottom_loading_spinner_size" android:layout_height="@dimen/fre_bottom_loading_spinner_size" style="@style/Widget.AppCompat.ProgressBar" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/shadow" android:background="@drawable/modern_toolbar_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_shadow_height" android:layout_above="@id/fre_bottom_group" android:scaleY="-1.0" android:importantForAccessibility="no" />
+    <TextView android:textAppearance="@style/TextAppearance.Headline.Primary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/TextAppearance.Button.Text.Filled" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</org.chromium.chrome.browser.firstrun.TosAndUmaFragmentView>

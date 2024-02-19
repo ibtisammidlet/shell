@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.ChromeImageButton android:layout_gravity="center" android:id="@id/location_bar_status_icon" android:visibility="gone" android:src="@android:color/transparent" android:scaleType="center" android:contentDescription="@string/accessibility_toolbar_btn_site_info" style="@style/OmniboxIcon" />
+</merge>

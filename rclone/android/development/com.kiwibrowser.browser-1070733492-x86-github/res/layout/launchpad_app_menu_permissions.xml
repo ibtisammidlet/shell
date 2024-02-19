@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.webapps.launchpad.AppManagementMenuPermissionsView android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageButton android:id="@id/notifications_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gm_filled_notifications_24" android:contentDescription="@string/push_notifications_permission_title" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <org.chromium.ui.widget.ChromeImageButton android:id="@id/mic_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gm_filled_mic_24" android:contentDescription="@string/website_settings_use_mic" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <org.chromium.ui.widget.ChromeImageButton android:id="@id/camera_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gm_filled_videocam_24" android:contentDescription="@string/website_settings_use_camera" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <org.chromium.ui.widget.ChromeImageButton android:id="@id/location_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gm_filled_location_on_24" android:contentDescription="@string/website_settings_device_location" />
+</org.chromium.chrome.browser.webapps.launchpad.AppManagementMenuPermissionsView>

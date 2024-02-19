@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.V27.Theme.Chromium.DialogWhenLarge" parent="@style/Base.Theme.Chromium.DialogWhenLarge" />
+    <style name="Theme.Chromium.Fullscreen" parent="@style/Base.Theme.Chromium.Fullscreen" />
+    <style name="Theme.Chromium.WithWindowAnimation" parent="@style/Base.Theme.Chromium.WithWindowAnimation" />
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/middle_divider" android:background="@drawable/group_card_item_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="33.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/hairline_stroke_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerVertical="true" />
+</RelativeLayout>

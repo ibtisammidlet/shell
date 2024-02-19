@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space style="@style/ButtonBarTopSpacerLight" />
+    <org.chromium.components.browser_ui.widget.DualControlLayout android:id="@id/button_bar" android:background="@color/default_bg_color" android:paddingTop="@dimen/editor_dialog_section_buttons_vertical_padding" android:paddingBottom="@dimen/editor_dialog_section_buttons_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/pref_autofill_field_horizontal_padding" android:paddingEnd="@dimen/pref_autofill_field_horizontal_padding" app:buttonAlignment="end" app:primaryButtonText="@string/done" app:secondaryButtonText="@string/cancel" app:stackedMargin="@dimen/infobar_margin_between_stacked_buttons" />
+</merge>

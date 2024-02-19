@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.accessibility.settings.TextScalePreference android:title="@string/font_size" android:selectable="false" android:key="text_scale" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/force_enable_zoom_title" android:key="force_enable_zoom" android:summary="@string/force_enable_zoom_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_text_rewrap_title" android:key="text_rewrap" android:summary="@string/accessibility_preferences_text_rewrap_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/reader_for_accessibility_title" android:key="reader_for_accessibility" android:summary="@string/reader_for_accessibility_summary" />
+    <org.chromium.chrome.browser.accessibility.settings.NightScalePreference android:title="@string/accessibility_preferences_night_scale" android:selectable="false" android:key="night_scale" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_nightmode_grayscale_title" android:key="nightmode_grayscale" android:summary="@string/accessibility_preferences_nightmode_grayscale_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_open_in_external_application_title" android:key="open_in_external_app" android:summary="@string/accessibility_preferences_open_in_external_application_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_enable_bottom_toolbar_title" android:key="enable_bottom_toolbar" android:summary="@string/accessibility_preferences_enable_bottom_toolbar_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_enable_overscroll_button_title" android:key="enable_overscroll_button" android:summary="@string/accessibility_preferences_enable_overscroll_button_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_enable_side_swipe_title" android:key="side_swipe_mode_enabled" android:summary="@string/accessibility_preferences_enable_side_swipe_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_enable_up_swipe_title" android:key="up_swipe_mode_enabled" android:summary="@string/accessibility_preferences_enable_up_swipe_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_preferences_show_extensions_first_title" android:key="show_extensions_first" android:summary="@string/accessibility_preferences_show_extensions_first_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/website_settings_desktop_mode" android:key="desktop_mode" android:summary="@string/website_settings_desktop_mode_enabled" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/accessibility_keep_toolbar_visible_title" android:key="keep_toolbar_visible" android:summary="@string/accessibility_keep_toolbar_visible_summary" />
+    <Preference android:title="@string/accessibility_captions_title" android:key="captions" />
+    <Preference android:title="@string/image_descriptions_settings_title" android:key="image_descriptions" android:fragment="org.chromium.chrome.browser.image_descriptions.ImageDescriptionsSettings" />
+</PreferenceScreen>

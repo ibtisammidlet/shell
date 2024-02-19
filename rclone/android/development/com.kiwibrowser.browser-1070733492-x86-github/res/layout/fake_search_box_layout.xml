@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_box" android:background="@drawable/ntp_search_box" android:layout_width="fill_parent" android:layout_height="@dimen/ntp_search_box_height" android:layout_marginTop="0.0dip" android:layout_marginBottom="1.0dip" android:paddingStart="@dimen/fake_search_box_lateral_padding" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" class="org.chromium.chrome.browser.ntp.search.SearchBoxContainerView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="12.0dip">
+        <EditText android:ellipsize="end" android:id="@id/search_box_text" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/search_or_type_web_address" android:singleLine="true" android:inputType="text" style="@style/TextAppearance.NewTabPageSearchBoxText" />
+        <org.chromium.ui.widget.ChipView android:gravity="center_vertical" android:id="@id/query_tiles_chip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InputChipWithRemoveIcon" />
+    </RelativeLayout>
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/lens_camera_button_start" android:visibility="gone" android:src="@drawable/lens_camera_icon" android:contentDescription="@string/accessibility_btn_lens_camera" style="@style/LocationBarActionButton" />
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/voice_search_button" android:src="@drawable/btn_mic" android:contentDescription="@string/accessibility_toolbar_btn_mic" style="@style/LocationBarActionButton" />
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/lens_camera_button_end" android:visibility="gone" android:src="@drawable/lens_camera_icon" android:contentDescription="@string/accessibility_btn_lens_camera" style="@style/LocationBarActionButton" />
+</view>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/PreferenceLayout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/language_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:gravity="center_vertical" android:id="@id/add_language" android:background="?selectableItemBackground" android:padding="@dimen/draggable_list_item_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_language" android:drawablePadding="@dimen/pref_languages_add_button_padding" android:paddingStart="@dimen/pref_languages_add_button_padding" style="@style/PreferenceTitle" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/settings_action_bar_shadow" />
+</FrameLayout>

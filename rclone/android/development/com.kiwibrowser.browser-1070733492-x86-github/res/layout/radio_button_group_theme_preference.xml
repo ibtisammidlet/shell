@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout android:id="@id/radio_button_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/system_default" android:layout_width="fill_parent" android:layout_height="wrap_content" app:descriptionText="@string/themes_system_default_summary" app:primaryText="@string/themes_system_default_title" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/light" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" app:primaryText="@string/light_mode" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/dark" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" app:primaryText="@string/dark_mode" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/checkbox_container" android:background="?selectableItemBackground" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" android:paddingStart="@dimen/radio_button_accessory_view_padding_start" android:paddingEnd="@dimen/radio_button_accessory_view_padding_end">
+        <CheckBox android:id="@id/darken_websites" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/theme_preferences_checkbox_margin_end" />
+        <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/darken_websites" />
+    </LinearLayout>
+</LinearLayout>

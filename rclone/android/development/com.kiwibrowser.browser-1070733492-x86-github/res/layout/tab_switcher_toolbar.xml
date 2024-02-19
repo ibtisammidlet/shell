@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.top.TabSwitcherModeTTPhone android:id="@id/tab_switcher_toolbar" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/new_tab_view" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="start|center|top" android:layout_width="wrap_content" android:layout_height="56.0dip" android:scaleType="center" android:contentDescription="@string/accessibility_toolbar_btn_new_tab" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:srcCompat="@drawable/new_tab_icon" app:tint="@color/default_icon_color" />
+        <TextView android:textAppearance="@style/TextAppearance.TextMediumThick.Primary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/button_new_tab" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+    <org.chromium.chrome.browser.toolbar.NewTabButton android:layout_gravity="start|center|top" android:id="@id/new_tab_button" android:layout_width="wrap_content" android:contentDescription="@string/accessibility_toolbar_btn_new_tab" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/ToolbarButton" />
+    <ImageView android:layout_gravity="center" android:id="@id/logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32.0dip" android:scaleType="centerInside" android:contentDescription="@null" app:srcCompat="@drawable/google_logo" />
+    <ViewStub android:layout_gravity="center" android:id="@id/incognito_tabs_stub" android:layout="@layout/incognito_toggle_tabs" android:inflatedId="@id/incognito_toggle_tabs" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <org.chromium.chrome.browser.toolbar.top.ToggleTabStackButton android:layout_gravity="top" android:id="@id/tab_switcher_mode_tab_switcher_button" android:background="@android:color/transparent" android:contentDescription="@string/accessibility_toolbar_btn_tabswitcher_toggle_default" android:paddingStart="8.0dip" style="@style/ToolbarButton" />
+        <Switch android:layout_gravity="center" android:id="@id/incognito_switch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/incognito_switch" android:track="@drawable/incognito_switch_track" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <include layout="@layout/menu_button" />
+    </LinearLayout>
+</org.chromium.chrome.browser.toolbar.top.TabSwitcherModeTTPhone>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/contextual_search_bar_banner_text_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/contextual_search_bar_banner_padding" android:paddingEnd="@dimen/contextual_search_bar_banner_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.TextMedium.Primary.Light" android:id="@id/contextual_search_iph_tap_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contextual_search_iph_tap" />
+</LinearLayout>

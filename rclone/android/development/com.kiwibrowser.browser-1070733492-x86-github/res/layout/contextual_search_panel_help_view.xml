@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/contextual_search_panel_help" android:background="@drawable/contextual_search_panel_help_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" android:importantForAccessibility="no" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/ic_touch_app_blue" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.chromium.ui.widget.TextViewWithLeading android:id="@id/contextual_search_help_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/contextual_search_help_header" app:leading="@dimen/headline_size_leading" style="@style/TextAppearance.TextLarge.Primary" />
+        <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:id="@id/contextual_search_help_body_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/contextual_search_help_body" android:layout_marginEnd="12.0dip" app:leading="@dimen/text_size_small_leading" />
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="end" android:id="@id/contextual_search_ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/ok" android:layout_marginEnd="18.0dip" style="@style/FilledButton.Flat" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/safety_check_description" app:allowDividerBelow="false" />
+    <org.chromium.chrome.browser.safety_check.SafetyCheckElementPreference android:icon="@drawable/ic_update_grey" android:title="@string/safety_check_updates_title" android:key="updates" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color" />
+    <org.chromium.chrome.browser.safety_check.SafetyCheckElementPreference android:icon="@drawable/ic_vpn_key_grey" android:title="@string/safety_check_passwords_title" android:key="passwords" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color" />
+    <org.chromium.chrome.browser.safety_check.SafetyCheckElementPreference android:icon="@drawable/ic_security_grey" android:title="@string/safety_check_safe_browsing_title" android:key="safe_browsing" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color" />
+</PreferenceScreen>

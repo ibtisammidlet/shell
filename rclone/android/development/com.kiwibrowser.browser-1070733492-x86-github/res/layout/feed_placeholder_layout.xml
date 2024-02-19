@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.features.start_surface.FeedPlaceholderLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/feed_placeholder_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/placeholders_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</org.chromium.chrome.features.start_surface.FeedPlaceholderLayout>

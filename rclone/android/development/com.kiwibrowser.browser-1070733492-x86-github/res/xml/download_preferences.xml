@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.download.settings.DownloadLocationPreference android:title="@string/downloads_location_selector_title" android:key="location_change" android:positiveButtonText="@string/done" android:negativeButtonText="@null" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/download_later_prompt_enabled_title" android:key="download_later_prompt_enabled" android:summaryOn="@string/text_on" android:summaryOff="@string/text_off" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/download_location_prompt_enabled_title" android:key="location_prompt_enabled" android:summaryOn="@string/text_on" android:summaryOff="@string/text_off" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/download_settings_enable_prefetch_title" android:key="prefetching_enabled" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/download_preferences_enable_external_download_manager_title" android:key="enable_external_download_manager" android:summary="@string/download_preferences_enable_external_download_manager_summary" />
+</PreferenceScreen>

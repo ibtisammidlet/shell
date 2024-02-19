@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/account_management_title" android:key="accounts_category" />
+    <PreferenceCategory android:title="@string/account_management_parental_settings" android:key="parental_settings" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="parent_accounts" />
+    <Preference android:title="@string/account_management_child_content_title" android:selectable="false" android:key="child_content" />
+    <Preference android:layout="@layout/divider_preference" />
+    <Preference android:title="@string/account_management_sign_out" android:key="sign_out" />
+    <Preference android:layout="@layout/divider_preference" android:key="sign_out_divider" />
+</PreferenceScreen>

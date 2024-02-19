@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/safe_browsing_standard_protection_subtitle" android:key="subtitle" app:allowDividerBelow="false" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/ic_security_grey" android:summary="@string/safe_browsing_standard_protection_bullet_one" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color_tint_list" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/ic_data_viz_grey" android:summary="@string/safe_browsing_standard_protection_bullet_two" app:allowDividerBelow="false" app:iconTint="@color/default_icon_color_tint_list" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/safe_browsing_standard_protection_extended_reporting_title" android:key="extended_reporting" android:summary="@string/safe_browsing_standard_protection_extended_reporting_summary" app:allowDividerBelow="false" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/passwords_leak_detection_switch_title" android:key="password_leak_detection" app:allowDividerBelow="false" />
+</PreferenceScreen>

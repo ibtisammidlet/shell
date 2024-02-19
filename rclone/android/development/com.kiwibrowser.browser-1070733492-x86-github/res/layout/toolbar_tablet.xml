@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.top.ToolbarTablet android:id="@id/toolbar" android:background="@color/toolbar_background_primary" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow" android:layout_marginTop="@dimen/tab_strip_height" android:paddingStart="@dimen/tablet_toolbar_start_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <org.chromium.chrome.browser.toolbar.HomeButton android:id="@id/home_button" android:visibility="gone" android:src="@drawable/btn_toolbar_home" android:contentDescription="@string/accessibility_toolbar_btn_home" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarButton" />
+        <org.chromium.ui.widget.ChromeImageButton android:id="@id/back_button" android:src="@drawable/btn_back" android:contentDescription="@string/accessibility_toolbar_btn_back" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarButton" />
+        <org.chromium.ui.widget.ChromeImageButton android:id="@id/forward_button" android:src="@drawable/btn_forward" android:contentDescription="@string/accessibility_toolbar_btn_forward" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarButton" />
+        <org.chromium.ui.widget.ChromeImageButton android:id="@id/refresh_button" android:src="@drawable/btn_reload_stop" android:contentDescription="@string/accessibility_btn_refresh" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarButton" />
+        <org.chromium.chrome.browser.omnibox.LocationBarTablet android:layout_gravity="center_vertical" android:id="@id/location_bar" android:background="@drawable/modern_toolbar_text_box_background" android:layout_width="0.0dip" android:layout_height="@dimen/modern_toolbar_background_size" android:layout_weight="1.0" android:paddingStart="@dimen/location_bar_lateral_padding" android:paddingEnd="@dimen/location_bar_lateral_padding" />
+        <ViewStub android:id="@id/optional_button_stub" android:visibility="gone" android:layout="@layout/optional_toolbar_button" android:inflatedId="@id/optional_toolbar_button" android:paddingStart="8.0dip" style="@style/ToolbarButton" />
+        <org.chromium.chrome.browser.toolbar.top.ToggleTabStackButton android:id="@id/tab_switcher_button" android:visibility="gone" android:contentDescription="@string/accessibility_toolbar_btn_tabswitcher_toggle_default" style="@style/ToolbarButton" />
+        <org.chromium.chrome.browser.toolbar.menu_button.MenuButton android:id="@id/menu_button_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <org.chromium.ui.widget.ChromeImageButton android:layout_gravity="center" android:id="@id/menu_button" android:src="@drawable/ic_more_vert_24dp" android:contentDescription="@string/accessibility_toolbar_btn_menu" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarMenuButtonTablet" />
+            <ImageView android:layout_gravity="center" android:id="@id/menu_badge" android:visibility="invisible" android:src="@drawable/badge_update_dark" android:importantForAccessibility="no" style="@style/ToolbarMenuButtonTablet" />
+        </org.chromium.chrome.browser.toolbar.menu_button.MenuButton>
+    </LinearLayout>
+</org.chromium.chrome.browser.toolbar.top.ToolbarTablet>

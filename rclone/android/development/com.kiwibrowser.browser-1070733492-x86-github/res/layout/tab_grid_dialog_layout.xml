@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGridDialogView android:id="@id/dialog_parent_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dialog_container_view" android:background="@drawable/tab_grid_dialog_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_tab_grid_dialog">
+        <LinearLayout android:orientation="vertical" android:id="@id/dialog_ungroup_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="fill_parent" style="?tabGridDialogUngroupBarDividerStyle" />
+            <TextView android:textAppearance="@style/TextAppearance.TextMediumThick.Primary" android:gravity="center" android:id="@id/dialog_ungroup_bar_text" android:background="@drawable/ungroup_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_peek_height" android:text="@string/tab_grid_dialog_remove_from_group" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/dialog_snack_bar_container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:id="@id/dialog_frame" android:background="@drawable/tab_grid_dialog_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <FrameLayout android:id="@id/dialog_animation_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0">
+        <include layout="@layout/tab_grid_card_item" />
+    </FrameLayout>
+</org.chromium.chrome.browser.tasks.tab_management.TabGridDialogView>

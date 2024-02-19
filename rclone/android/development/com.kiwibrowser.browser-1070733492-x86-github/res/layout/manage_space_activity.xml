@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/main_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_view" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:id="@id/unimportant_site_data_description" android:text="@string/storage_management_unimportant_site_data_description" style="@style/ManageSpaceActivityExplanationTextView" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <TextView android:id="@id/unimportant_site_data_size_prefix" android:layout_width="0.0dip" android:text="@string/storage_management_unimportant_site_data_size_label" android:layout_weight="1.0" style="@style/ManageSpaceActivitySizeTextView" />
+            <TextView android:id="@id/unimportant_site_data_storage_size_text" style="@style/ManageSpaceActivitySizeTextView" />
+        </LinearLayout>
+        <Button android:id="@id/clear_unimportant_site_data_storage" android:text="@string/storage_management_clear_unimportant_site_data_button" style="@style/ManageSpaceActivityButton" />
+        <TextView android:id="@id/site_data_description" android:text="@string/storage_management_site_data_description" style="@style/ManageSpaceActivityExplanationTextView" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <TextView android:id="@id/site_data_size_prefix" android:layout_width="0.0dip" android:text="@string/storage_management_site_data_size_label" android:layout_weight="1.0" style="@style/ManageSpaceActivitySizeTextView" />
+            <TextView android:id="@id/site_data_storage_size_text" style="@style/ManageSpaceActivitySizeTextView" />
+        </LinearLayout>
+        <Button android:id="@id/manage_site_data_storage" android:text="@string/storage_management_manage_site_data_button" style="@style/ManageSpaceActivityButton" />
+        <TextView android:id="@id/all_storage_description" android:paddingTop="12.0dip" android:text="@string/storage_management_all_storage_description" style="@style/ManageSpaceActivityExplanationTextView" />
+        <Button android:id="@id/clear_all_data" android:text="@string/storage_management_clear_all_data_button" style="@style/ManageSpaceActivityButton" />
+    </LinearLayout>
+</ScrollView>

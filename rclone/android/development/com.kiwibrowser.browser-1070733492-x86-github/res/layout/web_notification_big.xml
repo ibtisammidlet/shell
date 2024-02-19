@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/icon_frame" layout="@layout/web_notification_icon_frame" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/icon_frame" android:layout_alignParentEnd="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_toStartOf="@id/time" android:layout_alignParentStart="true" style="@style/WebNotificationTitle" />
+            <TextView android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBaseline="@id/title" android:layout_alignParentTop="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" style="@style/WebNotificationTime" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/body_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:layout_marginBottom="5.0dip">
+            <TextView android:ellipsize="end" android:id="@id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/work_profile_badge" android:layout_alignParentStart="true" style="@style/WebNotificationBodyBig" />
+            <ImageView android:id="@id/work_profile_badge" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" android:scaleType="centerInside" android:layout_alignParentTop="true" android:contentDescription="@string/notification_work_profile_badge_content_description" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/button_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="2.0dip" style="@style/WebNotificationDivider" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/buttons" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WebNotificationButtons" />
+        <ImageView android:id="@id/footer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/WebNotificationDivider" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/origin_settings_icon" android:layout_width="wrap_content" android:layout_height="40.0dip" android:src="@drawable/settings_cog" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/WebNotificationSettingsIcon" />
+            <Button android:ellipsize="start" android:gravity="start|center" android:id="@id/origin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40.0dip" android:singleLine="true" android:layout_alignParentTop="true" android:paddingEnd="8.0dip" android:layout_alignParentStart="true" style="@style/WebNotificationSettingsButton" />
+            <ViewStub android:id="@id/small_icon_footer" android:layout="@layout/web_notification_small_icon" android:inflatedId="@id/small_icon_footer" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

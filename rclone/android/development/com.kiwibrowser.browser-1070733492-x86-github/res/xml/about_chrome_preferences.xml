@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/application_version_title" android:key="application_version" />
+    <org.chromium.chrome.browser.about_settings.AboutChromePreferenceOSVersion android:title="@string/os_version_title" android:key="os_version" />
+    <Preference android:title="@string/legal_information_title" android:key="legal_information" android:fragment="org.chromium.chrome.browser.about_settings.LegalInformationSettings" />
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.modaldialog.ModalDialogView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxWidthLandscape="@dimen/abc_dialog_min_width_major" app:maxWidthPortrait="@dimen/abc_dialog_min_width_minor"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/title_container" layout="@layout/modal_dialog_title" />
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView android:id="@id/modal_dialog_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/scrollable_title_container" android:visibility="gone" layout="@layout/modal_dialog_title" />
+            <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:id="@id/message" app:leading="20.0sp" style="@style/AlertDialogContent" />
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+    <FrameLayout android:id="@id/custom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <org.chromium.components.browser_ui.widget.DualControlLayout android:id="@id/button_bar" android:paddingTop="?dualControlLayoutVerticalPadding" android:paddingBottom="?dualControlLayoutVerticalPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?dualControlLayoutHorizontalPadding" android:paddingEnd="?dualControlLayoutHorizontalPadding" app:buttonAlignment="end" app:stackedMargin="@dimen/button_bar_stacked_margin">
+        <org.chromium.ui.widget.ButtonCompat android:id="@id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?buttonBarPositiveButtonStyle" />
+        <org.chromium.ui.widget.ButtonCompat android:id="@id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?buttonBarNegativeButtonStyle" />
+    </org.chromium.components.browser_ui.widget.DualControlLayout>
+</org.chromium.components.browser_ui.modaldialog.ModalDialogView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGroupUiToolbarView android:id="@id/tab_group_ui_toolbar_view" android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <org.chromium.ui.widget.ChromeImageView android:id="@id/toolbar_left_button" android:src="@drawable/ic_expand_less_black_24dp" app:tint="@color/default_icon_color_tint_list" style="@style/BottomToolbarButton" />
+            <FrameLayout android:id="@id/toolbar_container_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <org.chromium.ui.widget.ChromeImageView android:id="@id/toolbar_right_button" android:src="@drawable/plus" app:tint="@color/default_icon_color_tint_list" style="@style/BottomToolbarButton" />
+        </LinearLayout>
+        <org.chromium.ui.widget.ChromeImageView android:id="@id/tab_strip_fading_edge_start" android:layout_width="@dimen/tab_strip_fading_edge_width" android:layout_height="fill_parent" android:src="@drawable/tab_strip_fading_edge_start" android:layout_marginStart="@dimen/tab_strip_button_width" />
+        <org.chromium.ui.widget.ChromeImageView android:layout_gravity="end|bottom|center" android:id="@id/tab_strip_fading_edge_end" android:layout_width="@dimen/tab_strip_fading_edge_width" android:layout_height="fill_parent" android:src="@drawable/tab_strip_fading_edge_end" android:layout_marginEnd="@dimen/tab_strip_button_width" />
+    </FrameLayout>
+</org.chromium.chrome.browser.tasks.tab_management.TabGroupUiToolbarView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow android:gravity="center" android:id="@id/empty_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_list_row_padding" android:layout_marginEnd="@dimen/default_list_row_padding" app:contentPadding="@dimen/card_padding" style="@style/MaterialCardStyle">
+        <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" app:leading="@dimen/text_size_medium_leading" />
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+    <org.chromium.ui.widget.LoadingView android:layout_gravity="center" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

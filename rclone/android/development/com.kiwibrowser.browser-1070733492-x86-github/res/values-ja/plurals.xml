@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">タブグループの %1$d 個のタブを折りたたみます。</item>
+        <item quantity="one">%1$d 個のタブを折りたたみます。</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">%1$s タブグループの %2$d 個のタブを折りたたみます。</item>
+        <item quantity="one">%1$d 個のタブを折りたたみます。</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d 件の音声ファイル</item>
+        <item quantity="one">%d 件の音声ファイル</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d 件のファイル</item>
+        <item quantity="one">%d 件のファイル</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d 個の画像</item>
+        <item quantity="one">%d 個の画像</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d ページ</item>
+        <item quantity="one">%d ページ</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d 個の動画</item>
+        <item quantity="one">%d 個の動画</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">%1$s / %2$s の評価、%3$d 件のクチコミ</item>
+        <item quantity="one">" %1$s / %2$s の評価、%3$d 件のクチコミ"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">選択された %d 件のアイテムを削除します</item>
+        <item quantity="one">選択された 1 件のアイテムを削除します</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">%d 件の選択されたアイテムを共有します</item>
+        <item quantity="one">1 件の選択されたアイテムを共有します</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">選択した %1$d 個のタブをグループから削除します。</item>
+        <item quantity="one">選択した %1$d 個のタブをグループから削除します。</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">選択した %1$d 個のタブをグループ化する</item>
+        <item quantity="one">選択した %1$d 個のタブをグループ化する</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">選択した %1$d 個のタブを閉じます</item>
+        <item quantity="one">選択した %1$d 個のタブを閉じます</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d 個のタブが開いています。タブを切り替えるにはタップします</item>
+        <item quantity="one">%1$d 個のタブが開いています。タブを切り替えるにはタップします</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d 個のブックマーク</item>
+        <item quantity="one">%1$d 個のブックマーク</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d 個のタブ</item>
+        <item quantity="one">%1$d 個のタブ</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">（他 %d 件）</item>
+        <item quantity="one">（他 1 件）</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d 個の Cookie がブロックされました</item>
+        <item quantity="one">1 個の Cookie がブロックされました</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">%d 件のファイルをダウンロードしています。</item>
+        <item quantity="one">ファイルをダウンロードしています。</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d 時間</item>
+        <item quantity="one">%d 時間</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d 件のファイルをダウンロードしました</item>
+        <item quantity="one">%1$d 件のファイルをダウンロードしました</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">（%1$s 件のクチコミ）</item>
+        <item quantity="one">（%1$s 件のクチコミ）</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d 件のダウンロードが完了しました。</item>
+        <item quantity="one">1 件のダウンロードが完了しました。</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d 件のダウンロードが失敗しました。</item>
+        <item quantity="one">1 件のダウンロードが失敗しました。</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d 件のダウンロードが保留中です。</item>
+        <item quantity="one">1 件のダウンロードが保留中です。</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">%d 件のダウンロードがスケジュール設定されました。</item>
+        <item quantity="one">1 件のダウンロードがスケジュール設定されました。</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d 日前</item>
+        <item quantity="one">%d 日前</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d 時間前</item>
+        <item quantity="one">%d 時間前</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d 分前</item>
+        <item quantity="one">%d 分前</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">準備ができると Kiwi Browser でページが読み込まれます</item>
+        <item quantity="one">準備ができると Kiwi Browser でページが読み込まれます</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%d 個の Cookie が使用中です</item>
+        <item quantity="one">1 個の Cookie が使用中です</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s、%2$s、他 %3$s 個の権限が許可されています</item>
+        <item quantity="one">%1$s、%2$s、他 %3$s 個の権限が許可されています</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s、%2$s、他 %3$s 個の権限がブロックされています</item>
+        <item quantity="one">%1$s、%2$s、他 %3$s 個の権限がブロックされています</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s、%2$s、他 %3$s 個の権限</item>
+        <item quantity="one">%1$s、%2$s、他 %3$s 個の権限</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">不正使用されたパスワード: %d 件</item>
+        <item quantity="one">不正使用されたパスワード: %d 件</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… 他 %2$s 件</item>
+        <item quantity="one">%1$s… 他 %2$s 件</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… 他 %2$s 件</item>
+        <item quantity="one">%1$s… 他 %2$s 件</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… 他 %2$s 件</item>
+        <item quantity="one">%1$s… 他 %2$s 件</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… 他 %2$s 件</item>
+        <item quantity="one">%1$s… 他 %2$s 件</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">未読ページが %1$d 件あります</item>
+        <item quantity="one">未読ページが %1$d 件あります</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d 件の未読ページ</item>
+        <item quantity="one">%1$d 件の未読ページ</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">不正使用されたパスワード: %d 件</item>
+        <item quantity="one">不正使用されたパスワード: 1 件</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">前回の確認: %d 日前</item>
+        <item quantity="one">前回の確認: 1 日前</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">前回の確認: %d 時間前</item>
+        <item quantity="one">前回の確認: 1 時間前</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">前回の確認: %d 分前</item>
+        <item quantity="one">前回の確認: 1 分前</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d 件を選択済み</item>
+        <item quantity="one">1 件を選択済み</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">電波強度: レベル %d</item>
+        <item quantity="one">電波強度: レベル %d</item>
+    </plurals>
+</resources>

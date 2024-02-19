@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionAndAuxButton android:id="@id/enhanced_protection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:descriptionText="@string/safe_browsing_enhanced_protection_summary" app:primaryText="@string/safe_browsing_enhanced_protection_title" />
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionAndAuxButton android:id="@id/standard_protection" android:layout_width="fill_parent" android:layout_height="wrap_content" app:descriptionText="@string/safe_browsing_standard_protection_summary" app:primaryText="@string/safe_browsing_standard_protection_title" />
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/no_protection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/radio_button_with_description_and_aux_button_aux_button_length" app:descriptionText="@string/safe_browsing_no_protection_summary" app:primaryText="@string/safe_browsing_no_protection_title" />
+</org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>

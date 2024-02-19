@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/connection_info_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="32.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/connection_info_text_layout" android:paddingBottom="@dimen/page_info_popup_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:id="@id/connection_info_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

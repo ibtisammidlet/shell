@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.PromoDialogLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/promo_dialog_layout" android:background="@drawable/popup_bg_tinted" android:layout_width="wrap_content" android:layout_height="wrap_content" app:maxWidthLandscape="@dimen/dialog_max_width" app:maxWidthPortrait="@dimen/dialog_max_width">
+        <org.chromium.components.browser_ui.widget.FadingEdgeScrollView android:id="@id/promo_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fadeScrollbars="false">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/full_promo_content" android:padding="@dimen/promo_dialog_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/illustration" android:paddingTop="@dimen/promo_dialog_illustration_margin" android:layout_width="@dimen/promo_dialog_illustration_width" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_marginStart="@dimen/promo_dialog_illustration_margin" android:layout_marginEnd="@dimen/promo_dialog_illustration_margin" />
+                <org.chromium.components.browser_ui.widget.BoundedLinearLayout android:orientation="vertical" android:id="@id/scrollable_promo_content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:maxWidthLandscape="@dimen/promo_dialog_max_content_width" app:maxWidthPortrait="@dimen/promo_dialog_max_content_width">
+                    <TextView android:textAppearance="@style/TextAppearance.Headline.Primary" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_header_margin" android:layout_marginBottom="@dimen/dialog_header_margin" android:textDirection="locale" />
+                    <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@id/subheader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" app:leading="@dimen/text_size_medium_leading" style="@style/TextAppearance.TextMedium.Secondary" />
+                </org.chromium.components.browser_ui.widget.BoundedLinearLayout>
+            </LinearLayout>
+        </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+        <ViewStub android:id="@id/footer_stub" android:layout="@layout/dialog_control_description" android:inflatedId="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/promo_dialog_padding" />
+        <org.chromium.components.browser_ui.widget.DualControlLayout android:layout_gravity="end" android:id="@id/button_bar" android:padding="@dimen/promo_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" app:buttonAlignment="end" app:stackedMargin="@dimen/promo_dialog_stacked_margin" />
+    </org.chromium.components.browser_ui.widget.PromoDialogLayout>
+</merge>

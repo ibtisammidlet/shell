@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:paddingTop="@dimen/homepage_preference_title_vertical_padding" android:paddingBottom="@dimen/homepage_preference_title_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preferences_tabswitcher" android:paddingStart="@dimen/homepage_preference_title_lateral_padding" android:paddingEnd="@dimen/homepage_preference_title_lateral_padding" style="@style/PreferenceTitle" />
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout android:id="@id/radio_button_group" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/radio_button_default" android:layout_width="fill_parent" android:layout_height="wrap_content" app:primaryText="@string/main_menu_translate" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/radio_button_original" android:layout_width="fill_parent" android:layout_height="wrap_content" app:primaryText="@string/main_menu_translate" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/radio_button_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:primaryText="@string/main_menu_translate" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/radio_button_classic" android:layout_width="fill_parent" android:layout_height="wrap_content" app:primaryText="@string/main_menu_translate" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/radio_button_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" app:primaryText="@string/main_menu_translate" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/radio_button_list" android:layout_width="fill_parent" android:layout_height="wrap_content" app:primaryText="@string/main_menu_translate" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+</LinearLayout>

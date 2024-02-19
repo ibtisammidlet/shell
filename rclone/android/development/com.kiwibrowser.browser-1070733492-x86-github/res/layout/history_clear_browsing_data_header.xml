@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.ButtonCompat android:gravity="start|center" android:layout_gravity="top" android:id="@id/clear_browsing_data_button" android:paddingTop="@dimen/list_item_default_margin" android:paddingBottom="@dimen/list_item_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/open_clear_browsing_data_dialog_button" android:paddingStart="@dimen/list_item_default_margin" android:paddingEnd="@dimen/list_item_default_margin" app:verticalInset="0.0dip" style="@style/TextButton" />
+    <View style="@style/HorizontalDivider" />
+</LinearLayout>

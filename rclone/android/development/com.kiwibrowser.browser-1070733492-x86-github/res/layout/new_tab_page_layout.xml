@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.NewTabPageLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ntp_content" android:paddingTop="@dimen/toolbar_height_no_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/logo_holder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/cryptid_holder" android:layout="@layout/new_tab_page_cryptid_holder" android:layout_width="@dimen/cryptid_width_in_logo_wrapper" android:layout_height="@dimen/cryptid_height_in_logo_wrapper" />
+        <org.chromium.chrome.browser.ntp.LogoView android:layout_gravity="center_horizontal" android:id="@id/search_provider_logo" android:layout_width="fill_parent" android:layout_height="@dimen/ntp_logo_height" android:layout_marginTop="@dimen/ntp_logo_margin_top" android:layout_marginBottom="23.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+    <include layout="@layout/fake_search_box_layout" />
+    <FrameLayout android:id="@id/query_tiles" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    <View android:id="@id/ntp_middle_spacer" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+    <ViewStub android:id="@id/explore_sites_stub" android:layout="@layout/explore_sites_section" android:inflatedId="@id/explore_sites" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+    <ViewStub android:id="@id/tile_grid_placeholder_stub" android:layout="@layout/new_tab_page_tile_grid_placeholder" android:inflatedId="@id/tile_grid_placeholder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/video_iph_stub" android:layout="@layout/video_tutorial_iph_card" android:inflatedId="@id/video_iph_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+    <View android:id="@id/no_search_logo_spacer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</org.chromium.chrome.browser.ntp.NewTabPageLayout>

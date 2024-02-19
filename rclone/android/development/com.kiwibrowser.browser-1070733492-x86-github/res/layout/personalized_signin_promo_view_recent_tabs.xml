@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow android:id="@id/signin_promo_view_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MaterialCardStyle">
+        <org.chromium.chrome.browser.signin.ui.PersonalizedSigninPromoView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/signin_promo_view_container" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <include layout="@layout/personalized_signin_promo_view_header" />
+            </FrameLayout>
+            <include layout="@layout/personalized_signin_promo_view_body" />
+        </org.chromium.chrome.browser.signin.ui.PersonalizedSigninPromoView>
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+</FrameLayout>

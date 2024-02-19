@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MaterialCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.gridlayout.widget.GridLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:columnCount="1" app:rowCount="2">
+        <org.chromium.components.browser_ui.widget.async_image.ForegroundRoundedCornerImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="1.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" app:cornerRadiusTopEnd="@dimen/download_manager_thumbnail_corner_radius" app:cornerRadiusTopStart="@dimen/download_manager_thumbnail_corner_radius" app:foregroundCompat="@drawable/async_image_view_waiting" app:layout_column="0" app:layout_gravity="center" app:layout_row="0" app:roundedfillColor="@color/modern_grey_300" />
+        <org.chromium.chrome.browser.download.home.list.view.CircularProgressView android:id="@id/action_button" app:layout_column="0" app:layout_gravity="center" app:layout_row="0" style="@style/LargeCircularProgress" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" app:layout_column="0" app:layout_row="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+                <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:id="@id/title" android:layout_width="fill_parent" android:layout_marginTop="11.0dip" style="@style/DownloadItemText" />
+                <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:id="@id/caption" android:layout_width="fill_parent" android:layout_marginBottom="11.0dip" style="@style/DownloadItemText" />
+            </LinearLayout>
+            <org.chromium.ui.widget.ChromeImageButton android:id="@id/cancel_button" android:background="?selectableItemBackground" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/btn_close" android:layout_weight="0.0" android:contentDescription="@string/download_notification_cancel_button" app:tint="@color/default_icon_color" />
+        </LinearLayout>
+    </androidx.gridlayout.widget.GridLayout>
+</org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>

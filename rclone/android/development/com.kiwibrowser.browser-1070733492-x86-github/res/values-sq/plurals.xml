@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">Palos grupin e skedave me %1$d skeda.</item>
+        <item quantity="one">Palos %1$d skedë.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">Palos grupin e skedave \"%1$s\" me %2$d skeda.</item>
+        <item quantity="one">Palos %1$d skedë.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d skedarë audio</item>
+        <item quantity="one">%d skedar audio</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d skedarë</item>
+        <item quantity="one">%d skedar</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d Imazhe</item>
+        <item quantity="one">%d imazh</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d faqe</item>
+        <item quantity="one">%d faqe</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d video</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">Vlerësimi %1$s/%2$s, %3$d komente</item>
+        <item quantity="one">" Vlerësimi %1$s/%2$s, %3$d koment"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Hiq %d artikuj të zgjedhur</item>
+        <item quantity="one">Hiq 1 artikull të zgjedhur</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">Ndaj %d artikuj të zgjedhur</item>
+        <item quantity="one">Ndaj 1 artikull të zgjedhur</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Hiq %1$d skeda të zgjedhura nga grupi.</item>
+        <item quantity="one">Hiq %1$d skedë të zgjedhur nga grupi.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Grupo %1$d skeda të zgjedhura</item>
+        <item quantity="one">Grupo %1$d skedë të zgjedhur</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Mbyll %1$d skeda të zgjedhura</item>
+        <item quantity="one">Mbyll %1$d skedë të zgjedhur</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d skeda të hapura, trokit për të ndërruar skedat</item>
+        <item quantity="one">%1$d skedë e hapur, trokit për të ndërruar skedat</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d faqeshënues</item>
+        <item quantity="one">%1$d faqeshënues</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d skeda</item>
+        <item quantity="one">%1$d skedë</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(+ %d të tjerë)</item>
+        <item quantity="one">(+ 1 tjetër)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d kuki janë bllokuar</item>
+        <item quantity="one">1 kuki është bllokuar</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">Po shkarkohen %d skedarë.</item>
+        <item quantity="one">Po shkarkohet skedari.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d orë</item>
+        <item quantity="one">%d orë</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d skedarë të shkarkuar</item>
+        <item quantity="one">%1$d skedar i shkarkuar</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s komente)</item>
+        <item quantity="one">(%1$s koment)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d njoftime të reja</item>
+        <item quantity="one">%d njoftim i ri</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d shkarkime përfunduan.</item>
+        <item quantity="one">1 shkarkim përfundoi.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d shkarkime pa sukses.</item>
+        <item quantity="one">1 shkarkim pa sukses.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d shkarkime në pritje.</item>
+        <item quantity="one">1 shkarkim në pritje.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">%d shkarkime të planifikuara.</item>
+        <item quantity="one">1 shkarkim i planifikuar.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d ditë më parë</item>
+        <item quantity="one">%d ditë më parë</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d orë më parë</item>
+        <item quantity="one">%d orë më parë</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d minuta më parë</item>
+        <item quantity="one">%d minutë më parë</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">Kiwi Browser do të ngarkojë faqet e tua kur të jesh gati</item>
+        <item quantity="one">Kiwi Browser do ta ngarkojë faqen tënde kur të jesh gati</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%d kuki në përdorim</item>
+        <item quantity="one">1 kuki në përdorim</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s dhe %3$s të tjera të lejuara</item>
+        <item quantity="one">%1$s, %2$s dhe %3$s tjetër e lejuar</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s dhe %3$s të tjera të bllokuara</item>
+        <item quantity="one">%1$s, %2$s dhe %3$s tjetër e bllokuar</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s dhe %3$s të tjera</item>
+        <item quantity="one">%1$s, %2$s dhe %3$s tjetër</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d fjalëkalime të komprometuara</item>
+        <item quantity="one">%d fjalëkalim i komprometuar</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… dhe %2$s të tjera</item>
+        <item quantity="one">%1$s… dhe %2$s tjetër</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… dhe %2$s të tjera</item>
+        <item quantity="one">%1$s… dhe %2$s tjetër</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… dhe %2$s të tjera</item>
+        <item quantity="one">%1$s… dhe %2$s tjetër</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… dhe %2$s të tjera</item>
+        <item quantity="one">%1$s… dhe %2$s tjetër</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">Ke %1$d faqe të palexuara</item>
+        <item quantity="one">Ke %1$d faqe të palexuar</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d faqe të palexuara</item>
+        <item quantity="one">%1$d faqe e palexuar</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d fjalëkalime të komprometuara</item>
+        <item quantity="one">1 fjalëkalim i komprometuar</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">Kontrolluar %d ditë më parë</item>
+        <item quantity="one">Kontrolluar 1 ditë më parë</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">Kontrolluar %d orë më parë</item>
+        <item quantity="one">Kontrolluar 1 orë më parë</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">Kontrolluar %d minuta më parë</item>
+        <item quantity="one">Kontrolluar 1 minutë më parë</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d të zgjedhur</item>
+        <item quantity="one">1 i zgjedhur</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Niveli i forcës së sinjalit: %d shirita</item>
+        <item quantity="one">Niveli i forcës së sinjalit: %d shirit</item>
+    </plurals>
+</resources>

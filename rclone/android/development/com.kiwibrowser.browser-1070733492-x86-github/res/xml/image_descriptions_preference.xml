@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/image_descriptions_settings_toggle_title" android:key="image_descriptions_switch" android:summary="@string/image_descriptions_settings_toggle_content" />
+    <org.chromium.chrome.browser.image_descriptions.RadioButtonGroupAccessibilityPreference android:persistent="false" android:key="image_descriptions_data_policy" />
+</PreferenceScreen>

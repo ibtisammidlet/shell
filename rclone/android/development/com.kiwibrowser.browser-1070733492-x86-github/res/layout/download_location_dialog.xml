@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.dialogs.DownloadLocationCustomView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AlertDialogContent">
+        <TextView android:textAppearance="@style/TextAppearance.DownloadDialogTitle" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/download_dialog_title_margin_bottom" />
+        <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/download_dialog_subtitle_margin_bottom" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <org.chromium.ui.widget.ChromeImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_drive_file_24dp" app:tint="@color/default_icon_color" style="@style/ListItemStartIcon" />
+                <org.chromium.components.browser_ui.widget.text.AlertDialogEditText android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/TextAppearance.TextSmall.Primary" android:id="@id/file_size" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/download_dialog_location_space_margin_start" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <org.chromium.ui.widget.ChromeImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_folder_blue_24dp" app:tint="@color/default_icon_color" style="@style/ListItemStartIcon" />
+                <Spinner android:id="@id/file_location" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.EditText" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/TextAppearance.TextSmall.Primary" android:id="@id/location_available_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="@dimen/download_dialog_location_space_margin_start" />
+        </LinearLayout>
+        <CheckBox android:id="@id/show_again_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_dialog_checkbox_margin_top" android:text="@string/download_location_dialog_checkbox" android:layout_marginStart="@dimen/download_dialog_checkbox_margin_start" style="@style/DefaultCheckboxStyle" />
+    </LinearLayout>
+</org.chromium.chrome.browser.download.dialogs.DownloadLocationCustomView>

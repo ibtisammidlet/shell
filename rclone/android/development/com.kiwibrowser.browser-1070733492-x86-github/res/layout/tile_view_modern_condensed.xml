@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/tile_no_text_view_condensed" />
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tile_view_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tile_view_title_margin_top_modern" android:lines="2" app:leading="@dimen/text_size_small_leading" />
+</merge>

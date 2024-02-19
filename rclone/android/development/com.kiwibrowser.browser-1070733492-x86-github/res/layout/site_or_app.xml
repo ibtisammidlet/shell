@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/password_entry_editor_field_large_top_margin" android:layout_marginBottom="@dimen/credential_edit_text_view_label_margin_bottom" android:text="@string/password_entry_viewer_site_title" android:layout_marginStart="@dimen/credential_edit_text_view_margin" android:layout_marginEnd="@dimen/credential_edit_text_view_margin" />
+    <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:id="@id/url_or_app" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/password_entry_editor_field_bottom_margin" android:layout_marginStart="@dimen/credential_edit_text_view_margin" android:layout_marginEnd="@dimen/credential_edit_text_view_margin" />
+</merge>

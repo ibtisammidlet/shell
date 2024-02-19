@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ui.tablet.emptybackground.EmptyBackgroundViewTablet android:id="@id/empty_container" android:background="@color/tab_switcher_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start|center|top" android:orientation="horizontal" android:id="@id/empty_layout_button_container" android:paddingTop="@dimen/menu_negative_software_vertical_offset" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.chromium.chrome.browser.toolbar.NewTabButton android:gravity="center_vertical" android:layout_gravity="start|center|top" android:id="@id/empty_new_tab_button" android:layout_width="wrap_content" android:contentDescription="@string/accessibility_tabstrip_btn_empty_new_tab" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/ToolbarButton" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <org.chromium.chrome.browser.ui.tablet.emptybackground.incognitotoggle.IncognitoToggleButtonTablet android:id="@id/empty_incognito_toggle_button" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="@dimen/toolbar_height_no_shadow" android:scaleType="center" android:contentDescription="@string/accessibility_tabstrip_btn_incognito_toggle_standard" />
+        <org.chromium.ui.widget.ChromeImageButton android:id="@id/empty_menu_button" android:layout_width="48.0dip" android:layout_height="@dimen/toolbar_height_no_shadow" android:src="@drawable/ic_more_vert_24dp" android:scaleType="center" android:contentDescription="@string/accessibility_toolbar_btn_menu" android:paddingStart="2.0dip" app:tint="@color/default_icon_color_light_tint_list" style="@style/ToolbarButton" />
+    </LinearLayout>
+</org.chromium.chrome.browser.ui.tablet.emptybackground.EmptyBackgroundViewTablet>

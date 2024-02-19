@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/card" android:background="@drawable/group_card_item_border" android:layout_width="fill_parent" android:layout_height="114.0dip" android:paddingStart="@dimen/card_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.async_image.AsyncImageView android:id="@id/thumbnail" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="centerCrop" app:cornerRadiusBottomEnd="@dimen/download_manager_thumbnail_corner_radius" app:cornerRadiusBottomStart="@dimen/download_manager_thumbnail_corner_radius" app:cornerRadiusTopEnd="@dimen/download_manager_thumbnail_corner_radius" app:cornerRadiusTopStart="@dimen/download_manager_thumbnail_corner_radius" style="@style/AsyncImageView" />
+    <include android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="-12.0dip" android:layout_alignParentEnd="true" layout="@layout/list_menu_button" />
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignTop="@id/thumbnail" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/more" android:layout_toEndOf="@id/thumbnail" app:layout_gravity="fill_horizontal" app:leading="@dimen/text_size_large_leading" />
+    <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:ellipsize="end" android:id="@id/timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="1" android:layout_below="@id/title" android:textAlignment="viewStart" android:layout_alignStart="@id/title" />
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/media_button" android:layout_alignBottom="@id/timestamp" android:layout_toEndOf="@id/timestamp" style="@style/InlineOfflineIconStyle" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_gravity="fill">
+        <org.chromium.chrome.browser.download.home.view.SelectionView android:id="@id/selection" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="8.0dip" />
+    </FrameLayout>
+</RelativeLayout>

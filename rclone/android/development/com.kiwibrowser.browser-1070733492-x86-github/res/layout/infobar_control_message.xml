@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.infobars.InfoBarMessageView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:textColorLink="@color/default_text_color_link" android:id="@id/infobar_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

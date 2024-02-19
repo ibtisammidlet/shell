@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/follow_management_empty_state" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/follow_empty_margin" style="@style/MaterialCardStyle">
+        <TextView android:gravity="center" android:padding="@dimen/follow_empty_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/follow_manage_following_empty_state" style="@style/TextAppearance.TextMedium.Secondary" />
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+</FrameLayout>

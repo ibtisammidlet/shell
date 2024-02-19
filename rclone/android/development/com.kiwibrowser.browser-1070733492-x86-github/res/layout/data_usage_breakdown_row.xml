@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:id="@id/site_row" android:layout_width="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="start" android:id="@id/site_hostname" android:layout_width="0.0dip" android:layout_weight="0.0" style="@style/DataUsageBreakdownColumnItem" />
+    <TextView android:gravity="end" android:id="@id/site_data_used" android:layout_width="wrap_content" android:layout_marginStart="24.0dip" style="@style/DataUsageBreakdownColumnItem" />
+    <TextView android:gravity="end" android:id="@id/site_data_saved" android:layout_width="wrap_content" android:layout_marginStart="24.0dip" style="@style/DataUsageBreakdownSavedColumnItem" />
+</TableRow>

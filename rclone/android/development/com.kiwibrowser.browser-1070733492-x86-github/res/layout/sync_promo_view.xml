@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.signin.SyncPromoView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/list_item_default_margin" android:layout_marginEnd="@dimen/list_item_default_margin" style="@style/MaterialCardStyle">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/sync_promo_view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:gravity="center" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0sp" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <org.chromium.ui.widget.ButtonCompat android:id="@id/sign_in" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FilledButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.MaterialCardViewNoShadow>
+</org.chromium.chrome.browser.signin.SyncPromoView>

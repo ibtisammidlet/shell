@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.firstrun.FirstRunView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/fre_button_bar_height" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/fre_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/title" android:text="@string/data_reduction_promo_title_lite_mode" style="@style/FreTitle" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/fre_image_and_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fre_vertical_spacing">
+                <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="@dimen/fre_image_height" app:srcCompat="@drawable/data_reduction_illustration" />
+                <LinearLayout android:orientation="vertical" android:id="@id/fre_content_wrapper" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/fre_vertical_spacing" android:layout_weight="1.0" android:layout_marginStart="@dimen/fre_content_margin" android:layout_marginEnd="@dimen/fre_content_margin">
+                    <org.chromium.ui.widget.TextViewWithClickableSpans android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:gravity="start" android:id="@id/data_reduction_promo_summary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fre_vertical_spacing" android:lineSpacingMultiplier="1.4" />
+                    <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/enable_data_saver_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/data_reduction_enabled_switch_lite_mode" android:lineSpacingMultiplier="1.4" android:showText="false" style="@style/TextAppearance.TextMediumThick.Primary" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <org.chromium.ui.widget.ButtonCompat android:layout_gravity="bottom|center" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/next" style="@style/FilledButton.Flat" />
+</org.chromium.chrome.browser.firstrun.FirstRunView>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">ටැබ සමූහය ටැබ %1$dක් සමග හකුළන්න.</item>
+        <item quantity="one">ටැබ %1$dක් හකුළන්න.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">%1$s ටැබ සමූහය ටැබ %2$dක් සමග හකුළන්න.</item>
+        <item quantity="one">ටැබ %1$dක් හකුළන්න.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">ශ්‍රව්‍ය ගොනු %dක්</item>
+        <item quantity="one">%d ශ්‍රව්‍ය ගොනුවක්</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">ගොනු %dක්</item>
+        <item quantity="one">%d ගොනුවක්</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">රූප %dක්</item>
+        <item quantity="one">%d රූපයක්</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">පිටු %dක්</item>
+        <item quantity="one">%d පිටුවක්</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">වීඩියෝ %dක්</item>
+        <item quantity="one">%d වීඩියෝවක්</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">ඇගයීම %1$s/%2$s, සමාලෝචන %3$d</item>
+        <item quantity="one">" ඇගයීම %1$s/%2$s, සමාලෝචන %3$d"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">තෝරාගත් අයිතම %dක් ඉවත් කරන්න</item>
+        <item quantity="one">තෝරාගත් අයිතම 1ක් ඉවත් කරන්න</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">තෝරාගත් අයිතම %dක් බෙදාගන්න</item>
+        <item quantity="one">තෝරාගත් අයිතම 1ක් බෙදාගන්න</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">සමූහයෙන් තෝරා ගත් ටැබ %1$dක් ඉවත් කරන්න.</item>
+        <item quantity="one">සමූහයෙන් තෝරා ගත් ටැබ %1$dක් ඉවත් කරන්න.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">තේරූ පටිති %1$d සමූහ කරන්න</item>
+        <item quantity="one">%1$d තේරූ පටිත්ත සමූහ කරන්න</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">තේරූ පටිති %1$d වසරන්න</item>
+        <item quantity="one">තේරූ %1$d පටිත්ත වසන්න</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">විවෘත පටිති %1$dක්, පටිති මාරු කිරීමට තට්ටු කරන්න</item>
+        <item quantity="one">%1$d විවෘත පටිත්තක්, පටිති මාරු කිරීමට තට්ටු කරන්න</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">පිටුසන් %1$dක්</item>
+        <item quantity="one">%1$d පිටුසනක්</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">පටිති %1$d ක්</item>
+        <item quantity="one">%1$d පටිත්තක්</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(තවත් + %dක්)</item>
+        <item quantity="one">(තවත් + 1ක්)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">කුකී %d ක් අවහිර කළා</item>
+        <item quantity="one">1 කුකීයක් අවහිර කළා</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">ගොනු %d ක් බාගනිමින්.</item>
+        <item quantity="one">ගොනුව බාගනිමින්.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">පැය %d</item>
+        <item quantity="one">පැය %d</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">ගොනු %1$dක් බාගත්තා</item>
+        <item quantity="one">%1$d ගොනුවක් බාගත්තා</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(සමාලෝචන %1$s)</item>
+        <item quantity="one">(සමාලෝචන %1$s)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">බාගැනීම් %dක් සම්පූර්ණයි.</item>
+        <item quantity="one">බාගැනීම් 1ක් සම්පූර්ණයි.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">බාගැනීම් %dක් අසමත් විය.</item>
+        <item quantity="one">බාගැනීම් 1ක් අසමත් විය.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">බාගැනීම් %dක් පොරොත්තුවෙන්.</item>
+        <item quantity="one">බාගැනීම් 1ක් පොරොත්තුවෙන්.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">බාගැනීම් %dක් කාලසටහන්ගත කරන ලදි.</item>
+        <item quantity="one">බාගැනීම් 1ක් කාලසටහන්ගත කරන ලදි.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">දින %dකට පෙර</item>
+        <item quantity="one">දින %dකට පෙර</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">පැය %dකට පෙර</item>
+        <item quantity="one">පැය %dකට පෙර</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">මිනිත්තු %dකට පෙර</item>
+        <item quantity="one">මිනිත්තු %dකට පෙර</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">සූදානම් වූ විට Kiwi Browser ඔබේ පිටු පූරණ කරයි</item>
+        <item quantity="one">සූදානම් වූ විට Kiwi Browser ඔබේ පිටුව පූරණ කරයි</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">කුකි %dක් භාවිතයේ ඇත</item>
+        <item quantity="one">කුකි 1ක් භාවිතයේ ඇත</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s සහ තව %3$sක් ඉඩ දෙන ලදි</item>
+        <item quantity="one">%1$s, %2$s සහ තව %3$sක් ඉඩ දෙන ලදි</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s සහ තව %3$sක් අවහිර කරන ලදි</item>
+        <item quantity="one">%1$s, %2$s සහ තව %3$sක් අවහිර කරන ලදි</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s සහ තවත් %3$s</item>
+        <item quantity="one">%1$s, %2$s සහ තවත් %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">අවදානමට පත් වූ මුරපද %d</item>
+        <item quantity="one">අවදානමට පත් වූ මුරපද %d</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… සහ තවත් %2$s</item>
+        <item quantity="one">%1$s… සහ තවත් %2$s</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… සහ තවත් %2$s</item>
+        <item quantity="one">%1$s… සහ තවත් %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… සහ තවත් %2$s</item>
+        <item quantity="one">%1$s… සහ තවත් %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… සහ තවත් %2$s</item>
+        <item quantity="one">%1$s… සහ තවත් %2$s</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">ඔබට නොකියවූ පිටු %1$dක් ඇත</item>
+        <item quantity="one">ඔබට නොකියවූ පිටු %1$dක් ඇත</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">නොකියවූ පිටු %1$d</item>
+        <item quantity="one">නොකියවූ පිටු %1$d</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">අවදානමට පත් වූ මුරපද %d</item>
+        <item quantity="one">අවදානමට පත් වූ මුරපද 1</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">දින %dකට පෙර පරීක්ෂා කරන ලදි</item>
+        <item quantity="one">දින 1කට පෙර පරීක්ෂා කරන ලදි</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">පැය %dකට පෙර පරීක්ෂා කරන ලදි</item>
+        <item quantity="one">පැය 1කට පෙර පරීක්ෂා කරන ලදි</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">මිනිත්තු %dකට පෙර පරීක්ෂා කරන ලදි</item>
+        <item quantity="one">මිනිත්තු 1කට පෙර පරීක්ෂා කරන ලදි</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%dක් තෝරන ලදී</item>
+        <item quantity="one">1ක් තෝරන ලදී</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">සංඥා ප්‍රබලතා මට්ටම: කණු %d</item>
+        <item quantity="one">සංඥා ප්‍රබලතා මට්ටම: කණු %d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/clear_browsing_data_tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TabLayoutStyle" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/clear_browsing_data_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/clear_browsing_data_tabs" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <ImageView android:layout_below="@id/clear_browsing_data_tabs" android:importantForAccessibility="no" style="@style/TabBarShadow" />
+</RelativeLayout>

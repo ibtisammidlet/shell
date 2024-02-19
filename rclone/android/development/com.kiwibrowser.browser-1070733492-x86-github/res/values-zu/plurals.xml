@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">Goqa iqembu lethebhu enamathebhu angu-%1$d.</item>
+        <item quantity="one">Goqa ithebhu engu-%1$d.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">Goqa iqembu lethebhu engu-%1$s enamathebhu angu-%2$d.</item>
+        <item quantity="one">Goqa ithebhu engu-%1$d.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d Amafayela omsindo</item>
+        <item quantity="one">%d Ifayela lomsindo</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d Amafayela</item>
+        <item quantity="one">%d Ifayela</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d Izithombe</item>
+        <item quantity="one">%d Isithombe</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d Amakhasi</item>
+        <item quantity="one">%d Ikhasi</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d Amavidiyo</item>
+        <item quantity="one">%d Ividiyo</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">%1$s/%2$s isilinganiso, %3$d izibuyekezo</item>
+        <item quantity="one">" %1$s/%2$s isilinganiso, %3$d isibuyekezo"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Susa izinto ezingu-%d ezikhethiwe</item>
+        <item quantity="one">Susa into engu-1 ekhethiwe</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">Yabelana ngezinto ezingu-%d ezikhethiwe</item>
+        <item quantity="one">Yabelana ngento engu-1 ekhethiwe</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Susa amathebhu akhethiwe angu-%1$d kusukela eqenjini.</item>
+        <item quantity="one">"Susa ithebhu ekhethiwe engu-%1$d  kusukela eqenjini."</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Faka kuqembu amathebhu akhethiwe a-%1$d</item>
+        <item quantity="one">Faka kuqembu ithebhu ekhethiwe e-%1$d</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Vala amathebhu akhethiwe angu-%1$d</item>
+        <item quantity="one">Vala ithebhu ekhethiwe engu-%1$d</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d vula amathebhu, thepha ukuze uguqule amathebhu</item>
+        <item quantity="one">%1$d vula ithebhu, thepha ukuze uguqule amathebhu</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d amabhukhimakhi</item>
+        <item quantity="one">%1$d ibhukhimakhi</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d amathebhu</item>
+        <item quantity="one">%1$d ithebhu</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(+ %d okuningi)</item>
+        <item quantity="one">(+ 1 okuningi)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d amakhukhi avinjelwe</item>
+        <item quantity="one">1 ikhukhi elivinjelwe</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">Ilanda amafayela angu-%d.</item>
+        <item quantity="one">Ilanda ifayela.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d amahora</item>
+        <item quantity="one">%d hr</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d amafayela alandiwe</item>
+        <item quantity="one">%1$d ifayela elilandiwe</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(izibuyekezo ezingu-%1$s)</item>
+        <item quantity="one">(isibuyekezo esingu-%1$s)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d izaziso ezintsha</item>
+        <item quantity="one">%d izaziso ezintsha</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d ukulandwa kuqediwe.</item>
+        <item quantity="one">1 ukulanda kuqediwe.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d ukulandwa kuhlulekile.</item>
+        <item quantity="one">1 ukulanda kuhlulekile.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d ukulandwa okulindile.</item>
+        <item quantity="one">1 ukulanda okulindile.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">ukulandwa oku-%d kushejuliwe.</item>
+        <item quantity="one">ukulanda oku-1 kushejuliwe.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d izinsuku ezedlule</item>
+        <item quantity="one">%d usuku oludlule</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d amahora adlule</item>
+        <item quantity="one">%d ihora eledlule</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d amaminithi adlule</item>
+        <item quantity="one">%d iminithi eledlule</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">I-Kiwi Browser izolayisha amakhasi akho uma isilungile</item>
+        <item quantity="one">I-Kiwi Browser izolayisha ikhasi lakho uma isilungele</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">Amakhukhi angu-%d asebenzayo</item>
+        <item quantity="one">Ikhukhi e-1 iyasebenza</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">I-%1$s, %2$s, nezinye ezingu-%3$s zivunyelwe</item>
+        <item quantity="one">I-%1$s, %2$s, nezinye ezingu-%3$s zivunyelwe</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">I-%1$s, %2$s, nezinye ezingu-%3$s zivinjelwe</item>
+        <item quantity="one">I-%1$s, %2$s, nezinye ezingu-%3$s zivinjelwe</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s, nokungu-%3$s ngaphezulu</item>
+        <item quantity="one">%1$s, %2$s, nokungu-%3$s ngaphezulu</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">amaphasiwedi onakalisiwe angu-%d</item>
+        <item quantity="one">iphasiwedi eyonakalisiwe engu-%d</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… nokungu-%2$s ngaphezulu</item>
+        <item quantity="one">%1$s… nokungu-%2$s ngaphezulu</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… nokungu-%2$s ngaphezulu</item>
+        <item quantity="one">%1$s… nokungu-%2$s ngaphezulu</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… nokungu-%2$s ngaphezulu</item>
+        <item quantity="one">%1$s… nokungu-%2$s ngaphezulu</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… nokungu-%2$s ngaphezulu</item>
+        <item quantity="one">%1$s… nokungu-%2$s ngaphezulu</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">Unamakhasi angu-%1$d angafundiwe</item>
+        <item quantity="one">Unekhasi elingu-%1$d elingafundiwe</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">amakhasi angafundiwe %1$d</item>
+        <item quantity="one">ikhasi elingafundiwe %1$d</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">amaphasiwedi onakalisiwe angu-%d</item>
+        <item quantity="one">iphasiwedi eyonakalisiwe e-1</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">Kuhlolwe ezinsukwini ezingu-%d ezedlule</item>
+        <item quantity="one">Kuhlolwe osukwini olu-1 olwedlule</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">Kuhlolwe emahoreni angu-%d adlule</item>
+        <item quantity="one">Kuhlolwe ehoreni eli-1 eledlule</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">Kuhlolwe kwimizuzu engu-%d edlule</item>
+        <item quantity="one">Kuhlolwe kumzuzu o-1 odlule</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d ekhethiwe</item>
+        <item quantity="one">1 ekhethiwe</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Ileveli yamandla esignali: %d amabha</item>
+        <item quantity="one">Ileveli yamandla esignali: %d ibha</item>
+    </plurals>
+</resources>

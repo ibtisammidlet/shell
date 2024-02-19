@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">Sutraukti skirtukų grupę, kurioje yra %1$d skirtukų.</item>
+        <item quantity="one">Sutraukti %1$d skirtuką.</item>
+        <item quantity="few">Sutraukti skirtukų grupę, kurioje yra %1$d skirtukai.</item>
+        <item quantity="many">Sutraukti skirtukų grupę, kurioje yra %1$d skirtuko.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">Sutraukti skirtukų grupę „%1$s“, kurioje yra %2$d skirtukų.</item>
+        <item quantity="one">Sutraukti %1$d skirtuką.</item>
+        <item quantity="few">Sutraukti skirtukų grupę „%1$s“, kurioje yra %2$d skirtukai.</item>
+        <item quantity="many">Sutraukti skirtukų grupę „%1$s“, kurioje yra %2$d skirtuko.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d garso įrašo failų</item>
+        <item quantity="one">%d garso įrašo failas</item>
+        <item quantity="few">%d garso įrašo failai</item>
+        <item quantity="many">%d garso įrašo failo</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d failų</item>
+        <item quantity="one">%d failas</item>
+        <item quantity="few">%d failai</item>
+        <item quantity="many">%d failo</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d vaizdų</item>
+        <item quantity="one">%d vaizdas</item>
+        <item quantity="few">%d vaizdai</item>
+        <item quantity="many">%d vaizdo</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d puslapių</item>
+        <item quantity="one">%d puslapis</item>
+        <item quantity="few">%d puslapiai</item>
+        <item quantity="many">%d puslapio</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d vaizdo įrašų</item>
+        <item quantity="one">%d vaizdo įrašas</item>
+        <item quantity="few">%d vaizdo įrašai</item>
+        <item quantity="many">%d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">Įvertinimas: %1$s iš %2$s, %3$d atsiliepimų</item>
+        <item quantity="one">" Įvertinimas: %1$s iš %2$s, %3$d atsiliepimas"</item>
+        <item quantity="few">Įvertinimas: %1$s iš %2$s, %3$d atsiliepimai</item>
+        <item quantity="many">Įvertinimas: %1$s iš %2$s, %3$d atsiliepimo</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Pašalinti %d pasirinktų elementų</item>
+        <item quantity="one">Pašalinti 1 pasirinktą elementą</item>
+        <item quantity="few">Pašalinti %d pasirinktus elementus</item>
+        <item quantity="many">Pašalinti %d pasirinkto elemento</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">Bendrinti %d pasirinktų elementų</item>
+        <item quantity="one">Bendrinti 1 pasirinktą elementą</item>
+        <item quantity="few">Bendrinti %d pasirinktus elementus</item>
+        <item quantity="many">Bendrinti %d pasirinkto elemento</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Pašalinti %1$d pasirinktų skirtukų iš grupės.</item>
+        <item quantity="one">Pašalinti %1$d pasirinktą skirtuką iš grupės.</item>
+        <item quantity="few">Pašalinti %1$d pasirinktus skirtukus iš grupės.</item>
+        <item quantity="many">Pašalinti %1$d pasirinkto skirtuko iš grupės.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Grupuoti %1$d pasirinktų skirtukų</item>
+        <item quantity="one">Grupuoti %1$d pasirinktą skirtuką</item>
+        <item quantity="few">Grupuoti %1$d pasirinktus skirtukus</item>
+        <item quantity="many">Grupuoti %1$d pasirinkto skirtuko</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Uždaryti %1$d pasirinktų skirtukų</item>
+        <item quantity="one">Uždaryti %1$d pasirinktą skirtuką</item>
+        <item quantity="few">Uždaryti %1$d pasirinktus skirtukus</item>
+        <item quantity="many">Uždaryti %1$d pasirinkto skirtuko</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d atidarytų skirtukų; palieskite, kad perjungtumėte skirtukus</item>
+        <item quantity="one">%1$d atidarytas skirtukas; palieskite, kad perjungtumėte skirtukus</item>
+        <item quantity="few">%1$d atidaryti skirtukai; palieskite, kad perjungtumėte skirtukus</item>
+        <item quantity="many">%1$d atidaryto skirtuko; palieskite, kad perjungtumėte skirtukus</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d žymių</item>
+        <item quantity="one">%1$d žymė</item>
+        <item quantity="few">%1$d žymės</item>
+        <item quantity="many">%1$d žymės</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d skirtukų</item>
+        <item quantity="one">%1$d skirtukas</item>
+        <item quantity="few">%1$d skirtukai</item>
+        <item quantity="many">%1$d skirtuko</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(ir dar %d)</item>
+        <item quantity="one">(ir dar 1)</item>
+        <item quantity="few">(ir dar %d)</item>
+        <item quantity="many">(ir dar %d)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">Užblokuota %d slapukų</item>
+        <item quantity="one">Užblokuotas 1 slapukas</item>
+        <item quantity="few">Užblokuoti %d slapukai</item>
+        <item quantity="many">Užblokuota %d slapuko</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">Atsisiunčiama %d failų.</item>
+        <item quantity="one">Atsisiunčiamas failas.</item>
+        <item quantity="few">Atsisiunčiami %d failai.</item>
+        <item quantity="many">Atsisiunčiama %d failo.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">%d val.</item>
+        <item quantity="few">%d val.</item>
+        <item quantity="many">%d val.</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">Atsisiųsta %1$d failų</item>
+        <item quantity="one">Atsisiųstas %1$d failas</item>
+        <item quantity="few">Atsisiųsti %1$d failai</item>
+        <item quantity="many">Atsisiųsta %1$d failo</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s atsiliepimų)</item>
+        <item quantity="one">(%1$s atsiliepimas)</item>
+        <item quantity="few">(%1$s atsiliepimai)</item>
+        <item quantity="many">(%1$s atsiliepimo)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">Baigta %d atsisiuntimų.</item>
+        <item quantity="one">Baigtas 1 atsisiuntimas.</item>
+        <item quantity="few">Baigti %d atsisiuntimai.</item>
+        <item quantity="many">Baigta %d atsisiuntimo.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">Nepavyko atlikti %d atsisiuntimų.</item>
+        <item quantity="one">Nepavyko atlikti 1 atsisiuntimo.</item>
+        <item quantity="few">Nepavyko atlikti %d atsisiuntimų.</item>
+        <item quantity="many">Nepavyko atlikti %d atsisiuntimo.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">Laukiama %d atsisiuntimų.</item>
+        <item quantity="one">Laukiama 1 atsisiuntimo.</item>
+        <item quantity="few">Laukiama %d atsisiuntimų.</item>
+        <item quantity="many">Laukiama %d atsisiuntimo.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">Suplanuota %d atsisiuntimų.</item>
+        <item quantity="one">Suplanuotas vienas atsisiuntimas.</item>
+        <item quantity="few">Suplanuoti %d atsisiuntimai.</item>
+        <item quantity="many">Suplanuota %d atsisiuntimo.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">Prieš %d dienų</item>
+        <item quantity="one">Prieš %d dieną</item>
+        <item quantity="few">Prieš %d dienas</item>
+        <item quantity="many">Prieš %d dienos</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">Prieš %d valandų</item>
+        <item quantity="one">Prieš 1 valandą</item>
+        <item quantity="few">Prieš %d valandas</item>
+        <item quantity="many">Prieš %d valandos</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">Prieš %d minučių</item>
+        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="few">Prieš %d minutes</item>
+        <item quantity="many">Prieš %d minutės</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">„Kiwi Browser“ įkels puslapius, kai bus paruošta</item>
+        <item quantity="one">„Kiwi Browser“ įkels puslapį, kai bus paruošta</item>
+        <item quantity="few">„Kiwi Browser“ įkels puslapius, kai bus paruošta</item>
+        <item quantity="many">„Kiwi Browser“ įkels puslapius, kai bus paruošta</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">Naudojama %d slapukų</item>
+        <item quantity="one">Naudojamas 1 slapukas</item>
+        <item quantity="few">Naudojami %d slapukai</item>
+        <item quantity="many">Naudojama %d slapuko</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">Leidžiama: %1$s, %2$s ir dar %3$s</item>
+        <item quantity="one">Leidžiama: %1$s, %2$s ir dar %3$s</item>
+        <item quantity="few">Leidžiama: %1$s, %2$s ir dar %3$s</item>
+        <item quantity="many">Leidžiama: %1$s, %2$s ir dar %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">Užblokuota: %1$s, %2$s ir dar %3$s</item>
+        <item quantity="one">Užblokuota: %1$s, %2$s ir dar %3$s</item>
+        <item quantity="few">Užblokuota: %1$s, %2$s ir dar %3$s</item>
+        <item quantity="many">Užblokuota: %1$s, %2$s ir dar %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s ir dar %3$s</item>
+        <item quantity="one">%1$s, %2$s ir dar %3$s</item>
+        <item quantity="few">%1$s, %2$s ir dar %3$s</item>
+        <item quantity="many">%1$s, %2$s ir dar %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d pažeistų slaptažodžių</item>
+        <item quantity="one">%d pažeistas slaptažodis</item>
+        <item quantity="few">%d pažeisti slaptažodžiai</item>
+        <item quantity="many">%d pažeisto slaptažodžio</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… ir dar %2$s</item>
+        <item quantity="one">%1$s… ir dar %2$s</item>
+        <item quantity="few">%1$s… ir dar %2$s</item>
+        <item quantity="many">%1$s… ir dar %2$s</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… ir dar %2$s</item>
+        <item quantity="one">%1$s… ir dar %2$s</item>
+        <item quantity="few">%1$s… ir dar %2$s</item>
+        <item quantity="many">%1$s… ir dar %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… ir dar %2$s</item>
+        <item quantity="one">%1$s… ir dar %2$s</item>
+        <item quantity="few">%1$s… ir dar %2$s</item>
+        <item quantity="many">%1$s… ir dar %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… ir dar %2$s</item>
+        <item quantity="one">%1$s… ir dar %2$s</item>
+        <item quantity="few">%1$s… ir dar %2$s</item>
+        <item quantity="many">%1$s… ir dar %2$s</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">Turite %1$d neskaitytų puslapių</item>
+        <item quantity="one">Turite %1$d neskaitytą puslapį</item>
+        <item quantity="few">Turite %1$d neskaitytus puslapius</item>
+        <item quantity="many">Turite %1$d neskaityto puslapio</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d neskaitytų puslapių</item>
+        <item quantity="one">%1$d neskaitytas puslapis</item>
+        <item quantity="few">%1$d neskaityti puslapiai</item>
+        <item quantity="many">%1$d neskaityto puslapio</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d pažeistų slaptažodžių</item>
+        <item quantity="one">1 pažeistas slaptažodis</item>
+        <item quantity="few">%d pažeisti slaptažodžiai</item>
+        <item quantity="many">%d pažeisto slaptažodžio</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">Tikrinta prieš %d dienų</item>
+        <item quantity="one">Tikrinta prieš 1 dieną</item>
+        <item quantity="few">Tikrinta prieš %d dienas</item>
+        <item quantity="many">Tikrinta prieš %d dienos</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">Tikrinta prieš %d valandų</item>
+        <item quantity="one">Tikrinta prieš 1 valandą</item>
+        <item quantity="few">Tikrinta prieš %d valandas</item>
+        <item quantity="many">Tikrinta prieš %d valandos</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">Tikrinta prieš %d minučių</item>
+        <item quantity="one">Tikrinta prieš 1 minutę</item>
+        <item quantity="few">Tikrinta prieš %d minutes</item>
+        <item quantity="many">Tikrinta prieš %d minutės</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">Pasirinkta %d elementų</item>
+        <item quantity="one">Pasirinktas 1 elementas</item>
+        <item quantity="few">Pasirinkti %d elementai</item>
+        <item quantity="many">Pasirinkta %d elemento</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Signalo stiprumo lygis: %d juostų</item>
+        <item quantity="one">Signalo stiprumo lygis: %d juosta</item>
+        <item quantity="few">Signalo stiprumo lygis: %d juostos</item>
+        <item quantity="many">Signalo stiprumo lygis: %d juostos</item>
+    </plurals>
+</resources>

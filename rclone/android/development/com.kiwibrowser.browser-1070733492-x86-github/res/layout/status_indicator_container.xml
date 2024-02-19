@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.ViewResourceFrameLayout android:id="@id/status_indicator" android:background="@color/default_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables android:textAppearance="@style/TextAppearance.TextSmall.Primary" android:gravity="center" android:layout_gravity="center" android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/status_indicator_min_height" android:drawablePadding="@dimen/status_indicator_icon_padding" app:drawableHeight="@dimen/status_indicator_icon_size" app:drawableWidth="@dimen/status_indicator_icon_size" />
+</org.chromium.components.browser_ui.widget.ViewResourceFrameLayout>

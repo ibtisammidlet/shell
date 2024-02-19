@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.gesturenav.NavigationSheetView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/navigation_entries" android:paddingTop="@dimen/navigation_sheet_content_top_padding" android:paddingBottom="@dimen/navigation_sheet_content_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+</org.chromium.chrome.browser.gesturenav.NavigationSheetView>

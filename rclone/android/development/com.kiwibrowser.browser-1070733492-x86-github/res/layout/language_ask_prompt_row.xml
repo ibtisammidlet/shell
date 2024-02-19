@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/language_ask_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true" style="@style/ListItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/language_ask_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/ui_language_representation" android:paddingEnd="@dimen/explicit_ask_checkbox_end_padding" />
+    <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:ellipsize="end" android:id="@id/ui_language_representation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toEndOf="@id/language_ask_checkbox" />
+    <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="end" android:id="@id/native_language_representation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/ui_language_representation" android:layout_alignStart="@id/ui_language_representation" />
+    <ImageView android:id="@id/device_language_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mobile_friendly_grey600_24dp" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/list_item_default_margin" android:layout_alignParentEnd="true" />
+</RelativeLayout>

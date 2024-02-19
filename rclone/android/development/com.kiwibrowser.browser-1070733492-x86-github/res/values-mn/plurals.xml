@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">%1$d таб бүхий бүлэг табыг хураах.</item>
+        <item quantity="one">%1$d табыг хураах.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">%2$d таб бүхий %1$s бүлэг табыг хураах.</item>
+        <item quantity="one">%1$d табыг хураах.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d Аудио файл</item>
+        <item quantity="one">%d Аудио файл</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d Файл</item>
+        <item quantity="one">%d Файл</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d Зураг</item>
+        <item quantity="one">%d Зураг</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d Хуудас</item>
+        <item quantity="one">%d Хуудас</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d Видео</item>
+        <item quantity="one">%d Видео</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">%1$s/%2$s үнэлгээ, %3$d шүүмж</item>
+        <item quantity="one">" %1$s/%2$s үнэлгээ, %3$d шүүмж"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Сонгосон %d зүйлийг устгах</item>
+        <item quantity="one">Сонгосон 1 зүйлийг устгах</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">"Сонгосон %d зүйлийг хуваалцах "</item>
+        <item quantity="one">Сонгосон 1 зүйлийг хуваалцах</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Сонгосон %1$d табыг бүлгээс хасах.</item>
+        <item quantity="one">Сонгосон %1$d табыг бүлгээс хасах.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Сонгосон %1$d табыг бүлэглэх</item>
+        <item quantity="one">Сонгосон %1$d табыг бүлэглэх</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Сонгосон %1$d табыг хаах</item>
+        <item quantity="one">Сонгосон %1$d табыг хаах</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d таб нээлттэй байна. Табыг сэлгэхийн тулд товшино уу</item>
+        <item quantity="one">%1$d таб нээлттэй байна. Табыг сэлгэхийн тулд товшино уу</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d хавчуурга</item>
+        <item quantity="one">%1$d хавчуурга</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d таб</item>
+        <item quantity="one">%1$d таб</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(бусад + %d)</item>
+        <item quantity="one">(бусад + 1)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d күүкиг блоклосон</item>
+        <item quantity="one">1 күүкиг блоклосон</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">%d файлыг татаж байна.</item>
+        <item quantity="one">Файл татаж байна.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d цаг</item>
+        <item quantity="one">%d цаг</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d файл татсан</item>
+        <item quantity="one">%1$d файл татсан</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s шүүмж)</item>
+        <item quantity="one">(%1$s шүүмж)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d таталт дууссан.</item>
+        <item quantity="one">1 таталт дууссан.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d таталт амжилтгүй боллоо.</item>
+        <item quantity="one">1 таталт амжилтгүй боллоо.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d таталт хүлээгдэж байна.</item>
+        <item quantity="one">1 таталт хүлээгдэж байна.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">%d таталт товлосон.</item>
+        <item quantity="one">1 таталт товлосон.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d өдрийн өмнө</item>
+        <item quantity="one">%d өдрийн өмнө</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d цагийн өмнө</item>
+        <item quantity="one">%d цагийн өмнө</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d минутын өмнө</item>
+        <item quantity="one">%d минутын өмнө</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">Kiwi Browser хуудаснуудыг бэлэн болох үед ачаална</item>
+        <item quantity="one">Kiwi Browser хуудсыг бэлэн болох үед ачаална</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%d 1 күүки ашиглаж байна</item>
+        <item quantity="one">1 күүки ашиглаж байна</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s болон бусад %3$s-г зөвшөөрсөн</item>
+        <item quantity="one">%1$s, %2$s болон бусад %3$s-г зөвшөөрсөн</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s болон бусад %3$s-г блоклосон</item>
+        <item quantity="one">%1$s, %2$s болон бусад %3$s-г блоклосон</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s болон бусад %3$s</item>
+        <item quantity="one">%1$s, %2$s болон бусад %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">Алдагдсан %d нууц үг</item>
+        <item quantity="one">Алдагдсан %d нууц үг</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… болон бусад %2$s</item>
+        <item quantity="one">%1$s… болон бусад %2$s</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… болон бусад %2$s</item>
+        <item quantity="one">%1$s… болон бусад %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… болон бусад %2$s</item>
+        <item quantity="one">%1$s… болон бусад %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… болон бусад %2$s</item>
+        <item quantity="one">%1$s… болон бусад %2$s</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">Танд уншаагүй %1$d хуудас байна</item>
+        <item quantity="one">Танд уншаагүй %1$d хуудас байна</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">Уншаагүй %1$d хуудас</item>
+        <item quantity="one">Уншаагүй %1$d хуудас</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">Алдагдсан %d нууц үг</item>
+        <item quantity="one">Алдагдсан 1 нууц үг</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">%d хоногийн өмнө шалгасан</item>
+        <item quantity="one">1 хоногийн өмнө шалгасан</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">%d цагийн өмнө шалгасан</item>
+        <item quantity="one">1 цагийн өмнө шалгасан</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">%d минутын өмнө шалгасан</item>
+        <item quantity="one">1 минутын өмнө шалгасан</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d сонгосон</item>
+        <item quantity="one">1 сонгосон</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Дохионы хүчний түвшин: %d мөр</item>
+        <item quantity="one">Дохионы хүчний түвшин: %d мөр</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.top.ToolbarPhone android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.chrome.browser.toolbar.HomeButton android:id="@id/home_button" android:visibility="gone" android:src="@drawable/btn_toolbar_home" android:contentDescription="@string/accessibility_toolbar_btn_home" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarButton" />
+    <org.chromium.chrome.browser.omnibox.LocationBarPhone android:layout_gravity="top" android:id="@id/location_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/location_bar_lateral_padding" android:paddingEnd="@dimen/location_bar_lateral_padding" />
+    <LinearLayout android:layout_gravity="end|center|top" android:orientation="horizontal" android:id="@id/toolbar_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/optional_button_stub" android:visibility="gone" android:layout="@layout/optional_toolbar_button" android:inflatedId="@id/optional_toolbar_button" android:paddingStart="@dimen/toolbar_phone_optional_button_padding" style="@style/ToolbarButton" />
+        <org.chromium.chrome.browser.toolbar.top.HandButton android:id="@id/hand_button" android:src="@drawable/btn_toolbar_hand" style="@style/ToolbarButton" />
+        <org.chromium.chrome.browser.toolbar.top.ToggleTabStackButton android:layout_gravity="top" android:id="@id/tab_switcher_button" android:contentDescription="@string/accessibility_toolbar_btn_tabswitcher_toggle_default" android:paddingStart="0.0dip" app:menuMaxWidth="@dimen/tab_switcher_menu_width" app:menuVerticalOverlapAnchor="false" style="@style/ToolbarButton" />
+        <include layout="@layout/menu_button" />
+    </LinearLayout>
+</org.chromium.chrome.browser.toolbar.top.ToolbarPhone>

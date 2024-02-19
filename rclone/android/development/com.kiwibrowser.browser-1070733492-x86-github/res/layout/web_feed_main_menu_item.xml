@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.feed.webfeed.WebFeedMainMenuItem android:orientation="vertical" android:id="@id/web_feed_menu_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/divider_height" android:weightSum="1.0" style="@style/AppMenuItem">
+        <org.chromium.components.browser_ui.widget.RoundedCornerImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:importantForAccessibility="no" android:layout_marginEnd="12.0dip" app:cornerRadiusBottomEnd="12.0dip" app:cornerRadiusBottomStart="12.0dip" app:cornerRadiusTopEnd="12.0dip" app:cornerRadiusTopStart="12.0dip" />
+        <TextView android:ellipsize="end" android:id="@id/menu_item_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/AppMenuItemText" />
+        <org.chromium.ui.widget.ChipView android:layout_gravity="end" android:id="@id/follow_chip_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MenuFooterChip" />
+        <org.chromium.ui.widget.ChipView android:layout_gravity="end" android:id="@id/following_chip_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MenuFooterChipInverse" />
+    </LinearLayout>
+    <View android:id="@id/web_feed_menu_divider" android:background="@color/divider_line_bg_color" android:layout_width="fill_parent" style="@style/HorizontalDivider" />
+</org.chromium.chrome.browser.feed.webfeed.WebFeedMainMenuItem>

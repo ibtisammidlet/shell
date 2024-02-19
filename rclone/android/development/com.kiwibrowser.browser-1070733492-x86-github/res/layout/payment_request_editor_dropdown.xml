@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_dialog_section_small_spacing" android:layout_marginBottom="@dimen/editor_dialog_section_large_spacing" android:layout_marginStart="@dimen/pref_autofill_field_horizontal_padding" android:layout_marginEnd="@dimen/pref_autofill_field_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:id="@id/spinner_label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatSpinner android:id="@id/spinner" android:paddingLeft="0.0dip" android:paddingTop="@dimen/pref_autofill_dropdown_vertical_padding" android:paddingRight="0.0dip" android:paddingBottom="@dimen/pref_autofill_dropdown_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:dropDownWidth="fill_parent" />
+    <View android:id="@id/spinner_underline" style="@style/PreferenceSpinnerUnderlineView" />
+    <TextView android:textAppearance="@style/TextAppearance.ErrorCaption" android:id="@id/spinner_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pref_autofill_field_top_margin" />
+</LinearLayout>

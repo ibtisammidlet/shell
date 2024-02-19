@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dialog_header" layout="@layout/launchpad_app_menu_header" />
+    <include android:id="@id/permissions" layout="@layout/launchpad_app_menu_permissions" />
+    <View style="@style/HorizontalDivider" />
+    <ListView android:textAppearance="@style/TextAppearance.Headline.Primary" android:id="@id/shortcuts_list_view" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null" />
+</LinearLayout>

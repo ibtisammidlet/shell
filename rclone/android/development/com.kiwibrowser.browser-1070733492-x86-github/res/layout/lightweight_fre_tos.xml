@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="24.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lightweight_fre_head_image" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginBottom="32.0dip" android:src="@drawable/product_logo_name" android:scaleType="fitCenter" android:layout_marginStart="24.0dip" />
+    <FrameLayout android:id="@id/lightweight_fre_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:layout_below="@id/lightweight_fre_head_image">
+        <org.chromium.ui.widget.TextViewWithClickableSpans android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:id="@id/lightweight_fre_tos_and_privacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.64" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/loading_view_container" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/fre_loading_spinner_size" android:contentDescription="@string/sync_loading">
+            <org.chromium.ui.widget.LoadingView android:id="@id/loading_view" android:visibility="gone" android:layout_width="@dimen/fre_loading_spinner_size" android:layout_height="@dimen/fre_loading_spinner_size" style="@style/Widget.AppCompat.ProgressBar" />
+        </FrameLayout>
+        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" layout="@layout/fre_tos_privacy_disclaimer" />
+    </FrameLayout>
+    <org.chromium.components.browser_ui.widget.DualControlLayout android:id="@id/lightweight_fre_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lightweight_fre_body" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_alignParentEnd="true" app:buttonAlignment="end" app:primaryButtonText="@string/fre_accept_continue" app:secondaryButtonText="@string/cancel" app:stackedMargin="@dimen/button_bar_stacked_margin" />
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">সেই ট্যাব গ্রুপকে ছোট করুন যাতে %1$dটি ট্যাব আছে।</item>
+        <item quantity="one">%1$dটি ট্যাব ছোট করুন।</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">%1$s ট্যাব গ্রুপকে ছোট করুন যার মধ্যে %2$dটি ট্যাব আছে।</item>
+        <item quantity="one">%1$dটি ট্যাব ছোট করুন।</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%dটি অডিও ফাইল</item>
+        <item quantity="one">%dটি অডিও ফাইল</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%dটি ফাইল</item>
+        <item quantity="one">%dটি ফাইল</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%dটি ছবি</item>
+        <item quantity="one">%dটি ছবি</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%dটি পৃষ্ঠা</item>
+        <item quantity="one">%dটি পৃষ্ঠা</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%dটি ভিডিও</item>
+        <item quantity="one">%dটি ভিডিও</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">%1$s/%2$s রেটিং, %3$dটি রিভিউ</item>
+        <item quantity="one">" %1$s/%2$s রেটিং, %3$dটি রিভিউ"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">%dটি নির্বাচিত আইটেম সরান</item>
+        <item quantity="one">১ টি নির্বাচিত আইটেম সরান</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">%dটি নির্বাচিত আইটেম শেয়ার করুন</item>
+        <item quantity="one">১টি নির্বাচিত আইটেম শেয়ার করুন</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">গ্রুপ থেকে বেছে নেওয়া %1$dটি ট্যাব সরিয়ে দিন।</item>
+        <item quantity="one">গ্রুপ থেকে বেছে নেওয়া %1$dটি ট্যাব সরিয়ে দিন।</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">বেছে নেওয়া %1$dটি ট্যাব গ্রুপ করুন</item>
+        <item quantity="one">বেছে নেওয়া %1$dটি ট্যাব গ্রুপ করুন</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">বেছে নেওয়া ট্যাবের মধ্যে %1$dটি ট্যাব বন্ধ আছে</item>
+        <item quantity="one">বেছে নেওয়া ট্যাবের মধ্যে %1$dটি ট্যাব বন্ধ আছে</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$dটি খোলা ট্যাব, এক ট্যাব থেকে অন্য ট্যাবে যেতে ট্যাপ করুন</item>
+        <item quantity="one">%1$dটি খোলা ট্যাব, এক ট্যাব থেকে অন্য ট্যাবে যেতে ট্যাপ করুন</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$dটি বুকমার্ক</item>
+        <item quantity="one">%1$dটি বুকমার্ক</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$dটি ট্যাব</item>
+        <item quantity="one">%1$dটি ট্যাব</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(এছাড়া আরও %dটি)</item>
+        <item quantity="one">(এছাড়া আরও ১টি)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%dটি কুকি ব্লক করা হয়েছে</item>
+        <item quantity="one">১টি কুকি ব্লক করা হয়েছে</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">%dটি ফাইল ডাউনলোড হচ্ছে।</item>
+        <item quantity="one">ফাইলটি ডাউনলোড হচ্ছে।</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d ঘণ্টা</item>
+        <item quantity="one">%d ঘণ্টা</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$dটি ফাইল ডাউনলোড হয়েছে</item>
+        <item quantity="one">%1$dটি ফাইল ডাউনলোড হয়েছে</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$sটি রিভিউ)</item>
+        <item quantity="one">(%1$sটি রিভিউ)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%dটি ডাউনলোড হয়ে গেছে।</item>
+        <item quantity="one">১টি ডাউনলোড হয়ে গেছে।</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%dটি ডাউনলোড করা যায়নি।</item>
+        <item quantity="one">১টি ডাউনলোড করা যায়নি।</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%dটি ডাউনলোড বাকি আছে।</item>
+        <item quantity="one">১টি ডাউনলোড বাকি আছে।</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">%dটি ডাউনলোড শিডিউল করা হয়েছে।</item>
+        <item quantity="one">১টি ডাউনলোড শিডিউল করা হয়েছে।</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d দিন আগে</item>
+        <item quantity="one">%d দিন আগে</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d ঘণ্টা আগে</item>
+        <item quantity="one">%d ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d মিনিট আগে</item>
+        <item quantity="one">%d মিনিট আগে</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">রেডি হলেই Kiwi Browser আপনার পৃষ্ঠা লোড করবে</item>
+        <item quantity="one">রেডি হলেই Kiwi Browser আপনার পৃষ্ঠা লোড করবে</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%dটি কুকি ব্যবহার করা হচ্ছে</item>
+        <item quantity="one">১টি কুকি ব্যবহার করা হচ্ছে</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s ও আরও %3$sটি সুবিধা ব্যবহারের অনুমতি দেওয়া হয়েছে</item>
+        <item quantity="one">%1$s, %2$s ও আরও %3$sটি সুবিধা ব্যবহারের অনুমতি দেওয়া হয়েছে</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s আরও %3$sটি সুবিধা ব্লক করা হয়েছে</item>
+        <item quantity="one">%1$s, %2$s আরও %3$sটি সুবিধা ব্লক করা হয়েছে</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s ও আরও %3$sটি সুবিধা</item>
+        <item quantity="one">%1$s, %2$s ও আরও %3$sটি সুবিধা</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%dটি পাসওয়ার্ড চুরি হয়েছে</item>
+        <item quantity="one">%dটি পাসওয়ার্ড চুরি হয়েছে</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… এবং %2$s আরও অনেক</item>
+        <item quantity="one">%1$s… এবং %2$s আরও অনেক</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… এবং %2$s আরও অনেক</item>
+        <item quantity="one">%1$s… এবং %2$s আরও অনেক</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… এবং %2$s আরও অনেক</item>
+        <item quantity="one">%1$s… এবং %2$s আরও অনেক</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… এবং %2$s আরও অনেক</item>
+        <item quantity="one">%1$s… এবং %2$s আরও অনেক</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">আপনার কাছে %1$dটি পৃষ্ঠা আছে যা এখনও পড়েননি</item>
+        <item quantity="one">আপনার কাছে %1$dটি পৃষ্ঠা আছে যা এখনও পড়েননি</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$dটি পৃষ্ঠা পড়া হয়নি</item>
+        <item quantity="one">%1$dটি পৃষ্ঠা পড়া হয়নি</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%dটি চুরি হয়ে যাওয়া পাসওয়ার্ড</item>
+        <item quantity="one">১টি চুরি হয়ে যাওয়া পাসওয়ার্ড</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">%d দিন আগে চেক করা হয়েছে</item>
+        <item quantity="one">১ দিন আগে চেক করা হয়েছে</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">%d ঘণ্টা আগে চেক করা হয়েছে</item>
+        <item quantity="one">১ ঘণ্টা আগে চেক করা হয়েছে</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">%d মিনিট আগে চেক করা হয়েছে</item>
+        <item quantity="one">১ মিনিট আগে চেক করা হয়েছে</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%dটি বেছে নেওয়া হয়েছে</item>
+        <item quantity="one">১টি বেছে নেওয়া হয়েছে</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">সিগনালের স্তর: %dটি দণ্ড</item>
+        <item quantity="one">সিগনালের স্তর: %dটি দণ্ড</item>
+    </plurals>
+</resources>

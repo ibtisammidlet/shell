@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">Restrânge grupul de file cu %1$d de file.</item>
+        <item quantity="one">Restrânge %1$d filă.</item>
+        <item quantity="few">Restrânge grupul de file cu %1$d file.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">Restrânge grupul de file %1$s cu %2$d de file.</item>
+        <item quantity="one">Restrânge %1$d filă.</item>
+        <item quantity="few">Restrânge grupul de file %1$s cu %2$d file.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d de fișiere audio</item>
+        <item quantity="one">Un fișier audio</item>
+        <item quantity="few">%d fișiere audio</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d de fișiere</item>
+        <item quantity="one">Un fișier</item>
+        <item quantity="few">%d fișiere</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d de imagini</item>
+        <item quantity="one">O imagine</item>
+        <item quantity="few">%d imagini</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d pagini</item>
+        <item quantity="one">O pagină</item>
+        <item quantity="few">%d pagini</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d de videoclipuri</item>
+        <item quantity="one">Un videoclip</item>
+        <item quantity="few">%d videoclipuri</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">Evaluare: %1$s/%2$s, %3$d de recenzii</item>
+        <item quantity="one">" Evaluare: %1$s/%2$s, %3$d recenzie"</item>
+        <item quantity="few">Evaluare: %1$s/%2$s, %3$d recenzii</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Elimină %d de elemente selectate</item>
+        <item quantity="one">Elimină un element selectat</item>
+        <item quantity="few">Elimină %d elemente selectate</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">Trimite %d de elemente selectate</item>
+        <item quantity="one">Trimite un element selectat</item>
+        <item quantity="few">Trimite %d elemente selectate</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Elimină %1$d de file selectate din grup.</item>
+        <item quantity="one">Elimină %1$d filă selectată din grup.</item>
+        <item quantity="few">Elimină %1$d file selectate din grup.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Adaugă %1$d de file selectate la un grup</item>
+        <item quantity="one">Adaugă %1$d filă selectată la un grup</item>
+        <item quantity="few">Adaugă %1$d file selectate la un grup</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Închide %1$d de file selectate</item>
+        <item quantity="one">Închide %1$d filă selectată</item>
+        <item quantity="few">Închide %1$d file selectate</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d de file deschise, atinge pentru a comuta filele</item>
+        <item quantity="one">%1$d filă deschisă, atinge pentru a comuta filele</item>
+        <item quantity="few">%1$d file deschise, atinge pentru a comuta filele</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d de marcaje</item>
+        <item quantity="one">%1$d marcaj</item>
+        <item quantity="few">%1$d marcaje</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d de file</item>
+        <item quantity="one">%1$d filă</item>
+        <item quantity="few">%1$d file</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(+ încă %d)</item>
+        <item quantity="one">(+ încă 1)</item>
+        <item quantity="few">(+ încă %d)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d de cookie-uri blocate</item>
+        <item quantity="one">Un cookie blocat</item>
+        <item quantity="few">%d cookie-uri blocate</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">Se descarcă %d de fișiere.</item>
+        <item quantity="one">Fișierul se descarcă.</item>
+        <item quantity="few">Se descarcă %d fișiere.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">O oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d de fișiere descărcate</item>
+        <item quantity="one">%1$d fișier descărcat</item>
+        <item quantity="few">%1$d fișiere descărcate</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s de recenzii)</item>
+        <item quantity="one">(%1$s recenzie)</item>
+        <item quantity="few">(%1$s recenzii)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d de descărcări finalizate.</item>
+        <item quantity="one">O descărcare finalizată.</item>
+        <item quantity="few">%d descărcări finalizate.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d de descărcări nu au reușit.</item>
+        <item quantity="one">O descărcare nu a reușit.</item>
+        <item quantity="few">%d descărcări nu au reușit.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d de descărcări în așteptare.</item>
+        <item quantity="one">O descărcare în așteptare.</item>
+        <item quantity="few">%d descărcări în așteptare.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">%d de descărcări programate.</item>
+        <item quantity="one">O descărcare programată.</item>
+        <item quantity="few">%d descărcări programate.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">Acum %d de zile</item>
+        <item quantity="one">Acum %d zi</item>
+        <item quantity="few">Acum %d zile</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">Acum %d de ore</item>
+        <item quantity="one">Acum %d oră</item>
+        <item quantity="few">Acum %d ore</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">Acum %d de minute</item>
+        <item quantity="one">Acum %d minut</item>
+        <item quantity="few">Acum %d minute</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">Kiwi Browser va încărca paginile când este gata</item>
+        <item quantity="one">Kiwi Browser va încărca pagina când este gata</item>
+        <item quantity="few">Kiwi Browser va încărca paginile când este gata</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%d de cookie-uri folosite</item>
+        <item quantity="one">Un cookie folosit</item>
+        <item quantity="few">%d cookie-uri folosite</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s și încă %3$s sunt permise</item>
+        <item quantity="one">%1$s, %2$s și încă %3$s sunt permise</item>
+        <item quantity="few">%1$s, %2$s și încă %3$s sunt permise</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s și încă %3$s sunt blocate</item>
+        <item quantity="one">%1$s, %2$s și încă %3$s sunt blocate</item>
+        <item quantity="few">%1$s, %2$s și încă %3$s sunt blocate</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s și încă %3$s</item>
+        <item quantity="one">%1$s, %2$s și încă %3$s</item>
+        <item quantity="few">%1$s, %2$s și încă %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d de parole compromise</item>
+        <item quantity="one">%d parolă compromisă</item>
+        <item quantity="few">%d parole compromise</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… și încă %2$s</item>
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… și încă %2$s</item>
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… și încă %2$s</item>
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… și încă %2$s</item>
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">Ai %1$d de pagini necitite</item>
+        <item quantity="one">Ai %1$d pagină necitită</item>
+        <item quantity="few">Ai %1$d pagini necitite</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d de pagini necitite</item>
+        <item quantity="one">%1$d pagină necitită</item>
+        <item quantity="few">%1$d pagini necitite</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d de parole compromise</item>
+        <item quantity="one">O parolă compromisă</item>
+        <item quantity="few">%d parole compromise</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">A rulat acum %d de zile</item>
+        <item quantity="one">A rulat acum o zi</item>
+        <item quantity="few">A rulat acum %d zile</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">A rulat acum %d de ore</item>
+        <item quantity="one">A rulat acum o oră</item>
+        <item quantity="few">A rulat acum %d ore</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">A rulat acum %d de minute</item>
+        <item quantity="one">A rulat acum un minut</item>
+        <item quantity="few">A rulat acum %d minute</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d selectate</item>
+        <item quantity="one">1 selectat</item>
+        <item quantity="few">%d selectate</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Nivelul puterii semnalului: %d de bare</item>
+        <item quantity="one">Nivelul puterii semnalului: %d bară</item>
+        <item quantity="few">Nivelul puterii semnalului: %d bare</item>
+    </plurals>
+</resources>

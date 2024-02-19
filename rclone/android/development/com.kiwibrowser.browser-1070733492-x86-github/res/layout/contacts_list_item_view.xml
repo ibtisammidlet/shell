@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/icon_view" style="@style/ListItemStartIcon" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="12.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="end" android:id="@id/address" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Blue" android:id="@id/address_overflow_count" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="end" android:id="@id/email" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Blue" android:id="@id/email_overflow_count" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="end" android:id="@id/telephone_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Blue" android:id="@id/telephone_number_overflow_count" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/star" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/btn_star_filled" android:layout_marginEnd="10.0dip" />
+</merge>

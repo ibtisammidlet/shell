@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="chip_background_selected_alpha">@dimen/chip_background_selected_alpha_dark</item>
+    <item type="dimen" name="infobar_elevation">@dimen/default_elevation_3</item>
+</resources>

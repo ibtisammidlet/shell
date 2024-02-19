@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="32.0dip" android:minHeight="36.0dip" style="@style/AlertDialogContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:id="@id/cc_details_masked" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:gravity="center_horizontal" android:id="@id/cc_month_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/autofill_expiration_date_month_hint" android:width="50.0sp" android:maxLength="2" android:inputType="number" android:imeOptions="actionNext" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_expiration_date_separator" />
+        <EditText android:gravity="center_horizontal" android:id="@id/cc_year_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/autofill_expiration_date_year_hint" android:width="50.0sp" android:maxLength="2" android:inputType="number" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.AutofillCardErrorMessage" android:gravity="start" android:id="@id/error_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

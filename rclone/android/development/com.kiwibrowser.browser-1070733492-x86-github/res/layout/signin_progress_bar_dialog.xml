@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" style="@style/AlertDialogContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" />
+    <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_in_getting_account_management_policy" android:layout_marginStart="16.0dip" />
+</LinearLayout>

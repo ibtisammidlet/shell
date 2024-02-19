@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/overflow_menu_update_padding" android:paddingBottom="@dimen/overflow_menu_update_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppMenuItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/overflow_menu_update_min_height" android:layout_weight="1.0" android:paddingEnd="9.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.UpdateMenuItem" android:gravity="center_vertical" android:id="@id/menu_item_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:gravity="center_vertical" android:id="@id/menu_item_summary" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <org.chromium.ui.widget.ChromeImageView android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/menu_item_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" app:tint="@null" />
+</LinearLayout>

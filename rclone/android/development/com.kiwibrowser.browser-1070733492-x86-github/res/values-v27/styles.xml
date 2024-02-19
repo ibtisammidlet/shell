@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.V27.Theme.Chromium.DialogWhenLarge" parent="@style/Base.Theme.Chromium.DialogWhenLarge">
+        <item name="android:navigationBarColor">@color/bottom_system_nav_color</item>
+        <item name="android:windowLightNavigationBar">@bool/window_light_navigation_bar</item>
+        <item name="android:navigationBarDividerColor">@color/bottom_system_nav_divider_color</item>
+    </style>
+    <style name="Base.V27.Theme.Chromium.Settings" parent="@style/Base.Theme.Chromium.Settings">
+        <item name="android:navigationBarColor">@color/bottom_system_nav_color</item>
+        <item name="android:windowLightNavigationBar">@bool/window_light_navigation_bar</item>
+        <item name="android:navigationBarDividerColor">@color/bottom_system_nav_divider_color</item>
+    </style>
+    <style name="DimmingDialog" parent="@style/Base.Theme.Chromium.DialogWhenLarge">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Theme.Chromium.Fullscreen" parent="@style/Base.Theme.Chromium.Fullscreen">
+        <item name="android:navigationBarColor">@color/bottom_system_nav_color</item>
+        <item name="android:windowLightNavigationBar">@bool/window_light_navigation_bar</item>
+        <item name="android:navigationBarDividerColor">@color/bottom_system_nav_divider_color</item>
+    </style>
+    <style name="Theme.Chromium.WithWindowAnimation" parent="@style/Base.Theme.Chromium.WithWindowAnimation">
+        <item name="android:navigationBarColor">@color/bottom_system_nav_color</item>
+        <item name="android:windowLightNavigationBar">@bool/window_light_navigation_bar</item>
+        <item name="android:navigationBarDividerColor">@color/bottom_system_nav_divider_color</item>
+    </style>
+</resources>

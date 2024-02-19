@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall" style="@style/AppMenuItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="start" android:id="@id/menu_item_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/AppMenuItemText" />
+    <org.chromium.ui.widget.ChromeImageView android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/menu_item_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:tint="@color/default_icon_color_secondary" android:layout_weight="0.0" />
+</LinearLayout>

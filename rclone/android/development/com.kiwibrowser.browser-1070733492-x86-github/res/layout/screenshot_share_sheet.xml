@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.share.screenshot.ScreenshotShareSheetView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <org.chromium.ui.widget.ChromeImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/screenshot" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <LinearLayout android:gravity="bottom" android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" android:weightSum="4.0" android:layout_marginStart="36.0dip" android:layout_marginEnd="36.0dip">
+                <TextView android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/edit" android:background="?selectableItemBackgroundBorderless" android:text="@string/screenshot_edit_title" android:drawableTop="@drawable/edit_icon" android:layout_weight="1.0" style="@style/SplitToolbarButton" />
+                <TextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/delete" android:background="?selectableItemBackgroundBorderless" android:text="@string/screenshot_delete_title" android:drawableTop="@drawable/delete_icon" android:layout_weight="1.0" style="@style/SplitToolbarButton" />
+                <TextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/save" android:background="?selectableItemBackgroundBorderless" android:text="@string/screenshot_save_title" android:drawableTop="@drawable/save_icon" android:layout_weight="1.0" style="@style/SplitToolbarButton" />
+                <TextView android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/share" android:background="?selectableItemBackgroundBorderless" android:text="@string/screenshot_share_title" android:drawableTop="@drawable/share_icon" android:layout_weight="1.0" style="@style/SplitToolbarButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <org.chromium.ui.widget.ChromeImageButton android:id="@id/close_button" android:src="@drawable/btn_close" android:contentDescription="@string/close" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarButton" />
+    </RelativeLayout>
+</org.chromium.chrome.browser.share.screenshot.ScreenshotShareSheetView>

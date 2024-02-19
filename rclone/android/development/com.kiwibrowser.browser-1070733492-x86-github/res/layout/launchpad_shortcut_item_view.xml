@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/shortcut_icon" android:scaleType="centerInside" style="@style/ListItemStartIcon" />
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/shortcut_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" android:maxLines="1" app:leading="@dimen/text_size_small_leading" />
+</LinearLayout>

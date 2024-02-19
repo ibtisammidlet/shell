@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.TasksView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/task_surface_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/top_toolbar_placeholder" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow" app:layout_scrollFlags="scroll|snap" />
+        <LinearLayout android:orientation="vertical" android:id="@id/fake_search_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:layout_scrollFlags="scroll">
+            <include layout="@layout/fake_search_box_layout" />
+        </LinearLayout>
+        <HorizontalScrollView android:id="@id/mv_tiles_container" android:background="@color/default_bg_color" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll">
+            <include layout="@layout/mv_tiles_layout" />
+        </HorizontalScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_switcher_title" android:background="@color/default_bg_color" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="4.0dip" app:layout_scrollFlags="scroll">
+            <TextView android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/tab_switcher_title_description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tab_switcher_carousel_title" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" />
+            <TextView android:id="@id/more_tabs" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-16.0dip" android:layout_marginBottom="-16.0dip" android:text="@string/tab_switcher_carousel_view_all" android:paddingEnd="16.0dip" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/carousel_tab_switcher_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" app:layout_scrollFlags="scroll" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ViewStub android:id="@id/incognito_description_container_layout_stub" android:layout="@layout/incognito_description_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <FrameLayout android:id="@id/tasks_surface_body" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</org.chromium.chrome.browser.tasks.TasksView>

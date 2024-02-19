@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/default_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="@style/TextAppearance.Headline" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/menu_history" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <org.chromium.ui.widget.ChromeImageButton android:id="@id/close_history_placeholder_button" android:background="?selectableItemBackground" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/btn_close" android:contentDescription="@string/close" app:tint="@color/default_icon_color_tint_list" style="@style/ToolbarButton" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+            <org.chromium.ui.widget.ChromeImageView android:id="@id/incognito_history_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/incognito_history_placeholder_image" />
+            <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.Headline" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/incognito_history_placeholder_title" app:leading="@dimen/text_size_large_leading" />
+            <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextMedium" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/incognito_history_placeholder_description" app:leading="@dimen/text_size_medium_leading" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

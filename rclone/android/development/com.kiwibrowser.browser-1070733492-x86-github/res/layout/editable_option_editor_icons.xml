@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_dialog_section_large_spacing" android:layout_marginStart="@dimen/pref_autofill_field_horizontal_padding" android:layout_marginEnd="@dimen/pref_autofill_field_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.chromium.chrome.browser.autofill.prefeditor.ExpandableGridView android:id="@id/icons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchMode="none" android:columnWidth="@dimen/editable_option_section_logo_width" android:numColumns="auto_fit" />
+</LinearLayout>

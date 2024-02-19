@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/overflow_menu_divider_line_padding" android:paddingBottom="@dimen/overflow_menu_divider_line_padding" android:focusable="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants" style="@style/AppMenuItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/divider_line_bg_color" android:layout_width="fill_parent" style="@style/HorizontalDivider" />
+</LinearLayout>

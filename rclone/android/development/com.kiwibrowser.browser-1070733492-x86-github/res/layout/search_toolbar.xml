@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:textColorHint="@color/search_box_hint" android:id="@id/search_text" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSearch|flagNoExtractUi" />
+    <org.chromium.ui.widget.ChromeImageButton android:id="@id/clear_text_button" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_delete_24dp" android:scaleType="center" android:contentDescription="@string/accessibility_toolbar_btn_delete_url" android:paddingStart="16.0dip" android:paddingEnd="@dimen/clear_text_button_end_padding" app:tint="@color/default_icon_color_tint_list" />
+</LinearLayout>

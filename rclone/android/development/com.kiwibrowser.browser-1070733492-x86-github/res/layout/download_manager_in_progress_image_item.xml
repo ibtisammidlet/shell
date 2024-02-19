@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.home.list.view.AspectRatioFrameLayout android:background="@color/default_bg_color_secondary" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/placeholder" android:layout_width="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" app:layout_aspectRatio="100.0%" />
+    <org.chromium.ui.widget.ChromeImageButton android:layout_gravity="end|center|top" android:id="@id/cancel_button" android:background="?selectableItemBackground" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/btn_close" android:contentDescription="@string/download_notification_cancel_button" app:tint="@color/modern_blue_600" />
+    <LinearLayout android:layout_gravity="fill_horizontal|bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:layout_gravity="center_vertical" android:id="@id/caption" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="4.0dip" style="@style/DownloadItemText" />
+        <org.chromium.chrome.browser.download.home.list.view.CircularProgressView android:layout_gravity="center_vertical" android:id="@id/action_button" style="@style/TinyCircularProgress" />
+    </LinearLayout>
+</org.chromium.chrome.browser.download.home.list.view.AspectRatioFrameLayout>

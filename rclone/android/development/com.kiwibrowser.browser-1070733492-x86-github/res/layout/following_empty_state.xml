@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/hairline_border_card_background_with_inset" android:padding="@dimen/no_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:paddingBottom="@dimen/no_content_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/web_feed_no_cards_title" />
+    <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/web_feed_no_cards_instructions" />
+</LinearLayout>

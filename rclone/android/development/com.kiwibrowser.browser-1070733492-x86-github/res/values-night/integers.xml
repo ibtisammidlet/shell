@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="tab_thumbnail_placeholder_color_alpha">38</integer>
+    <integer name="tab_thumbnail_placeholder_selected_color_alpha">255</integer>
+</resources>

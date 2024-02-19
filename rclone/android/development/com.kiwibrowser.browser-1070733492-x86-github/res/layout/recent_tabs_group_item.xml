@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.RecentTabsGroupView android:id="@id/recent_tabs_group_view" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/list_item_default_margin">
+        <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/device_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" android:singleLine="true" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="end" android:id="@id/time_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+    </LinearLayout>
+    <ImageView android:id="@id/expand_collapse_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</org.chromium.chrome.browser.ntp.RecentTabsGroupView>

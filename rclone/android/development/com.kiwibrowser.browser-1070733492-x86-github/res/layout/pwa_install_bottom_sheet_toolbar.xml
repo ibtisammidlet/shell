@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/drag_handlebar" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:srcCompat="@drawable/drag_handlebar" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="6.0dip" android:weightSum="10.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/app_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:importantForAccessibility="no" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="4.0dip">
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:ellipsize="end" android:id="@id/app_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="start" android:id="@id/app_origin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <org.chromium.ui.widget.ButtonCompat android:enabled="false" android:gravity="center" android:layout_gravity="end|center" android:id="@id/button_install" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_banner_install" android:singleLine="true" style="@style/FilledButton.Flat" />
+    </LinearLayout>
+</FrameLayout>

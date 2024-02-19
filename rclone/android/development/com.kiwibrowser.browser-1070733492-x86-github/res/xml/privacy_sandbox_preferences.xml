@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:selectable="false" app:allowDividerBelow="false" app:layout="@layout/privacy_sandbox_header" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/privacy_sandbox_description_title" android:key="privacy_sandbox_title" app:allowDividerBelow="false" />
+    <org.chromium.components.browser_ui.settings.LongSummaryTextMessagePreference android:key="privacy_sandbox_description" app:allowDividerBelow="false" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/privacy_sandbox_toggle" android:key="privacy_sandbox_toggle" app:allowDividerBelow="false" />
+    <org.chromium.components.browser_ui.settings.LongSummaryTextMessagePreference android:key="privacy_sandbox_toggle_description" app:allowDividerBelow="true" />
+    <Preference android:title="@string/prefs_privacy_sandbox_floc" android:key="floc_page" android:fragment="org.chromium.chrome.browser.privacy_sandbox.FlocSettingsFragment" app:allowDividerAbove="true" app:allowDividerBelow="true" />
+</PreferenceScreen>

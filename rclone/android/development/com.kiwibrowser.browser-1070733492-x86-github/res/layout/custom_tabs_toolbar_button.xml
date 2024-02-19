@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:paddingTop="@dimen/custom_tabs_toolbar_vertical_padding" android:paddingBottom="@dimen/custom_tabs_toolbar_vertical_padding" android:layout_width="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" android:maxWidth="@dimen/custom_tabs_toolbar_maxWidth" style="@style/ToolbarButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="badge_update">@drawable/badge_update_dark</item>
+    <item type="drawable" name="ic_error_24dp_filled">@drawable/ic_error_grey800_24dp_filled</item>
+    <item type="drawable" name="ic_launcher">@mipmap/app_icon</item>
+    <item type="drawable" name="ic_launcher_round">@mipmap/app_icon</item>
+    <item type="drawable" name="ic_more_vert_24dp">@drawable/ic_more_vert_24dp_on_light_bg</item>
+    <item type="drawable" name="ic_offline_pin_24dp">@drawable/ic_offline_pin_24dp_on_light_bg</item>
+    <item type="drawable" name="ic_play_circle_filled_24dp">@drawable/ic_play_circle_filled_24dp_on_light_bg</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="shared_clipboard_zero_state">@drawable/shared_clipboard_zero_state_light</item>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">%1$d টা টেবযুক্ত টেবৰ গোটটো সংকোচন কৰক।</item>
+        <item quantity="one">%1$d টা টেব সংকোচন কৰক।</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">%2$d টা টেবযুক্ত %1$s টেবৰ গোটটো সংকোচন কৰক।</item>
+        <item quantity="one">%1$d টা টেব সংকোচন কৰক।</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">"%dটা অডিঅ' ফাইল"</item>
+        <item quantity="one">"%dটা অডিঅ' ফাইল"</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%dটা ফাইল</item>
+        <item quantity="one">%dটা ফাইল</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d খন ছবি</item>
+        <item quantity="one">%d খন ছবি</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%dটা পৃষ্ঠা</item>
+        <item quantity="one">%dটা পৃষ্ঠা</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%dটা ভিডিঅ’</item>
+        <item quantity="one">%dটা ভিডিঅ’</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">%1$s/%2$s মূল্যাংকন, %3$d টা পৰ্যালোচনা</item>
+        <item quantity="one">" %1$s/%2$s মূল্যাংকন, %3$d টা পৰ্যালোচনা"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">বাছনি কৰা %dটা বস্তু আঁতৰাওক</item>
+        <item quantity="one">বাছনি কৰা ১টা বস্তু আঁতৰাওক</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">বাছনি কৰা %dটা বস্তু শ্বেয়াৰ কৰক</item>
+        <item quantity="one">বাছনি কৰা ১টা বস্তু শ্বেয়াৰ কৰক</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">গোটৰ পৰা %1$d টা বাছনি কৰা টেব আঁতৰাওক।</item>
+        <item quantity="one">গোটৰ পৰা %1$d টা বাছনি কৰা টেব আঁতৰাওক।</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">%1$d টা বাছনি কৰা টেবৰ গোট বনাওক</item>
+        <item quantity="one">%1$d টা বাছনি কৰা টেবৰ গোট বনাওক</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">%1$d টা বাছনি কৰা টেব বন্ধ কৰক</item>
+        <item quantity="one">%1$d টা বাছনি কৰা টেব বন্ধ কৰক</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d টেব খোলা আছে, এটা টেবৰ পৰা আনটো টেবলৈ যাবলৈ টিপক</item>
+        <item quantity="one">%1$d টেব খোলা আছে, এটা টেবৰ পৰা আনটো টেবলৈ যাবলৈ টিপক</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$dটা বুকমাৰ্ক</item>
+        <item quantity="one">%1$dটা বুকমাৰ্ক</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$dটা টেব</item>
+        <item quantity="one">%1$dটা টেব</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(আৰু %dটা)</item>
+        <item quantity="one">(আৰু ১টা)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d টা কুকি অৱৰোধ কৰা হৈছে</item>
+        <item quantity="one">১ টা কুকি অৱৰোধ কৰা হৈছে</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">%dটা ফাইল ডাউনল‘ড কৰি থকা হৈছে।</item>
+        <item quantity="one">ফাইল ডাউনল’ড কৰি থকা হৈছে…</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d ঘণ্টা</item>
+        <item quantity="one">%d ঘণ্টা</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$dটা ফাইল ডাউনল’ড কৰা হ’ল</item>
+        <item quantity="one">%1$dটা ফাইল ডাউনল’ড কৰা হ’ল</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s টা পৰ্যালোচনা)</item>
+        <item quantity="one">(%1$s টা পৰ্যালোচনা)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">"%dটা ডাউনল'ড সম্পূর্ণ হ'ল।"</item>
+        <item quantity="one">"১টা ডাউনল'ড সম্পূর্ণ হ'ল।"</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%dটা ডাউনল’ড কৰিব পৰা নগ’ল।</item>
+        <item quantity="one">১টা ডাউনল’ড কৰিব পৰা নগ’ল।</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%dটা ডাউনল’ড বাকী আছে।</item>
+        <item quantity="one">১টা ডাউনল’ড বাকী আছে।</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">%d টা ডাউনল’ডৰ সময়সূচী নিৰ্ধাৰণ কৰা হৈছে।</item>
+        <item quantity="one">১ টা ডাউনল’ডৰ সময়সূচী নিৰ্ধাৰণ কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d দিন পূর্বে</item>
+        <item quantity="one">%d দিন পূর্বে</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%dঘণ্টা পূৰ্বে</item>
+        <item quantity="one">%dঘণ্টা পূৰ্বে</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d মিনিট পূর্বে</item>
+        <item quantity="one">%d মিনিট পূর্বে</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">"আপোনাৰ পৃষ্ঠাসমূহ সাজু হ'লে Kiwi Browserএ সেইটো ল'ড কৰিব"</item>
+        <item quantity="one">"আপোনাৰ পৃষ্ঠাটো সাজু হ'লে Kiwi Browserএ সেইটো ল'ড কৰিব"</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%d টা কুকি ব্যৱহাৰ হৈ আছে</item>
+        <item quantity="one">১ টা কুকি ব্যৱহাৰ হৈ আছে</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s আৰু %3$s টাৰ অনুমতি দিয়া আছে</item>
+        <item quantity="one">%1$s, %2$s আৰু %3$s টাৰ অনুমতি দিয়া আছে</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s আৰু %3$s টা অৱৰোধ কৰা আছে</item>
+        <item quantity="one">%1$s, %2$s আৰু %3$s টা অৱৰোধ কৰা আছে</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s আৰু %3$s টা</item>
+        <item quantity="one">%1$s, %2$s আৰু %3$s টা</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d টা হেক হোৱা পাছৱৰ্ড</item>
+        <item quantity="one">%d টা হেক হোৱা পাছৱৰ্ড</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… আৰু অন্য %2$sটা</item>
+        <item quantity="one">%1$s… আৰু অন্য %2$sটা</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… আৰু অন্য %2$sটা</item>
+        <item quantity="one">%1$s… আৰু অন্য %2$sটা</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… আৰু %2$s অধিক</item>
+        <item quantity="one">%1$s… আৰু %2$s অধিক</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… আৰু %2$sটা</item>
+        <item quantity="one">%1$s… আৰু %2$sটা</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">আপোনাৰ %1$d খন নপঢ়া পৃষ্ঠা আছে</item>
+        <item quantity="one">আপোনাৰ %1$d খন নপঢ়া পৃষ্ঠা আছে</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d খন নপঢ়া পৃষ্ঠা</item>
+        <item quantity="one">%1$d খন নপঢ়া পৃষ্ঠা</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d টা হেক হোৱা পাছৱৰ্ড</item>
+        <item quantity="one">১ টা হেক হোৱা পাছৱৰ্ড</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">%d দিনৰ আগত পৰীক্ষা কৰা হৈছিল</item>
+        <item quantity="one">১ দিনৰ আগত পৰীক্ষা কৰা হৈছিল</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">%d ঘণ্টাৰ আগত পৰীক্ষা কৰা হৈছিল</item>
+        <item quantity="one">১ ঘণ্টাৰ আগত পৰীক্ষা কৰা হৈছিল</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">%d মিনিটৰ আগত পৰীক্ষা কৰা হৈছে</item>
+        <item quantity="one">১ মিনিটৰ আগত পৰীক্ষা কৰা হৈছে</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%dটা বস্তু বাছনি কৰা হ’ল</item>
+        <item quantity="one">১টা বস্তু বাছনি কৰা হ’ল</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">ছিগনেলৰ ক্ষমতাৰ স্তৰ: %d বাৰ</item>
+        <item quantity="one">ছিগনেলৰ ক্ষমতাৰ স্তৰ: %d বাৰ</item>
+    </plurals>
+</resources>

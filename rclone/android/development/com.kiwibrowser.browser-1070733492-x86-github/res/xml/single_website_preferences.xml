@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="page_description" android:summary="@string/website_settings_permissions_description" app:iconSpaceReserved="false" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="os_permissions_warning" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="os_permissions_warning_extra" />
+    <Preference android:layout="@layout/divider_preference" android:selectable="false" android:key="os_permissions_warning_divider" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/btn_info" android:title="@string/intrusive_ads_information" android:key="intrusive_ads_info" app:iconTint="@color/default_icon_color" />
+    <Preference android:layout="@layout/divider_preference" android:selectable="false" android:key="intrusive_ads_info_divider" />
+    <PreferenceCategory android:title="@string/website_settings_site_category" android:key="site_heading" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="site_title" />
+    <PreferenceCategory android:title="@string/website_settings_usage_category" android:key="site_usage" />
+    <org.chromium.components.browser_ui.site_settings.ClearWebsiteStorage android:title="@string/webstorage_clear_data_dialog_title" android:key="clear_data" android:widgetLayout="@layout/clear_storage" android:positiveButtonText="@string/webstorage_clear_data_dialog_ok_button" android:negativeButtonText="@string/cancel" />
+    <PreferenceCategory android:title="@string/website_settings_permissions_category" android:key="site_permissions" />
+    <org.chromium.components.browser_ui.settings.ButtonPreference android:key="reset_site_button" />
+</PreferenceScreen>

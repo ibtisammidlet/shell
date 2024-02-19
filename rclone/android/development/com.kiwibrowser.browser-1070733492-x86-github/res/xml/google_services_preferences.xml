@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/allow_chrome_signin_title" android:key="allow_signin" android:summary="@string/allow_chrome_signin_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/manage_metrics_settings" android:key="metrics_settings" android:fragment="org.chromium.chrome.browser.metrics_settings.MetricsSettingsFragment" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/autocomplete_searches_and_urls_title" android:key="search_suggestions" android:summary="@string/autocomplete_searches_and_urls_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/navigation_error_suggestions_title" android:key="navigation_error" android:summary="@string/navigation_error_suggestions_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/usage_and_crash_reports_title" android:key="usage_and_crash_reports" android:summary="@string/usage_and_crash_reports_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/url_keyed_anonymized_data_title" android:key="url_keyed_anonymized_data" android:summary="@string/url_keyed_anonymized_data_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/prefs_autofill_assistant_title" android:key="autofill_assistant" android:summary="@string/prefs_autofill_assistant_get_help_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/prefs_autofill_assistant_title" android:key="autofill_assistant_subsection" android:summary="@string/prefs_autofill_assistant_summary" android:fragment="org.chromium.chrome.browser.autofill_assistant.AutofillAssistantPreferenceFragment" app:isPreferenceVisible="false" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/contextual_search_title" android:key="contextual_search" android:fragment="org.chromium.chrome.browser.contextualsearch.ContextualSearchPreferenceFragment" />
+</PreferenceScreen>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">Згарнуць групу з %1$d укладкі.</item>
+        <item quantity="one">Згарнуць %1$d укладку.</item>
+        <item quantity="few">Згарнуць групу з %1$d укладак.</item>
+        <item quantity="many">Згарнуць групу з %1$d укладак.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">Згарнуць групу \"%1$s\" з %2$d укладкі.</item>
+        <item quantity="one">Згарнуць %1$d укладку.</item>
+        <item quantity="few">Згарнуць групу \"%1$s\" з %2$d укладкамі.</item>
+        <item quantity="many">Згарнуць групу \"%1$s\" з %2$d укладкамі.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d аўдыяфайла</item>
+        <item quantity="one">%d аўдыяфайл</item>
+        <item quantity="few">%d аўдыяфайлы</item>
+        <item quantity="many">%d аўдыяфайлаў</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d файла</item>
+        <item quantity="one">%d файл</item>
+        <item quantity="few">%d файлы</item>
+        <item quantity="many">%d файлаў</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d відарыса</item>
+        <item quantity="one">%d відарыс</item>
+        <item quantity="few">%d відарысы</item>
+        <item quantity="many">%d відарысаў</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d старонкі</item>
+        <item quantity="one">%d старонка</item>
+        <item quantity="few">%d старонкі</item>
+        <item quantity="many">%d старонак</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d відэа</item>
+        <item quantity="one">1 відэа</item>
+        <item quantity="few">%d відэа</item>
+        <item quantity="many">%d відэа</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">Ацэнка: %1$s/%2$s, %3$d водгуку</item>
+        <item quantity="one">" Ацэнка: %1$s/%2$s, %3$d водгук"</item>
+        <item quantity="few">Ацэнка: %1$s/%2$s, %3$d водгукі</item>
+        <item quantity="many">Ацэнка: %1$s/%2$s, %3$d водгукаў</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Выдаліць %d выбранага элемента</item>
+        <item quantity="one">Выдаліць 1 выбраны элемент</item>
+        <item quantity="few">Выдаліць %d выбраныя элементы</item>
+        <item quantity="many">Выдаліць %d выбраных элементаў</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">Абагуліць %d выбранага элемента</item>
+        <item quantity="one">Абагуліць 1 выбраны элемент</item>
+        <item quantity="few">Абагуліць %d выбраныя элементы</item>
+        <item quantity="many">Абагуліць %d выбраных элементаў</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Выдаліць %1$d выбранай укладкі з групы.</item>
+        <item quantity="one">Выдаліць %1$d выбраную ўкладку з групы.</item>
+        <item quantity="few">Выдаліць %1$d выбраныя ўкладкі з групы.</item>
+        <item quantity="many">Выдаліць %1$d выбраных укладак з групы.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Дадаць %1$d выбранай укладкі ў групу</item>
+        <item quantity="one">Дадаць %1$d выбраную ўкладку ў групу</item>
+        <item quantity="few">Дадаць %1$d выбраныя ўкладкі ў групу</item>
+        <item quantity="many">Дадаць %1$d выбраных укладак у групу</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Закрыць %1$d выбранай укладкі</item>
+        <item quantity="one">Закрыць %1$d выбраную ўкладку</item>
+        <item quantity="few">Закрыць %1$d выбраныя ўкладкі</item>
+        <item quantity="many">Закрыць %1$d выбраных укладак</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d адкрытай укладкі. Націсніце, каб пераключыцца паміж укладкамі.</item>
+        <item quantity="one">%1$d адкрытая ўкладка. Націсніце, каб пераключыцца паміж укладкамі.</item>
+        <item quantity="few">%1$d адкрытыя ўкладкі. Націсніце, каб пераключыцца паміж укладкамі.</item>
+        <item quantity="many">%1$d адкрытых укладак. Націсніце, каб пераключыцца паміж укладкамі.</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d закладкі</item>
+        <item quantity="one">%1$d закладка</item>
+        <item quantity="few">%1$d закладкі</item>
+        <item quantity="many">%1$d закладак</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d укладкі</item>
+        <item quantity="one">%1$d укладка</item>
+        <item quantity="few">%1$d укладкі</item>
+        <item quantity="many">%1$d укладак</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(і яшчэ %d)</item>
+        <item quantity="one">(і яшчэ 1)</item>
+        <item quantity="few">(і яшчэ %d)</item>
+        <item quantity="many">(і яшчэ %d)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d файла cookie заблакіраваны</item>
+        <item quantity="one">1 файл cookie заблакіраваны</item>
+        <item quantity="few">%d файлы cookie заблакіраваны</item>
+        <item quantity="many">%d файлаў cookie заблакіраваны</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">Ідзе спампоўванне %d файла.</item>
+        <item quantity="one">Ідзе спампоўванне файла.</item>
+        <item quantity="few">Ідзе спампоўванне %d файлаў.</item>
+        <item quantity="many">Ідзе спампоўванне %d файлаў.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d гадз</item>
+        <item quantity="one">%d гадз</item>
+        <item quantity="few">%d гадз</item>
+        <item quantity="many">%d гадз</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">Спампавана %1$d файла</item>
+        <item quantity="one">Спампаваны %1$d файл</item>
+        <item quantity="few">Спампавана %1$d файлы</item>
+        <item quantity="many">Спампавана %1$d файлаў</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s водгуку)</item>
+        <item quantity="one">(%1$s водгук)</item>
+        <item quantity="few">(%1$s водгукі)</item>
+        <item quantity="many">(%1$s водгукаў)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d новага апавяшчэння</item>
+        <item quantity="one">%d новае апавяшчэнне</item>
+        <item quantity="few">%d новыя апавяшчэнні</item>
+        <item quantity="many">%d новых апавяшчэнняў</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d спампоўкі завершана.</item>
+        <item quantity="one">1 спампоўка завершана.</item>
+        <item quantity="few">%d спампоўкі завершана.</item>
+        <item quantity="many">%d спамповак завершана.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">Збой %d спампоўкі.</item>
+        <item quantity="one">Збой 1 спампоўкі.</item>
+        <item quantity="few">Збой %d спамповак.</item>
+        <item quantity="many">Збой %d спамповак.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">Чакаецца %d спампоўкі.</item>
+        <item quantity="one">Чакаецца 1 спампоўка.</item>
+        <item quantity="few">Чакаецца %d спампоўкі.</item>
+        <item quantity="many">Чакаецца %d спамповак.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">Запланаваны %d спампоўкі.</item>
+        <item quantity="one">Запланавана 1 спампоўка.</item>
+        <item quantity="few">Запланаваны %d спампоўкі.</item>
+        <item quantity="many">Запланаваны %d спамповак.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d дня таму</item>
+        <item quantity="one">%d дзень таму</item>
+        <item quantity="few">%d дні таму</item>
+        <item quantity="many">%d дзён таму</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d гадзіны таму</item>
+        <item quantity="one">%d гадзіну таму</item>
+        <item quantity="few">%d гадзіны таму</item>
+        <item quantity="many">%d гадзін таму</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d хвіліны таму</item>
+        <item quantity="one">1 хвіліну таму</item>
+        <item quantity="few">%d хвіліны таму</item>
+        <item quantity="many">%d хвілін таму</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">Kiwi Browser загрузіць старонкі па гатоўнасці</item>
+        <item quantity="one">Kiwi Browser загрузіць старонку па гатоўнасці</item>
+        <item quantity="few">Kiwi Browser загрузіць старонкі па гатоўнасці</item>
+        <item quantity="many">Kiwi Browser загрузіць старонкі па гатоўнасці</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">Выкарыстоўваюцца %d файла cookie</item>
+        <item quantity="one">Выкарыстоўваецца 1 файл cookie</item>
+        <item quantity="few">Выкарыстоўваюцца %d файлы cookie</item>
+        <item quantity="many">Выкарыстоўваюцца %d файлаў cookie</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">Дазволены %1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="one">Дазволены %1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="few">Дазволены %1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="many">Дазволены %1$s, %2$s і яшчэ %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">Заблакіраваны %1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="one">Заблакіраваны %1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="few">Заблакіраваны %1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="many">Заблакіраваны %1$s, %2$s і яшчэ %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="one">%1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="few">%1$s, %2$s і яшчэ %3$s</item>
+        <item quantity="many">%1$s, %2$s і яшчэ %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d раскрытага пароля</item>
+        <item quantity="one">%d раскрыты пароль</item>
+        <item quantity="few">%d раскрытыя паролі</item>
+        <item quantity="many">%d раскрытых пароляў</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… і яшчэ %2$s</item>
+        <item quantity="one">%1$s… і яшчэ %2$s</item>
+        <item quantity="few">%1$s… і яшчэ %2$s</item>
+        <item quantity="many">%1$s… і яшчэ %2$s</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… і яшчэ %2$s</item>
+        <item quantity="one">%1$s… і яшчэ %2$s</item>
+        <item quantity="few">%1$s… і яшчэ %2$s</item>
+        <item quantity="many">%1$s… і яшчэ %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… і яшчэ %2$s</item>
+        <item quantity="one">%1$s… і яшчэ %2$s</item>
+        <item quantity="few">%1$s… і яшчэ %2$s</item>
+        <item quantity="many">%1$s… і яшчэ %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… і яшчэ %2$s</item>
+        <item quantity="one">%1$s… і яшчэ %2$s</item>
+        <item quantity="few">%1$s… і яшчэ %2$s</item>
+        <item quantity="many">%1$s… і яшчэ %2$s</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">У вас %1$d непрачытанай старонкі</item>
+        <item quantity="one">У вас %1$d непрачытаная старонка</item>
+        <item quantity="few">У вас %1$d непрачытаныя старонкі</item>
+        <item quantity="many">У вас %1$d непрачытаных старонак</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d непрачытанай старонкі</item>
+        <item quantity="one">%1$d непрачытаная старонка</item>
+        <item quantity="few">%1$d непрачытаныя старонкі</item>
+        <item quantity="many">%1$d непрачытаных старонак</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d раскрытага пароля</item>
+        <item quantity="one">Адзін раскрыты пароль</item>
+        <item quantity="few">%d раскрытыя паролі</item>
+        <item quantity="many">%d раскрытых пароляў</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">Праверка праводзілася %d дня таму</item>
+        <item quantity="one">Праверка праводзілася дзень таму</item>
+        <item quantity="few">Праверка праводзілася %d дні таму</item>
+        <item quantity="many">Праверка праводзілася %d дзён таму</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">Праверка праводзілася %d гадзіны таму</item>
+        <item quantity="one">Праверка праводзілася гадзіну таму</item>
+        <item quantity="few">Праверка праводзілася %d гадзіны таму</item>
+        <item quantity="many">Праверка праводзілася %d гадзін таму</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">Праверка праводзілася %d хвіліны таму</item>
+        <item quantity="one">Праверка праводзілася хвіліну таму</item>
+        <item quantity="few">Праверка праводзілася %d хвіліны таму</item>
+        <item quantity="many">Праверка праводзілася %d хвілін таму</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">Выбрана %d элемента</item>
+        <item quantity="one">Выбраны 1 элемент</item>
+        <item quantity="few">Выбрана %d элементы</item>
+        <item quantity="many">Выбрана %d элементаў</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Узровень сігналу: %d палоскі</item>
+        <item quantity="one">Узровень сігналу: %d палоска</item>
+        <item quantity="few">Узровень сігналу: %d палоскі</item>
+        <item quantity="many">Узровень сігналу: %d палосак</item>
+    </plurals>
+</resources>

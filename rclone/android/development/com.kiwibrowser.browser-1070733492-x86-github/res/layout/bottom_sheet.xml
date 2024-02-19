@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.bottomsheet.BottomSheet android:id="@id/bottom_sheet" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/shadow_layer" android:background="@drawable/top_round_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" class="org.chromium.components.browser_ui.bottomsheet.BottomSheet$ShadowLayerView" />
+    <View android:background="@drawable/bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.chromium.components.browser_ui.bottomsheet.TouchRestrictingFrameLayout android:id="@id/bottom_sheet_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/bottom_sheet_control_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <view android:id="@id/bottom_sheet_toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" class="org.chromium.components.browser_ui.bottomsheet.TouchRestrictingFrameLayout">
+            <View android:id="@id/bottom_sheet_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_peek_height" />
+        </view>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/bottom_sheet_snackbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</org.chromium.components.browser_ui.bottomsheet.BottomSheet>

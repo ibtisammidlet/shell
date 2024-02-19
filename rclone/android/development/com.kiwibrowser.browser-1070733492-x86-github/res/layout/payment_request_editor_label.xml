@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/editor_dialog_section_large_spacing" android:layout_marginBottom="@dimen/editor_dialog_section_large_spacing" android:layout_marginStart="@dimen/pref_autofill_field_horizontal_padding" android:layout_marginEnd="@dimen/pref_autofill_field_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentEnd="true" />
+    <TextView android:id="@id/top_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toStartOf="@id/icon" android:layout_alignParentStart="true" style="@style/PreferenceTitle" />
+    <TextView android:id="@id/mid_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/top_label" android:layout_toStartOf="@id/icon" android:layout_alignParentStart="true" style="@style/PreferenceSummary" />
+    <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:id="@id/bottom_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/mid_label" android:layout_toStartOf="@id/icon" android:layout_alignParentStart="true" />
+</RelativeLayout>

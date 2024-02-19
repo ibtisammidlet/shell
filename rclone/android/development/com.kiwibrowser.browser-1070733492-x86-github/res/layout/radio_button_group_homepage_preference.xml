@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:paddingTop="@dimen/homepage_preference_title_vertical_padding" android:paddingBottom="@dimen/homepage_preference_title_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/options_homepage_edit_label" android:paddingStart="@dimen/homepage_preference_title_lateral_padding" android:paddingEnd="@dimen/homepage_preference_title_lateral_padding" style="@style/PreferenceTitle" />
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout android:id="@id/radio_button_group" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/radio_button_chrome_ntp" android:layout_width="fill_parent" android:layout_height="wrap_content" app:primaryText="@string/options_homepage_chrome_homepage" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithEditText android:id="@id/radio_button_uri_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/options_homepage_edit_hint" android:inputType="textUri" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+</LinearLayout>

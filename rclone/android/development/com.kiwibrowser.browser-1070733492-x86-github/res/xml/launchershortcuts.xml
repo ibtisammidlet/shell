@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/shortcut_newtab">
+        <intent android:targetPackage="com.kiwibrowser.browser" android:action="chromium.shortcut.action.OPEN_NEW_TAB" android:targetClass="org.chromium.chrome.browser.LauncherShortcutActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_incognito" android:enabled="false">
+        <intent android:targetPackage="com.kiwibrowser.browser" android:action="chromium.shortcut.action.OPEN_NEW_INCOGNITO_TAB" android:targetClass="org.chromium.chrome.browser.LauncherShortcutActivity" />
+    </shortcut>
+</shortcuts>

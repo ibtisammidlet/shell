@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/group_card_item_border" android:paddingBottom="@dimen/card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/card_padding" android:paddingEnd="@dimen/card_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.ChromeImageButton android:id="@id/favicon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:importantForAccessibility="no" app:srcCompat="@drawable/ic_globe_24dp" />
+    <TextView android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:gravity="center_vertical" android:id="@id/domain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_toEndOf="@id/favicon" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.omnibox.UrlBarApi26 android:textSize="@dimen/location_bar_url_text_size" android:gravity="center_vertical" android:id="@id/url_bar" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/search_or_type_web_address" android:singleLine="true" android:imeOptions="actionGo|flagNoExtractUi|flagNoFullscreen"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

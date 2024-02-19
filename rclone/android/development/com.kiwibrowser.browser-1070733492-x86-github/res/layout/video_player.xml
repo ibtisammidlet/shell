@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:contentDescription="@string/accessibility_toolbar_btn_back" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/ic_arrow_back_white_24dp" />
+    <TextView android:textAppearance="@style/TextAppearance.TextMedium.Primary.Light" android:id="@id/video_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="56.0dip" />
+    <VideoView android:layout_gravity="center" android:id="@id/video_player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/video_overlay_container" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_video_player">
+        <FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/video_controls_gradient" android:background="@drawable/video_player_gradient" android:layout_width="fill_parent" android:layout_height="88.0dip" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/video_controls" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/fast_forward_message" android:background="@drawable/fast_forward_message_gradient" android:paddingTop="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:id="@id/fast_rewind" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/accessibility_pause_video" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_fast_rewind_white_36dp" />
+                <TextView android:textAppearance="@style/TextAppearance.TextMedium.Primary.Light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fast_forward_hint" />
+                <ImageView android:id="@id/fast_forward" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/accessibility_pause_video" android:layout_marginStart="8.0dip" app:srcCompat="@drawable/ic_fast_forward_white_36dp" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/video_player_play_button" android:layout_width="@dimen/photo_picker_play_button_size" android:layout_height="@dimen/photo_picker_play_button_size" android:contentDescription="@string/accessibility_pause_video" app:srcCompat="@drawable/ic_pause_circle_outline_white_24dp" />
+            <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary.Light" android:layout_gravity="start|bottom|center" android:id="@id/remaining_time" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginStart="16.0dip" />
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/mute" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginBottom="24.0dip" android:contentDescription="@string/accessibility_mute_video" android:layout_marginEnd="68.0dip" app:srcCompat="@drawable/ic_volume_on_white_24dp" />
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/fullscreen" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginBottom="24.0dip" android:contentDescription="@string/accessibility_full_screen" android:layout_marginEnd="16.0dip" app:srcCompat="@drawable/ic_full_screen_white_24dp" />
+            <SeekBar android:layout_gravity="bottom|center" android:id="@id/seek_bar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/photo_picker_seekbar_track" android:thumb="@drawable/photo_picker_seekbar_thumb" />
+        </FrameLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">כיווץ של קבוצת הכרטיסיות עם %1$d כרטיסיות.</item>
+        <item quantity="one">כיווץ כרטיסייה אחת (%1$d).</item>
+        <item quantity="two">כיווץ של קבוצת הכרטיסיות עם %1$d כרטיסיות.</item>
+        <item quantity="many">כיווץ של קבוצת הכרטיסיות עם %1$d כרטיסיות.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">כיווץ של קבוצת הכרטיסיות %1$s שיש בה %2$d כרטיסיות.</item>
+        <item quantity="one">כיווץ כרטיסייה אחת (%1$d).</item>
+        <item quantity="two">כיווץ של קבוצת הכרטיסיות %1$s שיש בה %2$d כרטיסיות.</item>
+        <item quantity="many">כיווץ של קבוצת הכרטיסיות %1$s שיש בה %2$d כרטיסיות.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d קובצי אודיו</item>
+        <item quantity="one">קובץ אודיו אחד (%d)</item>
+        <item quantity="two">%d קובצי אודיו</item>
+        <item quantity="many">%d קובצי אודיו</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d קבצים</item>
+        <item quantity="one">קובץ אחד (%d)</item>
+        <item quantity="two">%d קבצים</item>
+        <item quantity="many">%d קבצים</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d תמונות</item>
+        <item quantity="one">תמונה אחת (%d)</item>
+        <item quantity="two">%d תמונות</item>
+        <item quantity="many">%d תמונות</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d דפים</item>
+        <item quantity="one">דף אחד (%d)</item>
+        <item quantity="two">%d דפים</item>
+        <item quantity="many">%d דפים</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d סרטונים</item>
+        <item quantity="one">סרטון אחד (%d)</item>
+        <item quantity="two">%d סרטונים</item>
+        <item quantity="many">%d סרטונים</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">דירוג של %1$s מתוך %2$s, %3$d ביקורות</item>
+        <item quantity="one">" דירוג של %1$s מתוך %2$s, ביקורת אחת (%3$d)"</item>
+        <item quantity="two">דירוג של %1$s מתוך %2$s, %3$d ביקורות</item>
+        <item quantity="many">דירוג של %1$s מתוך %2$s, %3$d ביקורות</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">הסרת %d פריטים שנבחרו</item>
+        <item quantity="one">הסרת פריט אחד שנבחר</item>
+        <item quantity="two">הסרת %d פריטים שנבחרו</item>
+        <item quantity="many">הסרת %d פריטים שנבחרו</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">שיתוף %d פריטים שנבחרו</item>
+        <item quantity="one">שיתוף פריט אחד שנבחר</item>
+        <item quantity="two">שיתוף %d פריטים שנבחרו</item>
+        <item quantity="many">שיתוף %d פריטים שנבחרו</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">הסרת %1$d כרטיסיות שנבחרו מהקבוצה.</item>
+        <item quantity="one">הסרת כרטיסייה אחת (%1$d) שנבחרה מהקבוצה.</item>
+        <item quantity="two">הסרת %1$d כרטיסיות שנבחרו מהקבוצה.</item>
+        <item quantity="many">הסרת %1$d כרטיסיות שנבחרו מהקבוצה.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">קיבוץ %1$d כרטיסיות שנבחרו</item>
+        <item quantity="one">קיבוץ כרטיסייה אחת (%1$d) שנבחרה</item>
+        <item quantity="two">קיבוץ %1$d כרטיסיות שנבחרו</item>
+        <item quantity="many">קיבוץ %1$d כרטיסיות שנבחרו</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">סגירה של %1$d כרטיסיות שנבחרו</item>
+        <item quantity="one">סגירה של כרטיסייה אחת (%1$d) שנבחרה</item>
+        <item quantity="two">סגירה של %1$d כרטיסיות שנבחרו</item>
+        <item quantity="many">סגירה של %1$d כרטיסיות שנבחרו</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d כרטיסיות פתוחות, יש להקיש כדי להחליף כרטיסיות</item>
+        <item quantity="one">כרטיסייה פתוחה אחת (%1$d), יש להקיש כדי להחליף כרטיסיות</item>
+        <item quantity="two">%1$d כרטיסיות פתוחות, יש להקיש כדי להחליף כרטיסיות</item>
+        <item quantity="many">%1$d כרטיסיות פתוחות, יש להקיש כדי להחליף כרטיסיות</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d סימניות</item>
+        <item quantity="one">סימנייה אחת (%1$d)</item>
+        <item quantity="two">%1$d סימניות</item>
+        <item quantity="many">%1$d סימניות</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d כרטיסיות</item>
+        <item quantity="one">כרטיסייה אחת (%1$d)</item>
+        <item quantity="two">%1$d כרטיסיות</item>
+        <item quantity="many">%1$d כרטיסיות</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(ועוד %d)</item>
+        <item quantity="one">(ועוד 1)</item>
+        <item quantity="two">(ועוד %d)</item>
+        <item quantity="many">(ועוד %d)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">‏נחסמו %d קובצי cookie</item>
+        <item quantity="one">‏נחסם קובץ cookie אחד</item>
+        <item quantity="two">‏נחסמו %d קובצי cookie</item>
+        <item quantity="many">‏נחסמו %d קובצי cookie</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">מתבצעת הורדה של %d קבצים.</item>
+        <item quantity="one">מתבצעת הורדה של הקובץ.</item>
+        <item quantity="two">מתבצעת הורדה של %d קבצים.</item>
+        <item quantity="many">מתבצעת הורדה של %d קבצים.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two">שעתיים</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">הורדת %1$d קבצים</item>
+        <item quantity="one">הורדת קובץ אחד (%1$d)</item>
+        <item quantity="two">הורדת %1$d קבצים</item>
+        <item quantity="many">הורדת %1$d קבצים</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s ביקורות)</item>
+        <item quantity="one">(ביקורת אחת ‒ %1$s)</item>
+        <item quantity="two">(%1$s ביקורות)</item>
+        <item quantity="many">(%1$s ביקורות)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d הורדות הושלמו.</item>
+        <item quantity="one">הורדה אחת הושלמה.</item>
+        <item quantity="two">%d הורדות הושלמו.</item>
+        <item quantity="many">%d הורדות הושלמו.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d הורדות נכשלו.</item>
+        <item quantity="one">הורדה אחת נכשלה.</item>
+        <item quantity="two">%d הורדות נכשלו.</item>
+        <item quantity="many">%d הורדות נכשלו.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d הורדות בהמתנה.</item>
+        <item quantity="one">הורדה אחת בהמתנה.</item>
+        <item quantity="two">%d הורדות בהמתנה.</item>
+        <item quantity="many">%d הורדות בהמתנה.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">תוזמנו %d הורדות.</item>
+        <item quantity="one">תוזמנה הורדה אחת.</item>
+        <item quantity="two">תוזמנו %d הורדות.</item>
+        <item quantity="many">תוזמנו %d הורדות.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני יום</item>
+        <item quantity="two">לפני יומיים</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">לפני %d שעות</item>
+        <item quantity="one">לפני שעה</item>
+        <item quantity="two">לפני שעתיים</item>
+        <item quantity="many">לפני %d שעות</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">‏Kiwi Browser יטען את הדפים כשיהיו מוכנים</item>
+        <item quantity="one">‏Kiwi Browser יטען את הדף כשיהיה מוכן</item>
+        <item quantity="two">‏Kiwi Browser יטען את הדפים כשיהיו מוכנים</item>
+        <item quantity="many">‏Kiwi Browser יטען את הדפים כשיהיו מוכנים</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">‏%d קובצי cookie נמצאים בשימוש</item>
+        <item quantity="one">‏קובץ cookie אחד נמצא בשימוש</item>
+        <item quantity="two">‏%d קובצי cookie נמצאים בשימוש</item>
+        <item quantity="many">‏%d קובצי cookie נמצאים בשימוש</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">הוענקו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="one">הוענקו ההרשאות %1$s,‏ %2$s ועוד אחת (%3$s)</item>
+        <item quantity="two">הוענקו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="many">הוענקו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">נחסמו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="one">נחסמו ההרשאות %1$s,‏ %2$s ועוד אחת (%3$s)</item>
+        <item quantity="two">נחסמו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="many">נחסמו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="one">%1$s,‏ %2$s ועוד הרשאה אחת (%3$s)</item>
+        <item quantity="two">%1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="many">%1$s,‏ %2$s ועוד %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d סיסמאות שנחשפו</item>
+        <item quantity="one">סיסמה אחת שנחשפה</item>
+        <item quantity="two">%d סיסמאות שנחשפו</item>
+        <item quantity="many">%d סיסמאות שנחשפו</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוסף</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספים</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוסף</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספים</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוספת</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספות</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוספת</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספות</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">יש לך %1$d דפים שלא נקראו</item>
+        <item quantity="one">יש לך דף אחד (%1$d) שלא נקרא</item>
+        <item quantity="two">יש לך %1$d דפים שלא נקראו</item>
+        <item quantity="many">יש לך %1$d דפים שלא נקראו</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d דפים שלא נקראו</item>
+        <item quantity="one">דף אחד (%1$d) שלא נקרא</item>
+        <item quantity="two">%1$d דפים שלא נקראו</item>
+        <item quantity="many">%1$d דפים שלא נקראו</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d סיסמאות שנחשפו</item>
+        <item quantity="one">סיסמה אחת שנחשפה</item>
+        <item quantity="two">%d סיסמאות שנחשפו</item>
+        <item quantity="many">%d סיסמאות שנחשפו</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">התבצעה בדיקה לפני %d ימים</item>
+        <item quantity="one">התבצעה בדיקה לפני יום אחד</item>
+        <item quantity="two">התבצעה בדיקה לפני יומיים</item>
+        <item quantity="many">התבצעה בדיקה לפני %d ימים</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">התבצעה בדיקה לפני %d שעות</item>
+        <item quantity="one">התבצעה בדיקה לפני שעה אחת</item>
+        <item quantity="two">התבצעה בדיקה לפני שעתיים</item>
+        <item quantity="many">התבצעה בדיקה לפני %d שעות</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">התבצעה בדיקה לפני %d דקות</item>
+        <item quantity="one">התבצעה בדיקה לפני דקה אחת</item>
+        <item quantity="two">התבצעה בדיקה לפני %d דקות</item>
+        <item quantity="many">התבצעה בדיקה לפני %d דקות</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">נבחרו %d</item>
+        <item quantity="one">נבחר אחד</item>
+        <item quantity="two">נבחרו %d</item>
+        <item quantity="many">נבחרו %d</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">רמת עוצמת אות: %d עמודות</item>
+        <item quantity="one">רמת עוצמת אות: עמודה אחת</item>
+        <item quantity="two">רמת עוצמת אות: שתי עמודות</item>
+        <item quantity="many">רמת עוצמת אות: %d עמודות</item>
+    </plurals>
+</resources>

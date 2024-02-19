@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.LoadingView android:id="@id/loading" android:paddingBottom="@dimen/explore_sites_loading_spinny_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/explore_sites_loading_spinny_size" android:minHeight="@dimen/explore_sites_loading_spinny_size" />
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/explore_sites_loading_from_net" />
+</LinearLayout>

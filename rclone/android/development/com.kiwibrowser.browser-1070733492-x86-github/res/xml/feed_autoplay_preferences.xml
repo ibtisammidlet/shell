@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/video_previews_title" android:key="video_previews_key" android:summary="@string/video_previews_summary" app:allowDividerBelow="false" />
+    <org.chromium.chrome.browser.feed.settings.RadioButtonGroupVideoPreviewsPreference android:key="video_previews_pref" app:allowDividerBelow="false" />
+</PreferenceScreen>

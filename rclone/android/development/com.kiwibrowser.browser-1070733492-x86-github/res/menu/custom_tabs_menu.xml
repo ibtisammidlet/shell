@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/icon_row_menu_id" android:orderInCategory="0" android:title="@null">
+        <menu>
+            <item android:icon="@drawable/btn_forward" android:id="@id/forward_menu_id" android:title="@string/accessibility_menu_forward" />
+            <item android:icon="@drawable/btn_star" android:id="@id/bookmark_this_page_id" android:title="@string/accessibility_menu_bookmark" />
+            <item android:icon="@drawable/ic_file_download_white_24dp" android:id="@id/offline_page_id" android:title="@string/download_page" />
+            <item android:icon="@drawable/btn_info" android:id="@id/info_menu_id" android:title="@string/accessibility_menu_info" />
+            <item android:icon="@drawable/btn_reload_stop" android:id="@id/reload_menu_id" android:title="@string/accessibility_btn_refresh" />
+        </menu>
+    </item>
+    <item android:id="@id/share_row_menu_id" android:orderInCategory="2" android:title="@null">
+        <menu>
+            <item android:id="@id/share_menu_id" android:title="@string/menu_share_page" />
+            <item android:id="@id/direct_share_menu_id" android:title="@null" />
+        </menu>
+    </item>
+    <item android:id="@id/find_in_page_id" android:orderInCategory="2" android:title="@string/menu_find_in_page" />
+    <item android:icon="@drawable/reader_mode_prefs_icon" android:id="@id/reader_mode_prefs_id" android:visible="false" android:orderInCategory="2" android:title="@string/menu_reader_mode_prefs" />
+    <item android:id="@id/add_to_homescreen_id" android:orderInCategory="2" android:title="@string/menu_add_to_homescreen" />
+    <item android:id="@id/open_webapk_id" android:orderInCategory="2" android:title="@string/menu_open_webapk" />
+    <item android:id="@id/request_desktop_site_row_menu_id" android:orderInCategory="2" android:title="@null">
+        <menu>
+            <item android:id="@id/request_desktop_site_id" android:title="@string/menu_request_desktop_site" />
+            <item android:id="@id/request_desktop_site_check_id" android:title="@null" android:checkable="true" />
+        </menu>
+    </item>
+    <item android:id="@id/translate_id" android:orderInCategory="2" android:title="@string/menu_translate" />
+    <item android:id="@id/open_in_browser_id" android:orderInCategory="2" android:title="" />
+</menu>

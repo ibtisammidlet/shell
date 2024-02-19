@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="badge_update">@drawable/badge_update_light</item>
+    <item type="drawable" name="ic_error_24dp_filled">@drawable/ic_error_white_24dp_filled</item>
+    <item type="drawable" name="ic_more_vert_24dp">@drawable/ic_more_vert_24dp_on_dark_bg</item>
+    <item type="drawable" name="ic_offline_pin_24dp">@drawable/ic_offline_pin_24dp_on_dark_bg</item>
+    <item type="drawable" name="ic_play_circle_filled_24dp">@drawable/ic_play_circle_filled_24dp_on_dark_bg</item>
+    <item type="drawable" name="shared_clipboard_zero_state">@drawable/shared_clipboard_zero_state_dark</item>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BrowserUI" parent="@style/Base.Theme.BrowserUI">
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="Theme.Chromium.DialogWhenLarge" parent="@style/Base.V27.Theme.Chromium.DialogWhenLarge">
+        <item name="android:overScrollMode">never</item>
+    </style>
+</resources>

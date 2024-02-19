@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AlertDialogContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/title_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:importantForAccessibility="no" android:layout_marginEnd="8.0dip" />
+    <androidx.appcompat.widget.DialogTitle android:textAppearance="@style/TextAppearance.AlertDialogTitleStyle" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

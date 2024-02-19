@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/permission_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/tab_line" android:layout_width="fill_parent" android:importantForAccessibility="no" style="@style/TabBarShadow" />
+        <org.chromium.ui.widget.ChromeImageView android:layout_gravity="center_horizontal" android:id="@id/camera_icon" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="112.0dip" android:scaleType="center" android:importantForAccessibility="no" app:srcCompat="@drawable/camera_img" />
+        <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/qrcode_permission_image" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/qr_code_open_settings_description" android:drawablePadding="24.0dip" />
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="center_horizontal" android:id="@id/open_settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/qr_code_open_settings_label" style="@style/TextButton" />
+    </LinearLayout>
+</ScrollView>

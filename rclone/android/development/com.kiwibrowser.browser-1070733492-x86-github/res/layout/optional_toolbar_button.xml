@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.listmenu.ListMenuButton android:layout_gravity="top" android:paddingStart="@dimen/toolbar_phone_optional_button_padding" style="@style/ToolbarButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">탭 %1$d개가 포함된 탭 그룹을 접습니다.</item>
+        <item quantity="one">탭 %1$d개를 접습니다.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">탭 %2$d개가 포함된 %1$s 탭 그룹을 접습니다.</item>
+        <item quantity="one">탭 %1$d개를 접습니다.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">오디오 파일 %d개</item>
+        <item quantity="one">오디오 파일 %d개</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">파일 %d개</item>
+        <item quantity="one">파일 %d개</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">이미지 %d개</item>
+        <item quantity="one">이미지 %d개</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d페이지</item>
+        <item quantity="one">%d페이지</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">동영상 %d개</item>
+        <item quantity="one">동영상 %d개</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">평점 %1$s/%2$s점, 리뷰 %3$d개</item>
+        <item quantity="one">" 평점 %1$s/%2$s점, 리뷰 %3$d개"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">선택한 %d개 항목 삭제</item>
+        <item quantity="one">선택한 1개 항목 삭제</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">선택한 %d개 항목 공유</item>
+        <item quantity="one">선택한 1개 항목 공유</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">선택한 탭 %1$d개를 그룹에서 삭제합니다.</item>
+        <item quantity="one">선택한 탭 %1$d개를 그룹에서 삭제합니다.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">선택한 탭 %1$d개 그룹화</item>
+        <item quantity="one">선택한 탭 %1$d개 그룹화</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">선택된 탭 %1$d개 닫기</item>
+        <item quantity="one">선택된 탭 %1$d개 닫기</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">열려 있는 탭 %1$d개, 탭 간에 전환하려면 탭하세요.</item>
+        <item quantity="one">열려 있는 탭 %1$d개, 탭 간에 전환하려면 탭하세요.</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">북마크 %1$d개</item>
+        <item quantity="one">북마크 %1$d개</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">탭 %1$d개</item>
+        <item quantity="one">탭 %1$d개</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(외 %d개)</item>
+        <item quantity="one">(외 1개)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">쿠키 %d개 차단됨</item>
+        <item quantity="one">쿠키 1개 차단됨</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">파일 %d개 다운로드 중</item>
+        <item quantity="one">파일 다운로드 중</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d개 파일 다운로드됨</item>
+        <item quantity="one">%1$d개 파일 다운로드됨</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(리뷰 %1$s개)</item>
+        <item quantity="one">(리뷰 %1$s개)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">다운로드 %d개 완료</item>
+        <item quantity="one">다운로드 1개 완료</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">다운로드 %d개 실패</item>
+        <item quantity="one">다운로드 1개 실패</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">다운로드 %d개 대기 중</item>
+        <item quantity="one">다운로드 1개 대기 중</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">다운로드 %d개가 예약되었습니다.</item>
+        <item quantity="one">다운로드 1개가 예약되었습니다.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d일 전</item>
+        <item quantity="one">%d일 전</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d시간 전</item>
+        <item quantity="one">%d시간 전</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">%d분 전</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">준비가 완료되면 Kiwi Browser에서 페이지를 로드합니다.</item>
+        <item quantity="one">준비가 완료되면 Kiwi Browser에서 페이지를 로드합니다.</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">쿠키 %d개 사용 중</item>
+        <item quantity="one">쿠키 1개 사용 중</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s 외 %3$s개 허용됨</item>
+        <item quantity="one">%1$s, %2$s 외 %3$s개 허용됨</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s 외 %3$s개 차단됨</item>
+        <item quantity="one">%1$s, %2$s 외 %3$s개 차단됨</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s 외 %3$s개</item>
+        <item quantity="one">%1$s, %2$s 외 %3$s개</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">유출된 비밀번호 %d개</item>
+        <item quantity="one">유출된 비밀번호 %d개</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s 외 %2$s개</item>
+        <item quantity="one">%1$s 외 %2$s개</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s 외 %2$s개</item>
+        <item quantity="one">%1$s 외 %2$s개</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s 외 %2$s개</item>
+        <item quantity="one">%1$s 외 %2$s개</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s 외 %2$s개</item>
+        <item quantity="one">%1$s 외 %2$s개</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">읽지 않은 페이지가 %1$d개 있습니다.</item>
+        <item quantity="one">읽지 않은 페이지가 %1$d개 있습니다.</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">읽지 않은 페이지 %1$d개</item>
+        <item quantity="one">읽지 않은 페이지 %1$d개</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">유출된 비밀번호 %d개</item>
+        <item quantity="one">유출된 비밀번호 1개</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">%d일 전에 확인됨</item>
+        <item quantity="one">1일 전에 확인됨</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">%d시간 전에 확인됨</item>
+        <item quantity="one">1시간 전에 확인됨</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">%d분 전에 확인됨</item>
+        <item quantity="one">1분 전에 확인됨</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d개 선택됨</item>
+        <item quantity="one">1개 선택됨</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">신호 강도: 막대 %d개</item>
+        <item quantity="one">신호 강도: 막대 %d개</item>
+    </plurals>
+</resources>

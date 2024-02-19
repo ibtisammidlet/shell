@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/contextual_search_context_view" style="@style/ContextualSearchTextViewLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@id/selected_text" android:layout_width="wrap_content" android:layout_marginStart="7.0dip" android:layout_marginEnd="5.0dip" style="@style/ContextualSearchTextView" />
+    <TextView android:gravity="start" android:id="@id/surrounding_text_end" android:layout_marginEnd="7.0dip" style="@style/ContextualSearchContextTextView" />
+</LinearLayout>

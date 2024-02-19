@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/autofill_dropdown_refresh_footer_item_height" android:paddingStart="@dimen/autofill_dropdown_refresh_horizontal_padding" android:paddingEnd="@dimen/autofill_dropdown_refresh_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="end" android:id="@id/dropdown_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:textAlignment="viewStart" />
+    <ImageView android:id="@id/dropdown_icon" android:layout_width="@dimen/autofill_dropdown_refresh_icon_width" android:layout_height="@dimen/autofill_dropdown_refresh_footer_icon_height" android:scaleType="centerInside" android:layout_marginStart="@dimen/autofill_dropdown_refresh_icon_margin" android:layout_marginEnd="0.0dip" />
+</LinearLayout>

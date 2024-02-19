@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.chrome.browser.omnibox.status.StatusView android:id="@id/location_bar_status" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/location_bar_icon_end_padding">
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/location_bar_incognito_badge_stub" android:layout="@layout/location_status_incognito_badge" android:inflatedId="@id/location_bar_incognito_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <include layout="@layout/location_status_icon" />
+        <TextView android:textAppearance="@style/TextAppearance.OmniboxVerboseStatus" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/location_bar_verbose_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:textAlignment="viewStart" android:paddingStart="@dimen/location_bar_verbose_start_padding_verbose_text" android:paddingEnd="8.0dip" />
+        <View android:layout_gravity="center_vertical" android:id="@id/location_bar_verbose_status_separator" android:background="@color/black_alpha_12" android:visibility="gone" android:layout_width="@dimen/location_bar_status_separator_width" android:layout_height="24.0dip" />
+        <Space android:id="@id/location_bar_verbose_status_extra_space" android:visibility="gone" android:layout_width="@dimen/location_bar_status_extra_padding" android:layout_height="fill_parent" />
+    </org.chromium.chrome.browser.omnibox.status.StatusView>
+</merge>

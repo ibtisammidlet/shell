@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">%1$d தாவல்கள் உள்ள தாவல் குழுவைச் சுருக்கும்.</item>
+        <item quantity="one">%1$d தாவலைச் சுருக்கும்.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">%2$d தாவல்கள் உள்ள %1$s தாவல் குழுவைச் சுருக்கும்.</item>
+        <item quantity="one">%1$d தாவலைச் சுருக்கும்.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d ஆடியோ கோப்புகள்</item>
+        <item quantity="one">%d ஆடியோ கோப்பு</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d கோப்புகள்</item>
+        <item quantity="one">%d கோப்பு</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d படங்கள்</item>
+        <item quantity="one">%d படம்</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d பக்கங்கள்</item>
+        <item quantity="one">%d பக்கம்</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d வீடியோக்கள்</item>
+        <item quantity="one">%d வீடியோ</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">ரேட்டிங்: %1$s/%2$s, %3$d மதிப்புரைகள்</item>
+        <item quantity="one">" ரேட்டிங்: %1$s/%2$s, %3$d மதிப்புரை"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">தேர்ந்தெடுத்த %d உருப்படிகளை அகற்றும்</item>
+        <item quantity="one">தேர்ந்தெடுத்த 1 உருப்படியை அகற்றும்</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">தேர்ந்தெடுத்த %d உருப்படிகளைப் பகிரும்</item>
+        <item quantity="one">தேர்ந்தெடுத்த 1 உருப்படியைப் பகிரும்</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">தேர்ந்தெடுத்த %1$d தாவல்களைக் குழுவிலிருந்து அகற்றும்.</item>
+        <item quantity="one">தேர்ந்தெடுத்த %1$d தாவலைக் குழுவிலிருந்து அகற்றும்.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">தேர்ந்தெடுத்த %1$d தாவல்களைக் குழுவாக்கும்</item>
+        <item quantity="one">தேர்ந்தெடுத்த %1$d தாவலைக் குழுவாக்கும்</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">தேர்ந்தெடுத்த %1$d தாவல்களை மூடும்</item>
+        <item quantity="one">தேர்ந்தெடுத்த %1$d தாவலை மூடும்</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d திறந்துள்ள தாவல்கள், தாவல்களை மாற்ற, தட்டவும்</item>
+        <item quantity="one">%1$d திறந்துள்ள தாவல், தாவல்களை மாற்ற, தட்டவும்</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d புக்மார்க்குகள்</item>
+        <item quantity="one">%1$d புக்மார்க்</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d தாவல்கள்</item>
+        <item quantity="one">%1$d தாவல்</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(மேலும் %d)</item>
+        <item quantity="one">(மேலும் 1)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">%d குக்கீகள் தடுக்கப்பட்டன</item>
+        <item quantity="one">1 குக்கீ தடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">%d ஃபைல்களைப் பதிவிறக்குகிறது.</item>
+        <item quantity="one">கோப்பைப் பதிவிறக்குகிறது.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d மணிநேரம்</item>
+        <item quantity="one">%d மணிநேரம்</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">%1$d கோப்புகள் பதிவிறக்கப்பட்டன</item>
+        <item quantity="one">%1$d கோப்பு பதிவிறக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s மதிப்புரைகள்)</item>
+        <item quantity="one">(%1$s மதிப்புரை)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d பதிவிறக்கங்கள் முடிந்தன.</item>
+        <item quantity="one">ஒரு பதிவிறக்கம் முடிந்தது.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d பதிவிறக்கங்கள் தோல்வியடைந்தன.</item>
+        <item quantity="one">ஒரு பதிவிறக்கம் தோல்வியடைந்தது.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d பதிவிறக்கங்கள் நிலுவையில் உள்ளன.</item>
+        <item quantity="one">ஒரு பதிவிறக்கம் நிலுவையில் உள்ளது.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">%d பதிவிறக்கங்கள் திட்டமிடப்பட்டுள்ளன.</item>
+        <item quantity="one">1 பதிவிறக்கம் திட்டமிடப்பட்டுள்ளது.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">%d நாட்களுக்கு முன்பு</item>
+        <item quantity="one">%d நாள் முன்பு</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">%d மணிநேரம் முன்பு</item>
+        <item quantity="one">%d மணிநேரம் முன்பு</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">%d நிமிடங்களுக்கு முன்பு</item>
+        <item quantity="one">%d நிமிடத்திற்கு முன்பு</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">பக்கங்கள் தயாரானதும் Kiwi Browser அவற்றை ஏற்றும்</item>
+        <item quantity="one">பக்கம் தயாரானதும் Kiwi Browser அதை ஏற்றும்</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">%d குக்கீகள் உபயோகத்தில் உள்ளன</item>
+        <item quantity="one">1 குக்கீ உபயோகத்தில் உள்ளது</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">%1$s, %2$s &amp; மேலும் %3$s அனுமதிகள் வழங்கப்பட்டுள்ளன</item>
+        <item quantity="one">%1$s, %2$s &amp; மேலும் %3$s அனுமதிகள் வழங்கப்பட்டுள்ளன</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">%1$s, %2$s &amp; மேலும் %3$s அனுமதிகள் தடுக்கப்பட்டுள்ளன</item>
+        <item quantity="one">%1$s, %2$s &amp; மேலும் %3$s அனுமதிகள் தடுக்கப்பட்டுள்ளன</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s &amp; மேலும் %3$s அனுமதிகள்</item>
+        <item quantity="one">%1$s, %2$s &amp; மேலும் %3$s அனுமதிகள்</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">களவாடப்பட்ட கடவுச்சொற்கள்: %d</item>
+        <item quantity="one">களவாடப்பட்ட கடவுச்சொல்: %d</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… மற்றும் %2$s தொடர்புகள்</item>
+        <item quantity="one">%1$s… மற்றும் %2$s தொடர்பு</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… மற்றும் %2$s கட்டண முறைகள்</item>
+        <item quantity="one">%1$s… மற்றும் %2$s கட்டண முறை</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… மற்றும் %2$s முகவரிகள்</item>
+        <item quantity="one">%1$s… மற்றும் %2$s முகவரி</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… மற்றும் %2$s விருப்பங்கள்</item>
+        <item quantity="one">%1$s… மற்றும் %2$s விருப்பம்</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">படிக்காத பக்கங்கள் %1$d உள்ளன</item>
+        <item quantity="one">படிக்காத பக்கம் %1$d உள்ளது</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">படிக்காத பக்கங்கள்: %1$d</item>
+        <item quantity="one">படிக்காத பக்கம்: %1$d</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d களவாடப்பட்ட கடவுச்சொற்கள்</item>
+        <item quantity="one">1 களவாடப்பட்ட கடவுச்சொல்</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">சரிபார்த்தது: %d நாட்களுக்கு முன்பு</item>
+        <item quantity="one">சரிபார்த்தது: 1 நாளுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">சரிபார்த்தது: %d மணிநேரத்திற்கு முன்பு</item>
+        <item quantity="one">சரிபார்த்தது: 1 மணிநேரத்திற்கு முன்பு</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">சரிபார்த்தது: %d நிமிடங்களுக்கு முன்பு</item>
+        <item quantity="one">சரிபார்த்தது: 1 நிமிடத்திற்கு முன்பு</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">%d தேர்ந்தெடுக்கப்பட்டன</item>
+        <item quantity="one">1 தேர்ந்தெடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">சிக்னல் வலிமையின் அளவு: %d கோடுகள்</item>
+        <item quantity="one">சிக்னல் வலிமையின் அளவு: %d கோடு</item>
+    </plurals>
+</resources>

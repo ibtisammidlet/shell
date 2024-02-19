@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/addresses_sheet" android:background="@color/default_bg_color_elev_3" android:paddingBottom="@dimen/keyboard_accessory_sheet_footer_trailing_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

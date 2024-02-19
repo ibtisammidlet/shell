@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/selected_view_below_lollipop" android:background="@drawable/selected_tab_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/content_view" android:background="@drawable/popup_bg_tinted" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/modern_list_item_view" />
+    </LinearLayout>
+</merge>

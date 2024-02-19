@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGridIphDialogView android:layout_gravity="center" android:orientation="vertical" android:id="@id/iph_dialog" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/animation_drawable" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:contentDescription="@string/iph_drag_and_drop_content" app:srcCompat="@drawable/iph_drag_and_drop_animated_drawable" />
+    <TextView android:textAppearance="@style/TextAppearance.Headline.Primary" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/iph_drag_and_drop_title" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:gravity="start" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/iph_drag_and_drop_content" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+</org.chromium.chrome.browser.tasks.tab_management.TabGridIphDialogView>

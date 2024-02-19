@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/clear_browsing_data_title" android:key="clear_browsing_data" android:summary="@string/clear_browsing_data_summary" android:fragment="org.chromium.chrome.browser.browsing_data.ClearBrowsingDataTabsFragment" />
+    <Preference android:title="@string/prefs_safe_browsing_title" android:key="safe_browsing" android:summary="@string/prefs_safe_browsing_summary" android:fragment="org.chromium.chrome.browser.safe_browsing.settings.SafeBrowsingSettingsFragment" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/can_make_payment_title" android:key="can_make_payment" android:summary="@string/settings_can_make_payment_toggle_label" />
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/preload_pages_title" android:key="preload_pages" android:summary="@string/preload_pages_summary" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:persistent="false" android:title="@string/usage_stats_setting_title" android:key="usage_stats_reporting" />
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/settings_secure_dns_title" android:key="secure_dns" android:fragment="org.chromium.chrome.browser.privacy.secure_dns.SecureDnsSettings" />
+    <Preference android:title="@string/do_not_track_title" android:key="do_not_track" android:fragment="org.chromium.chrome.browser.privacy.settings.DoNotTrackSettings" />
+    <Preference android:title="@string/prefs_privacy_sandbox" android:key="privacy_sandbox" android:fragment="org.chromium.chrome.browser.privacy_sandbox.PrivacySandboxSettingsFragment" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/privacy_preferences_avoid_amp_websites_title" android:key="avoid_amp_websites" android:summary="@string/privacy_preferences_avoid_amp_websites_summary" android:defaultValue="true" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/privacy_preferences_close_tabs_on_exit_title" android:key="close_tabs_on_exit" android:summary="@string/privacy_preferences_close_tabs_on_exit_summary" android:defaultValue="false" />
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/privacy_preferences_close_browser_after_last_tab_is_closed_title" android:key="close_browser_after_last_tab" android:summary="@string/privacy_preferences_close_browser_after_last_tab_is_closed_summary" android:defaultValue="false" />
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="sync_and_services_link" android:summary="@string/privacy_sync_and_services_link_legacy" app:allowDividerBelow="false" />
+</PreferenceScreen>

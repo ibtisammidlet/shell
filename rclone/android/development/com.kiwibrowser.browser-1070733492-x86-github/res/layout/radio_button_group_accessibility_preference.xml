@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout android:id="@id/image_descriptions_settings_radio_group" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/image_descriptions_settings_only_on_wifi_radio_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" app:primaryText="@string/image_descriptions_dialog_option_only_on_wifi" />
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/image_descriptions_settings_mobile_data_radio_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" app:descriptionText="@string/image_descriptions_settings_use_mobile_data_content" app:primaryText="@string/image_descriptions_settings_use_mobile_data_title" />
+</org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>

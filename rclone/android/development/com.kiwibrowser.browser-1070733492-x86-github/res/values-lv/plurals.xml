@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dialog_back_button">
+        <item quantity="other">Sakļaut ciļņu grupu, kurā ir %1$d cilnes.</item>
+        <item quantity="zero">Sakļaut ciļņu grupu, kurā ir %1$d cilnes.</item>
+        <item quantity="one">Sakļaut %1$d cilni.</item>
+    </plurals>
+    <plurals name="accessibility_dialog_back_button_with_group_name">
+        <item quantity="other">Sakļaut ciļņu grupu “%1$s”, kurā ir %2$d cilnes.</item>
+        <item quantity="zero">Sakļaut ciļņu grupu “%1$s”, kurā ir %2$d cilnes.</item>
+        <item quantity="one">Sakļaut %1$d cilni.</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_audio">
+        <item quantity="other">%d audio faili</item>
+        <item quantity="zero">%d audio faili</item>
+        <item quantity="one">%d audio fails</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_generic">
+        <item quantity="other">%d faili</item>
+        <item quantity="zero">%d faili</item>
+        <item quantity="one">%d fails</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_images">
+        <item quantity="other">%d attēli</item>
+        <item quantity="zero">%d attēli</item>
+        <item quantity="one">%d attēls</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_pages">
+        <item quantity="other">%d lapas</item>
+        <item quantity="zero">%d lapas</item>
+        <item quantity="one">%d lapa</item>
+    </plurals>
+    <plurals name="accessibility_download_manager_ui_video">
+        <item quantity="other">%d videoklipi</item>
+        <item quantity="zero">%d videoklipi</item>
+        <item quantity="one">%d videoklips</item>
+    </plurals>
+    <plurals name="accessibility_merchant_viewer_message_description">
+        <item quantity="other">Vērtējums: %1$s/%2$s; %3$d atsauksmes</item>
+        <item quantity="zero">Vērtējums: %1$s/%2$s; %3$d atsauksmju</item>
+        <item quantity="one">" Vērtējums: %1$s/%2$s; %3$d atsauksme"</item>
+    </plurals>
+    <plurals name="accessibility_remove_selected_items">
+        <item quantity="other">Noņemt %d atlasītos vienumus</item>
+        <item quantity="zero">Noņemt %d atlasītos vienumus</item>
+        <item quantity="one">Noņemt 1 atlasīto vienumu</item>
+    </plurals>
+    <plurals name="accessibility_share_selected_items">
+        <item quantity="other">Kopīgot %d atlasītos vienumus</item>
+        <item quantity="zero">Kopīgot %d atlasītos vienumus</item>
+        <item quantity="one">Kopīgot 1 atlasīto vienumu</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_dialog_remove_button">
+        <item quantity="other">Noņemt %1$d atlasītās cilnes no grupas.</item>
+        <item quantity="zero">Noņemt %1$d atlasītās cilnes no grupas.</item>
+        <item quantity="one">Noņemt %1$d atlasīto cilni no grupas.</item>
+    </plurals>
+    <plurals name="accessibility_tab_selection_editor_group_button">
+        <item quantity="other">Grupēt %1$d atlasītās cilnes</item>
+        <item quantity="zero">Grupēt %1$d atlasītās cilnes</item>
+        <item quantity="one">Grupēt %1$d atlasīto cilni</item>
+    </plurals>
+    <plurals name="accessibility_tab_suggestion_close_tab_action_button">
+        <item quantity="other">Aizvērt atlasītās cilnes (skaits: %1$d)</item>
+        <item quantity="zero">Aizvērt atlasītās cilnes (skaits: %1$d)</item>
+        <item quantity="one">Aizvērt atlasīto cilni (skaits: %1$d)</item>
+    </plurals>
+    <plurals name="accessibility_toolbar_btn_tabswitcher_toggle">
+        <item quantity="other">%1$d atvērtas cilnes. Pieskarieties, lai pārslēgtu cilnes.</item>
+        <item quantity="zero">%1$d atvērtu ciļņu. Pieskarieties, lai pārslēgtu cilnes.</item>
+        <item quantity="one">%1$d atvērta cilne. Pieskarieties, lai pārslēgtu cilnes.</item>
+    </plurals>
+    <plurals name="bookmarks_count">
+        <item quantity="other">%1$d grāmatzīmes</item>
+        <item quantity="zero">%1$d grāmatzīmju</item>
+        <item quantity="one">%1$d grāmatzīme</item>
+    </plurals>
+    <plurals name="bottom_tab_grid_title_placeholder">
+        <item quantity="other">%1$d cilnes</item>
+        <item quantity="zero">%1$d cilnes</item>
+        <item quantity="one">%1$d cilne</item>
+    </plurals>
+    <plurals name="contacts_picker_more_details">
+        <item quantity="other">(un vēl %d)</item>
+        <item quantity="zero">(un vēl %d)</item>
+        <item quantity="one">(un vēl 1)</item>
+    </plurals>
+    <plurals name="cookie_controls_blocked_cookies">
+        <item quantity="other">Bloķēti %d sīkfaili.</item>
+        <item quantity="zero">Bloķēti %d sīkfaili.</item>
+        <item quantity="one">Bloķēts 1 sīkfails.</item>
+    </plurals>
+    <plurals name="download_infobar_downloading_files">
+        <item quantity="other">Notiek %d failu lejupielāde.</item>
+        <item quantity="zero">Notiek %d failu lejupielāde.</item>
+        <item quantity="one">Notiek faila lejupielāde.</item>
+    </plurals>
+    <plurals name="download_manager_n_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="zero">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="download_ui_files_downloaded">
+        <item quantity="other">Lejupielādēti %1$d faili</item>
+        <item quantity="zero">Lejupielādēti %1$d faili</item>
+        <item quantity="one">Lejupielādēts %1$d fails</item>
+    </plurals>
+    <plurals name="merchant_viewer_message_description_reviews">
+        <item quantity="other">(%1$s atsauksmes)</item>
+        <item quantity="zero">(%1$s atsauksmju)</item>
+        <item quantity="one">(%1$s atsauksme)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="multiple_download_complete">
+        <item quantity="other">%d lejupielādes ir pabeigtas.</item>
+        <item quantity="zero">%d lejupielādes ir pabeigtas.</item>
+        <item quantity="one">1 lejupielāde ir pabeigta.</item>
+    </plurals>
+    <plurals name="multiple_download_failed">
+        <item quantity="other">%d lejupielādes neizdevās.</item>
+        <item quantity="zero">%d lejupielādes neizdevās.</item>
+        <item quantity="one">1 lejupielāde neizdevās.</item>
+    </plurals>
+    <plurals name="multiple_download_pending">
+        <item quantity="other">%d neapstiprinātas lejupielādes.</item>
+        <item quantity="zero">%d neapstiprinātu lejupielāžu.</item>
+        <item quantity="one">1 neapstiprināta lejupielāde.</item>
+    </plurals>
+    <plurals name="multiple_download_scheduled">
+        <item quantity="other">Ir ieplānotas %d lejupielādes.</item>
+        <item quantity="zero">Ir ieplānotas %d lejupielādes.</item>
+        <item quantity="one">Ir ieplānota viena lejupielāde.</item>
+    </plurals>
+    <plurals name="n_days_ago">
+        <item quantity="other">pirms %d dienām</item>
+        <item quantity="zero">pirms %d dienām</item>
+        <item quantity="one">pirms %d dienas</item>
+    </plurals>
+    <plurals name="n_hours_ago">
+        <item quantity="other">pirms %d stundām</item>
+        <item quantity="zero">pirms %d stundām</item>
+        <item quantity="one">pirms %d stundas</item>
+    </plurals>
+    <plurals name="n_minutes_ago">
+        <item quantity="other">pirms %d minūtēm</item>
+        <item quantity="zero">pirms %d minūtēm</item>
+        <item quantity="one">pirms %d minūtes</item>
+    </plurals>
+    <plurals name="offline_pages_auto_fetch_in_progress_notification_text">
+        <item quantity="other">Kad ierīce būs gatava, jūsu lapas tiks ielādētas pārlūkā Kiwi Browser</item>
+        <item quantity="zero">Kad ierīce būs gatava, jūsu lapas tiks ielādētas pārlūkā Kiwi Browser</item>
+        <item quantity="one">Kad ierīce būs gatava, jūsu lapa tiks ielādēta pārlūkā Kiwi Browser</item>
+    </plurals>
+    <plurals name="page_info_cookies_in_use">
+        <item quantity="other">Tiek izmantoti %d sīkfaili</item>
+        <item quantity="zero">Tiek izmantoti %d sīkfaili</item>
+        <item quantity="one">Tiek izmantots viens sīkfails</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_allowed">
+        <item quantity="other">Atļautas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="zero">Atļautas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="one">Atļautas: %1$s, %2$s un vēl %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_blocked">
+        <item quantity="other">Bloķētas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="zero">Bloķētas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="one">Bloķētas: %1$s, %2$s un vēl %3$s</item>
+    </plurals>
+    <plurals name="page_info_permissions_summary_more_mixed">
+        <item quantity="other">%1$s, %2$s un vēl %3$s</item>
+        <item quantity="zero">%1$s, %2$s un vēl %3$s</item>
+        <item quantity="one">%1$s, %2$s un vēl %3$s</item>
+    </plurals>
+    <plurals name="password_check_status_message_idle_with_leaks">
+        <item quantity="other">%d uzlauztas paroles</item>
+        <item quantity="zero">%d uzlauztu paroļu</item>
+        <item quantity="one">%d uzlauzta parole</item>
+    </plurals>
+    <plurals name="payment_request_contacts_preview">
+        <item quantity="other">%1$s… un vēl %2$s</item>
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="payment_request_payment_methods_preview">
+        <item quantity="other">%1$s… un vēl %2$s</item>
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_addresses_preview">
+        <item quantity="other">%1$s… un vēl %2$s</item>
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="payment_request_shipping_options_preview">
+        <item quantity="other">%1$s… un vēl %2$s</item>
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="reading_list_reminder_notification_subtitle">
+        <item quantity="other">Jums ir %1$d nelasītas lapas.</item>
+        <item quantity="zero">Jums ir %1$d nelasītas lapas.</item>
+        <item quantity="one">Jums ir %1$d nelasīta lapa.</item>
+    </plurals>
+    <plurals name="reading_list_unread_page_count">
+        <item quantity="other">%1$d nelasītas lapas</item>
+        <item quantity="zero">%1$d nelasītu lapu</item>
+        <item quantity="one">%1$d nelasīta lapa</item>
+    </plurals>
+    <plurals name="safety_check_passwords_compromised_exist">
+        <item quantity="other">%d uzlauztas paroles</item>
+        <item quantity="zero">%d uzlauztu paroļu</item>
+        <item quantity="one">1 uzlauzta parole</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_days">
+        <item quantity="other">Pārbaudīts: pirms %d dienām</item>
+        <item quantity="zero">Pārbaudīts: pirms %d dienām</item>
+        <item quantity="one">Pārbaudīts: pirms 1 dienas</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_hours">
+        <item quantity="other">Pārbaudīts: pirms %d stundām</item>
+        <item quantity="zero">Pārbaudīts: pirms %d stundām</item>
+        <item quantity="one">Pārbaudīts: pirms 1 stundas</item>
+    </plurals>
+    <plurals name="safety_check_timestamp_after_mins">
+        <item quantity="other">Pārbaudīts: pirms %d minūtēm</item>
+        <item quantity="zero">Pārbaudīts: pirms %d minūtēm</item>
+        <item quantity="one">Pārbaudīts: pirms 1 minūtes</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="other">Atlasīti %d vienumi</item>
+        <item quantity="zero">Atlasīti %d vienumi</item>
+        <item quantity="one">Atlasīts 1 vienums</item>
+    </plurals>
+    <plurals name="signal_strength_level_n_bars">
+        <item quantity="other">Signāla stipruma līmenis: %d joslas</item>
+        <item quantity="zero">Signāla stipruma līmenis: %d joslu</item>
+        <item quantity="one">Signāla stipruma līmenis: %d josla</item>
+    </plurals>
+</resources>

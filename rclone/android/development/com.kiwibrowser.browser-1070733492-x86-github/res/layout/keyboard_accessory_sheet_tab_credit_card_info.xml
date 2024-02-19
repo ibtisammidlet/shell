@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.keyboard_accessory.sheet_tabs.CreditCardAccessoryInfoView android:gravity="start|center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/keyboard_accessory_sheet_top_margin" android:layout_marginBottom="@dimen/keyboard_accessory_sheet_bottom_margin" android:fillViewport="true" android:paddingStart="@dimen/keyboard_accessory_suggestion_padding" android:paddingEnd="@dimen/keyboard_accessory_suggestion_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+            <org.chromium.ui.widget.ChipView android:gravity="start|center" android:id="@id/cc_number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InputChip" />
+            <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/exp_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+                <org.chromium.ui.widget.ChipView android:gravity="start|center" android:id="@id/exp_month" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InputChip" />
+                <TextView android:textAppearance="@style/TextAppearance.DividerText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" android:layout_marginStart="@dimen/keyboard_accessory_sheet_padding" android:layout_marginEnd="@dimen/keyboard_accessory_sheet_padding" />
+                <org.chromium.ui.widget.ChipView android:gravity="start|center" android:id="@id/exp_year" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InputChip" />
+            </LinearLayout>
+            <org.chromium.ui.widget.ChipView android:gravity="start|center" android:id="@id/cardholder" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InputChip" />
+            <org.chromium.ui.widget.ChipView android:gravity="start|center" android:id="@id/cvc" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InputChip" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/icon" android:layout_width="@dimen/keyboard_accessory_bar_item_cc_icon_width" android:layout_height="@dimen/keyboard_accessory_suggestion_icon_size" android:layout_marginTop="@dimen/keyboard_accessory_image_top_padding" android:layout_weight="0.0" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <View android:layout_marginTop="@dimen/keyboard_accessory_sheet_divider_margin" android:layout_marginBottom="0.0dip" style="@style/HorizontalDivider" />
+</org.chromium.chrome.browser.keyboard_accessory.sheet_tabs.CreditCardAccessoryInfoView>
