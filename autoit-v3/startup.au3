@@ -1,4 +1,11 @@
-While 1
-    Run("E:\data\development\nodejs\node_modules\bio-tolerance\microservices\onlineize.bat")
-    Sleep(1800000) ; Sleep for 30 minutes (30 mins * 60 secs * 1000 ms)
+Local $batFilePath = "E:\data\development\nodejs\node_modules\bio-tolerance\microservices\ddns\start.bat"
+Local $intervalMinutes = 5 * 60 * 1000 ; 5 minutes in milliseconds
+
+While false
+    If ProcessExists("start.bat") = 0 Then
+        FileChangeDir("C:\Windows\System32")
+        Run($batFilePath)
+    EndIf
+
+    Sleep($intervalMinutes)
 WEnd

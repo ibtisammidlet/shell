@@ -71,10 +71,9 @@ REGEDIT4
   52,00,65,00,70,00,b7,00,00,00,02,00,00,00,c7,00,00,00,14,00,00,00,b7,00,00,\
   00,02,00,00,00,c7,00,00,00,14,00,00,00,20,00,20,00,3c,00,49,00,6e,00,74,00,\
   65,00,72,00,39,9e,00,00
-"UpdateIsNowAvailable"=dword:00000001
+"UpdateIsNowAvailable"=dword:00000000
 "InsightsSortBy"=dword:00000001
 "InsightsSortDirections"=hex:01,01,01,01
-"SilentUpdate"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\ProcessLasso\colcount]
 "Insights"=dword:00000004
@@ -92,4 +91,3 @@ REGEDIT4
 "InstallerLanguageDWORD"=dword:00000409
 "Language"=dword:00000409
 "ProcessLasso"=hex:09,04,00,00
-"UpdateLastCheckTime"=hex(b):b9,d3,a1,b3,39,3b,da,01
