@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:duration="@integer/download_infobar_sweep_up_delay" android:startOffset="300" android:valueFrom="@color/google_blue_50" android:valueTo="@color/default_icon_color_blue" android:propertyName="strokeColor" />
+    <objectAnimator android:duration="@integer/download_infobar_sweep_down_delay" android:valueFrom="@color/default_icon_color_blue" android:valueTo="@color/google_blue_50" android:propertyName="strokeColor" />
+</set>

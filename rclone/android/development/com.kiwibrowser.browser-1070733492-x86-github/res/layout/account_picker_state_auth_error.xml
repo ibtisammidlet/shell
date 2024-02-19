@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:srcCompat="@drawable/ic_warning_red_24dp" />
+    <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:gravity="center_horizontal" android:id="@id/account_picker_auth_error_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:text="@string/signin_account_picker_bottom_sheet_error_title" />
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/signin_account_picker_auth_error_subtitle" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:leading="@dimen/text_size_medium_leading" />
+    <include layout="@layout/account_picker_bottom_sheet_continue_button" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$circular_progress_bar_indeterminate_small__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="arc" android:animation="@drawable/$circular_progress_bar_indeterminate_small__1" />
+    <target android:name="container" android:animation="@drawable/$circular_progress_bar_indeterminate_small__2" />
+</animated-vector>

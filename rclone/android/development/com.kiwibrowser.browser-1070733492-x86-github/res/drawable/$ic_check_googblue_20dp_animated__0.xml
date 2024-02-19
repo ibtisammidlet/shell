@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="ic_check" android:pathData="M4.12,12.705 l4.88,4.88 l11.295,-11.29" android:strokeColor="@color/default_icon_color_blue" android:strokeWidth="2.0" />
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$infobar_downloading_fill_animation__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="arrow_clip" android:animation="@drawable/$infobar_downloading_fill_animation__1" />
+    <target android:name="arrow_blue" android:animation="@drawable/$infobar_downloading_fill_animation__2" />
+    <target android:name="bar" android:animation="@drawable/$infobar_downloading_fill_animation__3" />
+</animated-vector>

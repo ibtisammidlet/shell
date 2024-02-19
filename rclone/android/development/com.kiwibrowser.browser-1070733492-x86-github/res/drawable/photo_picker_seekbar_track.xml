@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/photo_picker_seek_bar_edge_radius" />
+            <size android:height="@dimen/photo_picker_seek_bar_thickness" />
+            <gradient android:startColor="@color/modern_grey_500" android:endColor="@color/modern_grey_500" android:angle="90.0" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/photo_picker_seek_bar_edge_radius" />
+                <size android:height="@dimen/photo_picker_seek_bar_thickness" />
+                <gradient android:startColor="@color/default_primary_color" android:endColor="@color/default_primary_color" android:angle="90.0" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/account_selection_sheet_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/account_selection_sheet_title_margin_bottom" android:minHeight="@dimen/account_selection_sheet_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

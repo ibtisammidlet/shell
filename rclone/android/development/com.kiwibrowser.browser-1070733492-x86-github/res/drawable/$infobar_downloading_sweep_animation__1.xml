@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/linear_out_slow_in" android:duration="@integer/download_infobar_sweep_up_delay" android:startOffset="300" android:valueFrom="M 0,72 L 72,72 L 72,72 L 0,72 L 0,72 Z" android:valueTo="M 0,0 L 72,0 L 72,72 L 0,72 L 0,0 Z" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="@integer/download_infobar_sweep_down_delay" android:valueFrom="M 0,0 L 72,0 L 72,72 L 0,72 L 0,0 Z" android:valueTo="M 0,72 L 72,72 L 72,72 L 0,72 L 0,72 Z" android:valueType="pathType" android:propertyName="pathData" />
+</set>

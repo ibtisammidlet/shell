@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingLeft="@dimen/page_info_popup_padding_sides" android:paddingTop="@dimen/page_info_popup_padding_vertical" android:paddingRight="@dimen/page_info_popup_padding_sides" android:paddingBottom="@dimen/page_info_popup_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/page_info_popup_padding_sides" android:paddingVertical="@dimen/page_info_popup_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.ChromeImageView android:id="@id/page_info_row_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="32.0dip" app:tint="@color/default_icon_color" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:id="@id/page_info_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:id="@id/page_info_row_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:leading="@dimen/text_size_medium_leading" />
+    </LinearLayout>
+</LinearLayout>

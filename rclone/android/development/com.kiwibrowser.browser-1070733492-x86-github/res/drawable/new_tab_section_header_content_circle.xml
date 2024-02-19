@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:id="@id/new_tab_section_header_content_circle" android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/default_icon_color_blue" />
+    <size android:height="5.0dip" android:width="5.0dip" />
+</shape>

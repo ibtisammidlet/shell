@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/divider_line_bg_color" android:layout_width="fill_parent" android:layout_marginTop="70.0dip" android:importantForAccessibility="no" style="@style/HorizontalDivider" />
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@style/TextAppearance.TextMedium.Primary" android:ellipsize="end" android:id="@id/description" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:maxLines="7" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:lineHeight="20.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/screenshots_container" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

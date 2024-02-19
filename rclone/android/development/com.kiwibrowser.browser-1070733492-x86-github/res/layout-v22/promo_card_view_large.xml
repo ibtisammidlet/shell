@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.promo.PromoCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/default_elevation_1" style="@style/MaterialCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/promo_large_padding_vertical" android:paddingBottom="@dimen/promo_large_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/promo_large_padding_vertical">
+        <ImageView android:layout_gravity="center" android:id="@id/promo_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/promo_large_illustration_margin_bottom" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/promo_large_padding_horizontal" android:paddingRight="@dimen/promo_large_padding_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/promo_large_padding_horizontal">
+            <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:gravity="center" android:id="@id/promo_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/promo_between_text_margin" app:leading="@dimen/text_size_large_leading" />
+            <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/TextAppearance.TextSmall.Secondary" android:gravity="center" android:id="@id/promo_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/promo_large_text_group_bottom_margin" app:leading="@dimen/text_size_small_leading" />
+            <org.chromium.ui.widget.ButtonCompat android:ellipsize="end" android:id="@id/promo_primary_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/FilledButton.Flat" />
+            <org.chromium.ui.widget.ButtonCompat android:ellipsize="end" android:id="@id/promo_secondary_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextButton" />
+        </LinearLayout>
+    </LinearLayout>
+</org.chromium.components.browser_ui.widget.promo.PromoCardView>

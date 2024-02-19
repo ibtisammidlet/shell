@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:importantForAccessibility="no" app:srcCompat="@drawable/drag_handlebar" />
+    <ViewFlipper android:id="@id/account_picker_state_view_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="false">
+        <include android:id="@id/account_picker_state_no_account" layout="@layout/account_picker_state_no_account" />
+        <include android:id="@id/account_picker_state_collapsed" layout="@layout/account_picker_state_collapsed" />
+        <include android:id="@id/account_picker_state_expanded" layout="@layout/account_picker_state_expanded" />
+        <include android:id="@id/account_picker_state_signin_in_progress" layout="@layout/account_picker_state_signin_in_progress" />
+        <include android:id="@id/account_picker_state_general_error" layout="@layout/account_picker_state_general_error" />
+        <include android:id="@id/account_picker_state_auth_error" layout="@layout/account_picker_state_auth_error" />
+    </ViewFlipper>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip" android:paddingStart="@dimen/account_chooser_dialog_item_margin" android:paddingEnd="@dimen/account_chooser_dialog_item_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/profile_image" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:ellipsize="end" android:id="@id/main_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:ellipsize="end" android:id="@id/secondary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageButton android:id="@id/psl_info_btn" android:background="?selectableItemBackground" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_info" android:contentDescription="@string/learn_more" />
+</LinearLayout>

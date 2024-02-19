@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/modern_white" />
+    <stroke android:width="1.0dip" android:color="@color/modern_grey_200" />
+    <corners android:radius="@dimen/sharing_hub_preview_icon_rounded_corner_radius" />
+</shape>

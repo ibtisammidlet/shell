@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@anim/fast_out_slow_in_interpolator" android:duration="700" android:valueFrom="-120" android:valueTo="120" android:propertyName="rotation" />
+    <objectAnimator android:duration="1900" android:valueFrom="120" android:valueTo="120" android:propertyName="rotation" />
+    <objectAnimator android:interpolator="@anim/fast_out_slow_in_interpolator" android:duration="700" android:valueFrom="120" android:valueTo="-120" android:propertyName="rotation" />
+    <objectAnimator android:duration="1900" android:valueFrom="-120" android:valueTo="-120" android:propertyName="rotation" />
+    <objectAnimator android:interpolator="@anim/fast_out_slow_in_interpolator" android:duration="700" android:valueFrom="-120" android:valueTo="120" android:propertyName="rotation" />
+    <objectAnimator android:duration="1900" android:valueFrom="120" android:valueTo="120" android:propertyName="rotation" />
+    <objectAnimator android:interpolator="@anim/fast_out_slow_in_interpolator" android:duration="700" android:valueFrom="120" android:valueTo="-120" android:propertyName="rotation" />
+</set>

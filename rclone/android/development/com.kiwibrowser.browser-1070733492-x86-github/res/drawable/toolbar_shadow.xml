@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="fill_horizontal|center|top" android:src="@drawable/toolbar_shadow_normal" />
+    </item>
+    <item>
+        <bitmap android:gravity="fill_horizontal|center|top" android:src="@drawable/toolbar_shadow_focused" />
+    </item>
+</transition>

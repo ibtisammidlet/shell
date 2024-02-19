@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:srcCompat="@drawable/chrome_sync_logo" />
+    <TextView android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:gravity="center_horizontal" android:id="@id/account_picker_signin_in_progress_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:text="@string/signin_account_picker_bottom_sheet_signin_title" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/account_picker_signin_spinner_view" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="64.0dip" android:layout_marginBottom="128.0dip" />
+</LinearLayout>

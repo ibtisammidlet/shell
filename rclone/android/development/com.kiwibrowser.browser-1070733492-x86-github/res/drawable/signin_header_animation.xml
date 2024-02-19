@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$signin_header_animation__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="cloud1_animation_group" android:animation="@drawable/$signin_header_animation__1" />
+    <target android:name="cloud2_animation_group" android:animation="@drawable/$signin_header_animation__2" />
+    <target android:name="cloud3_animation_group" android:animation="@drawable/$signin_header_animation__3" />
+    <target android:name="cloud4_animation_group" android:animation="@drawable/$signin_header_animation__4" />
+    <target android:name="sync_arrows_rotation_group" android:animation="@drawable/$signin_header_animation__5" />
+    <target android:name="blue_dot_rotation_group" android:animation="@drawable/$signin_header_animation__6" />
+</animated-vector>

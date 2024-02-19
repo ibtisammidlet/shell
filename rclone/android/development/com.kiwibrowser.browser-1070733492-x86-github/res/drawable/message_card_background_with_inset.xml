@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/message_card_background" android:inset="@dimen/tab_list_selected_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

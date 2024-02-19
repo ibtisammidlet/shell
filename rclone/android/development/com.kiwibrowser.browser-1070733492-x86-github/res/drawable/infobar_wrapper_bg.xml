@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="fill_horizontal|center|top" android:src="@drawable/infobar_shadow_top" android:tileMode="disabled" />
+    </item>
+    <item android:id="@id/infobar_wrapper_bg_fill" android:drawable="@color/infobar_background_color" android:top="@dimen/infobar_shadow_height" />
+</layer-list>

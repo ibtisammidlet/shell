@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:layout_marginStart="72.0dip" style="@style/HorizontalDivider"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

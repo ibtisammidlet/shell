@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="0" android:valueFrom="@color/default_icon_color_blue" android:valueTo="@color/default_icon_color_blue" android:propertyName="fillColor" />
+    <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="@integer/download_infobar_fill_out_delay" android:startOffset="@integer/download_infobar_fill_in_delay" android:valueFrom="@color/default_icon_color_blue" android:valueTo="@color/google_blue_50" android:propertyName="fillColor" />
+</set>

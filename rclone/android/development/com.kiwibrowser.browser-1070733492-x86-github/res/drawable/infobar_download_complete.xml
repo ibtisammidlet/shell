@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="circle" android:fillColor="@color/google_blue_50" android:pathData="M 0,12 C 0,6 6,0 12,0 C 18,0 24,6 24,12 C 24,18 18,24 12,24 C 6,24 0,18 0,12" android:fillAlpha="0.0" />
+    <path android:name="check_mark" android:fillColor="@color/default_icon_color_blue" android:pathData="M5 18h14v2H5v-2zm4.6-2.7L5 10.7l2-1.9 2.6 2.6L17 4l2 2-9.4 9.3z" />
+</vector>

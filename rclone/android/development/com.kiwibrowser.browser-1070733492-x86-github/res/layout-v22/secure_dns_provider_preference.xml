@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?android:selectableItemBackground" android:paddingBottom="8.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout android:id="@id/mode_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/automatic" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" app:descriptionText="@string/settings_automatic_mode_description" app:primaryText="@string/settings_automatic_mode_label" />
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@id/secure" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/min_touch_target_size" app:primaryText="@string/settings_secure_dropdown_mode_description" />
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/selection_container" android:background="?android:selectableItemBackground" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/radio_button_accessory_view_padding_start" android:paddingEnd="@dimen/radio_button_accessory_view_padding_end">
+        <Spinner android:id="@id/dropdown_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.TextMedium.Secondary" android:id="@id/privacy_policy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_secure_dropdown_mode_privacy_policy" android:paddingStart="4.0dip" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/custom_server_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:labelFor="@id/custom_server">
+            <EditText android:textAppearance="@style/TextAppearance.TextLarge.Primary" android:id="@id/custom_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/settings_secure_dns_custom_placeholder" android:singleLine="true" android:inputType="textUri" android:imeOptions="actionDone" android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

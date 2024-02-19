@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="72.0dip" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:name="arrow_grey" android:fillColor="@color/google_blue_50" android:pathData="M30,15 L42,15 L42,30 L52,30 L36,46 L20,30 L30,30 Z" android:strokeColor="#00000000" />
+    <group>
+        <clip-path android:name="arrow_clip" android:pathData="M 0,0 L 72,0 L 72,60 L 0,60 L 0,0 Z" />
+        <path android:name="arrow_blue" android:fillColor="@color/default_icon_color_blue" android:pathData="M30,15 L42,15 L42,30 L52,30 L36,46 L20,30 L30,30 Z" android:strokeColor="#00000000" />
+    </group>
+    <path android:name="bar_grey" android:pathData="M12,54 L60,54" android:strokeColor="@color/google_blue_50" android:strokeWidth="6.0" />
+    <path android:name="bar" android:pathData="M12,54 L60,54" android:strokeColor="@color/default_icon_color_blue" android:strokeWidth="6.0" />
+</vector>

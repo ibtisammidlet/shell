@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@color/modern_grey_900" android:height="60.0dip" android:width="60.0dip" android:viewportWidth="60.0" android:viewportHeight="60.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="container" android:pivotX="30.0" android:pivotY="30.0">
+        <path android:name="arc" android:fillColor="@android:color/transparent" android:pathData="m 30,1 a 29,29 0 1,1 0,58 a 29,29 0 1,1 0,-58" android:strokeColor="@color/modern_grey_900" android:strokeWidth="2.0" android:trimPathStart="0.0" android:trimPathEnd="0.05" android:trimPathOffset="0.0" android:strokeLineCap="square" android:strokeLineJoin="miter" />
+    </group>
+</vector>
