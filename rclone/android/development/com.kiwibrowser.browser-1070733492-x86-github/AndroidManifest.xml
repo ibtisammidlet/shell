@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.kiwibrowser.browser" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH"/>
+    <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission-sdk-23 android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission-sdk-23 android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <permission android:name="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:protectionLevel="signature"/>
+    <permission android:name="com.kiwibrowser.browser.permission.READ_WRITE_BOOKMARK_FOLDERS" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.kiwibrowser.browser.TOS_ACKED" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.kiwibrowser.browser.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:label="Debug web pages" android:name="com.kiwibrowser.browser.permission.DEBUG" android:protectionLevel="signature"/>
+    <permission android:name="com.kiwibrowser.browser.permission.TRANSLATE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.kiwibrowser.browser.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.kiwibrowser.browser.permission.READ_WRITE_BOOKMARK_FOLDERS"/>
+    <uses-permission android:name="com.kiwibrowser.browser.TOS_ACKED"/>
+    <uses-permission android:name="com.chrome.permission.DEVICE_EXTRAS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <queries>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <application android:allowAudioPlaybackCapture="false" android:allowBackup="false" android:appComponentFactory="org.chromium.chrome.browser.base.SplitCompatAppComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="false" android:manageSpaceActivity="@string/manage_space_activity" android:name="org.chromium.chrome.browser.base.SplitChromeApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@drawable/ic_launcher_round" android:supportsRtl="true" android:zygotePreloadName="org.chromium.content.app.ZygotePreload">
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:name="org.chromium.chrome.browser.document.ChromeLauncherActivity" android:relinquishTaskIdentity="true" android:taskAffinity="" android:theme="@style/LauncherTheme"/>
+        <activity-alias android:exported="true" android:name="com.google.android.apps.chrome.TranslateDispatcher" android:permission="com.kiwibrowser.browser.permission.TRANSLATE" android:targetActivity="org.chromium.chrome.browser.document.ChromeLauncherActivity">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.translate.TRANSLATE_TAB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:exported="true" android:name="com.google.android.apps.chrome.IntentDispatcher" android:targetActivity="org.chromium.chrome.browser.document.ChromeLauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="googlechrome"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="about"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="googlechrome"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="about"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="application/xhtml+xml"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="application/xhtml+xml"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="multipart/related"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="multipart/related"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="message/rfc822"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:pathPattern="/.*\\.mhtml"/>
+                <data android:pathPattern="/.*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:pathPattern="/.*\\.mhtml"/>
+                <data android:pathPattern="/.*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mhtml"/>
+                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.mht"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.speech.action.VOICE_SEARCH_RESULTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.airview.HOVER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.web.action.APP_ATTRIBUTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity-alias>
+        <activity android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:name="org.chromium.chrome.browser.media.MediaLauncherActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:name="org.chromium.chrome.browser.media.AudioLauncherActivity" android:targetActivity="org.chromium.chrome.browser.media.MediaLauncherActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/*"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="org.chromium.chrome.browser.media.PictureInPictureActivity" android:noHistory="true" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:theme="@style/Theme.Chromium.Activity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="org.chromium.chrome.browser.LauncherShortcutActivity" android:taskAffinity="" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:name="org.chromium.chrome.browser.incognito.IncognitoTabLauncher" android:taskAffinity="" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.incognito.OPEN_PRIVATE_TAB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="org.chromium.chrome.browser.app.reengagement.ReengagementActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent"/>
+        <receiver android:exported="true" android:name="org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.upgrade.PackageReplacedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="org.chromium.chrome.browser.notifications.channels.LocaleChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="false" android:name="org.chromium.chrome.browser.customtabs.CustomTabActivity" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:theme="@style/Theme.Chromium.Activity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="false" android:name="org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:theme="@style/Theme.Chromium.Activity.FakeTranslucent" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="org.chromium.chrome.browser.ChromeTabbedActivity" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:theme="@style/Theme.Chromium.TabbedMode" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.google.android.apps.chrome.Main" android:targetActivity="org.chromium.chrome.browser.ChromeTabbedActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.APP_BROWSER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/launchershortcuts"/>
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="org.chromium.chrome.browser.ChromeTabbedActivity2" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:taskAffinity="com.kiwibrowser.browser.ChromeTabbedActivity2" android:theme="@style/Theme.Chromium.TabbedMode" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="false" android:name="org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity" android:theme="@style/Theme.Chromium.TabbedMode" android:windowSoftInputMode="adjustResize"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="org.chromium.chrome.browser.sync.ui.SyncTrustedVaultProxyActivity" android:theme="@style/Theme.MaterialComponents"/>
+        <activity android:autoRemoveFromRecents="true" android:name="org.chromium.chrome.browser.sync.ui.PassphraseActivity" android:theme="@style/Theme.Chromium.Activity"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:label="@string/fre_activity_label" android:launchMode="singleInstance" android:name="org.chromium.chrome.browser.firstrun.LightweightFirstRunActivity" android:theme="@style/Theme.Chromium.AlertDialog.NoActionBar" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:label="@string/fre_activity_label" android:launchMode="singleTop" android:name="org.chromium.chrome.browser.firstrun.FirstRunActivity" android:theme="@style/Theme.Chromium.DialogWhenLarge" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:label="@string/fre_activity_label" android:launchMode="singleTop" android:name="org.chromium.chrome.browser.firstrun.TabbedModeFirstRunActivity" android:theme="@style/Theme.Chromium.TabbedMode" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.signin.SyncConsentActivity" android:theme="@style/Theme.Chromium.DialogWhenLarge"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/settings" android:name="org.chromium.chrome.browser.settings.SettingsActivity" android:theme="@style/Theme.Chromium.Settings"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/storage_management_activity_label" android:name="org.chromium.chrome.browser.site_settings.ManageSpaceActivity" android:theme="@style/Theme.Chromium.Settings.ManageSpace"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.bookmarks.BookmarkActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:name="org.chromium.chrome.browser.bookmarks.BookmarkAddActivity" android:theme="@android:style/Theme.NoDisplay" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.kiwibrowser.browser.ADDBOOKMARK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/edit_bookmark" android:name="org.chromium.chrome.browser.bookmarks.BookmarkEditActivity" android:theme="@style/Theme.Chromium.DialogWhenLarge" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity" android:theme="@style/Theme.Chromium.DialogWhenLarge"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/bookmark_choose_folder" android:name="org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity" android:theme="@style/Theme.Chromium.DialogWhenLarge" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.app.video_tutorials.VideoTutorialListActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.download.DownloadActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.app.feedmanagement.FeedManagementActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.app.followmanagement.FollowManagementActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.app.followmanagement.FollowManagementActivity.ACTIVATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.app.video_tutorials.VideoPlayerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Chromium.Activity.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.history.HistoryActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="org.chromium.chrome.browser.webapps.launchpad.LaunchpadActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="org.chromium.chrome.browser.webapps.WebappLauncherActivity" android:taskAffinity="" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.webapk.ACTION_START_WEBAPK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="com.google.android.apps.chrome.webapps.WebappManager" android:targetActivity="org.chromium.chrome.browser.webapps.WebappLauncherActivity"/>
+        <activity-alias android:exported="false" android:name="org.chromium.chrome.browser.webapps.SecureWebAppLauncher" android:targetActivity="org.chromium.chrome.browser.webapps.WebappLauncherActivity">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.webapps.WebappManager.ACTION_START_SECURE_WEBAPP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:documentLaunchMode="intoExisting" android:exported="false" android:hardwareAccelerated="false" android:label="@string/webapp_activity_title" android:launchMode="singleTop" android:name="org.chromium.chrome.browser.webapps.WebappActivity" android:persistableMode="persistNever" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:theme="@style/Theme.Chromium.Webapp" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/webapp_activity_title" android:name="com.google.android.apps.chrome.webapps.WebappActivity" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:targetActivity="org.chromium.chrome.browser.webapps.WebappActivity"/>
+        <activity android:configChanges="density|keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="false" android:label="@string/webapp_activity_title" android:name="org.chromium.chrome.browser.webapps.SameTaskWebApkActivity" android:persistableMode="persistNever" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:theme="@style/Theme.Chromium.Webapp.Translucent" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="org.chromium.chrome.browser.webapps.ActivateWebApkActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.webapps.ActivateWebApkActivity.ACTIVATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:hardwareAccelerated="true" android:label="Chrome.CafExpandedControllerActivity" android:launchMode="singleTask" android:name="org.chromium.components.media_router.caf.remoting.CafExpandedControllerActivity" android:noHistory="true" android:theme="@style/Theme.Chromium.Activity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="org.chromium.chrome.browser.BrowserRestartActivity" android:process=":browser_restart_process" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/sharing_print" android:label="@string/print_share_activity_title" android:name="org.chromium.chrome.browser.printing.PrintShareActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="multipart/related"/>
+                <data android:mimeType="message/rfc822"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_launcher" android:label="@string/send_tab_to_self_share_activity_title" android:name="org.chromium.chrome.browser.send_tab_to_self.SendTabToSelfShareActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_devices_48dp" android:label="@string/shared_clipboard_share_activity_title" android:name="org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardShareActivity" android:noHistory="true" android:theme="@style/Theme.Chromium.Activity.TranslucentNoAnimations">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="org.chromium.chrome.browser.instantapps.AuthenticatedProxyActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="org.chromium.chrome.browser.vr.VrCancelAnimationActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.dummy.action"/>
+                <category android:name="com.google.intent.category.DAYDREAM"/>
+                <category android:name="com.google.intent.category.CARDBOARD"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="org.chromium.chrome.browser.browserservices.ClientAppBroadcastReceiver">
+            <intent-filter>
+                <data android:scheme="package"/>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="org.chromium.chrome.browser.browserservices.ClearDataDialogActivity" android:theme="@style/Theme.Chromium.ClearDataDialogActivity"/>
+        <activity android:exported="true" android:name="org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity" android:theme="@style/Theme.Chromium.Activity.Fullscreen.Transparent">
+            <intent-filter>
+                <action android:name="android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="@string/cablev2_activity_title" android:launchMode="singleTop" android:name="org.chromium.chrome.browser.webauth.authenticator.CableAuthenticatorActivity" android:permission="com.google.android.gms.auth.cryptauth.permission.CABLEV2_SERVER_LINK" android:theme="@style/Theme.Chromium.Activity.Fullscreen">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" android:resource="@xml/phone_as_a_security_key_accessory_filter"/>
+        </activity>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.browserservices.ui.trustedwebactivity.DisclosureAcceptanceBroadcastReceiver"/>
+        <service android:description="@string/decoder_description" android:exported="false" android:isolatedProcess="true" android:name="org.chromium.chrome.browser.photo_picker.DecoderService" android:process=":decoder_service"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.download.DownloadForegroundService"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.download.DownloadBroadcastManager"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetReceiver">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.ui.quickactionsearchwidget.START_TEXT_QUERY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.ui.quickactionsearchwidget.START_VOICE_QUERY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.ui.quickactionsearchwidget.START_DINO_GAME"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:label="@string/bookmark_widget_title" android:name="com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name=".BOOKMARK_APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/bookmark_widget_info"/>
+        </receiver>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.bookmarkswidget.BookmarkWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.bookmarkswidget.BookmarkWidgetProxy"/>
+        <receiver android:exported="true" android:label="@string/search_widget_title" android:name="org.chromium.chrome.browser.searchwidget.SearchWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.searchwidget.START_TEXT_QUERY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.searchwidget.START_VOICE_QUERY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.searchwidget.UPDATE_ALL_WIDGETS"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/search_widget_info"/>
+        </receiver>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="false" android:label="Search" android:launchMode="singleTask" android:name="org.chromium.chrome.browser.searchwidget.SearchActivity" android:taskAffinity="" android:theme="@style/Theme.Chromium.SearchActivity" android:windowSoftInputMode="adjustResize"/>
+        <service android:exported="true" android:name="com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.services.gcm.ChromeGcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.services.gcm.GCMBackgroundService"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.services.gcm.InvalidationGcmUpstreamSender"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.notifications.NotificationService"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.notifications.NotificationService$Receiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver">
+            <intent-filter>
+                <action android:name="org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"/>
+                <action android:name="org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.notifications.NotificationJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="org.chromium.components.background_task_scheduler.internal.BackgroundTaskGcmTaskService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="org.chromium.components.background_task_scheduler.internal.BackgroundTaskBroadcastReceiver"/>
+        <service android:exported="true" android:name="org.chromium.chrome.browser.ChromeBackgroundService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="org.chromium.chrome.browser.prerender.ChromePrerenderService"/>
+        <service android:exported="true" android:name="org.chromium.chrome.browser.customtabs.CustomTabsConnectionService">
+            <intent-filter>
+                <action android:name="android.support.customtabs.action.CustomTabsService"/>
+                <category android:name="androidx.browser.customtabs.category.ColorSchemeCustomization"/>
+                <category android:name="androidx.browser.customtabs.category.NavBarColorCustomization"/>
+                <category android:name="androidx.browser.trusted.category.ImmersiveMode"/>
+                <category android:name="androidx.browser.trusted.category.LaunchSiteSettings"/>
+                <category android:name="androidx.browser.trusted.category.LaunchWebApkSiteSettings"/>
+                <category android:name="androidx.browser.trusted.category.TrustedWebActivities"/>
+                <category android:name="androidx.browser.trusted.category.TrustedWebActivitySplashScreensV1"/>
+                <category android:name="androidx.browser.trusted.category.WebShareTargetV2"/>
+            </intent-filter>
+        </service>
+        <service android:name="androidx.browser.customtabs.PostMessageService"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.crash.ChromeMinidumpUploadJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.crash.MinidumpUploadService"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.omaha.OmahaClient"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.incognito.IncognitoNotificationService"/>
+        <service android:exported="true" android:name="org.chromium.components.payments.PaymentDetailsUpdateService">
+            <intent-filter>
+                <action android:name="org.chromium.intent.action.UPDATE_PAYMENT_DETAILS"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.announcement.AnnouncementNotificationManager$Receiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.notifications.NotificationIntentInterceptor$Receiver"/>
+        <activity android:autoRemoveFromRecents="true" android:documentLaunchMode="always" android:excludeFromRecents="true" android:exported="false" android:name="org.chromium.chrome.browser.notifications.NotificationIntentInterceptor$TrampolineActivity" android:noHistory="true" android:theme="@android:style/Theme.NoDisplay"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.notifications.scheduler.DisplayAgent$Receiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.app.send_tab_to_self.SendTabToSelfNotificationReceiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.customtabs.CustomTabsShareBroadcastReceiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$TapReceiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardMessageHandler$TapReceiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardMessageHandler$TryAgainReceiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.sharing.sms_fetcher.SmsFetcherMessageHandler$NotificationReceiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.offlinepages.AutoFetchNotifier$CompleteNotificationReceiver"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.offlinepages.AutoFetchNotifier$InProgressCancelReceiver"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.media.MediaCaptureNotificationService"/>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$PlaybackListenerService">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$PresentationListenerService">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$CastListenerService">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="org.chromium.chrome.browser.tracing.TracingNotificationService"/>
+        <receiver android:exported="false" android:name="org.chromium.chrome.browser.omaha.UpdateNotificationController$UpdateNotificationReceiver"/>
+        <meta-data android:name="org.chromium.content.browser.SMART_CLIP_PROVIDER" android:value="org.chromium.content_public.browser.SmartClipProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:name="org.chromium.chrome.browser.test_dummy.TestDummyActivity" android:noHistory="true" android:theme="@style/Theme.MaterialComponents"/>
+        <meta-data android:name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES" android:value="150"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService0" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process0" android:useAppZygote="true"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService1" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process1"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService2" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process2"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService3" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process3"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService4" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process4"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService5" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process5"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService6" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process6"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService7" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process7"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService8" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process8"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService9" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process9"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService10" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process10"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService11" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process11"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService12" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process12"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService13" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process13"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService14" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process14"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService15" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process15"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService16" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process16"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService17" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process17"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService18" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process18"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService19" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process19"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService20" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process20"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService21" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process21"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService22" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process22"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService23" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process23"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService24" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process24"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService25" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process25"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService26" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process26"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService27" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process27"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService28" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process28"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService29" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process29"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService30" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process30"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService31" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process31"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService32" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process32"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService33" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process33"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService34" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process34"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService35" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process35"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService36" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process36"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService37" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process37"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService38" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process38"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService39" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process39"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService40" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process40"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService41" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process41"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService42" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process42"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService43" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process43"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService44" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process44"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService45" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process45"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService46" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process46"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService47" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process47"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService48" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process48"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService49" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process49"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService50" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process50"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService51" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process51"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService52" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process52"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService53" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process53"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService54" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process54"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService55" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process55"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService56" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process56"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService57" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process57"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService58" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process58"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService59" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process59"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService60" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process60"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService61" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process61"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService62" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process62"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService63" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process63"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService64" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process64"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService65" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process65"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService66" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process66"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService67" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process67"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService68" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process68"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService69" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process69"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService70" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process70"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService71" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process71"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService72" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process72"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService73" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process73"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService74" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process74"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService75" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process75"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService76" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process76"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService77" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process77"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService78" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process78"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService79" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process79"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService80" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process80"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService81" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process81"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService82" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process82"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService83" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process83"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService84" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process84"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService85" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process85"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService86" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process86"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService87" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process87"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService88" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process88"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService89" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process89"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService90" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process90"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService91" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process91"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService92" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process92"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService93" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process93"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService94" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process94"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService95" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process95"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService96" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process96"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService97" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process97"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService98" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process98"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService99" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process99"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService100" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process100"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService101" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process101"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService102" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process102"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService103" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process103"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService104" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process104"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService105" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process105"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService106" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process106"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService107" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process107"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService108" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process108"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService109" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process109"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService110" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process110"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService111" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process111"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService112" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process112"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService113" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process113"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService114" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process114"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService115" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process115"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService116" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process116"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService117" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process117"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService118" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process118"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService119" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process119"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService120" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process120"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService121" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process121"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService122" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process122"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService123" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process123"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService124" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process124"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService125" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process125"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService126" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process126"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService127" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process127"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService128" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process128"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService129" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process129"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService130" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process130"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService131" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process131"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService132" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process132"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService133" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process133"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService134" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process134"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService135" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process135"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService136" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process136"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService137" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process137"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService138" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process138"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService139" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process139"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService140" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process140"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService141" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process141"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService142" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process142"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService143" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process143"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService144" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process144"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService145" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process145"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService146" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process146"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService147" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process147"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService148" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process148"/>
+        <service android:exported="false" android:isolatedProcess="true" android:name="org.chromium.content.app.SandboxedProcessService149" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":sandboxed_process149"/>
+        <meta-data android:name="org.chromium.content.browser.NUM_PRIVILEGED_SERVICES" android:value="20"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService0" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process0"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService1" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process1"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService2" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process2"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService3" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process3"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService4" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process4"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService5" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process5"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService6" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process6"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService7" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process7"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService8" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process8"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService9" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process9"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService10" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process10"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService11" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process11"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService12" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process12"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService13" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process13"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService14" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process14"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService15" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process15"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService16" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process16"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService17" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process17"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService18" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process18"/>
+        <service android:exported="false" android:isolatedProcess="false" android:name="org.chromium.content.app.PrivilegedProcessService19" android:permission="com.kiwibrowser.browser.permission.CHILD_SERVICE" android:process=":privileged_process19"/>
+        <meta-data android:name="android.allow_multiple_resumed_activities" android:value="true"/>
+        <receiver android:enabled="true" android:exported="true" android:name="org.chromium.chrome.browser.init.ChromeBrowserReferrer" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.enable" android:value="true"/>
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.multiinstance.enable" android:value="true"/>
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.multiinstance.launchmode" android:value="singleTask"/>
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.penwindow.enable" android:value="true"/>
+        <meta-data android:name="android.content.APP_RESTRICTIONS" android:resource="@xml/app_restrictions"/>
+        <meta-data android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME" android:value="org.chromium.components.media_router.caf.CastOptionsProvider"/>
+        <provider android:authorities="com.kiwibrowser.browser.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="org.chromium.chrome.browser.util.ChromeFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="com.kiwibrowser.browser.DownloadFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="org.chromium.chrome.browser.download.DownloadFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="com.kiwibrowser.browser.ChromeBrowserProvider;com.kiwibrowser.browser.browser;com.kiwibrowser.browser" android:exported="true" android:name="org.chromium.chrome.browser.provider.ChromeBrowserProvider">
+            <path-permission android:path="/bookmarks/search_suggest_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+        </provider>
+        <provider android:authorities="com.kiwibrowser.browser.AttributionReporting" android:exported="true" android:name="org.chromium.chrome.browser.attribution_reporting.AttributionReportingProvider"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.kiwibrowser.browser.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:enabled="false" android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:process=":playcore_dialog_wrapper_activity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <receiver android:exported="false" android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"/>
+        <service android:exported="false" android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"/>
+        <service android:exported="false" android:name="com.google.android.gms.cast.framework.ReconnectionService"/>
+    </application>
+</manifest>
